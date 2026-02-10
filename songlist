@@ -733,7 +733,7 @@
           "plusFingers": 0,
           "story": {
             "en": "It's difficult to describe that sensation which overwhelms her now. A riptide of glass that doesn't shatter, cut, or reflect her face, pushing past her in powerful amounts, turning up and swirling as if pulled by a great wind. She stands fast, and watches.\n\nWatches... ...Memories...? ...Of a filthy world.\n\"What is this...!?\" She reaches out. \"This...!\"\n\nA memory of pain, betrayal, envy.\n\nWhen she stops it, she stops the rest. They stand still in the air around her, frozen. She whips her head this way and that. \"They're only...\"\n\nDark? Are they only dark? Wherever it is these shards reflect... she sees little light there. Whatever small sparks she sees fade away in an instant. She bites her lip, and then smiles a smile with no humor. \"What kind of joke is that?\" she mutters, \"A world filled only with misery...\"\n\nAs she says this, even her bitter smile fades away.",
-            "ja": "かつて、確かに、今よりも良い時があった筈だ。\n\n少女は何も覚えていなかった。ガラスの世界で目覚めて以来、知っているのは他の記憶だけだった。\nそのせいで彼女はほとんど迷いなく物事を断定した。\nガラスの中は無であるということ、この世界に価値など無いということ。\n汚さと恐怖。涙と痛み。少しの笑みと、死。\n\nしかし、かつて今よりも良い時があった筈なのだ。\n単純な法則というのは、大抵真実である。影は、光によって生じるのだ。\n彼女の背後には影が潜み、彼女の周囲は光で溢れていた。\n\n喜びと純潔の波に足を踏み入れたとき、彼女に迷いは無かった。\n悪にすっかり取り込まれ、純粋な善というものを忘れてしまっていた。\n実のところ、彼女の心はもう揺り動かされるといった状態ではなかった。\n圧倒されてしまっていた。曲がりくねる迷路へと向かう途中で煌めく希望を目にする度、彼女は立ち止まり全てに疑問を呈した。\nそこには彼女の認めたくない答えがあった。この光と混沌の世界の奥底に。\n考えたくなかった。考えることを許さなかった。\n\nそして、本当に頭から取り払うことのできる前に、彼女はあの目を疑うような迷宮の前に辿り着いた。\n衝動的にガラスを見つけて手を伸ばすと、花咲く地の記憶が彼女の周囲に環を描いた。\nその理由も、それが何かの役に立つのかも、彼女には分からなかった。\n"
+            "ja": "今彼女を圧倒している感覚を説明するのは難しい。\n彼女の顔を映すでもなく、切り付けるでもなく、彼女を強く押しのけ、\n大きな風に引っ張られるように振り回され渦巻く激しいガラスの波。\n彼女は素早く立ち上がり、じっと観察する。\nじっと…    …記憶…？    …汚い世界の。\n\n「これは何なの！？」  彼女は手を伸ばす。\n「この…！」   苦痛、裏切り、羨望の記憶。\n\nそれから彼女は動きを止める。ガラスも彼女を取り囲んだまま、止まっている。\n彼女は強く頭を振る。「これはただの…」\n闇？     ただの闇？\n\n破片の映す場所にはどこにも…ほとんど光が見えない。\n見える小さな火花も瞬時に消える。彼女は唇を噛むと、暗い笑顔で笑う。\n\n「何の冗談？」彼女は呟く。\n「この世界は陰惨な塊…」そうして彼女の苦い笑みは消える。"
           }
         },
         {
@@ -2466,6 +2466,89 @@
           "chartDesigner": "Toaster",
           "jacketDesigner": "",
           "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "surrender",
+      "title_localized": {
+        "en": "Surrender"
+      },
+      "artist": "void",
+      "bpm": "152",
+      "bpm_base": 152,
+      "set": "stellights",
+      "purchase": "surrender",
+      "audioPreview": 0,
+      "audioPreviewEnd": 0,
+      "side": 0,
+      "remote_dl": true,
+      "bg": "",
+      "date": 1511481600,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "softmode",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "softmode",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "softmode",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "yozakurafubuki",
+      "title_localized": {
+        "en": "Yosakura Fubuki",
+        "ja": "夜桜吹雪"
+      },
+      "artist": "A.SAKA",
+      "bpm": "172",
+      "bpm_base": 172,
+      "set": "stellights",
+      "purchase": "yozakurafubuki",
+      "audioPreview": 0,
+      "audioPreviewEnd": 0,
+      "side": 0,
+      "remote_dl": true,
+      "bg": "",
+      "date": 1511481601,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "k//eternal",
+          "jacketDesigner": "シエラ",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "k//eternal",
+          "jacketDesigner": "シエラ",
+          "rating": 7,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "k//eternal",
+          "jacketDesigner": "シエラ",
+          "rating": 9,
           "plusFingers": 0
         }
       ]
