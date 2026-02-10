@@ -1,0 +1,709 @@
+{
+  "songs": [
+    {
+      "id": "sayonarahatsukoi",
+      "title": "Sayonara Hatsukoi",
+      "artist": "REDSHiFT",
+      "bpm": "178",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 44494,
+      "audioPreviewEnd": 76853,
+      "side": 0,
+      "date": 1487980800,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 1,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 6,
+          "plusFingers": 0
+        }
+      ]
+    },
+    {
+      "id": "lostcivilization",
+      "title": "Lost Civilization",
+      "artist": "Laur vs CK",
+      "bpm": "75 - 210",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 81142,
+      "audioPreviewEnd": 110285,
+      "side": 1,
+      "date": 1487980808,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 7,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 9,
+          "plusFingers": 0
+        }
+      ]
+    },
+    {
+      "id": "goodtek",
+      "title": "GOODTEK (Arcaea Edit)",
+      "artist": "ebimayo",
+      "bpm": "190",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 80895,
+      "audioPreviewEnd": 111210,
+      "side": 0,
+      "date": 1487980809,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Koyama Mai",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Koyama Mai",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Koyama Mai",
+          "rating": 9,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "viyella",
+      "title": "cry of viyella",
+      "artist": "Laur",
+      "bpm": "75 - 180",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 71551,
+      "audioPreviewEnd": 103551,
+      "side": 1,
+      "date": 1487980811,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "rise",
+      "title": "Rise",
+      "artist": "Combatplayer",
+      "bpm": "140",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 54910,
+      "audioPreviewEnd": 82338,
+      "side": 0,
+      "date": 1487980803,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 2,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 7,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "lucifer",
+      "title": "Lucifer",
+      "artist": "chitose",
+      "bpm": "165",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 46581,
+      "audioPreviewEnd": 81490,
+      "side": 1,
+      "date": 1487980804,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 5,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "fairytale",
+      "title": "Fairytale",
+      "artist": "chitose",
+      "bpm": "189",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 36190,
+      "audioPreviewEnd": 68571,
+      "side": 0,
+      "date": 1487980801,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 1,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 7,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "hearditsaid",
+      "title": "I've heard it said",
+      "artist": "Combatplayer",
+      "bpm": "165",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 49454,
+      "audioPreviewEnd": 72727,
+      "side": 0,
+      "date": 1487980812,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "babaroque",
+      "title": "Babaroque",
+      "artist": "cYsmix",
+      "bpm": "136",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 64426,
+      "audioPreviewEnd": 92662,
+      "side": 0,
+      "date": 1487980807,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "memoryfactory",
+      "title": "memoryfactory.lzh",
+      "artist": "frums",
+      "bpm": "100",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 50400,
+      "audioPreviewEnd": 79200,
+      "side": 0,
+      "date": 1487980813,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "frums",
+          "rating": 2,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "frums",
+          "rating": 5,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "frums",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "snowwhite",
+      "title": "Snow White",
+      "artist": "Puru",
+      "bpm": "150",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 24400,
+      "audioPreviewEnd": 57600,
+      "side": 0,
+      "date": 1487980805,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 2,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 5,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster",
+          "jacketDesigner": "",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "relentless",
+      "title": "Relentless",
+      "artist": "Akira Complex",
+      "bpm": "174",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 44137,
+      "audioPreviewEnd": 77241,
+      "side": 1,
+      "date": 1487980814,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "SERXPHIS",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "SERXPHIS",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "SERXPHIS",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "shadesoflight",
+      "title": "Shades of Light in a Transcendent Realm",
+      "artist": "ak+q",
+      "bpm": "170",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 33882,
+      "audioPreviewEnd": 68470,
+      "side": 0,
+      "date": 1487980806,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "RiceGnat",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "RiceGnat",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "RiceGnat",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "vexaria",
+      "title": "Vexaria",
+      "artist": "ak+q",
+      "bpm": "180",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 31057,
+      "audioPreviewEnd": 66390,
+      "side": 0,
+      "date": 1487980802,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Koyama Mai",
+          "rating": 2,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Koyama Mai",
+          "rating": 5,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "Koyama Mai",
+          "rating": 7,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "essenceoftwilight",
+      "title": "Essence of Twilight",
+      "artist": "ak+q",
+      "bpm": "164",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 103371,
+      "audioPreviewEnd": 132639,
+      "side": 1,
+      "date": 1487980816,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "deel",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "deel",
+          "rating": 7,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "deel",
+          "rating": 9,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "qualia",
+      "title": "qualia -ideaesthesia-",
+      "artist": "nitro",
+      "bpm": "144",
+      "set": "base",
+      "purchase": "",
+      "audioPreview": 110000,
+      "audioPreviewEnd": 136666,
+      "side": 1,
+      "date": 1487980810,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "-chartaesthesia-",
+          "jacketDesigner": "Khronetic",
+          "rating": 4,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "-chartaesthesia-",
+          "jacketDesigner": "Khronetic",
+          "rating": 7,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "-chartaesthesia-",
+          "jacketDesigner": "Khronetic",
+          "rating": 9,
+          "plusFingers": 0
+        }
+      ]
+    }
+    ,
+    {
+      "id": "pragmatism",
+      "title": "PRAGMATISM",
+      "artist": "Laur",
+      "bpm": "174",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 31724,
+      "audioPreviewEnd": 67586,
+      "side": 0,
+      "date": 1487980817,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "東星",
+          "jacketDesigner": "シエラ",
+          "rating": 4,
+          "plusFingers": 0,
+          "story": {
+            "en": "Her first impression was that she'd awakened to a cloud of glass butterflies.\n\"How pleasant,\" she thought, \"that these figures can move as well. Where are the strings?\"\n\nShe sat onto her knees, fixed her dress, and found that there were no strings, and these were not butterflies. Glass shards, flying on their own. \"Delightful!\" she felt, and so she said it.\n\nThe glass reflected another world than the one in white surrounding her. In it she could see reflections of seas, cities, fires, lights; she rose her hand to scatter them, and laughed in joy.\n\nShe didn't know these pieces of glass had a name: Arcaea.\nTo tell the truth, they were so beautiful that it didn't matter the name.\nShe entertained herself by touching them, swirling them, watching them. That was enough, no?\n\nThere were six questions to ask: who, what, where, when, why, and how.\nOf these questions, she asked none and desired no answers, content instead to bask in the glow of Arcaea.\nThis was her meeting with a new world.",
+            "ja": "初めて意識を持ったとき、彼女はガラスの蝶から成る雲の中にいた。 \n\n面白い、彼女は思った。どうやってこんなに動いているの？紐はあるのかしら。\n\n彼女は膝をつき、ドレスを直した。\nそれからそこには紐などなく、飛んでいるものも蝶ではなかったことに気が付いた。\n自由に飛び回る、ガラスの破片。「楽しい！」と彼女は思い、そう言った。\n\nガラスは、彼女を取り巻く白いものとは異なる世界を映した。\n海、都市、火、光。彼女は手を挙げて、様々な世界を映すガラスを散らし、嬉しそうに笑った。\n\n彼女はその時、そのガラスの破片に名前があったことを知らなかった。　アーケア。\n正直なところ、名前なんてどうでもよかったのだ。 \n彼女は見て、触れて、渦を作って、その美しさを楽しんだ。それで十分だったのではないだろうか。\n\nそこには6つの疑問があった。誰が、何を、何処で、何時、何故、どうやって。 \nこれらの疑問に対し、彼女は何も聞かず、答えを求めなかった。\nアーケアの光を浴びる代わりに。これが彼女の、新しい世界との出会いだった。"
+          }
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "東星",
+          "jacketDesigner": "シエラ",
+          "rating": 8,
+          "plusFingers": 0,
+          "story": {
+            "en": "But questions come inevitably.\n\nThe girl stands amidst the spiral of glass and wonders, \"But really, what are these?\"\nPortals? Windows? Memories?\n\nThis last answer, \"memories\", strikes a chord with her. \"They're memories,\" she says, faintly. And like that, her questions stop.\n\nFor some reason, this is a place all full of memories. Whose memories, or of what, she can't tell for certain, but her questioning has already ended.\n\nFor some reason the glass follows her. She can't hold any of it, but it comes to her nonetheless. On a whim, she decides she will begin gathering it.\n\nPiece by piece.\nFor no reason at all.",
+            "ja": "しかし、当然疑問は生じる。\n少女はガラスの渦の中に立ち首を傾げる。\n「これは一体何なの？」\n入り口？  窓？  記憶？\n\nその最後の「記憶」という答えが、彼女の心を打つ。\n\n「記憶。」彼女は呟く。そうして、考えるのをやめる。\n\n何らかの理由で、この場所は記憶に満ちている。\n誰の記憶で、何の記憶なのか。はっきりとは分からないが、彼女はそれで納得する。\n\n何らかの理由で、ガラスは彼女についてくる。ひとつも掴めないが、彼女に集まってくる。\n彼女はなんとなく、それを集めることにする。\nひとつずつ。\n\n理由もなく。"
+          }
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "東星",
+          "jacketDesigner": "シエラ",
+          "rating": 10,
+          "plusFingers": 0,
+          "story": {
+            "en": "Without a clock, she has no sense for how many days or hours she has walked, but there is a new certainty in her head...\n\nThere is beauty in a memory, that's what she finds herself believing. Thinking about it, a memory is never certain, can change with the times, and yet is the nearest thing to a concrete piece of the past. It can be bitter or sweet, and she thinks in either case they're quite enchanting.\n\nFor now she will see what memories she can, of these other places and people, and appreciate them for their beauty. In the first place, these Arcaea flicker and glow splendidly in this strange and ruined world.\nIt's easy to fancy it all, and that they show memories makes it easier.\n\nHumming, hands aloft, and stepping down broken paths, she brings what seems to be memories fit for an entire world with her, following behind in a shining stream. Memories of an ugly, pretty world...\n\n\"How nice...\" She sighs, she smiles, and serenity becomes her, it seems, too well.\nBut there’s nothing to worry about.\nA pleasant, simple world like this need only be pleasant. Nothing more.",
+            "ja": "一体何日、何時間歩いているのかすら、時計なしでは分からない。しかし彼女にはひとつだけ、確信していることがある。\n\n記憶の中には美しさがある、ということだ。\n考えてみれば、記憶というのは確実なものではない。時を経て記憶は変化する。\nしかしながら記憶は、具象的な過去の欠片である。それが苦いものであろうと、甘いものであろうと、彼女には魅力的だ。\n\n今はただ、何処かの、誰かの記憶を見て、その美しさに感謝する。\nこの奇妙な、退廃した世界で、アーケアは美しく輝き瞬く。それに加えて記憶を映すのだからますます魅力的だ。\n\n鼻歌を歌いながら、両手を高く挙げ、壊れた道を下り、世界の全てとも言うべき輝く記憶の流れを連れて歩く。\n醜く、眩い記憶…\n\n「素敵…」\n\n彼女は溜め息をつき、小さく空笑いした。彼女にはこの静寂が似合っている。\n心配することはない。この美しくシンプルな世界は、美しくあればいいのだ。\nそれ以上はいらない。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "sheriruth",
+      "title": "Sheriruth",
+      "artist": "Team Grimoire",
+      "bpm": "185",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 57081,
+      "audioPreviewEnd": 88216,
+      "side": 1,
+      "date": 1487980818,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "夜浪",
+          "jacketDesigner": "シエラ",
+          "rating": 5,
+          "plusFingers": 0,
+          "story": {
+            "en": "She'd awakened in a ruined tower, first noticing pieces of glass floating in the air. They led her outside, and into a world of white.\n\nWhite, white, and more glass. It seemed attracted to her, so she examined the shards with piqued curiosity.\n\nShe could see glimpses of something else in them, like looking through the windows of a train car. In one flash she saw rain, in another sunlight, and in another death. She grimaced, and pulled away.\n\nAlthough it seemed attracted to her, at her attempts to reach out and shatter the glass the shards were naturally repelled. Her grimace deepened into a glare, and she turned her attention to the pale sky.\nHowever, as she gazed into it, her expression melted away. Her mouth opened, but she was too shaken to speak.\n\nGlass: churning, glinting, and turning far overhead. There seemed to be a storm of it.\n\nShe regretted giving it attention, as now it seemed to notice, and was coming down to greet her.",
+            "ja": "彼女は瓦礫の塔で目を覚ました。\nそして、空中に浮かぶガラス片に気がついた。ガラス片は彼女を外へ、白い世界へと導いた。\n\n白、白、増えていくガラスの破片。寄ってくるガラスに彼女は好奇心を掻き立てられ、破片を調べた。\n\n電車の窓から見える景色のように、破片の中には一瞬だけ何か他の物を見ることができた。\nある破片には雨を、ある破片には日差しを、ある破片には死を見た。\n彼女は顔をしかめ、ガラス片を引き離した。\n\nそれでもガラス片は彼女に寄ってきた。\n彼女が手を伸ばしてガラス片を砕こうとすると、ガラス片は自然に離れていった。\n彼女は顔をしかめそれを睨みつけると、ふと淡色の空を見上げた。\n彼女は表情を失った。口を開けたまま、震えて声は出なかった。\n\n遥か頭上で、激しく渦を巻き輝くガラス。それは嵐のようだった。\nその嵐は彼女に気づいたようで、挨拶をしにこちらへと降りてくる様子だった。\n彼女は空に注意を向けたことに後悔した。"
+          }
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "夜浪",
+          "jacketDesigner": "シエラ",
+          "rating": 7,
+          "plusFingers": 0,
+          "story": {
+            "en": "It's difficult to describe that sensation which overwhelms her now. A riptide of glass that doesn't shatter, cut, or reflect her face, pushing past her in powerful amounts, turning up and swirling as if pulled by a great wind. She stands fast, and watches.\n\nWatches... ...Memories...? ...Of a filthy world.\n\"What is this...!?\" She reaches out. \"This...!\"\n\nA memory of pain, betrayal, envy.\n\nWhen she stops it, she stops the rest. They stand still in the air around her, frozen. She whips her head this way and that. \"They're only...\"\n\nDark? Are they only dark? Wherever it is these shards reflect... she sees little light there. Whatever small sparks she sees fade away in an instant. She bites her lip, and then smiles a smile with no humor. \"What kind of joke is that?\" she mutters, \"A world filled only with misery...\"\n\nAs she says this, even her bitter smile fades away.",
+            "ja": "今彼女を圧倒している感覚を説明するのは難しい。\n彼女の顔を映すでもなく、切り付けるでもなく、彼女を強く押しのけ、\n大きな風に引っ張られるように振り回され渦巻く激しいガラスの波。\n彼女は素早く立ち上がり、じっと観察する。\nじっと…    …記憶…？    …汚い世界の。\n\n「これは何なの！？」  彼女は手を伸ばす。\n「この…！」   苦痛、裏切り、羨望の記憶。\n\nそれから彼女は動きを止める。ガラスも彼女を取り囲んだまま、止まっている。\n彼女は強く頭を振る。「これはただの…」\n闇？     ただの闇？\n\n破片の映す場所にはどこにも…ほとんど光が見えない。\n見える小さな火花も瞬時に消える。彼女は唇を噛むと、暗い笑顔で笑う。\n\n「何の冗談？」彼女は呟く。\n「この世界は陰惨な塊…」そうして彼女の苦い笑みは消える。"
+          }
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "夜浪",
+          "jacketDesigner": "シエラ",
+          "rating": 10,
+          "plusFingers": 0,
+          "story": {
+            "en": "Without a clock, she has no way of knowing how long she's picked through memories, but she's sure it's been quite a long time.\n\nFor a while, she'd searched the fragments for more happy memories, just to see if they were there. They were, in small number, but the more miserable shards never ceased to hound her.\nSo, she's come to know places she now loathed.\n\nShe now stands at the middle of a vast spiral of glass that turns about her slowly and resembles cosmos.  She thinks there are two possibilities here: either the world or perhaps worlds these shards envision were entirely terrible, or since only terrible memories are here...\nIn any case, she's decided to be rid of it all.\n\nSomething inside her has switched. Now when she looks at painful memories, she looks pleased. She gathers such memories, it seems, gleefully.\n\n\"If I can be rid of this trash, or even better the places it represents...\"\nThese places full of chaos and even light.\nThat will make her happy.",
+            "ja": "どれほど長い間記憶を調べていたか、時計なしでは分からない。\n非常に長い時間が経ったのは間違いないだろう。\n彼女は幸せな記憶の欠片をしばらく探していた。\n少数ではあったがそこにはあった。しかし、悲惨な破片が彼女をしつこく追いかける。\n\n彼女はより一層この場所を忌み嫌うようになる。\n彼女はゆっくりと旋回する、宇宙に似た広大なガラスの渦の中心に立つ。\n\n彼女は2つの可能性について考えている。\nこの破片達は酷い記憶しか見せないのか。それとも此処にあるのが酷い記憶なだけなのか。\n\n何れにせよ、彼女はそれをすべて取り除くことにする。\n彼女の中の何かが変化する。\n\nもはや苦しみの記憶を見ては、喜んでいるようだ。彼女は苦痛の記憶を集めている。それも悦んで。\n「このゴミを排除できれば、せめて映す世界だけでも…」\n\n混沌と、光に満ちた場所。それはきっと、彼女を幸せにすることだろう。"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "id": "lumia",
+      "title": "Lumia",
+      "artist": "sky_delta",
+      "bpm": "180",
+      "set": "core",
+      "purchase": "core",
+      "audioPreview": 69600,
+      "audioPreviewEnd": 100000,
+      "side": 0,
+      "date": 1487980815,
+      "difficulties": [
+        {
+          "ratingClass": 0,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "mins",
+          "rating": 3,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 1,
+          "chartDesigner": "Nitro",
+          "jacketDesigner": "mins",
+          "rating": 6,
+          "plusFingers": 0
+        },
+        {
+          "ratingClass": 2,
+          "chartDesigner": "Toaster missing Nitro.",
+          "jacketDesigner": "mins",
+          "rating": 8,
+          "plusFingers": 0
+        }
+      ]
+    }
+  ]
+}
