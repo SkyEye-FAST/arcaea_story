@@ -40,8 +40,15 @@
 		{
 			"storyType": 1,
 			"characterIcon": 13,
-			"characterIconXOffset": 724,
+			"characterIconXOffset": 726,
 			"main": 6
-    }
+    	}
+		,
+		{
+			"storyType": 1,
+			"characterIcon": 39,
+			"characterIconXOffset": 1091,
+			"main": 7
+    	}
 	]
 }
