@@ -1,0 +1,12 @@
+{
+	"entries": [{
+		"minor": 1,
+		"storyType": "vn",
+		"storyData": "meeting",
+		"requiredPack": "rei",
+		"clearSongId": "grievouslady",
+		"clearCharaId": 15,
+		"alternatePrefix": "V",
+		"additionalRequires": ["1-9", "2-9"]
+	}]
+}
