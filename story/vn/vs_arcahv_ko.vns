@@ -199,7 +199,7 @@ say "히카리는 간신히 자신의 조각 앞에 설 수 있었다.
 그녀의 영역에는 대혼란이 발생했으며, 그것을 통해 보는 것은 너무 어려웠다."
 
 show "vs/low.jpg" 0.5:0.63 0.5:0.63 1:1 fade(5,sineout) normal
-
+stop "glassRain.ogg" 3
 move "vs/low.jpg" 0:370 18 sineout
 
 say "결국 유리 조각을 뚫고 가는 동안 히카리는 회오리의 일부분이 역방향으로 돌기 시작했다는 것을 깨달았다.

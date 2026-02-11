@@ -64,7 +64,7 @@
             "alternatePrefix": "S",
 			"charIcon1": 99,
 			"charIcon2": 2,
-			"storyCgPath": "img/story/cg/99-6.jpg"
+			"storyCgPath": "app-data/story/cg/99-6.jpg"
 		}
 	]
 }

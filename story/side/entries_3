@@ -7,7 +7,7 @@
 			"clearCharaId": -1,
 			"charIcon1": 23,
 			"charIcon2": -1,
-			"storyCgPath": "img/story/cg/3-1.jpg"
+			"storyCgPath": "app-data/story/cg/3-1.jpg"
 		},
 		{
 			"minor": 2,

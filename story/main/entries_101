@@ -52,7 +52,7 @@
 		"alternatePrefix": "VS",
 		"charIcon1": 0,
 		"charIcon2": 1,
-		"storyCgPath": "img/story/cg/V-10.jpg"
+		"storyCgPath": "app-data/story/cg/V-10.jpg"
 	},
 	{
 		"minor": 6,

@@ -137,7 +137,7 @@ move "zettai/bg.jpg" 0:30 0.35 sineout
 say "The bread knife’s teeth stop in his skin."
 
 play "cut.ogg" 1.0
-
+stop "quietWind.ogg" 0.3
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.15,linear) normal
 
 say "Without feeling—without even a spark of animosity—she wordlessly cuts across the boy’s throat,

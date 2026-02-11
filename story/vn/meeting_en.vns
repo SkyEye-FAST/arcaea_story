@@ -74,6 +74,8 @@ say "That breathing the light-bearer found so relieving stops short,
 and the dark girl squints, lips parted as if she means to question.
 But she swallows instead and raises her brow, tightening her grip of the handle."
 
+stop "wind.ogg" 2
+
 say "Her own twisted elation flows out from her heart, just as unstoppable, but so much more eager.
 It climbs to her face, and the girl of chaos offers the girl of light an honest, irrepressible smile."
 

@@ -137,7 +137,7 @@ move "zettai/bg.jpg" 0:30 0.35 sineout
 say "面包刀的锯齿止于他的皮肤。"
 
 play "cut.ogg" 1.0
-
+stop "quietWind.ogg" 0.3
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.15,linear) normal
 
 say "不带任何情感——甚至未含敌意的火花——她一言不发地刺穿了这男孩的喉咙，

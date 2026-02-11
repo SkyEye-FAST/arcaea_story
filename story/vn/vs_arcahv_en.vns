@@ -199,7 +199,7 @@ She can’t discern Tairitsu’s face anymore.
 Her domain has become pandemonium, and seeing through it is too difficult."
 
 show "vs/low.jpg" 0.5:0.63 0.5:0.63 1:1 fade(5,sineout) normal
-
+stop "glassRain.ogg" 3
 move "vs/low.jpg" 0:370 18 sineout
 
 say "Eventually, while trudging through the flying glass, Hikari notices that
