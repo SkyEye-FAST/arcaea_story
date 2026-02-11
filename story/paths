@@ -1,0 +1,25 @@
+{
+	"paths": [{
+			"storyType": 0,
+			"characterIcon": 0,
+			"characterIconXOffset": -250,
+			"main": 1
+		},
+		{
+			"storyType": 0,
+			"characterIcon": 1,
+			"characterIconXOffset": 250,
+			"main": 2
+		},
+		{
+			"storyType": 0,
+			"main": 100
+		},
+		{
+			"storyType": 1,
+			"characterIcon": 23,
+			"characterIconXOffset": -250,
+			"main": 3
+		}
+	]
+}
