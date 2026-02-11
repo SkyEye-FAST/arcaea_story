@@ -4,7 +4,9 @@
 		"requiredPack": "mirai",
 		"storyType": "nvl",
 		"clearSongId": "genesis",
-		"clearCharaId": 4
+		"clearCharaId": 4,
+		"charIcon1": 4,
+		"charIcon2": -1
 	},
 	{
 		"minor": 2,
@@ -12,7 +14,9 @@
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "moonheart",
-		"clearCharaId": 4
+		"clearCharaId": 4,
+		"charIcon1": 4,
+		"charIcon2": -1
 	},
 	{
 		"minor": 3,
@@ -20,7 +24,9 @@
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "romancewars",
-		"clearCharaId": 4
+		"clearCharaId": 4,
+		"charIcon1": 4,
+		"charIcon2": -1
 	},
 	{
 		"minor": 4,
@@ -28,7 +34,9 @@
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "blossoms",
-		"clearCharaId": 4
+		"clearCharaId": 4,
+		"charIcon1": 4,
+		"charIcon2": -1
 	},
 	{
 		"minor": 5,
@@ -36,7 +44,9 @@
 		"requiredMinor": 4,
 		"storyType": "nvl",
 		"clearSongId": "corpssansorganes",
-		"clearCharaId": 4
+		"clearCharaId": 4,
+		"charIcon1": 4,
+		"charIcon2": -1
 	},
 	{
 		"minor": 6,
@@ -44,6 +54,8 @@
 		"requiredMinor": 5,
 		"storyType": "nvl",
 		"clearSongId": "lethaeus",
-		"clearCharaId": 4
+		"clearCharaId": 4,
+		"charIcon1": 4,
+		"charIcon2": -1
 	}]
 }

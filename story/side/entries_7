@@ -4,7 +4,9 @@
 		"requiredPack": "alice",
 		"storyType": "nvl",
 		"clearSongId": "alicealamode",
-		"clearCharaId": -1
+		"clearCharaId": -1,
+		"charIcon1": 39,
+		"charIcon2": -1
 	},
 	{
 		"minor": 2,
@@ -12,7 +14,9 @@
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "eccentrictale",
-		"clearCharaId": 39
+		"clearCharaId": 39,
+		"charIcon1": 39,
+		"charIcon2": -1
 	},
 	{
 		"minor": 3,
@@ -20,7 +24,9 @@
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "alicealamode",
-		"clearCharaId": 39
+		"clearCharaId": 39,
+		"charIcon1": 39,
+		"charIcon2": -1
 	},
 	{
 		"minor": 4,
@@ -28,7 +34,9 @@
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "alicessuitcase",
-		"clearCharaId": 39
+		"clearCharaId": 39,
+		"charIcon1": 39,
+		"charIcon2": -1
 	},
 	{
 		"minor": 5,
@@ -36,7 +44,9 @@
 		"requiredMinor": 4,
 		"storyType": "nvl",
 		"clearSongId": "jump",
-		"clearCharaId": 39
+		"clearCharaId": 39,
+		"charIcon1": 39,
+		"charIcon2": -1
 	},
 	{
 		"minor": 6,
@@ -44,6 +54,8 @@
 		"requiredMinor": 5,
 		"storyType": "nvl",
 		"clearSongId": "felis",
-		"clearCharaId": 39
+		"clearCharaId": 39,
+		"charIcon1": 39,
+		"charIcon2": -1
 	}]
 }
