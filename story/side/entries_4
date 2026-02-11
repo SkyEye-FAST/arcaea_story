@@ -7,7 +7,7 @@
 			"clearCharaId": -1,
 			"charIcon1": 2,
 			"charIcon2": -1,
-			"storyCgPath": "img/story/cg/4-1.jpg"
+			"storyCgPath": "app-data/story/cg/4-1.jpg"
 		},
 		{
 			"minor": 2,
@@ -68,7 +68,7 @@
 			"clearCharaId": 2,
 			"charIcon1": 2,
 			"charIcon2": -1,
-			"storyCgPath": "img/story/cg/4-7.jpg"
+			"storyCgPath": "app-data/story/cg/4-7.jpg"
 		},
 		{
 			"minor": 8,

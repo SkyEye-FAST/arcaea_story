@@ -137,7 +137,7 @@ move "zettai/bg.jpg" 0:30 0.35 sineout
 say "빵칼의 날이 그의 목에 닿은 채 멈춘다."
 
 play "cut.ogg" 1.0
-
+stop "quietWind.ogg" 0.3
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.15,linear) normal
 
 say "아무런 감정 없이, 심지어 한 점의 반감도 없이, 그녀는 아무 말 않고 소년의 목을 긋는다.

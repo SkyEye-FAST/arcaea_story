@@ -199,7 +199,7 @@ say "光直立於刀刃的狂風之中。聽從她指揮的碎片，近乎不存
 她所身處的區域已經騷動不堪。若想讓視線穿透這些碎片，實在是過於艱難。"
 
 show "vs/low.jpg" 0.5:0.63 0.5:0.63 1:1 fade(5,sineout) normal
-
+stop "glassRain.ogg" 3
 move "vs/low.jpg" 0:370 18 sineout
 
 say "最終，就在試圖緩慢穿過飛舞的玻璃時，

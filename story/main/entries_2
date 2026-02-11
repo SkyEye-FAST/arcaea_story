@@ -7,7 +7,7 @@
 			"clearCharaId": 1,
 			"charIcon1": 1,
 			"charIcon2": -1,
-			"storyCgPath": "img/story/cg/2-1.jpg"
+			"storyCgPath": "app-data/story/cg/2-1.jpg"
 		},
 		{
 			"minor": 2,
@@ -58,7 +58,7 @@
 			"clearCharaId": 6,
 			"charIcon1": 1,
 			"charIcon2": -1,
-			"storyCgPath": "img/story/cg/2-D.jpg"
+			"storyCgPath": "app-data/story/cg/2-D.jpg"
 		},
 		{
 			"minor": 7,
@@ -78,7 +78,7 @@
 			"clearCharaId": 1,
 			"charIcon1": 1,
 			"charIcon2": -1,
-			"storyCgPath": "img/story/cg/2-8.jpg"
+			"storyCgPath": "app-data/story/cg/2-8.jpg"
 		},
 		{
 			"minor": 9,

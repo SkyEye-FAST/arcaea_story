@@ -137,7 +137,7 @@ move "zettai/bg.jpg" 0:30 0.35 sineout
 say "麵包刀的鋸齒止於他的皮膚。"
 
 play "cut.ogg" 1.0
-
+stop "quietWind.ogg" 0.3
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.15,linear) normal
 
 say "不帶任何情感——甚至未含敵意的火花——她一言不發地刺穿了這男孩的喉嚨，

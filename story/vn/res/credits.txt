@@ -1,54 +1,120 @@
 ﻿Sounds from freesound.org:
 Copyright: Attribution 3.0 Unported (CC BY 3.0):
+& Attribution 4.0 Unported (CC BY 4.0):
 
-License: https://creativecommons.org/licenses/by/3.0/legalcode
+License: https://creativecommons.org/licenses/by/3.0/
+& https://creativecommons.org/licenses/by/4.0/
 
-sound: Explosion
+All sounds have been edited.
+
+Explosion
 creator: Iwiploppenisse
-URL: https://freesound.org/people/Iwiploppenisse/sounds/156031/
-This sound has been edited.
+https://freesound.org/people/Iwiploppenisse/sounds/156031/
 
-sound: Tech Ring.aif
+Tech Ring.aif
 creator: timgormly
-URL: https://freesound.org/people/timgormly/sounds/170961/
-This sound has been edited.
+https://freesound.org/people/timgormly/sounds/170961/
 
-sound: SFX_ATTACK_SWORD_001.wav
+SFX_ATTACK_SWORD_001.wav
 creator: JoelAudio
-URL: https://freesound.org/people/JoelAudio/sounds/77611/
-This sound has been edited.
+https://freesound.org/people/JoelAudio/sounds/77611/
 
-sound: sword04.wav
+sword04.wav
 creator: Erdie
-URL: https://freesound.org/people/Erdie/sounds/27858/
-This sound has been edited.
+https://freesound.org/people/Erdie/sounds/27858/
 
-sound: 2012-04-05 rainy night by a bank.flac
+2012-04-05 rainy night by a bank.flac
 creator: tim.kahn
-URL: https://freesound.org/people/tim.kahn/sounds/150840/
-This sound has been edited.
+https://freesound.org/people/tim.kahn/sounds/150840/
 
-sound: Rain On Skylight.flac
+Rain On Skylight.flac
 creator: Benboncan
-URL: https://freesound.org/people/Benboncan/sounds/137292/
-This sound has been edited.
+https://freesound.org/people/Benboncan/sounds/137292/
 
-sound: Stabbing Lettuce » Stab, Metal Knife in Lettuce, D.wav
+Stabbing Lettuce » Stab, Metal Knife in Lettuce, D.wav
 creator: InspectorJ
-URL: https://freesound.org/people/InspectorJ/sounds/413493/
-This sound has been edited.
+https://freesound.org/people/InspectorJ/sounds/413493/
 
-sound: Pink Lakes Wind from inside a She Oak
+Pink Lakes Wind from inside a She Oak
 creator: kangaroovindaloo
-URL: https://freesound.org/people/kangaroovindaloo/sounds/266631/
-This sound has been edited.
+https://freesound.org/people/kangaroovindaloo/sounds/266631/
 
-sound: Heartbeat
+Heartbeat
 creator: TobiasLudwig
-URL: https://freesound.org/people/TobiasLudwig/sounds/387072/
-This sound has been edited.
+https://freesound.org/people/TobiasLudwig/sounds/387072/
 
-sound: Violin Bow on Cymbal, A.wav
+Violin Bow on Cymbal, A.wav
 creator: InspectorJ
-URL: https://freesound.org/people/InspectorJ/sounds/346023/
-This sound has been edited.
+https://freesound.org/people/InspectorJ/sounds/346023/
+
+Bass drone.wav
+creator: juskiddink
+https://freesound.org/people/juskiddink/sounds/117128/
+
+DStorsions_ABreathingSoob_suonho.wav
+creator: suonho
+https://freesound.org/people/suonho/sounds/6475/
+
+basscapes_Outhere.wav
+creator: suonho
+https://freesound.org/people/suonho/sounds/58762/
+
+Bass drone.wav
+creator: juskiddink
+https://freesound.org/people/juskiddink/sounds/117128/
+
+Alien Ghost 1.wav
+creator: FiveBrosStopMosYT
+https://freesound.org/people/FiveBrosStopMosYT/sounds/537022/
+
+Alien Ghost 2.wav
+creator: FiveBrosStopMosYT
+https://freesound.org/people/FiveBrosStopMosYT/sounds/554410/
+
+Alien Ghost 3.wav
+creator: FiveBrosStopMosYT
+https://freesound.org/people/FiveBrosStopMosYT/sounds/554409/
+
+Run Now.wav
+creator: AaronGNP
+https://freesound.org/people/AaronGNP/sounds/108180/
+
+Rise 10.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559172/
+
+Rise 13.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559174/
+
+Impact 01.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559142/
+
+Impact 02.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559141/
+
+Impact 05.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559146/
+
+Impact 10.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559147/
+
+Impact 11.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559151/
+
+Impact 14.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559159/
+
+Impact 15.wav
+creator: BikakisThanos
+https://freesound.org/people/BikakisThanos/sounds/559155/
+
+Gun_heavy.wav
+creator: jonccox
+https://freesound.org/people/jonccox/sounds/175271/

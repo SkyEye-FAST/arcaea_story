@@ -57,6 +57,6 @@
 		"clearCharaId": 39,
 		"charIcon1": 39,
 		"charIcon2": -1,
-		"storyCgPath": "img/story/cg/7-6.jpg"
+		"storyCgPath": "app-data/story/cg/7-6.jpg"
 	}]
 }
