@@ -63,7 +63,8 @@
 			"clearCharaId": 99,
             "alternatePrefix": "S",
 			"charIcon1": 99,
-			"charIcon2": 2
+			"charIcon2": 2,
+			"storyCgPath": "img/story/cg/99-6.jpg"
 		}
 	]
 }
