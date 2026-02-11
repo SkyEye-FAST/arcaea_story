@@ -105,7 +105,7 @@ say "あの白の少女だってそうなのだ。
 この最後の致命的な局面で、ただの胸中の窪みだったものが、穿たれて広げられたのだ。
 それは冷徹で底なしの裂け目となり、一瞬で潰れ完全に腐食してしまった。"
 
-say "内なる闇が湧き出で彼女の内から染めていき、思考を絞めつけて行く最中、
+say "内なる闇が湧き出で彼女の内から染めていき、思考を絞めつけていく最中、
 その姿がはっきりと見えた。"
 
 say "硝片を射抜くように見つめるその視線からは、明らかな恐慌が見て取れた。"
@@ -210,11 +210,7 @@ play "lastBreak.ogg" 4.0
 
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
 
-wait 9
-
-show "tbc.png" 0.5:0.5 0.5:0.5 0.5:0.5 fade(1,linear) normal
-
-say ""
+wait 10
 
 stop "lastBreak.ogg" 4.0
 
@@ -222,9 +218,9 @@ show "tbc-1.png" 0.5:0.5 0.5:0.5 0.6:0.6 fade(0.3,linear) normal
 show "tbc-2.png" 0.5:0.5 0.5:0.5 0.6:0.6 fade(0.3,linear) normal
 show "tbc-3.png" 0.5:0.5 0.5:0.5 0.6:0.6 fade(0.3,linear) normal
 
-move "tbc-1.png" -1:-40 0 linear
-move "tbc-2.png" -1:-47 0 linear
-move "tbc-3.png" 5:-52 0 linear
+move "tbc-1.png" -1:0 0 linear
+move "tbc-2.png" -1:-7 0 linear
+move "tbc-3.png" 5:-12 0 linear
 
 move "tbc-3.png" 2:0 0 linear
 wait 0.02
