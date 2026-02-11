@@ -68,15 +68,22 @@
 		{
 			"storyType": 3,
 			"characterIcon": 13,
-			"characterIconXOffset": 362,
+			"characterIconXOffset": -362,
 			"main": 6
     	}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 44,
-			"characterIconXOffset": 907,
+			"characterIconXOffset": 0,
 			"main": 8
+		}
+		,
+		{
+			"storyType": 3,
+			"characterIcon": 19,
+			"characterIconXOffset": 362,
+			"main": 11
 		}
 	]
 }
