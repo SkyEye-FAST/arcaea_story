@@ -81,7 +81,3 @@ say "一股难以控制的扭曲狂喜由她心中一涌而出，但凌驾之上
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
 
 say ""
-
-show "meeting/tbc.png" 0.5:0.5 0.5:0.5 0.5:0.5 fade(1,linear) normal
-
-say ""

@@ -9,7 +9,7 @@ nonetheless pays it attention as she steps through."
 
 play "steps.ogg" 0.7
 
-say "She's been wondering what the ruins are and why they're there —
+say "She's been wondering what the ruins are and why they're there—
 wondering if this world she wanders has a past,
 or if its decimated landscape is only coincidental."
 
@@ -78,9 +78,5 @@ say "Her own twisted elation flows out from her heart, just as unstoppable, but 
 It climbs to her face, and the girl of chaos offers the girl of light an honest, irrepressible smile."
 
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
-
-say ""
-
-show "meeting/tbc.png" 0.5:0.5 0.5:0.5 0.5:0.5 fade(1,linear) normal
 
 say ""
