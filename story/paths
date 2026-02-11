@@ -20,6 +20,12 @@
 			"characterIcon": 23,
 			"characterIconXOffset": -250,
 			"main": 3
+		},
+		{
+			"storyType": 1,
+			"characterIcon": 2,
+			"characterIconXOffset": 250,
+			"main": 4
 		}
 	]
 }
