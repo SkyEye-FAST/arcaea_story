@@ -33,29 +33,35 @@
 		},
 		{
 			"storyType": 1,
-			"characterIcon": 4,
+			"characterIcon": 99,
 			"characterIconXOffset": 362,
+			"main": 99
+		},
+		{
+			"storyType": 1,
+			"characterIcon": 4,
+			"characterIconXOffset": 726,
 			"main": 5
 		}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 39,
-			"characterIconXOffset": 726,
+			"characterIconXOffset": 1091,
 			"main": 7
     	}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 45,
-			"characterIconXOffset": 1091,
+			"characterIconXOffset": 1456,
 			"main": 9
 		}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 11,
-			"characterIconXOffset": 1456,
+			"characterIconXOffset": 1818,
 			"main": 10
 		}
 		,

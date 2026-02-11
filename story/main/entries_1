@@ -4,7 +4,9 @@
 			"requiredPack": "core",
 			"storyType": "nvl",
 			"clearSongId": "lumia",
-			"clearCharaId": 0
+			"clearCharaId": 0,
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 2,
@@ -12,7 +14,9 @@
 			"requiredMinor": 1,
 			"storyType": "nvl",
 			"clearSongId": "memoryfactory",
-			"clearCharaId": 0
+			"clearCharaId": 0,
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 3,
@@ -20,14 +24,18 @@
 			"requiredMinor": 2,
 			"storyType": "nvl",
 			"clearSongId": "pragmatism",
-			"clearCharaId": 0
+			"clearCharaId": 0,
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 4,
 			"requiredPack": "rei",
 			"storyType": "nvl",
 			"clearSongId": "mazenine",
-			"clearCharaId": 0
+			"clearCharaId": 0,
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 5,
@@ -35,7 +43,9 @@
 			"requiredMinor": 4,
 			"storyType": "nvl",
 			"clearSongId": "halcyon",
-			"clearCharaId": 0
+			"clearCharaId": 0,
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 6,
@@ -44,14 +54,18 @@
 			"storyType": "nvl",
 			"clearSongId": "etherstrike",
 			"alternateSuffix": "ZR",
-			"clearCharaId": 14
+			"clearCharaId": 14,
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 7,
 			"requiredPack": "rei",
 			"requiredMinor": 5,
 			"storyType": "nvl",
-			"requirementAnomalyId": "fractureray"
+			"requirementAnomalyId": "fractureray",
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 8,
@@ -59,7 +73,9 @@
 			"requiredMinor": 7,
 			"storyType": "nvl",
 			"clearSongId": "fractureray",
-			"clearCharaId": 0
+			"clearCharaId": 0,
+			"charIcon1": 0,
+			"charIcon2": -1
 		},
 		{
 			"minor": 9,
@@ -67,7 +83,9 @@
 			"requiredMinor": 8,
 			"storyType": "nvl",
 			"clearSongId": "fractureray",
-			"clearCharaId": 15
+			"clearCharaId": 15,
+			"charIcon1": 0,
+			"charIcon2": -1
 		}
 	]
 }

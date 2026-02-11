@@ -4,7 +4,9 @@
 		"requiredPack": "nijuusei",
 		"storyType": "nvl",
 		"clearSongId": "nexttoyou",
-		"clearCharaId": 11
+		"clearCharaId": 11,
+		"charIcon1": 11,
+		"charIcon2": 12
 	},
 	{
 		"minor": 2,
@@ -12,7 +14,9 @@
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "silentrush",
-		"clearCharaId": 12
+		"clearCharaId": 12,
+		"charIcon1": 11,
+		"charIcon2": 12
 	},
 	{
 		"minor": 3,
@@ -20,7 +24,9 @@
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "strongholds",
-		"clearCharaId": 11
+		"clearCharaId": 11,
+		"charIcon1": 11,
+		"charIcon2": 12
 	},
 	{
 		"minor": 4,
@@ -28,7 +34,9 @@
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "nexttoyou",
-		"clearCharaId": 12
+		"clearCharaId": 12,
+		"charIcon1": 11,
+		"charIcon2": 12
 	},
 	{
 		"minor": 5,
@@ -36,7 +44,9 @@
 		"requiredMinor": 4,
 		"storyType": "nvl",
 		"clearSongId": "memoryforest",
-		"clearCharaId": 12
+		"clearCharaId": 12,
+		"charIcon1": 11,
+		"charIcon2": 12
 	},
 	{
 		"minor": 6,
@@ -44,6 +54,8 @@
 		"requiredMinor": 5,
 		"storyType": "nvl",
 		"clearSongId": "singularity",
-		"clearCharaId": 11
+		"clearCharaId": 11,
+		"charIcon1": 11,
+		"charIcon2": 12
 	}]
 }
