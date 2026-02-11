@@ -4,7 +4,7 @@ move "meeting/bg.jpg" 0:-40 4 cubicout
 
 play "wind.ogg" 1.0 loop
 
-say "The ruin is as common a sight as any other, but the girl in light
+say "The ruin is a common a sight as any other, but the girl in light
 nonetheless pays it attention as she steps through."
 
 play "steps.ogg" 0.7
