@@ -39,22 +39,28 @@
 		},
 		{
 			"storyType": 1,
-			"characterIcon": 13,
+			"characterIcon": 45,
 			"characterIconXOffset": 726,
+			"main": 9
+		},
+		{
+			"storyType": 1,
+			"characterIcon": 13,
+			"characterIconXOffset": 1091,
 			"main": 6
     	}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 39,
-			"characterIconXOffset": 1091,
+			"characterIconXOffset": 1455,
 			"main": 7
     	}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 44,
-			"characterIconXOffset": 1455,
+			"characterIconXOffset": 1819,
 			"main": 8
 		}
 	]
