@@ -1,7 +1,42 @@
-Sounds from freesound.org:
+﻿Sounds from freesound.org:
 Copyright: Attribution 3.0 Unported (CC BY 3.0):
 
 License: https://creativecommons.org/licenses/by/3.0/legalcode
+
+sound: Explosion
+creator: Iwiploppenisse
+URL: https://freesound.org/people/Iwiploppenisse/sounds/156031/
+This sound has been edited.
+
+sound: Tech Ring.aif
+creator: timgormly
+URL: https://freesound.org/people/timgormly/sounds/170961/
+This sound has been edited.
+
+sound: SFX_ATTACK_SWORD_001.wav
+creator: JoelAudio
+URL: https://freesound.org/people/JoelAudio/sounds/77611/
+This sound has been edited.
+
+sound: sword04.wav
+creator: Erdie
+URL: https://freesound.org/people/Erdie/sounds/27858/
+This sound has been edited.
+
+sound: 2012-04-05 rainy night by a bank.flac
+creator: tim.kahn
+URL: https://freesound.org/people/tim.kahn/sounds/150840/
+This sound has been edited.
+
+sound: Rain On Skylight.flac
+creator: Benboncan
+URL: https://freesound.org/people/Benboncan/sounds/137292/
+This sound has been edited.
+
+sound: Stabbing Lettuce » Stab, Metal Knife in Lettuce, D.wav
+creator: InspectorJ
+URL: https://freesound.org/people/InspectorJ/sounds/413493/
+This sound has been edited.
 
 sound: Pink Lakes Wind from inside a She Oak
 creator: kangaroovindaloo
