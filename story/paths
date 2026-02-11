@@ -36,6 +36,12 @@
 			"characterIcon": 4,
 			"characterIconXOffset": 362,
 			"main": 5
-		}
+		},
+		{
+			"storyType": 1,
+			"characterIcon": 13,
+			"characterIconXOffset": 724,
+			"main": 6
+    }
 	]
 }
