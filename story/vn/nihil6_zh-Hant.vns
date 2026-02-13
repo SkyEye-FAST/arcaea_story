@@ -1,0 +1,287 @@
+show "nihil/bg_cut3.jpg" 0:0.9 0:0.9 1:1 fade(0,linear) normal
+show "nihil/bg_cut1.jpg" 0:1 0:1 1:1 fade(0,linear) normal
+show "nihil/bg_cut2.jpg" 1:0.5 1:0.5 1:1 fade(0,linear) normal
+show "black.png" 0.5:0.73 0.5:0.73 2000:20 fade(0,linear) normal
+show "2black.png" 0.5:0.28 0.5:0.28 2000:20 fade(0,linear) normal
+show "nihil/nihil_1B.jpg" 0.4:0.4 0.4:0.4 0.83:0.83 fade(0,linear) normal
+wait 0
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+play "sand_epilogue.ogg" 1.0
+
+say " 「下雨了……」"
+
+play "rain.ogg" 0 loop
+volume "rain.ogg" 0.1 3.0
+show "nihil/nihil_1_cut1.jpg" 0.5:0 0.5:0 2:2 fade(5,linear) normal
+move "nihil/nihil_1_cut1.jpg" 0:-900 21 sineout
+
+say "維塔從圖書館的一處角落裏走出，將這件事告知正在坐著的我。
+在這同時明亮與黑暗的洞穴裏，我將目光自下而上掃過她，隨後移開。
+雨…嗎……"
+
+say "我在這裏這麽多年也沒見過一場雨，而最近的天氣又是下雨又是打雷又是下雪的，就沒有
+一天正常過。
+終於還是來了……偏偏在這個時候。"
+
+say "我站起身。
+「維塔……」我開口，「我要走了，你要跟著的話，就好好躲在我後面。」"
+
+say "「『走』……？去哪裏？」"
+
+say "「去找忘卻，」我說，「然後殺了她。」"
+
+play "1step.ogg" 0.5
+hide "nihil/nihil_1_cut1.jpg" fade(0.1,linear)
+
+say "說完，我走過她，朝著這座山最低的一處出口走去。
+維塔楞了一瞬，然後後知後覺地「聽從」了我的指示，跟了上來。"
+
+say "「……什麽……『殺』？等等！」"
+
+play "lastBreak.ogg" 1.0
+volume "rain.ogg" 0.7 9.0
+
+say "我身後傳來一聲驚呼，隨後我聽見了她的腳步聲——這孩子跟在我後頭走了一路，即使是和我
+一起挨了雨淋也毫不在意。"
+
+say "她不斷地向我抗議。
+她一直企圖讓我解釋更多，但我沒有理會。"
+
+play "collapse.ogg" 0.5
+
+say "她拽住了我的鬥篷，而我將它一把扯開。"
+
+play "cut.ogg" 0.3
+
+say "她拾起了一塊石頭砸向我。石塊砸到了我的後背，而我繼續向前走去。
+最後，她終於忍不住大吼起來。"
+
+say "「為什麽！？」"
+
+volume "rain.ogg" 1.0 3.0
+show "nihil/nihil_1_cut2.jpg" 0.5:1 0.5:1 1.2:1.2 fade(6,linear) normal
+move "nihil/nihil_1_cut2.jpg" -15:0 5 linear
+
+say "雨仍沒有停。我停下來，轉身面對著她。雨點肆意灑落在我和她中間。
+她正視著我的眼睛，那雙紅色與白色的異色眼眸裏有什麽在閃爍。"
+
+say "「……聽著，」我聽見自己回答道，「這個世界……它正在死去。」"
+
+show "nihil/nihil_1A.jpg" 0.4:0.4 0.4:0.4 0.83:0.83 fade(4,linear) normal
+move "nihil/nihil_1A.jpg" -20:0 7 linear
+move "nihil/nihil_1B.jpg" -20:0 7 linear
+
+say "「是啊，但……」她囁嚅道——也就是在那個時候，我明白了：她也不是對所有正在發生的事情
+一無所知——「但……這跟你想要、想要殺……又有什麽關系呢？」"
+
+say "「她對她收集起來的那些東西所產生的影響十分特別，我們之前忙活了那麽久都從未能達到
+那樣的效果，」我解釋道。"
+
+say "「如果……我想要拯救所有人的話，我覺得我必須要弄清楚這其中的原因，並進一步掌握它，
+利用它，這樣創建新世界的奇跡才有可能會發生。
+然而忘卻並不能夠理解我要做的事情，我們也沒有時間跟她耗了。」"
+
+say "「她相信的完全不是我這一套，她就是在自欺欺人而已，而你永遠都叫不醒一個裝睡的人。
+她的性格又很暴躁，所以如果她置氣於我，跟我大動幹戈，我也完全不會覺得意外。」"
+
+hide "nihil/nihil_1_cut2.jpg" fade(0,linear)
+hide "3black.png" fade(0,linear)
+wait 0
+hide "nihil/nihil_1A.jpg" fade(0.3,linear)
+
+say "「可你為什麽不試試其他辦法呢？」她質問道。聽到這個質問時，我笑了。
+「你好歹要試過才知道啊！」 她的面部表情開始因憤怒和不解而扭曲，她握緊拳，越攥越死，直到指節發白。"
+
+stop "rain.ogg" 6.0
+
+say "雨滴遲疑了，開始變得窸窣起來。
+雨漸漸停了，而我轉過身背對著她。
+輕輕地，我開口道：「行吧，那等會我動手的時候，你就躲遠點看著吧。」"
+
+play "breath.ogg" 1.0
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 0.3 6.0
+hide "nihil/nihil_1B.jpg" fade(6,linear)
+
+move "nihil/bg_cut1.jpg" -426:0 19 sineout
+move "nihil/bg_cut2.jpg" 426:0 19 sineout
+move "nihil/bg_cut3.jpg" -426:0 19 sineout
+move "nihil/bg_cut3.jpg" 0:1300 30 sineout
+
+say "我帶著我珍藏的幾乎所有的碎片找到了忘卻。
+當我離她越來越近的時候，我們二人的藏品幾乎已經是互相碰觸到了，不過它們並未有任何程度的
+融合，反而顯得水火不容。"
+
+say "懸崖的邊緣之上是明亮的，這個世界因碎片的光芒而閃爍。
+相反地，站在峭壁之下的忘卻，身形則完全隱入了陰影之中。
+而在那邊緣之後、更遠的地方，是虛無那空洞漆黑而深不見底的大嘴。"
+
+say "「『收割之人』……」我朝她伸出手，「不要再耍小孩子脾氣了。我需要你助我一臂之力。」"
+
+say "「助你一臂之力？」她聲音裏的怒意清晰可辨，「就憑你幹的這些好事！？」"
+
+say "……呵。
+她一定覺得我就是讓這個世界徹底崩落的罪魁禍首吧。
+那她為免也太小瞧我了。"
+
+say "轉身再次跟她交涉之前，我瞟了瞟自己的身後，確定自己已經看不見維塔了。"
+
+stop "wind.ogg" 0.3
+hide "nihil/bg_cut1.jpg" fade(0.1,linear)
+hide "nihil/bg_cut2.jpg" fade(0.1,linear)
+hide "nihil/bg_cut3.jpg" fade(0.1,linear)
+hide "black.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+say "自始至終，這場會面都糟糕透頂。"
+
+show "nihil/nihil_2_cut1.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3 clear
+hide "nihil/nihil_2_cut1.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut2.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut3.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut4.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut4.jpg" fade(0,linear)
+wait 0
+
+wait 1
+
+say "怒吼，謾罵。
+還有她的進攻，排山倒海。"
+
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 0.6
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.3,linear) normal
+show "finale/vs_overlay.png" 0.21:0.75 0.21:0.75 1.3:1.3 fade(0.1,sinein) normal
+
+play "slip.ogg" 1.0
+say "借著自己臉上那朵花的幾個微不足道的小伎倆，我不停地穿梭於各個碎片之間。
+我告訴自己冷靜。我不停地繞著她踱步，與她周旋。我全力以赴，使盡渾身解數，
+直至筋疲力盡。"
+
+play "ruffle.ogg" 1.0
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+show "nihil/nihil_2_cut4.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(2,linear)
+hide "2white.png" fade(2,linear)
+
+say "我向她保證，我一定會將她的那些碎片都奪過來。
+她也回敬我，她一定會修復好Arcaea那已支離破碎的核心。"
+
+play "rain.ogg" 0.0 loop
+volume "rain.ogg" 0.3 1.0
+play "woosh.ogg" 1.0
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+
+say "而我只覺得反胃。"
+
+say "……又下雨了。"
+
+say ""
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 0.3
+play "feeble.ogg" 1.0
+show "nihil/nihil_2.jpg" 0:1 0:1 1.4:1.4 fade(0,linear) normal
+scale "nihil/nihil_2.jpg" 0.6:0.6 0 sineout
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 1.7
+
+hide "3black.png" fade(0.3,linear)
+
+volume "rain.ogg" 0.7 4.0
+volume "wind.ogg" 1.0 4.0
+play "shine.ogg" 0.2
+play "splash.ogg" 1.0
+play "thump.ogg" 0.0 loop
+volume "thump.ogg" 0.2 1.0
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+wait 1.23
+
+auto 2.2
+play "alter_ego_mini.ogg" 0.6
+volume "alter_ego_mini.ogg" 1.0 9
+move "nihil/nihil_2.jpg" 0:50 17 sineout
+scale "nihil/nihil_2.jpg" 0.48:0.48 14 sineout
+
+say "散發著凜冽寒光的刀刃與鋒利的碎片切面相撞，水花四濺，灑向正在纏鬥的雙方。"
+
+play "splash.ogg" 1.0
+
+say "只見那位搖擺舞者大踏步向前，這是一場血腥而又暴力的舞蹈，而我的舞伴跟我一樣惡毒。"
+
+play "clash.ogg" 1.0
+volume "thump.ogg" 0.5 0.4
+
+say "似是要我以自己的血肉之軀作為伴奏，而我以閃爍著的碎片為綢帶自上而下拂過她白皙的面頰。"
+
+volume "thump.ogg" 0.8 4.0
+
+say "我的太陽穴劇烈地鼓動著。"
+
+play "slice.ogg" 1.0
+play "shine.ogg" 0.5
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+
+scale "nihil/nihil_2.jpg" 0.41:0.41 3.7 sineout
+hide "nihil/nihil_2.jpg" fade(10,linear)
+wait 1.23
+
+say "胃裏好似有什麽東西在翻攪著。"
+
+show "black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0.1,linear) normal
+stop "wind.ogg" 0.3
+stop "rain.ogg" 0.3
+stop "thump.ogg" 0.3
+
+say "我失敗了，我所做的一切都毫無意義。"

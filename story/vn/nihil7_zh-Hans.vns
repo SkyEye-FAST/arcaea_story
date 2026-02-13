@@ -1,0 +1,165 @@
+show "nihil/nihil_2.jpg" 0:1 0:1 1.4:1.4 fade(0,linear) normal
+scale "nihil/nihil_2.jpg" 0.41:0.41 0 sineout
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+play "splash.ogg" 0.7
+wait 0.7
+hide "black.png" fade(4,linear)
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 4.0
+play "rain.ogg" 0.0 loop
+volume "rain.ogg" 0.7 4.0
+play "thump.ogg" 1.0 loop
+volume "thump.ogg" 0.8 4.0
+
+say "这并是不两股伟力之间的较量，更不是一场壮丽而沉重的苦斗。"
+
+say "我和忘却的这场“鹬蚌之争”……"
+
+say "胜者为王，但王最终并不会得到任何东西。
+败者为寇，但寇最终也不会损失任何东西。
+可以说，我对这个结果毫不意外。"
+
+say "我们都是迷途之人，都觉得自己有可能迎来更好的结局，乃至扭转乾坤。
+卧龙凤雏。"
+
+say "我们什么都不是。我们的生命不值一提。"
+
+say "意识到这一点时，我只感到恶心。
+但我仍想试试。"
+
+play "cut.ogg" 1.0
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+wait 1.23
+
+say "忘却抽身向后退去，马上又以惊人的力道挥舞着镰刀砍来——
+而我操纵着碎片源源不断地格挡、攻击；向上、向下，朝她的胸口袭去——"
+
+stop "thump.ogg" 0.3
+stop "rain.ogg" 0.3
+stop "wind.ogg" 0.3
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "nihil/nihil_2.jpg" fade(0.1,linear)
+show "nihil/nihil_3_cut1.jpg" 1:0.5 1:0.5 2:2 fade(0.1,linear) normal
+wait 0.3
+hide "nihil/nihil_3_cut1.jpg" fade(0.1,linear)
+
+say "一根手指突然出现在了我和忘却兵戈交接之处，我们混乱混沌的战斗随即戛然而止。"
+
+say "“！？”"
+
+say "“什么——？！”"
+
+play "fracture1_epilogue.ogg" 1.0
+play "fracture2_epilogue.ogg" 1.0
+play "burst.ogg" 1.0
+hide "white.png" fade(0.1,linear)
+
+say "一只修长的、戴着手套的手随后进入了视野，朝着我和忘却交战的交接处伸去。"
+
+play "fracture3_epilogue.ogg" 1.0
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+
+say "就在它接触到边缘的那一瞬，我整个人便突然痉挛起来，疼痛排山倒海般席卷而来，几近要将我冲垮。"
+
+play "fracture6_epilogue.ogg" 1.0
+play "glass_epilogue.ogg" 1.0
+
+say "我的碎片顷刻间破碎了，忘却握在手中的镰刀也飞了出去，受到剧烈冲击的两人在下一秒猛地向后退去。"
+
+play "fracture4_epilogue.ogg" 1.0
+
+say "脚下的大地疯狂地抖动，好似一面被暴力击打的鼓。"
+
+play "loss_epilogue.ogg" 1.0
+
+say "接着，我们静止在了半空——"
+
+play "memoryShift.ogg" 1.0
+
+say "大气紧接着突然猛地向后拉扯——"
+
+play "fracture5_epilogue.ogg" 1.0
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+hide "white.png" fade(0.6,linear)
+
+say "那长而弯的闪烁着尖寒光芒的刀锋向我刺来，
+而我猛地击向大地——忘却的镰刀几乎是同时紧贴我身侧划下，瞬间将我身后的空气撕裂。"
+
+play "stab.ogg" 1.0
+
+say "或许正是因为忘却的这个举动，几片碎片反而成功扎进了她的左臂里。"
+
+play "collapse.ogg" 1.0
+show "nihil/nihil_3_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.1,linear) normal
+
+say "膝盖顿时间宛若灌了铅一般向下坠去，我和忘却都同时被迫摆出了下跪的姿势。"
+
+hide "nihil/nihil_3_cut2.jpg" fade(2.5,linear)
+
+say "我的身体早已苦痛不堪，但我的下颌仍高高抬起。
+毕竟谁也不能让我屈服。"
+
+play "tension.ogg" 1.0 loop
+play "glassRain.ogg" 0.0 loop
+play "wind.ogg" 0.0 loop
+volume "glassRain.ogg" 0.2 1.0
+volume "wind.ogg" 0.3 1.0
+show "nihil/nihil_3_cut3.jpg" 0.5:0 0.5:0 1.4:1.4 fade(4,linear) normal
+move "nihil/nihil_3_cut3.jpg" 0:-850 21 sineout
+
+say "横亘在我和忘却中间的是一位陌生的女性，她的长发颜色苍白，眼神却十分锐利。"
+
+say "她看了看我，又看了看忘却。
+我这时才注意到，她是笑着的。"
+
+say "“不可以，二位。”她开口说道。"
+
+say "“如果下手太重的话，会不小心伤到宝贵的东西哦。”"
+
+say "我使劲挣扎，竭尽全力试图向前挪动几步，却仍只能艰难地保持跪着的姿势。
+我不停地大口喘气，呼吸变得粗重而破碎。
+她说话的方式……这人估计很麻烦……"
+
+say "她的目光再次回到了我身上。"
+
+play "refusal_epilogue.ogg" 1.0
+stop "wind.ogg" 8.0
+stop "tension.ogg" 8.0
+stop "glassRain.ogg" 8.0
+hide "nihil/nihil_3_cut3.jpg" fade(3,linear)
+show "nihil/nihil_3.jpg" 0.5:0 0.5:0 0.6:0.6 fade(3,linear) normal
+move "nihil/nihil_3.jpg" 0:-200 23 sineout
+auto 5
+
+say "“真是固执呢。”她说，“好啦，我还没打招呼呢，那，两位好？”"
+
+say "“再这样的话，我会不开心的哦。”"
+
+say ""
+
+wait 2
+hide "nihil/nihil_3.jpg" fade(4,linear)
+wait 4
+
+show "TBC2.png" 0.5:0.5 0.5:0.5 0.35:0.35 fade(2.5,linear) normal
+
+wait 7
+
+hide "TBC2.png" fade(5,linear)
+
+wait 5

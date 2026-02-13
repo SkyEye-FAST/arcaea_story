@@ -1,0 +1,166 @@
+show "nihil/nihil_2.jpg" 0:1 0:1 1.4:1.4 fade(0,linear) normal
+scale "nihil/nihil_2.jpg" 0.41:0.41 0 sineout
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+play "splash.ogg" 0.7
+wait 0.7
+hide "black.png" fade(4,linear)
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 4.0
+play "rain.ogg" 0.0 loop
+volume "rain.ogg" 0.7 4.0
+play "thump.ogg" 1.0 loop
+volume "thump.ogg" 0.8 4.0
+
+say "これは壮大な力のぶつかり合いでも、一世一代の大義ある戦いでもない。"
+
+say "二人きりのもつれ合い……ただの悪足掻きだと、お互いに分かってる。"
+
+say "勝って手に入れるものはきっとない――せいぜい、命を奪った感触だけ。
+負けたって何も失わない――私が残すものなんて、何一つないもの。
+ええ知ってる、ええ分かってる……もう、十分知ってるの。"
+
+say "哀れな女なの、私たち――より良い終わりに脳を灼かれた惨めなふたりきり。
+どこかで、そんなものが存在しないって知ってるの。
+もう、私たちに意味はない、この命にも意義はない。"
+
+say "だから。……だから？とにかくもう止まらないの、この腕も足も止められないの。
+五体全てを染め尽くすような目眩に侵されていても。"
+
+play "cut.ogg" 1.0
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+wait 1.23
+
+say "レーテーは振りかぶる――相変わらず信じられない膂力、振り抜かれる大鎌。
+対する私は硝片を上下へ――音さえ切り捨てるような刃先、狙いはその、胸元――ッ！"
+
+stop "thump.ogg" 0.3
+stop "rain.ogg" 0.3
+stop "wind.ogg" 0.3
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "nihil/nihil_2.jpg" fade(0.1,linear)
+show "nihil/nihil_3_cut1.jpg" 1:0.5 1:0.5 2:2 fade(0.1,linear) normal
+wait 0.3
+hide "nihil/nihil_3_cut1.jpg" fade(0.1,linear)
+
+say "けれど、戦いは終わった。阻まれたのだ――指先一つが横切っただけで。"
+
+say "「ッ？！」"
+
+say "「なにが――！」"
+
+play "fracture1_epilogue.ogg" 1.0
+play "fracture2_epilogue.ogg" 1.0
+play "burst.ogg" 1.0
+hide "white.png" fade(0.1,linear)
+
+say "それは細身の、グローブを纏った手――かち合うはずの大鎌と硝子に、ぬるりと滑り込んだ。"
+
+play "fracture3_epilogue.ogg" 1.0
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+
+say "刹那、激痛が走る。全身が脈打つような、四肢がもげるような疼痛。"
+
+play "fracture6_epilogue.ogg" 1.0
+play "glass_epilogue.ogg" 1.0
+
+say "砕け散る硝片、吹き飛ぶ大鎌――何かが爆散したみたいに、私たちは遙か後方にはね飛ばされた。"
+
+play "fracture4_epilogue.ogg" 1.0
+
+say "波打つように揺れる大地は、まるで空に届くようなマレットで叩かれた鼓面のよう。"
+
+play "loss_epilogue.ogg" 1.0
+
+say "だが、爆縮――はね飛ばされたばかりの私たちは、けれど吸い込まれるように引っ張られた。"
+
+play "memoryShift.ogg" 1.0
+
+say "爆散した空気で真空が生まれ、すべてを一気に引き込んだのだ。"
+
+play "fracture5_epilogue.ogg" 1.0
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+hide "white.png" fade(0.6,linear)
+
+say "その時、光る金属――入れ違いになった誰かさんの大鎌が、私の脇腹をざぐりと深く裂いた。
+どちゃりと、地面に墜落する私と、大鎌。"
+
+play "stab.ogg" 1.0
+
+say "レーテーの左腕には、複数の抉れた穴、傷跡が見えた――私の硝子、その破片だろう。"
+
+play "collapse.ogg" 1.0
+show "nihil/nihil_3_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.1,linear) normal
+
+say "それぞれに手負いになった私たちは、奇しくも跪いていた。頭を垂れていた。"
+
+hide "nihil/nihil_3_cut2.jpg" fade(2.5,linear)
+
+say "全身を暴れまわる、ずたずたにされたような痛み――けれど、頭を上げる。
+……下げるわけには、どうしてもいかなかった。"
+
+play "tension.ogg" 1.0 loop
+play "glassRain.ogg" 0.0 loop
+play "wind.ogg" 0.0 loop
+volume "glassRain.ogg" 0.2 1.0
+volume "wind.ogg" 0.3 1.0
+show "nihil/nihil_3_cut3.jpg" 0.5:0 0.5:0 1.4:1.4 fade(4,linear) normal
+move "nihil/nihil_3_cut3.jpg" 0:-850 21 sineout
+
+say "私たちの間に立つ、奇妙な闖入者――そいつはゾッとするように褪せた長髪と、
+得体のしれない色を湛えた、刺さるような奇妙な眼をしていた。"
+
+say "――ちらと私を見て、レーテーを見た。
+……そして、笑った。"
+
+say "「過剰だよ、余剰だよ――そろそろ飽きたよ、お嬢サマがた」"
+
+say "「じゃれるのは良いことさ、尊重するとも。けどそんなに手荒じゃコトだ。懸念事項だ。
+稀有なモノが傷つくかもしれない。そうでしょう？ほら――なにかの弾みで、サ」"
+
+say "跪くので精一杯でも――全力で、一歩前に出る。
+ぜいぜいとした呼吸しか出来なくても……それでもだ。"
+
+say "女の喋り方は、じっとりと不快で……なぜか不安にさせるなにかがあった。
+――そして、まだ動く私を見た。"
+
+play "refusal_epilogue.ogg" 1.0
+stop "wind.ogg" 8.0
+stop "tension.ogg" 8.0
+stop "glassRain.ogg" 8.0
+hide "nihil/nihil_3_cut3.jpg" fade(3,linear)
+show "nihil/nihil_3.jpg" 0.5:0 0.5:0 0.6:0.6 fade(3,linear) normal
+move "nihil/nihil_3.jpg" 0:-200 23 sineout
+auto 5
+
+say "「さてはて、強情なお嬢サマがた――改めましてごきげんよう」"
+
+say "「どうかどうか、よろしくねェ……？」"
+
+say ""
+
+wait 2
+hide "nihil/nihil_3.jpg" fade(4,linear)
+wait 4
+
+show "TBC2.png" 0.5:0.5 0.5:0.5 0.35:0.35 fade(2.5,linear) normal
+
+wait 7
+
+hide "TBC2.png" fade(5,linear)
+
+wait 5

@@ -118,3 +118,15 @@ https://freesound.org/people/BikakisThanos/sounds/559155/
 Gun_heavy.wav
 creator: jonccox
 https://freesound.org/people/jonccox/sounds/175271/
+
+rbh rain 03.wav
+creator: RHumphries
+https://freesound.org/people/RHumphries/sounds/2521/
+
+Splash 1.wav
+creator: FreqMan
+https://freesound.org/people/FreqMan/sounds/25819/
+
+cape-swoosh
+creator: CosmicEmbers
+https://freesound.org/people/CosmicEmbers/sounds/161415/
