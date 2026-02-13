@@ -2,7 +2,8 @@ show "meeting/bg.jpg" 0.5:0.5 0.5:0.5 1.05:1.05 fade(4,linear) normal
 move "meeting/bg.jpg" 0:40 0 linear
 move "meeting/bg.jpg" 0:-40 4 cubicout
 
-play "wind.ogg" 1.0 loop
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 1.0
 
 say "廃墟を抜けながら、ありふれた光景だというのに光の少女は注意深く観察していた。"
 

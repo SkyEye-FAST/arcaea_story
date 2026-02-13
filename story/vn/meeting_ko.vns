@@ -2,7 +2,8 @@ show "meeting/bg.jpg" 0.5:0.5 0.5:0.5 1.05:1.05 fade(4,linear) normal
 move "meeting/bg.jpg" 0:40 0 linear
 move "meeting/bg.jpg" 0:-40 4 cubicout
 
-play "wind.ogg" 1.0 loop
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 1.0
 
 say "이 세계에서 폐허는 흔한 광경이었다. 그럼에도 빛을 두른 소녀는
 발을 내딛는 데에 조심스러웠다."
