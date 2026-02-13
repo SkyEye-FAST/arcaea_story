@@ -27,5 +27,70 @@
 		"clearCharaId": -1,
 		"charIcon1": 44,
 		"charIcon2": -1
-	}]
+	},
+    {
+        "minor": 4,
+        "requiredPack": "spiritdauntless",
+        "requiredPackAlternate": "diesirae",
+        "storyType": "nvl",
+        "clearSongId": "revixy",
+        "clearCharaId": -1,
+        "charIcon1": 44,
+        "charIcon2": -1
+    },
+    {
+        "minor": 5,
+        "requiredPack": "spiritdauntless",
+        "requiredPackAlternate": "diesirae",
+        "requiredMinor": 4,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 44,
+        "charIcon2": -1
+    },
+    {
+        "minor": 6,
+        "requiredPack": "spiritdauntless",
+        "requiredPackAlternate": "diesirae",
+        "requiredMinor": 5,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 44,
+        "charIcon2": -1
+    },
+    {
+        "minor": 7,
+        "requiredPack": "spiritdauntless",
+        "requiredPackAlternate": "diesirae",
+        "requiredMinor": 6,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 44,
+        "charIcon2": -1
+    },
+    {
+        "minor": 8,
+        "requiredPack": "spiritdauntless",
+        "requiredPackAlternate": "diesirae",
+        "requiredMinor": 7,
+        "storyType": "nvl",
+        "clearSongId": "espebranch",
+        "clearCharaId": -1,
+        "charIcon1": 44,
+        "charIcon2": -1
+    },
+    {
+        "minor": 9,
+        "requiredPack": "spiritdauntless",
+        "requiredPackAlternate": "diesirae",
+        "requiredMinor": 8,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 44,
+        "charIcon2": -1
+    }]
 }
