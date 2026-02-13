@@ -1,77 +1,84 @@
 {
 	"entries": [{
 		"minor": 1,
-		"requiredPack": "init",
+		"requiredPurchase": "init",
 		"storyType": "nvl",
 		"clearSongId": "oblivia",
 		"clearCharaId": -1,
 		"charIcon1": 19,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_init"
 	},
 	{
 		"minor": 2,
-		"requiredPack": "init",
+		"requiredPurchase": "init",
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "rugie",
 		"clearCharaId": -1,
 		"charIcon1": 19,
 		"charIcon2": -1,
-		"storyCgPath": "app-data/story/cg/11-2.jpg"
+		"storyCgPath": "app-data/story/cg/11-2.jpg",
+        "icon": "entry_init"
 	},
 	{
 		"minor": 3,
-		"requiredPack": "init",
+		"requiredPurchase": "init",
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "init",
 		"clearCharaId": -1,
 		"charIcon1": 19,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_init"
 	},
     {
         "minor": 4,
-        "requiredPack": "init",
+        "requiredPurchase": "init",
         "requiredMinor": 3,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 19,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_ayu2_new"
     },
     {
         "minor": 5,
-        "requiredPack": "init",
+        "requiredPurchase": "init",
         "requiredMinor": 4,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 19,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_ayu2_new"
     },
     {
         "minor": 6,
-        "requiredPack": "init",
+        "requiredPurchase": "init",
         "requiredMinor": 5,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 19,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_ayu2_new"
     },
     {
         "minor": 7,
-        "requiredPack": "init",
+        "requiredPurchase": "init",
         "requiredMinor": 6,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 19,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_ayu2_new"
     },
     {
         "minor": 8,
-        "requiredPack": "desive",
+        "requiredPurchase": "desive",
         "requiredMinor": 7,
         "mapId": "desive",
         "storyType": "nvl",
@@ -79,7 +86,8 @@
         "clearCharaId": -1,
         "charIcon1": 19,
         "charIcon2": -1,
-		"storyCgPath": "app-data/story/cg/11-8-1.jpg"
+		"storyCgPath": "app-data/story/cg/11-8-1.jpg",
+        "icon": "entry_ayu2_boss"
     }
     ]
 }

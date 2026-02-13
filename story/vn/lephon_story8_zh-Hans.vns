@@ -1,0 +1,129 @@
+wait 1.0
+
+play "voice_epilogue.ogg" 1.0 loop
+
+wait 2.0
+
+say "$e:你该知晓：$"
+
+volume "voice_epilogue.ogg" 3.5 6
+
+wait 2.0
+say ""
+wait 1.0
+
+say "$e:成神之路并无真理$，
+$e:神的旨意$即是真理。"
+
+say "一切$e:法则$、$e:秩序$，全因$e:神之$意志而生。"
+
+wait 2.0
+
+play "tension.ogg" 1.0 loop
+
+say "$e:因为，“自然”是祂的名，“无为”也是祂的名。$
+明智的、伟大的神，其名也将是伟大的，而愚蠢的神和那些令人无法启齿的神则不在此列。
+当然，最后还有既是人类、也是神明的神。"
+
+wait 2.0
+stop "voice_epilogue.ogg" 0.3
+
+say "$e:我，第八席，洞烛。$
+但亲爱的，得寸进尺可不是好习惯。我的真名你不该知道。
+既然已经偷听了这么久，见好就收才是乖孩子哦？"
+
+wait 2.0
+stop "tension.ogg" 4.0
+
+say "塑形者，至高者，探索者：$e:我「即」$完美、无限、全知全能本身。
+除了$e:「神」$，还能有谁能够做到？"
+
+hidetextbox
+
+wait 5.0
+play "lephon_story.ogg" 0 loop 72221:143331
+volume "lephon_story.ogg" 1.0 5.0
+wait 6.0
+show "lephon/arc6_bg3.jpg" 0.5:1 0.5:1 1:1 fade(8,linear) normal
+move "lephon/arc6_bg3.jpg" 0:800 30 sineout
+wait 14.0
+
+say "……可作为你们的神，我却是如此地宽宏无私。
+$e:我不断探索正是为了缝合已经破损的裂缝，修补逐渐黯淡的帱幕。$
+只可惜……$e:这个世界永远只会重复崩坏。$"
+
+hidetextbox
+
+wait 4.0
+show "lephon/lephon_epilogue_cut1.jpg" 0:0 0:0 1.2:1.2 fade(3,linear) normal
+move "lephon/lephon_epilogue_cut1.jpg" -40:0 15 sineout
+wait 5.0
+hide "lephon/arc6_bg3.jpg" fade(0.3,linear)
+
+say "啊啊，我那所谓的“姐妹”，和她新交的朋友……
+我能看见她们，透过我那另一只全知全能的眼。
+她们在这个世界中不断蹒跚、徘徊，在正在死去$e:的Arcaea$之中行走。"
+
+wait 2.0
+show "lephon/lephon_epilogue_cut2.jpg" 1:0.1 1:0.1 0.8:0.8 fade(1.5,linear) normal
+move "lephon/lephon_epilogue_cut2.jpg" 300:0 35 sineout
+
+wait 2.0
+hide "lephon/lephon_epilogue_cut1.jpg" fade(0.3,linear)
+
+say "她们被蒙蔽了双眼，从而拒绝了“神”赐予他们的“生”。
+这跟Arcaea最后的结局有何区别？她们已经完全接纳了“$e:死$”。
+这真的太令人惋惜了。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "$e:……于是？……于是，$「我」记住了：
+那再次浮出水面的古早历史，你同我曾一同见证。
+但你知道吗？我不喜欢讲述它的方式。"
+
+hidetextbox
+wait 2.0
+
+hide "lephon/lephon_epilogue_cut2.jpg" fade(0.3,linear)
+show "lephon/lephon_epilogue.jpg" 0:0.6 0:0.6 0.9:0.9 fade(3,linear) normal
+move "lephon/lephon_epilogue.jpg" -50:0 20 sineout
+wait 6.0
+
+say "所以我决定换种方式去讲述它。
+旧的秩序不再有效的时候，就应该被打破——
+$e:新的秩序就是这样而来，为玷污和毁坏而生。$"
+
+wait 2.0
+show "lephon/lephon_epilogue_cut1.jpg" 0.2:0 0.2:0 1.3:1.3 fade(3,linear) normal
+scale "lephon/lephon_epilogue_cut1.jpg" 1.6:1.6 29 sineout
+
+say "你的残影，那些也许能污染你灵魂那纯洁色彩的阴暗面……
+最好$e:再无人能够想起$。"
+
+say "不过，即使有些东西就该被遗忘……
+$e:你也应该永远铭记自己的名字。$"
+
+auto 1
+
+say ""
+
+wait 4
+
+volume "lephon_story.ogg" 0.3 5.0
+
+wait 5
+
+stop "lephon_story.ogg" 2.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 5.5
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2
+show "TBC2.png" 0.5:0.5 0.5:0.5 0.35:0.35 fade(2.5,linear) normal
+
+wait 7
+
+hide "TBC2.png" fade(5,linear)
+
+wait 5

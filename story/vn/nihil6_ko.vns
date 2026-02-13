@@ -239,26 +239,26 @@ move "nihil/nihil_2.jpg" -5:0 0.05 linear
 wait 0.05
 wait 1.23
 
-auto 2.2
+autoplay_legacy 2.2
 play "alter_ego_mini.ogg" 0.6
 volume "alter_ego_mini.ogg" 1.0 9
 move "nihil/nihil_2.jpg" 0:50 17 sineout
 scale "nihil/nihil_2.jpg" 0.48:0.48 14 sineout
 
-say "유리에 칼날이 부딪히자 물방울이 촤악 튀었어."
+say_legacy "유리에 칼날이 부딪히자 물방울이 촤악 튀었어."
 
 play "splash.ogg" 1.0
 
-say "나와 레테가 자아내는 격렬하고 악랄한 춤."
+say_legacy "나와 레테가 자아내는 격렬하고 악랄한 춤."
 
 play "clash.ogg" 1.0
 volume "thump.ogg" 0.5 0.4
 
-say "나를 죽이려는 목적으로 낫을 휘두르는 레테."
+say_legacy "나를 죽이려는 목적으로 낫을 휘두르는 레테."
 
 volume "thump.ogg" 0.8 4.0
 
-say "그 얼굴을 향해 빛나는 유리 조각을 날리는 나."
+say_legacy "그 얼굴을 향해 빛나는 유리 조각을 날리는 나."
 
 play "slice.ogg" 1.0
 play "shine.ogg" 0.5
@@ -280,11 +280,11 @@ scale "nihil/nihil_2.jpg" 0.41:0.41 3.7 sineout
 hide "nihil/nihil_2.jpg" fade(10,linear)
 wait 1.23
 
-say "머릿속이 울려. 역겨워서 뱃속이 뒤틀리는 것 같아."
+say_legacy "머릿속이 울려. 역겨워서 뱃속이 뒤틀리는 것 같아."
 
 show "black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0.1,linear) normal
 stop "wind.ogg" 0.3
 stop "rain.ogg" 0.3
 stop "thump.ogg" 0.3
 
-say "나는 실패했어. 내가 여기서 뭘 하든 아무런 의미가 없어."
+say_legacy "나는 실패했어. 내가 여기서 뭘 하든 아무런 의미가 없어."

@@ -1204,24 +1204,24 @@ play "lastVocal_A_epilogue.ogg" 1
 wait 0.1
 scale "epilogue/last2_epilogue.jpg" 0.72:0.72 33 sineout
 hide "2white.png" fade(12,sineout)
-auto 5.25
+autoplay_legacy 5.25
 
 
-say "目を開き、しっかりと前を見て、胸いっぱいに息を採り入れる。
+say_legacy "目を開き、しっかりと前を見て、胸いっぱいに息を採り入れる。
 知らない明日、となりの女の子、
 見たことのない人々、そして、隠された場所。"
 
-say "心に広がる様々な想いを、白の少女は慈しむように抱えていく。"
+say_legacy "心に広がる様々な想いを、白の少女は慈しむように抱えていく。"
 
-auto 5.4
+autoplay_legacy 5.4
 
-say "そうして、対立の手を取った。"
+say_legacy "そうして、対立の手を取った。"
 
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.09,linear) normal
 
-auto 2
+autoplay_legacy 2
 
-say "彼女たちはまだ、前に進んでいくのだから。"
+say_legacy "彼女たちはまだ、前に進んでいくのだから。"
 
 wait 0 clear
 hide "black.png" fade(0,linear)

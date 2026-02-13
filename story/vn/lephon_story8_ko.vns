@@ -1,0 +1,129 @@
+wait 1.0
+
+play "voice_epilogue.ogg" 1.0 loop
+
+wait 2.0
+
+say "$e:들어봐.$"
+
+volume "voice_epilogue.ogg" 3.5 6
+
+wait 2.0
+say ""
+wait 1.0
+
+say "$e:신에게 규칙 따윈 없어.$
+규칙조차 $e:신$이 만드는 거니까.$"
+
+say "$e:법$과 $e:질서$는 $e:신$의 의지에 따라 세워진 거야."
+
+wait 2.0
+
+play "tension.ogg" 1.0 loop
+
+say "$e:‘자연’의 신도 있고, ‘허무’의 신도 있지.$
+위대한 이름을 지닌 위대한 신들. 멍청한 신들과 감히 말할 수 없는 이름을 지닌 신들.
+그리고, 우리 인간 신들."
+
+wait 2.0
+stop "voice_epilogue.ogg" 0.3
+
+say "나는 $e:여덟 번째$. $e:혜안$이야.
+그런데 우리 작은 친구, 내 진명을 감히 알게 되다니.
+비밀 이야기를 엿들었구나?"
+
+wait 2.0
+stop "tension.ogg" 4.0
+
+say "조형자, 초월자, 추적자. 그게 바로 $e:‘나’$. 완벽하고, 무한하며, 전지한 존재.
+이걸 $e:‘신’$ 이외에 어떻게 표현하겠어?"
+
+hidetextbox
+
+wait 5.0
+play "lephon_story.ogg" 0 loop 72221:143331
+volume "lephon_story.ogg" 1.0 5.0
+wait 6.0
+show "lephon/arc6_bg3.jpg" 0.5:1 0.5:1 1:1 fade(8,linear) normal
+move "lephon/arc6_bg3.jpg" 0:800 30 sineout
+wait 14.0
+
+say "그리고, 이 신께서는 아량이 넓어서 말이야...
+$e:이 바래고 찢어진 장막의 세계를 다시 이어 붙이고 싶단 말이지.$
+그런데, $e:이 세계는 자꾸 무너져 내리고 말아.$"
+
+hidetextbox
+
+wait 4.0
+show "lephon/lephon_epilogue_cut1.jpg" 0:0 0:0 1.2:1.2 fade(3,linear) normal
+move "lephon/lephon_epilogue_cut1.jpg" -40:0 15 sineout
+wait 5.0
+hide "lephon/arc6_bg3.jpg" fade(0.3,linear)
+
+say "아, 우리 ‘자매님’과 그 소중한 친구의 모습이 '다른 눈'에 비치고 있네.
+죽어가는 $e:아르케아$...
+이 세계를 헤쳐 나가고 있는 모습이."
+
+wait 2.0
+show "lephon/lephon_epilogue_cut2.jpg" 1:0.1 1:0.1 0.8:0.8 fade(1.5,linear) normal
+move "lephon/lephon_epilogue_cut2.jpg" 300:0 35 sineout
+
+wait 2.0
+hide "lephon/lephon_epilogue_cut1.jpg" fade(0.3,linear)
+
+say "바보들이야. ‘신성’을 버리고 ‘삶’을 택하다니.
+아르케아와 같은 선택을 했어. 즉 $e:‘죽음’$을 받아들였다는 뜻이야.
+슬프기도 해라."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "있지, ‘$e:나$’는 기억해.
+그 옛 역사를, 네가 목도했던 그 순간들을.
+하지만 그게 전해진 방식은 마음에 안 들어."
+
+hidetextbox
+wait 2.0
+
+hide "lephon/lephon_epilogue_cut2.jpg" fade(0.3,linear)
+show "lephon/lephon_epilogue.jpg" 0:0.6 0:0.6 0.9:0.9 fade(3,linear) normal
+move "lephon/lephon_epilogue.jpg" -50:0 20 sineout
+wait 6.0
+
+say "그래서 나만의 방식으로 그 이야기를 말해주려고 해.
+옛날에 쓰인 규칙이 쓸모가 없으면, 어겨도 상관없는 법이잖아?
+$e:그리고 새로운 규칙이 그 자리를 차지하는 게 옳은 도리지.$"
+
+wait 2.0
+show "lephon/lephon_epilogue_cut1.jpg" 0.2:0 0.2:0 1.3:1.3 fade(3,linear) normal
+scale "lephon/lephon_epilogue_cut1.jpg" 1.6:1.6 29 sineout
+
+say "네 영혼을 물들일지도 모르는 어두웠던 시절의 너, 네 자아의 조각.
+모두 $e:잊어버리는 게$ 좋을 거야."
+
+say "...하지만, 그렇게 잊히는 게 좋은 역사도 있는 법이지만...
+$e:네 이름만큼은, 절대로 잊지 않는 게 좋을 거야.$"
+
+auto 1
+
+say ""
+
+wait 4
+
+volume "lephon_story.ogg" 0.3 5.0
+
+wait 5
+
+stop "lephon_story.ogg" 2.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 5.5
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2
+show "TBC2.png" 0.5:0.5 0.5:0.5 0.35:0.35 fade(2.5,linear) normal
+
+wait 7
+
+hide "TBC2.png" fade(5,linear)
+
+wait 5

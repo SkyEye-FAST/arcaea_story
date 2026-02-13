@@ -555,33 +555,33 @@ wait 0.1
 hide "2white.png" fade(20,linear)
 move "finale/bg3.jpg" 0:1800 40 sineoutin
 
-auto 6
+autoplay_legacy 6
 
-say "평생 암막은 내려오지 않을 거야. 이 이야기에 ‘끝’은 없으니까."
+say_legacy "평생 암막은 내려오지 않을 거야. 이 이야기에 ‘끝’은 없으니까."
 
-say "이 세계엔 의미가 없거든. 네가 원하던 바잖아?"
+say_legacy "이 세계엔 의미가 없거든. 네가 원하던 바잖아?"
 
 volume "testifyStoryFull.ogg" 0.15 10
 
-say "망자의 세계에서 외로이 눈물을 흘리는 소녀가 있을 뿐이야."
+say_legacy "망자의 세계에서 외로이 눈물을 흘리는 소녀가 있을 뿐이야."
 
-auto 4
+autoplay_legacy 4
 
-say "그래도 변하지 않는 하나의 진실. 
+say_legacy "그래도 변하지 않는 하나의 진실. 
 이 세계에서 너를 내보낼 수도 있었던 소녀의 피와 함께 너에게 스며든 단 하나의 진실을 위안삼길 바래."
 
 volume "testifyStoryFull.ogg" 0.01 5
 wait 2
 hide "finale/bg3.jpg" fade(6,linear)
-auto 3
+autoplay_legacy 3
 
-say "그래."
+say_legacy "그래."
 
 stop "testifyStoryFull.ogg" 3
 wait 3
 stop "glassRain.ogg" 8
-auto 6
+autoplay_legacy 6
 
-say "이 세계는 낙원이 되었어."
+say_legacy "이 세계는 낙원이 되었어."
 
 wait 8

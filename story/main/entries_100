@@ -1,58 +1,68 @@
 {
-	"entries": [{
-		"minor": 1,
-		"storyType": "vn",
-		"storyData": "meeting",
-		"requiredPack": "rei",
-		"clearSongId": "grievouslady",
-		"clearCharaId": 15,
-		"alternatePrefix": "V",
-		"additionalRequires": ["1-9", "2-9"],
-		"charIcon1": 0,
-		"charIcon2": 1
-	},
-	{
-		"minor": 2,
-		"storyType": "nvl",
-		"requiredPack": "prelude",
-		"clearSongId": "saintorsinner",
-		"clearCharaId": 1,
-		"alternatePrefix": "V",
-		"charIcon1": 0,
-		"charIcon2": 1
-	},
-	{
-		"minor": 3,
-		"storyType": "nvl",
-		"requiredPack": "prelude",
-		"clearSongId": "vindication",
-		"clearCharaId": 0,
-		"requiredMinor": 2,
-		"alternatePrefix": "V",
-		"charIcon1": 0,
-		"charIcon2": 1
-	},
-	{
-		"minor": 4,
-		"storyType": "nvl",
-		"requiredPack": "prelude",
-		"clearSongId": "heavensdoor",
-		"clearCharaId": 0,
-		"requiredMinor": 3,
-		"alternatePrefix": "V",
-		"charIcon1": 0,
-		"charIcon2": 1
-	},
-	{
-		"minor": 5,
-		"storyType": "vn",
-		"storyData": "prelude",
-		"requiredPack": "prelude",
-		"clearSongId": "ringedgenesis",
-		"clearCharaId": 1,
-		"requiredMinor": 4,
-		"alternatePrefix": "V",
-		"charIcon1": 0,
-		"charIcon2": 1
-	}]
+    "entries": [{
+        "minor": 1,
+        "storyType": "vn",
+        "storyData": "meeting",
+        "requiredPurchase": "rei",
+        "clearSongId": "grievouslady",
+        "clearCharaId": 15,
+        "alternatePrefix": "V",
+        "alternateSuffix": "0",
+        "additionalRequires": ["1-9", "2-9"],
+        "charIcon1": 0,
+        "charIcon2": 1,
+        "icon": "entry_con"
+    },
+    {
+        "minor": 2,
+        "storyType": "nvl",
+        "requiredPurchase": "prelude",
+        "clearSongId": "saintorsinner",
+        "clearCharaId": 1,
+        "alternatePrefix": "V",
+        "alternateSuffix": "1",
+        "charIcon1": 0,
+        "charIcon2": 1,
+        "icon": "entry_prelude"
+    },
+    {
+        "minor": 3,
+        "storyType": "nvl",
+        "requiredPurchase": "prelude",
+        "clearSongId": "vindication",
+        "clearCharaId": 0,
+        "requiredMinor": 2,
+        "alternatePrefix": "V",
+        "alternateSuffix": "2",
+        "charIcon1": 0,
+        "charIcon2": 1,
+        "icon": "entry_prelude"
+    },
+    {
+        "minor": 4,
+        "storyType": "nvl",
+        "requiredPurchase": "prelude",
+        "clearSongId": "heavensdoor",
+        "clearCharaId": 0,
+        "requiredMinor": 3,
+        "alternatePrefix": "V",
+        "alternateSuffix": "3",
+        "charIcon1": 0,
+        "charIcon2": 1,
+        "icon": "entry_prelude"
+    },
+    {
+        "minor": 5,
+        "storyType": "vn",
+        "storyData": "prelude",
+        "requiredPurchase": "prelude",
+        "clearSongId": "ringedgenesis",
+        "clearCharaId": 1,
+        "requiredMinor": 4,
+        "alternatePrefix": "V",
+        "alternateSuffix": "4",
+        "charIcon1": 0,
+        "charIcon2": 1,
+        "icon": "entry_prelude"
+    }]
 }

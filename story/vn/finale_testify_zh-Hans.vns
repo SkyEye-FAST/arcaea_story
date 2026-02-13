@@ -557,34 +557,34 @@ wait 0.1
 hide "2white.png" fade(20,linear)
 move "finale/bg3.jpg" 0:1800 40 sineoutin
 
-auto 6
+autoplay_legacy 6
 
-say "帷幕并不会就此落下。这个故事永远也不会有\"尽头\"。"
+say_legacy "帷幕并不会就此落下。这个故事永远也不会有\"尽头\"。"
 
-say "只是，这个地方已经没有什么意义，就和你所想的一样——"
+say_legacy "只是，这个地方已经没有什么意义，就和你所想的一样——"
 
 volume "testifyStoryFull.ogg" 0.15 10
 
-say "不过是个哭泣的少女，独自一人置身于这个死寂的世界。"
+say_legacy "不过是个哭泣的少女，独自一人置身于这个死寂的世界。"
 
-auto 4
+autoplay_legacy 4
 
-say "但至少，以牺牲那名少女为代价，你得到了一个值得欣慰的真相。
+say_legacy "但至少，以牺牲那名少女为代价，你得到了一个值得欣慰的真相。
 虽然她差点就能带你离开这里。
 这是用少女血的教训换来的真相——"
 
 volume "testifyStoryFull.ogg" 0.01 5
 wait 2
 hide "finale/bg3.jpg" fade(6,linear)
-auto 3
+autoplay_legacy 3
 
-say "没错。"
+say_legacy "没错。"
 
 stop "testifyStoryFull.ogg" 3
 wait 3
 stop "glassRain.ogg" 8
-auto 6
+autoplay_legacy 6
 
-say "这里一直以来都是一片乐园。"
+say_legacy "这里一直以来都是一片乐园。"
 
 wait 8

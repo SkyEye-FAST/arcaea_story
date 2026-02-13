@@ -1,0 +1,647 @@
+wait 1.5
+play "quake.ogg" 1.0
+play "fracture2_epilogue.ogg" 1.0
+wait 0.5
+play "burst.ogg" 1.0
+wait 0.6
+play "glassRain.ogg" 0.0 loop
+volume "glassRain.ogg" 4.0 4.0
+wait 2.0
+
+show "lephon/lephon_1_cut1.jpg" 1:1 1:1 1.0:1.0 fade(3,linear) normal
+move "lephon/lephon_1_cut1.jpg" 700:0 35 sineout
+
+wait 1.0
+
+play "lephon_menu.ogg" 1.0 loop 89537:178153
+
+say "Two Seekers met and clashed.
+New light cascaded around them, and power whipped out between the two like typhoon gales."
+
+show "lephon/lephon_2_cut1.jpg" 1:1 1:1 1.0:1.0 fade(3,linear) normal
+move "lephon/lephon_2_cut1.jpg" 700:0 35 sineout
+
+say "Although she was young, \"Compassion\" was determined to have Faith's head.
+Faith saw this, saw that L was still trying to help her teacher, and so went to L instead."
+
+play "ruffle.ogg" 2.0
+
+stop "glassRain.ogg" 6.0
+
+say "She left their fighting briefly, and went straight to the child.
+She grabbed the child's right wrist, pulled it up—"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "stab.ogg" 4.0
+wait 0.1
+
+hide "red.png" fade(1.0,linear)
+wait 1.0
+hide "lephon/lephon_1_cut1.jpg" fade(0.1,linear)
+hide "lephon/lephon_2_cut1.jpg" fade(0.1,linear)
+
+say "—and using her spear, she took the limb from L."
+
+play "ring.ogg" 3.0
+
+say "L looked at the limb she'd lost as the 2nd dropped it callously to float through space, 
+and she soon felt her consciousness fading. 
+Nell shivered and froze on seeing this—so Faith returned to her."
+
+say "Faith took Nell's shoulder—
+drew back her spear again—
+and, quickly—"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "fracture1_epilogue.ogg" 3.0
+play "strike.ogg" 4.0
+wait 2.0
+hide "white.png" fade(3.0,linear)
+hide "black.png" fade(0.3,linear)
+
+say "She ran the spear through the young woman's body, the seams of reality 
+warping upon contact—undoing \"who\" Nell \"was\"."
+
+say "So, in almost an instant, Nell had gone.
+The child meanwhile... went still, and cold."
+
+wait 0.25
+
+show "lephon/lephon_1_cut2.jpg" 1:0.5 1:0.5 1.0:1.0 fade(0,linear) normal
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 0.2
+
+show "black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+show "2black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+show "3black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+
+move "black_fade.png" -1636:0 0 linear
+move "2black_fade.png" -1636:0 0 linear
+move "3black_fade.png" -1636:0 0 linear
+
+wait 0.05
+
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+show "bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+hide "5black.png" fade(3.0,linear)
+
+say "L... believed in nothing.
+Belief drives, but it's fickle and can change. Knowledge, logic, certainty—
+the stuff that makes Lephon the better place; that all drove the girl."
+
+move "black_fade.png" 3000:0 0.3 sinein
+play "thump.ogg" 3.0
+
+show "lephon/3lephon_1_cut2.jpg" 1.02:0.5 1.02:0.5 1.0:1.0 fade(17,linear) normal
+wait 0.01
+show "3black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+show "3bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "3bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+play "tunnel.ogg" 3.0
+
+say "So now Nell was dead.
+She watched the 2nd cast aside her teacher's body through a wide and quivering stare."
+
+hide "black_fade.png" fade(0.3,linear)
+move "2black_fade.png" 3000:0 0.3 sinein
+move "3black_fade.png" 3000:0 0.75 sinein
+wait 0.5
+play "thump.ogg" 3.0
+wait 0.7
+play "thump.ogg" 3.0
+show "lephon/2lephon_1_cut2.jpg" 1:0.5 1:0.5 1.11:1.11 fade(6,linear) normal
+
+show "2black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+
+show "2bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "2bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+scale "lephon/2lephon_1_cut2.jpg" 1.0:1.0 4 sinein
+wait 0.1
+volume "lephon_menu.ogg" 0.0 8.0
+hide "2black_fade.png" fade(0.3,linear)
+hide "3black_fade.png" fade(0.3,linear)
+
+say "She breathed heavily. Though gravely wounded, her thoughts were now clear again. 
+She turned her eyes to Lephon's back, and as those eyes began to dry—began to bleed, 
+brain pounding, she stopped the flow of time."
+
+hide "lephon/lephon_1_cut2.jpg" fade(0.2,linear)
+hide "lephon/3lephon_1_cut2.jpg" fade(0.2,linear)
+hide "lephon/2lephon_1_cut2.jpg" fade(0.3,linear)
+hide "black_left.png" fade(2.0,linear)
+hide "2black_left.png" fade(2.0,linear)
+hide "3black_left.png" fade(2.0,linear)
+
+hidetextbox
+wait 4.0
+
+hide "2bar_bottom.png" fade(0.3,linear)
+hide "2bar_top.png" fade(0.3,linear)
+hide "3bar_bottom.png" fade(0.3,linear)
+hide "3bar_top.png" fade(0.3,linear)
+hide "bar_top.png" fade(0.3,linear)
+hide "bar_bottom.png" fade(0.3,linear)
+
+show "lephon/arc6_bg1.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.2,linear) normal
+wait 0.3
+hide "lephon/arc6_bg1.jpg" fade(0.3,linear)
+wait 0.4
+show "lephon/lephon_bg1.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.2,linear) normal
+wait 0.3
+hide "lephon/lephon_bg1.jpg" fade(0.3,linear)
+wait 0.5
+wait 1.0
+play "lephon_title.ogg" 1.0 loop 93728:170530
+stop "lephon_menu.ogg" 4.0
+wait 4.0
+
+say "The name her first love gave her was \"L\"—simple and honest, but it became affectionate. 
+Still, it was only one letter of her true name."
+
+show "lephon/lephon_1_cut3.jpg" 0.2:0 0.2:0 0.7:0.7 fade(9,linear) normal
+move "lephon/lephon_1_cut3.jpg" -60:0 26 sineout
+
+say "Her name is special. A name without meaning apart from what she grants it.
+Now hallowed within Arcaea's heart, it is the name of a new being beyond all."
+
+say "This is true:
+\"Lephon\" is One God."
+
+say "\"$e:Lacrymira$\" is Another."
+
+wait 2.0
+
+hide "lephon/lephon_1_cut3.jpg" fade(0,linear)
+
+hidetextbox
+
+wait 4.0
+
+show "lephon/lephon_bg2.jpg" 0.5:0 0.5:0 1.6:1.6 fade(6,linear) normal
+move "lephon/lephon_bg2.jpg" 0:-1700 41 sineout
+
+play "ascension.ogg" 0 loop
+volume "ascension.ogg" 2.4 4.0
+
+say "She looked into His Spine, into His Heart, 
+and she saw there the shade of His soul. 
+...So, she commanded Him."
+
+say "—Lephon,
+is in many ways inscrutable.
+He does not hear prayer for He cannot hear. He does not listen to His children."
+
+say "But still: to command Him—that's no miracle.
+That is only the end of a hundred thousand ways; divine.
+And to call it \"fate\" would be trite, too."
+
+hide "lephon/lephon_bg2.jpg" fade(1.5,linear)
+
+say "It is undeniable: Lacrymira was deserving."
+
+hidetextbox
+
+wait 2.5
+
+show "lephon/lephon_1.jpg" 0.5:0 0.5:0 1.5:1.5 fade(0.2,linear) normal
+show "lephon/2_lephon_1.jpg" 0.5:0 0.5:0 1.8:1.8 fade(6,linear) normal
+
+scale "lephon/lephon_1.jpg" 1.6:1.6 30 sineout
+scale "lephon/2_lephon_1.jpg" 1.5:1.5 4 sinein
+wait 0.5
+move "lephon/lephon_1.jpg" 0:-100 30 sineout
+move "lephon/2_lephon_1.jpg" 0:-100 30 sineout
+
+say ""
+
+hide "lephon/2_lephon_1.jpg" fade(3,linear)
+
+say "Hollowed and dried nerves long quiet of synaptic pulse warmed now with recognition.
+That stoney back stirred with old feeling. The Heart of God shook,
+and, for a moment, the Air went still."
+
+say "This reality changed then. All \"knew\", all innately recognized that girl.
+Changing Lephon at its core, she became Rule itself."
+
+say "The girl spoke to God and made Him hear. She made her voice reach depths 
+that only her eyes could see.
+Those eyes Lephon had blessed her with, and the hands and fingers He had given her too."
+
+say "She spoke in a tongue she did not know, but felt; told dead Lephon her desire.
+Give a number, give a name—give perfection in these symbols, 
+and grant this holy one everything."
+
+show "lephon/lephon_1_cut3.jpg" 1:0 1:0 0.8:0.8 fade(4.5,linear) normal
+move "lephon/lephon_1_cut3.jpg" 0:-150 35 sineout
+
+say "Not just any number and name: \"hers\". Nell's.
+Nell was one person who did not deserve grace.
+Lephon agreed. Lacrymira would instead become his Legacy."
+
+say "She raised her arm toward His bones.
+And there, she shaped the lingering will of God."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+volume "ascension.ogg" 0.0 4.0
+hidetextbox
+
+wait 2.0
+hide "lephon/lephon_1.jpg" fade(0.3,linear)
+hide "lephon/lephon_1_cut3.jpg" fade(0.3,linear)
+show "lephon/designant_j.jpg" 1:0 1:0 1.8:1.8 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-210 16 sineout
+
+say "A new color was born amidst the forest of giant's gold threads. 
+It was Her, Lacrymira, and it shined cold throughout all of space, 
+into His Ribs and Spine, and beyond to the Terra and the Air."
+
+hide "lephon/designant_j.jpg" fade(0.3,linear)
+hide "black.png" fade(0.3,linear)
+wait 1.0
+show "lephon/designant_j.jpg" 0:0.2 0:0.2 1.8:1.8 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-210 16 sineout
+
+say "Power filled Her body. Her right arm found its way back to Her, 
+and She began to re-shape Herself to seal any wounds."
+
+hide "lephon/designant_j.jpg" fade(0.3,linear)
+wait 1.0
+show "lephon/designant_j.jpg" 0.5:0.6 0.5:0.6 1.5:1.5 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-180 16 sineout
+
+say "Lephon had listened to Her, and now He spoke again.
+She would arise here, behind Him—and after Him:
+Lacrymira, or—The Ascendent - 8th Seeker:"
+
+say "\"$e:Insight$\"."
+
+wait 2.0
+
+say "After the flow of time resumed, She set Her healed eyes on the 2nd.
+Witnessing the risen Insight, Faith realized with pain that Lephon's will had been set.
+She fought against it—she did, but it was with the same futility as to fight a wave."
+
+hide "lephon/designant_j.jpg" fade(1.5,linear)
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(0.3,linear)
+wait 0.2
+play "fracture5_epilogue.ogg" 3.0
+volume "lephon_title.ogg" 0.0 8.0
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "2white.png" fade(0.75,linear)
+
+say "Lacrymira overwhelmed her, and pressed her down against new land She had made. 
+She summoned a miniature star above Faith's back, and made it collapse there—
+rending the Seeker's body to nothing in only a few moments."
+play "fracture4_epilogue.ogg" 3.0
+
+say "She dismissed the destroyed star and after: all was quiet again."
+
+say "The story steadily draws to its conclusion."
+
+play "sand_epilogue.ogg" 2.0
+
+say "Lacrymira did not leave Her mentor dead, She brought her down 
+to the land She had crafted and revived the young woman, bringing 
+her soul back and healing the body's wounds. "
+
+play "woosh.ogg" 1.0
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 8.0
+show "lephon/lephon_2_cut2.jpg" 0:1 0:1 1.1:1.1 fade(6,linear) normal
+move "lephon/lephon_2_cut2.jpg" -300:0 35 sineout
+
+say "But, with the two of them all alone there behind Lephon, Lacrymira standing and Nell on her knees,
+Nell knew at once what Lacrymira had done in her absence—and she went a new kind of cold.
+In all that it means: Nell had failed her child."
+
+show "lephon/lephon_2_cut3.jpg" 0:1 0:1 1.6:1.6 fade(3,linear) normal
+move "lephon/lephon_2_cut3.jpg" -150:0 17.5 sineout
+
+say "\"...\"
+Lacrymira looked down upon her silently. She looked deeply into her—into the core of her being.
+And She asked, \"...Nell, why won't you come with me?\""
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "It hadn't been said. She could see in Her sister's heart that the two of them were not aligned.
+Within, She could see that her teacher wanted to \"beg her not to go\". Because
+She had floated that idea so many times before: to become a god, and leave the world behind."
+
+hide "lephon/lephon_2_cut2.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut3.jpg" fade(0.3,linear)
+show "lephon/lephon_2_cut4.jpg" 1:1 1:1 1.25:1.25 fade(3,linear) normal
+move "lephon/lephon_2_cut4.jpg" 100:0 17.5 sineout
+
+say "\"Nell... you're alive again so SPEAK to me,\" said God.
+Nell looked up at Her and finally replied, \"'Why won't I come'...? Why do you want to go?\""
+
+say "They both knew Her answer, and yet Lacrymira still gave it: \"I can't live for anyone but myself.\""
+
+say "\"You shouldn't either, Nell. You don't need to.
+You won't be thanked for it. You won't be praised.
+You will die at the hands of an angel, and no one but I will remember you.\""
+
+say "\"We don't have to die, L,\" her teacher answered. \"Stay, and we...\""
+
+say "Lacrymira slowly shook Her head. \"I can see it,\" She said,
+\"there isn't any saving us from that end. Every Shaper here will die.\""
+
+say "And Nell hung her head and shook it in turn. \"No,\" she said. \"I won't allow that—\""
+
+play "memoryShift.ogg" 1.0
+wait 0.5
+hide "black.png" fade(0.3,linear)
+hide "lephon/lephon_2_cut4.jpg" fade(0,linear)
+
+say "\"Shut UP!!\""
+
+say "Lacrymira roared. Her voice struck throughout everything, and made Nell for a moment still.
+When Nell looked back to Her, Her eyes stared back wrathful."
+
+say "\"I told you a lie, Nell,\" she continued in a trembling voice—trembling with rage,
+\"I can live for you. Do you need me to say it? Do you need me to enunciate?
+To put it to paper? To say so obviously that I love you!?\""
+
+show "lephon/lephon_2_cut5.jpg" 0.4:1 0.4:1 1.1:1.1 fade(4,linear) normal
+move "lephon/lephon_2_cut5.jpg" -300:0 35 sineout
+
+say "Hearing this, her mentor shook and broke in expression.
+Her eyes brimmed with tears, she hiccupped then.
+Tears fell from her face. She cried. She continued to cry."
+
+say "And Lacrymira, She shouted over Her mentor's tears—"
+
+say "\"Of course I love you! Why would I still be standing here if not for you? I won't leave you. I can't.
+You're too charming not to love.\""
+
+say "\"You're nearly everything to me...
+I don't want you to die! I hate the idea of you dying, Nell!\""
+
+say "\"And great, now you're crying. Crying... And now you won't answer me!
+Forlorn Nell, always caring and caring...! I could hate you for it. I do. I hate that in you, completely.
+You waste everything you are on people so much less than you!\""
+
+show "lephon/lephon_2_1.jpg" 0.5:0.6 0.5:0.6 1:1 fade(3,linear) normal
+
+say "She stopped speaking. Her body was trembling now. Her cold eyes fell on the girl beneath her.
+Nell shook her head. She would not abandon anyone.
+Anyone, but for L."
+
+say "And Lacrymira told her, with a voice like ice: \"You're sad.\""
+
+say "\"That's right,\" God repeated, \"you're '$e:Forlorn$', and 8 can't belong to you.\""
+
+say "Nell stared up at her student, who was now staring into Lephon's back."
+
+say "\"You deserve a mark of ruin,\" said Lacrymira.
+\"You deserve a hex. You will be '$e:6$'. Bear that cursed symbol forever.\""
+
+play "epilogue_accept.ogg" 1.0
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "2white.png" fade(0.75,linear)
+
+say "Deep in Lephon's heart, something new was 
+scrawled upon a black canvas, and it became the new truth. 
+Now changed, the only words \"Forlorn\" could give her student were \"I'm sorry...\""
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+stop "wind.ogg" 5.0
+
+say "And Lacrymira answered, \"You are.
+But, Nell... I love you for that, too.\""
+
+unload_textures
+hidetextbox
+
+wait 2.0
+play "swan_song_story.ogg" 1.0 loop
+stop "lephon_title.ogg" 3.0
+stop "ascension.ogg" 3.0
+wait 1.0
+hide "lephon/lephon_2_cut5.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_1.jpg" fade(0.3,linear)
+show "lephon/lephon_2_cut6.jpg" 1:1 1:1 1.5:1.5 fade(4,linear) normal
+wait 7
+
+say "A tear in space opened behind the new God: a gate to elsewhere."
+
+hidetextbox
+wait 1.5
+show "lephon/lephon_2_cut7.jpg" 0:1 0:1 1.1:1.1 fade(4,linear) normal
+move "lephon/lephon_2_cut7.jpg" 0:300 20 sineout
+wait 5.0
+show "lephon/lephon_2_cut8.jpg" 0.5:0.35 0.5:0.35 1.2:1.2 fade(4,linear) normal
+move "lephon/lephon_2_cut8.jpg" 0:-300 20 sineout
+wait 5.0
+
+say "She bent, and held Nell's face gently by one hand. 
+She laid Her lips on Her sister's cheek."
+
+wait 3.0
+show "lephon/lephon_2_2.jpg" 0.5:0.6 0.5:0.6 1:1 fade(3,linear) normal
+wait 3.0
+
+say "She lingered.
+She thought, for a moment, to stay."
+
+hide "lephon/lephon_2_cut6.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut7.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut8.jpg" fade(0.3,linear)
+
+wait 0.7
+show "lephon/lephon_2_1.jpg" 0.5:0.6 0.5:0.6 1:1 fade(0.8,linear) normal
+wait 0.8
+hide "lephon/lephon_2_2.jpg" fade(0.3,linear)
+
+say "...She stood, and She turned;
+away from Her teacher, and away from Lephon.
+For longer, Her hand stayed at her sister's cheek."
+
+say "She took it away. She hid Her face.
+She stepped through the gate."
+
+hide "black.png" fade(0.1,linear)
+hide "lephon/lephon_2_1.jpg" fade(0.1,linear)
+
+say "...It closed, and She was gone."
+
+hidetextbox
+
+wait 2.0
+show "../../cg/E-1_epilogue.jpg" 1:0 1:0 1.5:1.5 fade(0.5,linear) normal
+move "../../cg/E-1_epilogue.jpg" 300:0 0.5 sineout
+wait 0.5
+move "../../cg/E-1_epilogue.jpg" 50:0 20 sineout
+
+say "One final story remains for the Shapers, but it has already 
+been told by another—in another place."
+
+hide "../../cg/E-1_epilogue.jpg" fade(0.3,linear)
+wait 0.4
+show "../../cg/E-1_epilogue.jpg" 0.7:0.5 0.7:0.5 1.5:1.5 fade(0.5,linear) normal
+move "../../cg/E-1_epilogue.jpg" 300:0 10 sineout
+
+say "The story of when the one you'd call \"Tairitsu\" died, where Nell had died before her in vain.
+Because \"Powers\" are \"power\". One can coax them, one can shift them, 
+but on Lephon they always \"are\". "
+
+hide "../../cg/E-1_epilogue.jpg" fade(0.3,linear)
+wait 0.4
+show "../../cg/E-1_epilogue.jpg" 0.5:1 0.5:1 1.5:1.5 fade(3,linear) normal
+scale "../../cg/E-1_epilogue.jpg" 0.9:0.9 16 sinein
+
+say "An Angel descended.
+For the second and final time, the Shapers had a reckoning."
+
+say "But... The Eternal One was not there. She remains, and has remained for a very long time.
+Many years have passed. Centuries, maybe—although 
+another might order events incorrectly, and tell you on top of that that \"it wasn’t long ago...\""
+
+hide "../../cg/E-1_epilogue.jpg" fade(0,linear)
+
+hidetextbox
+
+wait 4.0
+show "meeting/bg.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.3,linear) normal
+wait 0.38
+hide "meeting/bg.jpg" fade(0.3,linear)
+wait 0.38
+
+show "nihil/bg_cut3.jpg" 0.5:1 0.5:1 1.4:1.4 fade(0.3,linear) normal
+wait 0.38
+hide "nihil/bg_cut3.jpg" fade(0.3,linear)
+wait 0.38
+
+show "finale/bg3.jpg" 0.5:0.2 0.5:0.2 1.6:1.6 fade(0.3,linear) normal
+wait 0.38
+hide "finale/bg3.jpg" fade(0.3,linear)
+wait 0.38
+
+show "vs/bg.jpg" 0.5:0.3 0.5:0.3 1.6:1.6 fade(0.3,linear) normal
+move "vs/bg.jpg" 0:-850 8 sinein
+wait 7.0
+hide "vs/bg.jpg" fade(1,linear)
+wait 0.9
+
+show "epilogue/last1_epilogue.jpg" 0.5:0.4 0.5:0.4 1.2:1.2 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+scale "epilogue/last1_epilogue.jpg" 1:1 0.3 sineout
+move "epilogue/last1_epilogue.jpg" -30:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+wait 0.2
+hide "2white40.png" fade(3.5,sineout)
+wait 4.0
+
+show "finale/bg_distance.jpg" 0.4:0.4 0.4:0.4 1:1 fade(3,linear) normal
+move "finale/bg_distance.jpg" -30:-20 10 easeout
+wait 5
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+unload_textures
+wait 6
+show "../../cg/16-7-2.jpg" 0.5:0.4 0.5:0.4 1.5:1.5 fade(4,linear) normal
+move "../../cg/16-7-2.jpg" 0:-90 15 easeout
+wait 6
+hide "../../cg/16-7-2.jpg" fade(5,linear)
+wait 4
+
+show "../../cg/16-7-1.jpg" 0.5:0.5 0.5:0.5 1.2:1.2 fade(5,linear) normal
+scale "../../cg/16-7-1.jpg" 0.9:0.9 8 sineout
+
+say "On Her journey, She found Arcaea.
+And with Nell's death, Arcaea has found Her old teacher too.
+...No: Lacrymira doesn't know this."
+
+hidetextbox
+wait 2.0
+
+hide "../../cg/16-7-1.jpg" fade(2,linear)
+wait 4.0
+show "../../cg/F-5.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.75
+
+show "../../cg/4-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/F-5.jpg" fade(0,linear)
+
+show "../../cg/11-8-2.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/4-1.jpg" fade(0,linear)
+
+show "../../cg/5-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/11-8-2.jpg" fade(0,linear)
+
+show "../../cg/3-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/5-1.jpg" fade(0,linear)
+
+show "../../cg/10-5.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/3-1.jpg" fade(0,linear)
+
+show "../../cg/7-6.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/10-5.jpg" fade(0,linear)
+
+show "../../cg/9-5.jpg" 0.5:1 0.5:1 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/7-6.jpg" fade(0,linear)
+
+show "../../cg/17-6-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.75
+hide "../../cg/9-5.jpg" fade(0,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 4.5
+hide "black.png" fade(0,linear)
+
+show "../../cg/2-1.jpg" 0.5:0.4 0.5:0.4 0.9:0.9 fade(1.5,linear) normal
+wait 6.5
+hide "../../cg/17-6-1.jpg" fade(0,linear)
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 5
+hide "2black.png" fade(0,linear)
+hide "../../cg/2-1.jpg" fade(0,linear)
+
+show "lephon/arc6_bg2.jpg" 0:0.7 0:0.7 1.3:1.3 fade(5,linear) normal
+move "lephon/arc6_bg2.jpg" -580:-70 25 sineout
+
+say "But—Arcaea's stories are not Lephon's. They can be told by another.
+This history has been conveyed. \"Stolen\", maybe. At any rate: recorded."
+
+say "Now...
+The new God's will is whim, and She is a capricious girl. 
+Her aims? Wouldn't you like to know them."
+
+say "Well but, have one truth before you go:
+Don't believe in Her.
+Belief makes \"truth\", after all."
+
+say "Because you see, while the creator of that place has lost her power—
+and while Arcaea may be dead or dying...
+this is so:"
+
+say "There, god is not."
+
+auto 1
+
+say ""
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+
+volume "swan_song_story.ogg" 0.0 12.0
+
+wait 12
+stop "swan_song_story.ogg" 1.0
+wait 1

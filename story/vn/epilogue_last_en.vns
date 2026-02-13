@@ -1021,24 +1021,24 @@ play "lastVocal_A_epilogue.ogg" 1
 wait 0.1
 scale "epilogue/last2_epilogue.jpg" 0.72:0.72 33 sineout
 hide "2white.png" fade(12,sineout)
-auto 5.25
+autoplay_legacy 5.25
 
 
-say "She lets her eyes open and she breathes in the air.
+say_legacy "She lets her eyes open and she breathes in the air.
 The unknowable winds ahead, the girl beside her,
 the faces she has not seen, and the hidden places beyond..."
 
-say "She holds all of it close to her heart."
+say_legacy "She holds all of it close to her heart."
 
-auto 5.4
+autoplay_legacy 5.4
 
-say "She takes Tairitsu's hand."
+say_legacy "She takes Tairitsu's hand."
 
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.09,linear) normal
 
-auto 2
+autoplay_legacy 2
 
-say "Because they will go on."
+say_legacy "Because they will go on."
 
 wait 0 clear
 hide "black.png" fade(0,linear)

@@ -553,33 +553,33 @@ wait 0.1
 hide "2white.png" fade(20,linear)
 move "finale/bg3.jpg" 0:1800 40 sineoutin
 
-auto 6
+autoplay_legacy 6
 
-say "The curtain will not draw to a close. This never \"ends\"."
+say_legacy "The curtain will not draw to a close. This never \"ends\"."
 
-say "There is no meaning to be found here. Like you wanted."
+say_legacy "There is no meaning to be found here. Like you wanted."
 
 volume "testifyStoryFull.ogg" 0.15 10
 
-say "Just another crying girl, alone in a world of the dead."
+say_legacy "Just another crying girl, alone in a world of the dead."
 
-auto 4
+autoplay_legacy 4
 
-say "At least there is one truth you could take comfort in, one fact irrefutable,
+say_legacy "At least there is one truth you could take comfort in, one fact irrefutable,
 now etched into you with the blood of the one girl who had been so near to taking you out of it."
 
 volume "testifyStoryFull.ogg" 0.01 5
 wait 2
 hide "finale/bg3.jpg" fade(6,linear)
-auto 3
+autoplay_legacy 3
 
-say "Yes."
+say_legacy "Yes."
 
 stop "testifyStoryFull.ogg" 3
 wait 3
 stop "glassRain.ogg" 8
-auto 6
+autoplay_legacy 6
 
-say "It was paradise."
+say_legacy "It was paradise."
 
 wait 8

@@ -1,96 +1,105 @@
 {
 	"entries": [{
 		"minor": 1,
-		"requiredPack": "gimmedablood",
+		"requiredPurchase": "gimmedablood",
 		"storyType": "nvl",
 		"clearSongId": "gimmedablood",
 		"clearCharaId": -1,
 		"charIcon1": 44,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_gimmedablood"
 	},
 	{
 		"minor": 2,
-		"requiredPack": "gimmedablood",
+		"requiredPurchase": "gimmedablood",
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "bookmaker",
 		"clearCharaId": -1,
 		"charIcon1": 44,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_gimmedablood"
 	},
 	{
 		"minor": 3,
-		"requiredPack": "gimmedablood",
+		"requiredPurchase": "gimmedablood",
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "darakunosono",
 		"clearCharaId": -1,
 		"charIcon1": 44,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_gimmedablood"
 	},
     {
         "minor": 4,
-        "requiredPack": "spiritdauntless",
-        "requiredPackAlternate": "diesirae",
+        "requiredPurchase": "spiritdauntless",
+        "requiredPurchaseAlternate": "diesirae",
         "storyType": "nvl",
         "clearSongId": "revixy",
         "clearCharaId": -1,
         "charIcon1": 44,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_mir2_1"
     },
     {
         "minor": 5,
-        "requiredPack": "spiritdauntless",
-        "requiredPackAlternate": "diesirae",
+        "requiredPurchase": "spiritdauntless",
+        "requiredPurchaseAlternate": "diesirae",
         "requiredMinor": 4,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 44,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_mir2_1"
     },
     {
         "minor": 6,
-        "requiredPack": "spiritdauntless",
-        "requiredPackAlternate": "diesirae",
+        "requiredPurchase": "spiritdauntless",
+        "requiredPurchaseAlternate": "diesirae",
         "requiredMinor": 5,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 44,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_mir2_1"
     },
     {
         "minor": 7,
-        "requiredPack": "spiritdauntless",
-        "requiredPackAlternate": "diesirae",
+        "requiredPurchase": "spiritdauntless",
+        "requiredPurchaseAlternate": "diesirae",
         "requiredMinor": 6,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 44,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_mir2_1"
     },
     {
         "minor": 8,
-        "requiredPack": "spiritdauntless",
-        "requiredPackAlternate": "diesirae",
+        "requiredPurchase": "spiritdauntless",
+        "requiredPurchaseAlternate": "diesirae",
         "requiredMinor": 7,
         "storyType": "nvl",
         "clearSongId": "espebranch",
         "clearCharaId": -1,
         "charIcon1": 44,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_mir2_2"
     },
     {
         "minor": 9,
-        "requiredPack": "spiritdauntless",
-        "requiredPackAlternate": "diesirae",
+        "requiredPurchase": "spiritdauntless",
+        "requiredPurchaseAlternate": "diesirae",
         "requiredMinor": 8,
         "storyType": "nvl",
         "clearSongId": "_readPreviousEntry",
         "clearCharaId": -1,
         "charIcon1": 44,
-        "charIcon2": -1
+        "charIcon2": -1,
+        "icon": "entry_mir2_3"
     }]
 }

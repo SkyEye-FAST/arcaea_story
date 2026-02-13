@@ -1,62 +1,68 @@
 {
 	"entries": [{
 		"minor": 1,
-		"requiredPack": "omatsuri",
+		"requiredPurchase": "omatsuri",
 		"storyType": "nvl",
 		"clearSongId": "chelsea",
 		"clearCharaId": 30,
 		"charIcon1": 30,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_kanae"
 	},
 	{
 		"minor": 2,
-		"requiredPack": "omatsuri",
+		"requiredPurchase": "omatsuri",
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "aiueoon",
 		"clearCharaId": 30,
 		"charIcon1": 30,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_kanae"
 	},
 	{
 		"minor": 3,
-		"requiredPack": "omatsuri",
+		"requiredPurchase": "omatsuri",
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "melodyoflove",
 		"clearCharaId": 30,
 		"charIcon1": 30,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_kanae"
 	},
 	{
 		"minor": 4,
-		"requiredPack": "omatsuri",
+		"requiredPurchase": "omatsuri",
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "tiemedowngently",
 		"clearCharaId": 30,
 		"charIcon1": 30,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_kanae"
 	},
 	{
 		"minor": 5,
-		"requiredPack": "omatsuri",
+		"requiredPurchase": "omatsuri",
 		"requiredMinor": 4,
 		"storyType": "nvl",
 		"clearSongId": "valhallazero",
 		"clearCharaId": 30,
 		"charIcon1": 30,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_kanae"
 	},
 	{
 		"minor": 6,
-		"requiredPack": "omatsuri",
+		"requiredPurchase": "omatsuri",
 		"requiredMinor": 5,
 		"storyType": "nvl",
 		"clearSongId": "hotarubinoyuki",
 		"storyCgPath": "app-data/story/cg/17-6-1.jpg",
 		"clearCharaId": 30,
 		"charIcon1": 30,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_kanae_boss"
 	}]
 }

@@ -281,13 +281,13 @@ play "quake.ogg" 0.15
 
 play "arcahvmini.ogg" 0.15
 
-auto 2.6
+autoplay_legacy 2.6
 
-say "A fracture splits across it.
+say_legacy "A fracture splits across it.
 It widens, carving a shape out of heaven, and that immense segment begins to plummet.
 Even more bizarrely, hundreds of images flash across it, blinking rapidly from one to the next."
 
-say "The world begins to fall into strange ruin.
+say_legacy "The world begins to fall into strange ruin.
 As Hikari bears witness to this, more satisfaction rises to her smile.
 The storm is still slow, the image—too fantastic."
 
@@ -299,19 +299,19 @@ hide "white.png" fade(5,linear)
 
 move "vs/bg.jpg" 0:-970 30 sineinout
 
-say "The sky—the genuine sky, not an artificial one—is falling, stopping, and falling again,
+say_legacy "The sky—the genuine sky, not an artificial one—is falling, stopping, and falling again,
 as if grand pieces of a celestial puzzle are being moved and switched by some befuddled god."
 
-say "And...
+say_legacy "And...
 watching it...
 her smile begins to gradually recede."
 
-say "The look in her eyes grows colder, her breath slows,
+say_legacy "The look in her eyes grows colder, her breath slows,
 and the faint glimmer of excitement provided by this cataclysmic view is snuffed out,
 replaced with objectivity. Her opinion on the disaster destroying all is delivered in a single word."
 
-say "With a little appreciation, in a mostly hollow tone, she says, \"Delightful.\"
+say_legacy "With a little appreciation, in a mostly hollow tone, she says, \"Delightful.\"
 As if the word has any meaning.
 As if the fall has any meaning."
 
-say "As if the world has any meaning."
+say_legacy "As if the world has any meaning."

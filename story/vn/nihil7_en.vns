@@ -143,13 +143,13 @@ stop "glassRain.ogg" 8.0
 hide "nihil/nihil_3_cut3.jpg" fade(3,linear)
 show "nihil/nihil_3.jpg" 0.5:0 0.5:0 0.6:0.6 fade(3,linear) normal
 move "nihil/nihil_3.jpg" 0:-200 23 sineout
-auto 5
+autoplay_legacy 5
 
-say "\"Now... hello stubborn girls,\" she says."
+say_legacy "\"Now... hello stubborn girls,\" she says."
 
-say "\"It isn't nice to meet you.\""
+say_legacy "\"It isn't nice to meet you.\""
 
-say ""
+say_legacy ""
 
 wait 2
 hide "nihil/nihil_3.jpg" fade(4,linear)

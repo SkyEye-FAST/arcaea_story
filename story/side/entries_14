@@ -1,41 +1,45 @@
 {
 	"entries": [{
 		"minor": 1,
-		"requiredPack": "tothemilkyway",
+		"requiredPurchase": "tothemilkyway",
 		"storyType": "nvl",
 		"clearSongId": "tothemilkyway",
 		"clearCharaId": -1,
 		"charIcon1": 68,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_tothemilkyway"
 	},
 	{
 		"minor": 2,
-		"requiredPack": "tothemilkyway",
+		"requiredPurchase": "tothemilkyway",
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "clotho",
 		"clearCharaId": -1,
 		"charIcon1": 68,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_tothemilkyway"
 	},
 	{
 		"minor": 3,
-		"requiredPack": "tothemilkyway",
+		"requiredPurchase": "tothemilkyway",
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "altair",
 		"clearCharaId": -1,
 		"charIcon1": 68,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_tothemilkyway"
 	},
 	{
 		"minor": 4,
-		"requiredPack": "tothemilkyway",
+		"requiredPurchase": "tothemilkyway",
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "tothemilkyway",
 		"clearCharaId": -1,
 		"charIcon1": 68,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "entry_tothemilkyway"
 	}]
 }

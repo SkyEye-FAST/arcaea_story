@@ -4,26 +4,29 @@
         {
             "minor": 1,
             "storyType": "nvl",
-            "requiredPack": "base",
+            "requiredPurchase": "base",
             "clearSongId": "inkarusi",
-            "alternatePrefix": "0"
+            "alternatePrefix": "0",
+            "icon": "entry_prologue"
         },
         {
             "minor": 2,
             "storyType": "nvl",
-            "requiredPack": "base",
+            "requiredPurchase": "base",
             "clearSongId": "grimheart",
             "alternatePrefix": "0",
-            "requiredMinor": 1
+            "requiredMinor": 1,
+            "icon": "entry_prologue"
         },
         {
             "minor": 3,
             "storyType": "nvl",
-            "requiredPack": "base",
+            "requiredPurchase": "base",
             "clearSongId": "shadesoflight",
             "alternatePrefix": "0",
             "requiredMinor": 2,
-			"storyCgPath": "app-data/story/cg/0-3.jpg"
+			"storyCgPath": "app-data/story/cg/0-3.jpg",
+            "icon": "entry_prologue"
         }
     ]
 }
