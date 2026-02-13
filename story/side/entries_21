@@ -1,0 +1,60 @@
+{
+	"entries": [{
+		"minor": 1,
+		"requiredPurchase": "anima",
+		"storyType": "nvl",
+		"clearSongId": "seethelights",
+		"clearCharaId": 89,
+		"charIcon1": 89,
+		"charIcon2": -1,
+        "icon": "entry_anima"
+	},
+	{
+		"minor": 2,
+		"requiredPurchase": "anima",
+		"requiredMinor": 1,
+		"storyType": "nvl",
+		"clearSongId": "scarletlunar",
+		"clearCharaId": 89,
+		"charIcon1": 89,
+		"charIcon2": -1,
+        "icon": "entry_anima",
+        "storyCgPath": "app-data/story/cg/21-2.jpg"
+	},
+	{
+		"minor": 3,
+		"requiredPurchase": "anima",
+		"requiredMinor": 2,
+		"storyType": "nvl",
+		"clearSongId": "dualdependency",
+		"clearCharaId": 89,
+		"charIcon1": 89,
+		"charIcon2": -1,
+        "icon": "entry_anima",
+        "storyCgPath": "app-data/story/cg/21-3.jpg"
+	},
+	{
+		"minor": 4,
+		"requiredPurchase": "anima",
+		"requiredMinor": 3,
+		"storyType": "nvl",
+		"clearSongId": "lilly",
+		"clearCharaId": 89,
+		"charIcon1": 89,
+		"charIcon2": -1,
+        "icon": "entry_anima"
+	},
+	{
+		"minor": 5,
+		"requiredPurchase": "anima",
+		"requiredMinor": 4,
+		"storyType": "nvl",
+		"clearSongId": "extradimensional",
+		"clearCharaId": 89,
+		"charIcon1": 89,
+		"charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/21-5-1.jpg",
+        "bgmOverride":"blue.ogg",
+        "icon": "entry_anima_boss"
+	}]
+}

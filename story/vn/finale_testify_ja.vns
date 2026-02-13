@@ -25,7 +25,7 @@ say "仮に再びこの剣を大地に突き立てれば、周囲の硝壁を破
 
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.4,linear) normal
 
-say "（なのに、どうして――？）"
+say "（なのに、どうして──？）"
 
 show "finale/testify1.jpg" 0.1:0.57 0.1:0.57 2.2:2.2 fade(0,linear) normal
 hide "finale/bg_distance.jpg" fade(0,linear)
@@ -93,7 +93,7 @@ say "対立の%%肢体%%{からだ}。
 
 say "いったいどうして、白の少女は剣を上へ"
 
-say "（――どうして、突き刺してしまったの……？）"
+say "（──どうして、突き刺してしまったの……？）"
 
 show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
 hide "finale/testify1.jpg" fade(0,linear)
@@ -143,7 +143,7 @@ show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
 say "眩い、眩い光がゆるやかに、
 けれどすぐにその輝きを強めていく。"
 
-say "非現実的な、この世のものとも思えない、その光――"
+say "非現実的な、この世のものとも思えない、その光──"
 
 show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
 
@@ -438,7 +438,7 @@ say "さっき感じた温もり、
 %%否%%{いな}、分かっていなければならなかったのだ。"
 
 say "見れば、零れた涙が一筋の線を描いていた
-――赤黒くぬめる、自らの腕の上で。"
+──赤黒くぬめる、自らの腕の上で。"
 
 say "その光景、その事実に、
 少女は%%恐慌%%{きょうこう}へと%%突%%{つ}き%%落%%{お}とされた。"
@@ -480,12 +480,12 @@ hide "finale/bg7.jpg" fade(0,linear)
 play "thump.ogg" 2
 wait 1
 
-say "――ああ、どうして笑えなかった。"
+say "──ああ、どうして笑えなかった。"
 
 say "現実の全て、実感の全て、
 もはやすべてが無視出来ない。"
 
-say "――いいじゃない、ずっと失意に%%沈%%{しず}んでいれば。"
+say "──いいじゃない、ずっと失意に%%沈%%{しず}んでいれば。"
 
 say "肌にぬめる、焼き付いた温もりは消えないもの。
 そう。消えることはないの、あの剣のように。"
@@ -536,7 +536,7 @@ say "なのに、生きている自分が嫌なんだ？
 
 hide "../../cg/V-10.jpg" fade(3,linear)
 
-say "――今、逃げたね。
+say "──今、逃げたね。
 逃げたでしょ。
 死にたがってた人だから悪くないって、正当化した。"
 
@@ -576,7 +576,7 @@ say "だって、
 いつまでもそのまんまだよ。
 今だって、ずーっとそう。"
 
-say "――ほんとあなたって、自分さえ良ければ良いんだね。"
+say "──ほんとあなたって、自分さえ良ければ良いんだね。"
 
 show "vs/arcahv1.jpg" 0.7:0.2 0.7:0.2 1.8:1.8 fade(2,sineout) normal
 move "vs/arcahv1.jpg" 0:180 8 sinein
@@ -644,7 +644,7 @@ say "触れて、
 %%纏%%{まと}わせて、
 美しさを眺めているだけ。"
 
-say "――それだけでは、いけなかったのだろうか？"
+say "──それだけでは、いけなかったのだろうか？"
 
 hide "white40.png" fade(0.2,linear)
 hide "white.png" fade(0.2,linear)
@@ -728,7 +728,7 @@ wait 2
 hide "finale/bg3.jpg" fade(6,linear)
 autoplay_legacy 3
 
-say_legacy "――そう。"
+say_legacy "──そう。"
 
 stop "testifyStoryFull.ogg" 3
 wait 3

@@ -176,6 +176,12 @@
             "storyType": 0,
             "main": 20,
             "act": 4
+        },
+        {
+            "storyType": 1,
+            "main": 21,
+            "act": 4,
+            "characterIcon": 89
         }
 	]
 }

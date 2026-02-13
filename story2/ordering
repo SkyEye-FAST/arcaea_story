@@ -292,7 +292,16 @@
 					"nodes": ["20-1", "20-2", "20-3", "20-4", "20-5", "20-6", "20-7", "20-8"],
 					"purchases": ["lephon"],
 					"spoilers": []
-				}
+				},
+                {
+                    "path": 30,
+                    "title": "Extant Anima",
+                    "type": "side",
+                    "characters": [89],
+                    "nodes": ["21-1", "21-2", "21-3", "21-4", "21-5"],
+                    "purchases": ["anima"],
+                    "spoilers": []
+                }
 			]
 		}
 	]
