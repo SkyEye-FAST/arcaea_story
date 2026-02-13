@@ -90,7 +90,7 @@
 		"requiredPurchase": "lephon",
 		"requiredMinor": 7,
 		"storyType": "vn",
-		"clearSongId": "designant",
+		"clearSongId": "_hiddenUntilRead",
         "storyData": "lephon_story8",
 		"clearCharaId": -1,
 		"charIcon1": -1,
