@@ -188,6 +188,12 @@
             "main": 22,
             "act": 4,
             "characterIcon": 89
+        },
+        {
+            "storyType": 0,
+            "main": 23,
+            "act": 4,
+            "characterIcon": 71
         }
 	]
 }
