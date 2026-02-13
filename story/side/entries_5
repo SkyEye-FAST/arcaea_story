@@ -67,7 +67,8 @@
 		"storyType": "nvl",
 		"clearSongId": "nullapophenia",
 		"clearCharaId": 4,
-		"alternateSuffix": "?",
+        "alternatePrefix": "18",
+        "alternateSuffix": "I",
 		"charIcon1": 61,
 		"charIcon2": -1
 	},
@@ -78,7 +79,8 @@
 		"storyType": "nvl",
 		"clearSongId": "genesis",
 		"clearCharaId": 61,
-		"alternateSuffix": "?",
+        "alternatePrefix": "18",
+        "alternateSuffix": "II",
 		"charIcon1": 61,
 		"charIcon2": 23
 	},
@@ -89,7 +91,8 @@
 		"storyType": "nvl",
 		"clearSongId": "nullapophenia",
 		"clearCharaId": 61,
-		"alternateSuffix": "?",
+        "alternatePrefix": "18",
+        "alternateSuffix": "III",
 		"charIcon1": 61,
 		"charIcon2": 23
 	}]

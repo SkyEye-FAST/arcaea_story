@@ -61,5 +61,90 @@
 			"clearCharaId": 23,
 			"charIcon1": 23,
 			"charIcon2": -1
-		}]
+		},
+        {
+            "minor": 7,
+            "requiredPack": "nihil",
+            "storyType": "nvl",
+            "alternatePrefix": "18",
+            "alternateSuffix": "1",
+            "clearSongId": "invain",
+            "clearCharaId": -1,
+            "charIcon1": 23,
+            "charIcon2": -1
+        },
+        {
+            "minor": 8,
+            "requiredPack": "nihil",
+            "requiredMinor": 7,
+            "storyType": "nvl",
+            "alternatePrefix": "18",
+            "alternateSuffix": "2",
+            "clearSongId": "hypnotize",
+            "clearCharaId": -1,
+            "charIcon1": 23,
+            "charIcon2": -1
+        },
+        {
+            "minor": 9,
+            "requiredPack": "nihil",
+            "requiredMinor": 8,
+            "storyType": "nvl",
+            "alternatePrefix": "18",
+            "alternateSuffix": "3",
+            "clearSongId": "ashenboundary",
+            "clearCharaId": -1,
+            "charIcon1": 23,
+            "charIcon2": -1
+        },
+        {
+            "minor": 10,
+            "requiredPack": "nihil",
+            "requiredMinor": 9,
+            "storyType": "nvl",
+            "alternatePrefix": "18",
+            "alternateSuffix": "4",
+            "clearSongId": "hypnotize",
+            "clearCharaId": 23,
+            "charIcon1": 23,
+            "charIcon2": -1
+        },
+        {
+            "minor": 11,
+            "requiredPack": "nihil",
+            "requiredMinor": 10,
+            "storyType": "nvl",
+            "alternatePrefix": "18",
+            "alternateSuffix": "5",
+            "clearSongId": "ashenboundary",
+            "clearCharaId": 23,
+            "charIcon1": 23,
+            "charIcon2": -1
+        },
+        {
+            "minor": 12,
+            "requiredPack": "nihil",
+            "requiredMinor": 11,
+            "storyType": "vn",
+            "alternatePrefix": "18",
+            "alternateSuffix": "6",
+            "storyData": "nihil6",
+            "clearSongId": "judgement",
+            "clearCharaId": 23,
+            "charIcon1": 23,
+            "charIcon2": -1
+        },
+        {
+            "minor": 13,
+            "requiredPack": "nihil",
+            "requiredMinor": 12,
+            "storyType": "vn",
+            "alternatePrefix": "18",
+            "alternateSuffix": "7",
+            "storyData": "nihil7",
+            "clearSongId": "alterego",
+            "clearCharaId": -1,
+            "charIcon1": 23,
+            "charIcon2": -1
+        }]
 }

@@ -1,0 +1,289 @@
+show "nihil/bg_cut3.jpg" 0:0.9 0:0.9 1:1 fade(0,linear) normal
+show "nihil/bg_cut1.jpg" 0:1 0:1 1:1 fade(0,linear) normal
+show "nihil/bg_cut2.jpg" 1:0.5 1:0.5 1:1 fade(0,linear) normal
+show "black.png" 0.5:0.73 0.5:0.73 2000:20 fade(0,linear) normal
+show "2black.png" 0.5:0.28 0.5:0.28 2000:20 fade(0,linear) normal
+show "nihil/nihil_1B.jpg" 0.4:0.4 0.4:0.4 0.83:0.83 fade(0,linear) normal
+wait 0
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+play "sand_epilogue.ogg" 1.0
+
+say "\"It's raining...\""
+
+play "rain.ogg" 0 loop
+volume "rain.ogg" 0.1 3.0
+show "nihil/nihil_1_cut1.jpg" 0.5:0 0.5:0 2:2 fade(5,linear) normal
+move "nihil/nihil_1_cut1.jpg" 0:-900 21 sineout
+
+say "Vita came to me in a corner of my glass library, and told me that.
+In the bright and dark cave, I looked up to her from where I sat, and then I looked away.
+Rain..."
+
+say "In all my years in this place, I had never seen rain, and now rain and snow
+and thunder and lightning all had been seen by us on the horizons every so often.
+And now it was there."
+
+say "I stood.
+\"Vita...\" I began,
+\"we will be going, and when you follow: you will follow and hide behind.\""
+
+say "\"'Going'...? Where?\""
+
+say "\"To Lethe,\" I said, \"to kill her.\""
+
+play "1step.ogg" 0.5
+hide "nihil/nihil_1_cut1.jpg" fade(0.1,linear)
+
+say "I walked past her and, after descending,
+made my way to the mountain's lowest exit.
+Vita was delayed, but followed just as instructed."
+
+say "\"...'Kill'—what!? No!\""
+
+play "lastBreak.ogg" 1.0
+volume "rain.ogg" 0.7 9.0
+
+say "She shouted at my back, followed me all the way down,
+and trotted out behind me as I went into the rain."
+
+say "She protested, protested."
+
+play "collapse.ogg" 0.5
+
+say "She grabbed my cape and I pulled it from her hands."
+
+play "cut.ogg" 0.3
+
+say "She picked up a stone, and threw it at my back.
+I kept on, and finally she screamed:"
+
+say "\"Why!?\""
+
+volume "rain.ogg" 1.0 3.0
+show "nihil/nihil_1_cut2.jpg" 0.5:1 0.5:1 1.2:1.2 fade(6,linear) normal
+move "nihil/nihil_1_cut2.jpg" -15:0 5 linear
+
+say "Rain fell on and between us as I stopped and turned to face her.
+She met my eye. Her red and white eyes were shimmering."
+
+say "\"Vita...\" I said, \"this world is dying.\""
+
+show "nihil/nihil_1A.jpg" 0.4:0.4 0.4:0.4 0.83:0.83 fade(4,linear) normal
+move "nihil/nihil_1A.jpg" -20:0 7 linear
+move "nihil/nihil_1B.jpg" -20:0 7 linear
+
+say "\"Yes...\" she muttered and at the time I thought—Ah, so she knows.
+\"So... So why would you want to... kill...?\""
+
+say "\"I felt something in what she gathered, something I have never felt in what we have built,\" I explained."
+
+say "\"If... I want to rescue us all, I reason that I must discover what that something was,
+and take and use it. With it, I might make the miracle that will build a new world.
+Lethe, however, won't understand the theory, and we have no time to try with her.\""
+
+say "\"Her belief... How she lies to herself would never let her reason. Her heart is a fire.
+She will aim those feelings at me, and we will come to blows.\""
+
+hide "nihil/nihil_1_cut2.jpg" fade(0,linear)
+hide "3black.png" fade(0,linear)
+wait 0
+hide "nihil/nihil_1A.jpg" fade(0.3,linear)
+
+say "\"You won't try?\" she accused me, and I smiled.
+\"You should at least try!\" Her face bunched up, and her fists balled."
+
+stop "rain.ogg" 6.0
+
+say "And, when I turned from her again—
+as the rains around us slowed, and then stopped—
+I said, lightly: \"Fair. Watch safely away when I do.\""
+
+play "breath.ogg" 1.0
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 0.3 6.0
+hide "nihil/nihil_1B.jpg" fade(6,linear)
+
+move "nihil/bg_cut1.jpg" -426:0 19 sineout
+move "nihil/bg_cut2.jpg" 426:0 19 sineout
+move "nihil/bg_cut3.jpg" -426:0 19 sineout
+move "nihil/bg_cut3.jpg" 0:1300 30 sineout
+
+say "I have taken much of my own glass to Lethe's place.
+As I approach there, our collections almost meet,
+but never blend together."
+
+say "It is bright. On this cliff's edge, the world is bright from glass.
+Lethe, beneath it, is cloaked in shadows.
+Over the edge, the Void yawns."
+
+say "\"Reaper,\" I call to her, \"let's put pettiness aside. Help me.\""
+
+say "\"Help you?\" she spits. \"After you've done all this!?\""
+
+say "Ah.
+She must think I'm responsible for cracking this world at its core.
+...She thinks so little of me."
+
+say "I glance behind myself and, unable to see Vita, I turn back to Lethe
+and continue our conversation."
+
+stop "wind.ogg" 0.3
+hide "nihil/bg_cut1.jpg" fade(0.1,linear)
+hide "nihil/bg_cut2.jpg" fade(0.1,linear)
+hide "nihil/bg_cut3.jpg" fade(0.1,linear)
+hide "black.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+say "It goes, and ends, as terribly as one can imagine."
+
+show "nihil/nihil_2_cut1.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3 clear
+hide "nihil/nihil_2_cut1.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut2.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut3.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut4.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut4.jpg" fade(0,linear)
+wait 0
+
+wait 1
+
+say "Shouting.
+Insults.
+And her scythe: swinging down on me."
+
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 0.6
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.3,linear) normal
+show "finale/vs_overlay.png" 0.21:0.75 0.21:0.75 1.3:1.3 fade(0.1,sinein) normal
+
+play "slip.ogg" 1.0
+say "I travel from shard to shard with a little trick of the flower at my eye.
+I refrain. I turn around her. I try. I am trying.
+Until I no longer can."
+
+play "ruffle.ogg" 1.0
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+show "nihil/nihil_2_cut4.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(2,linear)
+hide "2white.png" fade(2,linear)
+
+say "I swear to her I will take her memories.
+She swears to me she will mend Arcaea's shattered core."
+
+play "rain.ogg" 0.0 loop
+volume "rain.ogg" 0.3 1.0
+play "woosh.ogg" 1.0
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+
+say "I feel disgusted..."
+
+say "It begins to rain again."
+
+say ""
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 0.3
+play "feeble.ogg" 1.0
+show "nihil/nihil_2.jpg" 0:1 0:1 1.4:1.4 fade(0,linear) normal
+scale "nihil/nihil_2.jpg" 0.6:0.6 0 sineout
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 1.7
+
+hide "3black.png" fade(0.3,linear)
+
+volume "rain.ogg" 0.7 4.0
+volume "wind.ogg" 1.0 4.0
+play "shine.ogg" 0.2
+play "splash.ogg" 1.0
+play "thump.ogg" 0.0 loop
+volume "thump.ogg" 0.2 1.0
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+wait 1.23
+
+auto 2.2
+play "alter_ego_mini.ogg" 0.6
+volume "alter_ego_mini.ogg" 1.0 9
+move "nihil/nihil_2.jpg" 0:50 17 sineout
+scale "nihil/nihil_2.jpg" 0.48:0.48 14 sineout
+
+say "Blade clashes against glass. Water sprays between us."
+
+play "splash.ogg" 1.0
+
+say "I dance a violent dance alongside hers, vicious."
+
+play "clash.ogg" 1.0
+volume "thump.ogg" 0.5 0.4
+
+say "She swings, aiming to kill me. I cut across her face with glowing glass."
+
+volume "thump.ogg" 0.8 4.0
+
+say "My head is pounding."
+
+play "slice.ogg" 1.0
+play "shine.ogg" 0.5
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+
+scale "nihil/nihil_2.jpg" 0.41:0.41 3.7 sineout
+hide "nihil/nihil_2.jpg" fade(10,linear)
+wait 1.23
+
+say "Sickness twists inside my stomach."
+
+show "black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0.1,linear) normal
+stop "wind.ogg" 0.3
+stop "rain.ogg" 0.3
+stop "thump.ogg" 0.3
+
+say "I have failed, and nothing I am doing here matters at all."

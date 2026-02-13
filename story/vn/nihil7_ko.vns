@@ -1,0 +1,165 @@
+show "nihil/nihil_2.jpg" 0:1 0:1 1.4:1.4 fade(0,linear) normal
+scale "nihil/nihil_2.jpg" 0.41:0.41 0 sineout
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+play "splash.ogg" 0.7
+wait 0.7
+hide "black.png" fade(4,linear)
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 4.0
+play "rain.ogg" 0.0 loop
+volume "rain.ogg" 0.7 4.0
+play "thump.ogg" 1.0 loop
+volume "thump.ogg" 0.8 4.0
+
+say "이 싸움은 두 실력자의 장렬하고 근엄한 혈투 같은게 아니야."
+
+say "레테와 나는 발버둥치고 있을 뿐이야."
+
+say "내가 이기더라도 아무것도 얻지 못할거야.
+내가 지더라도 아무것도 잃지 않을거야.
+알 수 있어."
+
+say "우리는 더 나은 결말이 어딘가에 있으리라는 그릇된 믿음을 가진 두 여자일 뿐이야.
+그런 결말 따위 어디에도 없는데도."
+
+say "우리는 아무것도 아니야. 우리의 인생에도 아무런 의미가 없어."
+
+say "그래도 난 발버둥쳐보고 싶어. 그렇게 생각하자 속이 메스꺼워."
+
+play "cut.ogg" 1.0
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+wait 1.23
+
+say "레테가 한 번 물러섰다가, 초인적인 힘으로 낫을 끌고 다시 나에게 달려와. 
+그걸 보고 내가 유리 조각을 들어올려 레테의 가슴을 향해 내려친 순간ー"
+
+stop "thump.ogg" 0.3
+stop "rain.ogg" 0.3
+stop "wind.ogg" 0.3
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "nihil/nihil_2.jpg" fade(0.1,linear)
+show "nihil/nihil_3_cut1.jpg" 1:0.5 1:0.5 2:2 fade(0.1,linear) normal
+wait 0.3
+hide "nihil/nihil_3_cut1.jpg" fade(0.1,linear)
+
+say "우리 둘 사이에 손가락이 하나 나타났어. 그리고 싸움이 멈췄어."
+
+say "“?!”"
+
+say "“뭐...?!”"
+
+play "fracture1_epilogue.ogg" 1.0
+play "fracture2_epilogue.ogg" 1.0
+play "burst.ogg" 1.0
+hide "white.png" fade(0.1,linear)
+
+say "장갑을 낀 가느다란 손가락이 두 칼날이 부딪히려던 곳에 사뿐히 내려앉았어."
+
+play "fracture3_epilogue.ogg" 1.0
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+
+say "그 순간, 온 몸에 격통이 엄습했어. 쓰러질 것만 같아."
+
+play "fracture6_epilogue.ogg" 1.0
+play "glass_epilogue.ogg" 1.0
+
+say "내 유리 조각은 부서지고, 레테는 낫을 놓쳤어.
+우리는 큰 충격을 받아 뒤로 날아갔어."
+
+play "fracture4_epilogue.ogg" 1.0
+
+say "마치 거대한 막대가 두드리는 북처럼 대지 그 자체가 울리고 있어."
+
+play "loss_epilogue.ogg" 1.0
+
+say "우리는 공중에 멈춰섰다가..."
+
+play "memoryShift.ogg" 1.0
+
+say "대기가 격렬하게 움직이며 다시 우리를 빨아들이듯 땅으로 내동댕이쳤어."
+
+play "fracture5_epilogue.ogg" 1.0
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+hide "red.png" fade(0.2,linear)
+hide "white.png" fade(0.6,linear)
+
+say "땅에 부딪히는 순간 레테의 낫이 내 옆구리를 깊게 베어내고 내 뒤로 미끄러졌어."
+
+play "stab.ogg" 1.0
+
+say "레테의 왼팔에는 내 유리 조각이 몇 개 박혔어."
+
+play "collapse.ogg" 1.0
+show "nihil/nihil_3_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.1,linear) normal
+
+say "쓰러짐과 동시에, 우리는 머리를 조아리는 자세로 무릎을 꿇렸어."
+
+hide "nihil/nihil_3_cut2.jpg" fade(2.5,linear)
+
+say "몸이 전부 찢겨져나갈 것 같은 고통이지만...
+나는 온 힘을 다해 고개를 들어올렸어. 숙일까보냐."
+
+play "tension.ogg" 1.0 loop
+play "glassRain.ogg" 0.0 loop
+play "wind.ogg" 0.0 loop
+volume "glassRain.ogg" 0.2 1.0
+volume "wind.ogg" 0.3 1.0
+show "nihil/nihil_3_cut3.jpg" 0.5:0 0.5:0 1.4:1.4 fade(4,linear) normal
+move "nihil/nihil_3_cut3.jpg" 0:-850 21 sineout
+
+say "길고 창백한 머리를 늘어뜨리고 꿰뚫어보는 듯한 눈을 지닌,
+단 한 번도 본 적 없는 여자가 우리 사이에 서 있었어."
+
+say "여자는 미소가 걸린 얼굴로 
+나를 한 번 보고, 고개를 돌려 레테를 보았어."
+
+say "“어휴, 너희 둘, 적당히 하렴.” 여자가 입을 열었어."
+
+say "“너무 거칠게 놀다가는 소중한 걸 부숴버릴지도 모르잖니?”"
+
+say "나는 힘을 쥐어짜내 일어서려고 했지만 쉽게 일어설 수가 없어. 여전히 무릎을 꿇은 채야.  
+숨이 점점 더 거칠어졌어.
+저 말투... 불길한 예감이 들어."
+
+say "여자는 다시 그 눈으로 나를 바라봤어."
+
+play "refusal_epilogue.ogg" 1.0
+stop "wind.ogg" 8.0
+stop "tension.ogg" 8.0
+stop "glassRain.ogg" 8.0
+hide "nihil/nihil_3_cut3.jpg" fade(3,linear)
+show "nihil/nihil_3.jpg" 0.5:0 0.5:0 0.6:0.6 fade(3,linear) normal
+move "nihil/nihil_3.jpg" 0:-200 23 sineout
+auto 5
+
+say "“자, 그럼... 안녕, 이 고집불통들아.” 여자가 말했어."
+
+say "“만나서 안반가워.”"
+
+say ""
+
+wait 2
+hide "nihil/nihil_3.jpg" fade(4,linear)
+wait 4
+
+show "TBC2.png" 0.5:0.5 0.5:0.5 0.35:0.35 fade(2.5,linear) normal
+
+wait 7
+
+hide "TBC2.png" fade(5,linear)
+
+wait 5

@@ -1,0 +1,290 @@
+show "nihil/bg_cut3.jpg" 0:0.9 0:0.9 1:1 fade(0,linear) normal
+show "nihil/bg_cut1.jpg" 0:1 0:1 1:1 fade(0,linear) normal
+show "nihil/bg_cut2.jpg" 1:0.5 1:0.5 1:1 fade(0,linear) normal
+show "black.png" 0.5:0.73 0.5:0.73 2000:20 fade(0,linear) normal
+show "2black.png" 0.5:0.28 0.5:0.28 2000:20 fade(0,linear) normal
+show "nihil/nihil_1B.jpg" 0.4:0.4 0.4:0.4 0.83:0.83 fade(0,linear) normal
+wait 0
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+play "sand_epilogue.ogg" 1.0
+
+say "“비가 오네요...”"
+
+play "rain.ogg" 0 loop
+volume "rain.ogg" 0.1 3.0
+show "nihil/nihil_1_cut1.jpg" 0.5:0 0.5:0 2:2 fade(5,linear) normal
+move "nihil/nihil_1_cut1.jpg" 0:-900 21 sineout
+
+say "비타가 유리 도서관의 구석에 있던 나를 찾아와 말했어. 
+밝으면서도 어두운 동굴 안. 나는 앉은 채 한 번 비타를 올려다보고 고개를 돌렸어.
+비..."
+
+say "아르케아에서 지낸 몇 년간, 단 한번도 비를 본 적은 없었어. 
+하지만 이제는 지평선 너머로 비와 눈, 천둥과 번개를 보는 건 별난 일이 아니게 되었지.
+지금은 비가 내리고 있었어."
+
+say "나는 일어서며 말했어.
+“비타... 가자. 따라올 때엔 뒤에 숨으면서 따라와.”"
+
+say "“가자니… 어디로요?”"
+
+say "“레테한테.” 나는 주저없이 말했어. “그 여자를 죽일거야.”"
+
+play "1step.ogg" 0.5
+hide "nihil/nihil_1_cut1.jpg" fade(0.1,linear)
+
+say "나는 말없이 비타를 지나쳐 계단을 내려가,
+산의 가장 낮은 곳에 있는 출구로 향했어.
+비타는 머뭇거리다가, 시킨대로 날 따라왔지."
+
+say "“...죽인… 뭐라고요?! 안돼요!”"
+
+play "lastBreak.ogg" 1.0
+volume "rain.ogg" 0.7 9.0
+
+say "비타가 빗속으로 걸어가는 나의 뒤를 종종 따라오며 소리쳤어."
+
+say "비타는 항의를 멈추지 않았어."
+
+play "collapse.ogg" 0.5
+
+say "망토를 붙잡혔어. 나는 망토를 잡아당겨 뿌리쳤어."
+
+play "cut.ogg" 0.3
+
+say "돌을 집어들어 내 등으로 던졌어.
+그래도 난 멈추지 않았어."
+
+say "“대체 왜요?!” 비타가 마침내 소리를 질렀어."
+
+volume "rain.ogg" 1.0 3.0
+show "nihil/nihil_1_cut2.jpg" 0.5:1 0.5:1 1.2:1.2 fade(6,linear) normal
+move "nihil/nihil_1_cut2.jpg" -15:0 5 linear
+
+say "끝임없이 쏟아지는 비. 나는 등을 돌려 비타를 마주봤어.
+비타는 반짝이는 붉은색과 하얀색의 눈동자로 내 눈을 똑바로 바라보고 있었어."
+
+say "“비타... 이 세계는 죽어가고 있어.” 내가 말했어."
+
+show "nihil/nihil_1A.jpg" 0.4:0.4 0.4:0.4 0.83:0.83 fade(4,linear) normal
+move "nihil/nihil_1A.jpg" -20:0 7 linear
+move "nihil/nihil_1B.jpg" -20:0 7 linear
+
+say "“알아요...” 비타가 작은 소리로 대답하자 나는 그때 깨달았어. 아, 비타도 알고 있구나.
+그래서... 그래서 대체 왜... 그런 짓을 하려는 거예요?!”"
+
+say "“그 여자가 모은 유리 조각에서 무언가를 느꼈어.
+우리가 만들어낸 이 도서관에서는 전혀 느끼지 못한 무언가를.” 나는 설명했어."
+
+say "“모두를... 구하려면, 그 무언가의 정체를 알아내야 해. 그리고 빼앗아 이용해야 해. 
+그게 있으면 새로운 세계를 만들어낼 기적을 일으킬 수 있을지도 몰라. 
+하지만 레테는 날 이해하지 못해. 그리고 이제 그 여자를 설득할 시간은 우리에게 남아있지 않아.”"
+
+say "“레테의 신념이... 스스로에게 하고 있는 거짓말이 설득의 여지조차 허락하지 않아. 
+그 여자의 마음 속엔 불이 타오르고 있어. 그리고 그 불은 나를 향해 솟구칠거야. 
+우린 싸울 수 밖에 없는 운명이야.”"
+
+hide "nihil/nihil_1_cut2.jpg" fade(0,linear)
+hide "3black.png" fade(0,linear)
+wait 0
+hide "nihil/nihil_1A.jpg" fade(0.3,linear)
+
+say "“그렇다고 설득할 시도조차 안 하겠다고요?” 비타가 나를 책망했어. 내 입이 비릿한 미소로 일그러졌어.
+“말을 해보기는 해야 할 거 아니에요!”
+비타는 그렇게 말하며 얼굴을 잔뜩 찡그리고 주먹을 불끈 쥐고 있었어."
+
+stop "rain.ogg" 6.0
+
+say "그리고, 다시 등을 돌렸어.
+빗줄기가 점점 약해지다가 마침내 그쳤어. 
+나는 가볍게 말했지. “그래. 한 번 이야기 해볼테니 안전한 거리에서 잘 보고 있어.”"
+
+play "breath.ogg" 1.0
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 0.3 6.0
+hide "nihil/nihil_1B.jpg" fade(6,linear)
+
+move "nihil/bg_cut1.jpg" -426:0 19 sineout
+move "nihil/bg_cut2.jpg" 426:0 19 sineout
+move "nihil/bg_cut3.jpg" -426:0 19 sineout
+move "nihil/bg_cut3.jpg" 0:1300 30 sineout
+
+say "나는 유리 조각을 잔뜩 챙겨 레테가 있는 곳으로 향했어.
+그 곳에 가까워지자 레테의 유리 조각과 내 유리 조각들이 거의 닿을 뻔 했지만,
+두 무리가 결코 섞이지는 않았어."
+
+say "절벽의 끝자락. 아주 밝은 곳이야. 유리의 빛으로 환하게 비춰지고 있어.
+그 밑에 서있는 레테는 그림자에 감싸여 있어.
+절벽 너머에서는 공허가 입을 벌리고 있어."
+
+say "“야, 사신.” 여자를 불렀어. “하찮은 다툼은 그만두자. 네 도움이 필요해.”"
+
+say "“도와달라고?!” 레테가 쏘아붙였어. “이런 짓을 해놓고 할 말이야?!”"
+
+say "아.
+핵을 부숴서 세상을 이 꼴로 만든게 나라고 착각하고 있구나.
+나를 향한 평가가 너무 박한걸."
+
+say "나는 등 뒤를 보고 비타가 보이지 않는 걸 확인한 뒤,
+ 다시 대화를 이어가기 위해 레테를 향해 고개를 돌렸어."
+
+stop "wind.ogg" 0.3
+hide "nihil/bg_cut1.jpg" fade(0.1,linear)
+hide "nihil/bg_cut2.jpg" fade(0.1,linear)
+hide "nihil/bg_cut3.jpg" fade(0.1,linear)
+hide "black.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+say "그 후의 ‘대화’는 생각했던 대로 흘러갔어. 참담하게 말이야."
+
+show "nihil/nihil_2_cut1.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3 clear
+hide "nihil/nihil_2_cut1.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut2.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut3.jpg" fade(0,linear)
+wait 0
+
+show "nihil/nihil_2_cut4.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "2black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0,linear) normal
+hide "2black.png" fade(0.2,linear)
+wait 0.3
+hide "nihil/nihil_2_cut4.jpg" fade(0,linear)
+wait 0
+
+wait 1
+
+say "귀가 떨어져라 소리를 지르고,
+욕설을 내뱉고,
+레테의 칼날이 번쩍거리고..."
+
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 0.6
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.3,linear) normal
+show "finale/vs_overlay.png" 0.21:0.75 0.21:0.75 1.3:1.3 fade(0.1,sinein) normal
+
+play "slip.ogg" 1.0
+say "오른눈에 핀 꽃 덕분에 쓸 수 있는 능력으로 나는 조각과 조각 사이를 이동하며 레테의 공격을 피했어.
+자제했어. 아무것도 안 하고 레테의 주변을 맴돌기만 했어. 정말. 정말 노력하고 있다고.
+하지만 이제는 한계야."
+
+play "ruffle.ogg" 1.0
+
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+show "nihil/nihil_2_cut4.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(2,linear)
+hide "2white.png" fade(2,linear)
+
+say "나는 레테를 향해 반드시 유리 조각을 빼앗겠다고 맹세했어.
+레테는 나를 향해 아르케아의 조각난 핵을 고치겠다고 맹세했어."
+
+play "rain.ogg" 0.0 loop
+volume "rain.ogg" 0.3 1.0
+play "woosh.ogg" 1.0
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+
+say "역겹기 짝이 없어..."
+
+say "다시 비가 내리기 시작했어."
+
+say ""
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 0.3
+play "feeble.ogg" 1.0
+show "nihil/nihil_2.jpg" 0:1 0:1 1.4:1.4 fade(0,linear) normal
+scale "nihil/nihil_2.jpg" 0.6:0.6 0 sineout
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+wait 1.7
+
+hide "3black.png" fade(0.3,linear)
+
+volume "rain.ogg" 0.7 4.0
+volume "wind.ogg" 1.0 4.0
+play "shine.ogg" 0.2
+play "splash.ogg" 1.0
+play "thump.ogg" 0.0 loop
+volume "thump.ogg" 0.2 1.0
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+wait 1.23
+
+auto 2.2
+play "alter_ego_mini.ogg" 0.6
+volume "alter_ego_mini.ogg" 1.0 9
+move "nihil/nihil_2.jpg" 0:50 17 sineout
+scale "nihil/nihil_2.jpg" 0.48:0.48 14 sineout
+
+say "유리에 칼날이 부딪히자 물방울이 촤악 튀었어."
+
+play "splash.ogg" 1.0
+
+say "나와 레테가 자아내는 격렬하고 악랄한 춤."
+
+play "clash.ogg" 1.0
+volume "thump.ogg" 0.5 0.4
+
+say "나를 죽이려는 목적으로 낫을 휘두르는 레테."
+
+volume "thump.ogg" 0.8 4.0
+
+say "그 얼굴을 향해 빛나는 유리 조각을 날리는 나."
+
+play "slice.ogg" 1.0
+play "shine.ogg" 0.5
+
+move "nihil/nihil_2.jpg" 10:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -30:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 30:0 0.051 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -20:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" 15:0 0.05 linear
+wait 0.05
+move "nihil/nihil_2.jpg" -5:0 0.05 linear
+wait 0.05
+
+scale "nihil/nihil_2.jpg" 0.41:0.41 3.7 sineout
+hide "nihil/nihil_2.jpg" fade(10,linear)
+wait 1.23
+
+say "머릿속이 울려. 역겨워서 뱃속이 뒤틀리는 것 같아."
+
+show "black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0.1,linear) normal
+stop "wind.ogg" 0.3
+stop "rain.ogg" 0.3
+stop "thump.ogg" 0.3
+
+say "나는 실패했어. 내가 여기서 뭘 하든 아무런 의미가 없어."
