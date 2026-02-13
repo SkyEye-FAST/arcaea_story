@@ -101,6 +101,13 @@
 		}
 		,
 		{
+			"storyType": 3,
+			"characterIcon": 68,
+			"characterIconXOffset": 1448,
+			"main": 14
+		}
+		,
+		{
 			"storyType": 4,
 			"main": 102
 		}
