@@ -28,5 +28,58 @@
 		"clearCharaId": -1,
 		"charIcon1": 19,
 		"charIcon2": -1
-	}]
+	},
+    {
+        "minor": 4,
+        "requiredPack": "init",
+        "requiredMinor": 3,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 19,
+        "charIcon2": -1
+    },
+    {
+        "minor": 5,
+        "requiredPack": "init",
+        "requiredMinor": 4,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 19,
+        "charIcon2": -1
+    },
+    {
+        "minor": 6,
+        "requiredPack": "init",
+        "requiredMinor": 5,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 19,
+        "charIcon2": -1
+    },
+    {
+        "minor": 7,
+        "requiredPack": "init",
+        "requiredMinor": 6,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 19,
+        "charIcon2": -1
+    },
+    {
+        "minor": 8,
+        "requiredPack": "desive",
+        "requiredMinor": 7,
+        "mapId": "desive",
+        "storyType": "nvl",
+        "clearSongId": "desive",
+        "clearCharaId": -1,
+        "charIcon1": 19,
+        "charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/11-8-1.jpg"
+    }
+    ]
 }
