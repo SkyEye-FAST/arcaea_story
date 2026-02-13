@@ -1,0 +1,93 @@
+{
+	"entries": [{
+		"minor": 1,
+		"requiredPurchase": "eclipse",
+		"storyType": "nvl",
+		"clearSongId": "_readPreviousEntry",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_1"
+	},
+	{
+		"minor": 2,
+		"requiredPurchase": "eclipse",
+		"requiredMinor": 1,
+		"storyType": "nvl",
+		"clearSongId": "_readPreviousEntry",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_1",
+        "storyCgPath": "app-data/story/cg/23-2.jpg"
+	},
+	{
+		"minor": 3,
+		"requiredPurchase": "eclipse",
+		"requiredMinor": 2,
+		"storyType": "nvl",
+		"clearSongId": "violaillyria",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_1"
+	},
+	{
+		"minor": 4,
+		"requiredPurchase": "eclipse",
+		"requiredMinor": 3,
+		"storyType": "nvl",
+		"clearSongId": "vainspire",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_1"
+	},
+	{
+		"minor": 5,
+		"requiredPurchase": "eclipse",
+		"requiredMinor": 4,
+		"storyType": "nvl",
+		"clearSongId": "nowayback",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_1"
+	},
+	{
+		"minor": 6,
+		"requiredPurchase": "eclipse",
+		"requiredMinor": 5,
+		"storyType": "nvl",
+		"clearSongId": "andorxor",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_1"
+	},
+	{
+		"minor": 7,
+		"requiredPurchase": "eclipse",
+		"requiredMinor": 6,
+		"storyType": "nvl",
+		"clearSongId": "undyingmacula",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_2",
+        "storyCgPath": "app-data/story/cg/23-7.jpg"
+	},
+	{
+		"minor": 8,
+		"requiredPurchase": "eclipse",
+		"requiredMinor": 7,
+		"storyType": "nvl",
+		"clearSongId": "undyingmacula",
+		"clearCharaId": -1,
+		"charIcon1": 71,
+		"charIcon2": -1,
+        "icon": "entry_eclipse_2",
+        "storyCgPath": "app-data/story/cg/23-8.jpg"
+	}
+	]
+}

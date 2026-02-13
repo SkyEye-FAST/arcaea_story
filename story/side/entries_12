@@ -63,5 +63,18 @@
         "charIcon1": 54,
         "charIcon2": -1,
         "icon": "entry_vita2"
+    },
+    {
+        "minor": 7,
+        "requiredPurchase": "base",
+        "storyType": "nvl",
+        "clearSongId": "_hiddenUntilRead",
+        "storyCgPath": "app-data/story/cg/12-X.jpg",
+        "clearCharaId": -1,
+        "charIcon1":54,
+        "charIcon2": -1,
+        "hiddenFromCount": true,
+        "alternateSuffix": "?",
+        "icon": "entry_acheron"
     }]
 }
