@@ -22,7 +22,8 @@
             "requiredPack": "base",
             "clearSongId": "shadesoflight",
             "alternatePrefix": "0",
-            "requiredMinor": 2
+            "requiredMinor": 2,
+			"storyCgPath": "app-data/story/cg/0-3.jpg"
         }
     ]
 }

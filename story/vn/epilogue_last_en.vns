@@ -337,7 +337,8 @@ say "A heart beats again...
 And like that—"
 
 play "loss_epilogue.ogg" 0.6
-play "wind.ogg" 0.4 loop
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 0.4 1.0
 
 
 
@@ -811,7 +812,8 @@ wait 3
 wait 3 clear
 show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(3.2,easeout) normal
 
-play "wind.ogg" 0.8 loop
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 0.8 1.0
 
 wait 3.2
 
