@@ -1,0 +1,86 @@
+{
+	"entries": [{
+		"minor": 1,
+		"requiredPack": "rotaeno",
+		"storyType": "nvl",
+		"clearSongId": "_readPreviousEntry",
+		"clearCharaId": -1,
+		"charIcon1": 76,
+		"charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/18-1.jpg"
+	},
+	{
+		"minor": 2,
+		"requiredPack": "rotaeno",
+		"requiredMinor": 1,
+		"storyType": "nvl",
+		"clearSongId": "_readPreviousEntry",
+		"clearCharaId": -1,
+		"charIcon1": 76,
+		"charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/18-2.jpg"
+	},
+	{
+		"minor": 3,
+		"requiredPack": "rotaeno",
+		"requiredMinor": 2,
+		"storyType": "nvl",
+		"clearSongId": "mvurbd",
+		"clearCharaId": -1,
+		"charIcon1": 76,
+		"charIcon2": -1
+	},
+	{
+		"minor": 4,
+		"requiredPack": "rotaeno",
+		"requiredMinor": 3,
+		"storyType": "nvl",
+		"clearSongId": "waltzforlorelei",
+		"clearCharaId": 76,
+		"charIcon1": 76,
+		"charIcon2": -1
+	},
+	{
+		"minor": 5,
+		"requiredPack": "rotaeno",
+		"requiredMinor": 4,
+		"storyType": "nvl",
+		"clearSongId": "dualdoom",
+		"clearCharaId": 76,
+		"charIcon1": 76,
+		"charIcon2": -1
+	},
+	{
+		"minor": 6,
+		"requiredPack": "rotaeno",
+		"requiredMinor": 5,
+		"storyType": "nvl",
+		"clearSongId": "mvurbd",
+		"clearCharaId": 76,
+		"charIcon1": 76,
+		"charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/18-6.jpg"
+	},
+    {
+        "minor": 7,
+        "requiredPack": "rotaeno",
+        "requiredMinor": 6,
+        "storyType": "nvl",
+        "clearSongId": "invertedworld",
+        "clearCharaId": 76,
+        "charIcon1": 76,
+        "charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/18-7.jpg"
+    },
+    {
+        "minor": 8,
+        "requiredPack": "rotaeno",
+        "requiredMinor": 7,
+        "storyType": "nvl",
+        "clearSongId": "vulcanus",
+        "clearCharaId": 76,
+        "charIcon1": 76,
+        "charIcon2": -1,
+		"storyCgPath": "app-data/story/cg/18-8.jpg"
+    }]
+}

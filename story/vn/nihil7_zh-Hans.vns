@@ -12,7 +12,7 @@ volume "rain.ogg" 0.7 4.0
 play "thump.ogg" 1.0 loop
 volume "thump.ogg" 0.8 4.0
 
-say "这并是不两股伟力之间的较量，更不是一场壮丽而沉重的苦斗。"
+say "这并不是两股伟力之间的较量，更不是一场壮丽而沉重的苦斗。"
 
 say "我和忘却的这场“鹬蚌之争”……"
 
@@ -97,8 +97,8 @@ show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
 hide "red.png" fade(0.2,linear)
 hide "white.png" fade(0.6,linear)
 
-say "那长而弯的闪烁着尖寒光芒的刀锋向我刺来，
-而我猛地击向大地——忘却的镰刀几乎是同时紧贴我身侧划下，瞬间将我身后的空气撕裂。"
+say "那长而弯的闪烁着尖寒光芒的刀锋向我刺来，而我猛地击向大地——
+忘却的镰刀几乎是同时紧贴我身侧划下，瞬间将我身后的空气撕裂。"
 
 play "stab.ogg" 1.0
 
