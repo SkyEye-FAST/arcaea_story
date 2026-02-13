@@ -7,6 +7,7 @@
 		"clearCharaId": -1,
 		"charIcon1": 76,
 		"charIcon2": -1,
+        "alternatePrefix": "19",
 		"storyCgPath": "app-data/story/cg/18-1.jpg"
 	},
 	{
@@ -18,6 +19,7 @@
 		"clearCharaId": -1,
 		"charIcon1": 76,
 		"charIcon2": -1,
+        "alternatePrefix": "19",
 		"storyCgPath": "app-data/story/cg/18-2.jpg"
 	},
 	{
@@ -28,7 +30,8 @@
 		"clearSongId": "mvurbd",
 		"clearCharaId": -1,
 		"charIcon1": 76,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "alternatePrefix": "19"
 	},
 	{
 		"minor": 4,
@@ -38,7 +41,8 @@
 		"clearSongId": "waltzforlorelei",
 		"clearCharaId": 76,
 		"charIcon1": 76,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "alternatePrefix": "19"
 	},
 	{
 		"minor": 5,
@@ -48,7 +52,8 @@
 		"clearSongId": "dualdoom",
 		"clearCharaId": 76,
 		"charIcon1": 76,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "alternatePrefix": "19"
 	},
 	{
 		"minor": 6,
@@ -59,7 +64,8 @@
 		"clearCharaId": 76,
 		"charIcon1": 76,
 		"charIcon2": -1,
-		"storyCgPath": "app-data/story/cg/18-6.jpg"
+		"storyCgPath": "app-data/story/cg/18-6.jpg",
+        "alternatePrefix": "19"
 	},
     {
         "minor": 7,
@@ -70,7 +76,8 @@
         "clearCharaId": 76,
         "charIcon1": 76,
         "charIcon2": -1,
-		"storyCgPath": "app-data/story/cg/18-7.jpg"
+		"storyCgPath": "app-data/story/cg/18-7.jpg",
+        "alternatePrefix": "19"
     },
     {
         "minor": 8,
@@ -81,6 +88,7 @@
         "clearCharaId": 76,
         "charIcon1": 76,
         "charIcon2": -1,
-		"storyCgPath": "app-data/story/cg/18-8.jpg"
+		"storyCgPath": "app-data/story/cg/18-8.jpg",
+        "alternatePrefix": "19"
     }]
 }
