@@ -1,0 +1,28 @@
+{
+    "entries":
+    [
+        {
+            "minor": 1,
+            "storyType": "nvl",
+            "requiredPack": "base",
+            "clearSongId": "inkarusi",
+            "alternatePrefix": "0"
+        },
+        {
+            "minor": 2,
+            "storyType": "nvl",
+            "requiredPack": "base",
+            "clearSongId": "grimheart",
+            "alternatePrefix": "0",
+            "requiredMinor": 1
+        },
+        {
+            "minor": 3,
+            "storyType": "nvl",
+            "requiredPack": "base",
+            "clearSongId": "shadesoflight",
+            "alternatePrefix": "0",
+            "requiredMinor": 2
+        }
+    ]
+}
