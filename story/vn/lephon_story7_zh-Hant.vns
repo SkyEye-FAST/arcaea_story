@@ -28,7 +28,7 @@ play "ruffle.ogg" 2.0
 
 stop "glassRain.ogg" 6.0
 
-say "她短暫地抽離了戰場，直接來到了那個孩子麵前。
+say "她短暫地抽離了戰場，直接來到了那個孩子面前。
 她用長矛抓住了孩子的右手腕，向上一提——"
 
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
