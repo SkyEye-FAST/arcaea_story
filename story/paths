@@ -96,38 +96,45 @@
 		{
 			"storyType": 3,
 			"characterIcon": 44,
-			"characterIconXOffset": 0,
+			"characterIconXOffset": 1,
 			"main": 8
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 19,
-			"characterIconXOffset": 362,
+			"characterIconXOffset": 364,
 			"main": 11
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 54,
-			"characterIconXOffset": 724,
+			"characterIconXOffset": 727,
 			"main": 12
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 10,
-			"characterIconXOffset": 1086,
+			"characterIconXOffset": 1090,
 			"main": 13
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 68,
-			"characterIconXOffset": 1448,
+			"characterIconXOffset": 1453,
 			"main": 14
 		}
-		,
+        ,
+        {
+            "storyType": 3,
+            "characterIcon": 76,
+            "characterIconXOffset": 1816,
+            "main": 18
+        }
+        ,
 		{
 			"storyType": 4,
 			"main": 102

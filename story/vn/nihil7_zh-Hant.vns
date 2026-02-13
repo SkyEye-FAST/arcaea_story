@@ -12,7 +12,7 @@ volume "rain.ogg" 0.7 4.0
 play "thump.ogg" 1.0 loop
 volume "thump.ogg" 0.8 4.0
 
-say "這並是不兩股偉力之間的較量，更不是一場壯麗而沈重的苦鬥。"
+say "這並不是兩股偉力之間的較量，更不是一場壯麗而沈重的苦鬥。"
 
 say "我和忘卻的這場「鷸蚌之爭」……"
 
@@ -97,8 +97,8 @@ show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
 hide "red.png" fade(0.2,linear)
 hide "white.png" fade(0.6,linear)
 
-say "那長而彎的閃爍著尖寒光芒的刀鋒向我刺來，
-而我猛地擊向大地——忘卻的鐮刀幾乎是同時緊貼我身側劃下，瞬間將我身後的空氣撕裂。"
+say "那長而彎的閃爍著尖寒光芒的刀鋒向我刺來，而我猛地擊向大地——
+忘卻的鐮刀幾乎是同時緊貼我身側劃下，瞬間將我身後的空氣撕裂。"
 
 play "stab.ogg" 1.0
 
@@ -122,7 +122,7 @@ volume "wind.ogg" 0.3 1.0
 show "nihil/nihil_3_cut3.jpg" 0.5:0 0.5:0 1.4:1.4 fade(4,linear) normal
 move "nihil/nihil_3_cut3.jpg" 0:-850 21 sineout
 
-say "橫亙在我和忘卻中間的是一位陌生的女性，她的長發顏色蒼白，眼神卻十分銳利。"
+say "橫亙在我和忘卻中間的是一位陌生的女性，她的長髮顏色蒼白，眼神卻十分銳利。"
 
 say "她看了看我，又看了看忘卻。
 我這時才註意到，她是笑著的。"
