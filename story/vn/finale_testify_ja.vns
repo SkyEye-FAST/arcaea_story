@@ -701,40 +701,40 @@ wait 0.1
 hide "2white.png" fade(20,linear)
 move "finale/bg3.jpg" 0:1800 40 sineoutin
 
-auto 3
+autoplay_legacy 3
 
-say "それでも、幕は引かれない。
+say_legacy "それでも、幕は引かれない。
 終わりなど、決して訪れない。"
 
-say "ずっとずっと、少女が求める意味などない。"
+say_legacy "ずっとずっと、少女が求める意味などない。"
 
-say "意義などない。ここに見つかるものはない。"
+say_legacy "意義などない。ここに見つかるものはない。"
 
 volume "testifyStoryFull.ogg" 0.15 10
 
-say "死んだ世界に、泣きじゃくる少女が一人いるばかり。"
+say_legacy "死んだ世界に、泣きじゃくる少女が一人いるばかり。"
 
-say "それでも、慰めがただ一つ、否定しようのない事実が一つ。"
+say_legacy "それでも、慰めがただ一つ、否定しようのない事実が一つ。"
 
-say "危うく全てを奪いかけた1人の少女を生贄に、
+say_legacy "危うく全てを奪いかけた1人の少女を生贄に、
 今、白い少女の奥底に、"
 
-auto 4
+autoplay_legacy 4
 
-say "かの血で深く刻み付けられた事実が一つ。"
+say_legacy "かの血で深く刻み付けられた事実が一つ。"
 
 volume "testifyStoryFull.ogg" 0.01 5
 wait 2
 hide "finale/bg3.jpg" fade(6,linear)
-auto 3
+autoplay_legacy 3
 
-say "――そう。"
+say_legacy "――そう。"
 
 stop "testifyStoryFull.ogg" 3
 wait 3
 stop "glassRain.ogg" 8
-auto 6
+autoplay_legacy 6
 
-say "こうして楽園は守られたのだ。"
+say_legacy "こうして楽園は守られたのだ。"
 
 wait 8

@@ -1,0 +1,647 @@
+wait 1.5
+play "quake.ogg" 1.0
+play "fracture2_epilogue.ogg" 1.0
+wait 0.5
+play "burst.ogg" 1.0
+wait 0.6
+play "glassRain.ogg" 0.0 loop
+volume "glassRain.ogg" 4.0 4.0
+wait 2.0
+
+show "lephon/lephon_1_cut1.jpg" 1:1 1:1 1.0:1.0 fade(3,linear) normal
+move "lephon/lephon_1_cut1.jpg" 700:0 35 sineout
+
+wait 1.0
+
+play "lephon_menu.ogg" 1.0 loop 89537:178153
+
+say "ぶつかり合う、二人の究明者。
+二人の間で新たな光が周囲へと降り注ぎ、天剄が暴れまわる――台風じみた突風が巻き起こる。"
+
+show "lephon/lephon_2_cut1.jpg" 1:1 1:1 1.0:1.0 fade(3,linear) normal
+move "lephon/lephon_2_cut1.jpg" 700:0 35 sineout
+
+say "その若さにも関わらず『%%慈哀%%{じあい}』は覚悟を決めていた――『%%信興%%{しんこう}』の首を獲ると。
+決意の固さを見て、『%%信興%%{しんこう}』はエルを――己が師を助けようとする彼女のことを%%見た%%{・・}。"
+
+play "ruffle.ogg" 2.0
+
+stop "glassRain.ogg" 6.0
+
+say "戦局を手放し、『%%信興%%{しんこう}』は直ちに%%童%%{エル}の元へと代わりに向かった。
+まっすぐに意表を突かれたエルの右手首を、彼女は吊り上げるように持ち上げる。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "stab.ogg" 4.0
+wait 0.1
+
+hide "red.png" fade(1.0,linear)
+wait 1.0
+hide "lephon/lephon_1_cut1.jpg" fade(0.1,linear)
+hide "lephon/lephon_2_cut1.jpg" fade(0.1,linear)
+
+say "片手にて軽々と大槍を一振りすると、手足がエルから失われた。"
+
+play "ring.ogg" 3.0
+
+say "エルはぼんやりと、中空に浮かぶ手足を見た。――己が失い、『%%信興%%{しんこう}』が手放したばかりの手足を。
+その行き先を見ることなく、意識はふわりと薄れていく。
+速すぎる一連の流れに、ネールは震え、硬直さえした――そして『%%信興%%{しんこう}』はそれを見逃さない。"
+
+say "気づけば肩が掴まれている――引き絞るように巨槍は振りかぶられている。
+そして、次には――。"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "fracture1_epilogue.ogg" 3.0
+play "strike.ogg" 4.0
+wait 2.0
+hide "white.png" fade(3.0,linear)
+hide "black.png" fade(0.3,linear)
+
+say "巨槍が易々と貫く、若い肢体が貫かれる。
+刃先が接触する、解れていく現実の縫い目に、『ネール』という存在も%%解けて行く%%{・・・・・}"
+
+say "こうして、一瞬にしてネールの命は%%消え去った%%{・・・・・}。
+童は静かに、そして冷たくなっていく。"
+
+wait 0.25
+
+show "lephon/lephon_1_cut2.jpg" 1:0.5 1:0.5 1.0:1.0 fade(0,linear) normal
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 0.2
+
+show "black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+show "2black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+show "3black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+
+move "black_fade.png" -1636:0 0 linear
+move "2black_fade.png" -1636:0 0 linear
+move "3black_fade.png" -1636:0 0 linear
+
+wait 0.05
+
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+show "bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+hide "5black.png" fade(3.0,linear)
+
+say "――エルは、何も信じていなかった。
+信念は人の原動力たりうるが、時としてそれは不安定で移ろいやすい。
+知識、論理、再現性――それこそがリフォンを良くすると知っていて、少女は走り続けてきた。"
+
+move "black_fade.png" 3000:0 0.3 sinein
+play "thump.ogg" 3.0
+
+show "lephon/3lephon_1_cut2.jpg" 1.02:0.5 1.02:0.5 1.0:1.0 fade(17,linear) normal
+wait 0.01
+show "3black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+show "3bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "3bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+play "tunnel.ogg" 3.0
+
+say "そして今、ネールは死んだ。
+%%師%%{せんせい}の躯を雑に脇へと退ける第二究明者を、エルは震える瞳で凝視していた。"
+
+hide "black_fade.png" fade(0.3,linear)
+move "2black_fade.png" 3000:0 0.3 sinein
+move "3black_fade.png" 3000:0 0.75 sinein
+wait 0.5
+play "thump.ogg" 3.0
+wait 0.7
+play "thump.ogg" 3.0
+show "lephon/2lephon_1_cut2.jpg" 1:0.5 1:0.5 1.11:1.11 fade(6,linear) normal
+
+show "2black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+
+show "2bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "2bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+scale "lephon/2lephon_1_cut2.jpg" 1.0:1.0 4 sinein
+wait 0.1
+volume "lephon_menu.ogg" 0.0 8.0
+hide "2black_fade.png" fade(0.3,linear)
+hide "3black_fade.png" fade(0.3,linear)
+
+say "吐息は荒く、傷口も重症だった――だが、思考はかつてなく冴えている。
+そのままぎょろりとリフォンの背に眼を向け凝視した――渇き、流血し始めるほどに。
+そして脳髄がバクバクと脈打つなか――彼女は、時空を止めた。"
+
+hide "lephon/lephon_1_cut2.jpg" fade(0.2,linear)
+hide "lephon/3lephon_1_cut2.jpg" fade(0.2,linear)
+hide "lephon/2lephon_1_cut2.jpg" fade(0.3,linear)
+hide "black_left.png" fade(2.0,linear)
+hide "2black_left.png" fade(2.0,linear)
+hide "3black_left.png" fade(2.0,linear)
+
+hidetextbox
+wait 4.0
+
+hide "2bar_bottom.png" fade(0.3,linear)
+hide "2bar_top.png" fade(0.3,linear)
+hide "3bar_bottom.png" fade(0.3,linear)
+hide "3bar_top.png" fade(0.3,linear)
+hide "bar_top.png" fade(0.3,linear)
+hide "bar_bottom.png" fade(0.3,linear)
+
+show "lephon/arc6_bg1.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.2,linear) normal
+wait 0.3
+hide "lephon/arc6_bg1.jpg" fade(0.3,linear)
+wait 0.4
+show "lephon/lephon_bg1.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.2,linear) normal
+wait 0.3
+hide "lephon/lephon_bg1.jpg" fade(0.3,linear)
+wait 0.5
+wait 1.0
+play "lephon_title.ogg" 1.0 loop 93728:170530
+stop "lephon_menu.ogg" 4.0
+wait 4.0
+
+say "初恋のひとがくれたもの……それは%%L%%{エル}という愛称だった。素直で、単純だが、
+だからこそ、愛着が湧いた――たとえ、それが彼女のほんとうの名前の頭文字だとしても。"
+
+show "lephon/lephon_1_cut3.jpg" 0.2:0 0.2:0 0.7:0.7 fade(9,linear) normal
+move "lephon/lephon_1_cut3.jpg" -60:0 26 sineout
+
+say "彼女の名前は、特別だった……彼女が受け入れたもの以外には、意味を持ちえない名前だ。
+いま、その名はArcaeaの心奥にて神聖となった。全てを超越した、新たな存在の名前になった。"
+
+say "そう、ここに真実を記そう。
+『リフォン』とは、ある神の名だが、"
+
+say "$e:『ラクリミラ』$ もまた、神の名なのだ。"
+
+wait 2.0
+
+hide "lephon/lephon_1_cut3.jpg" fade(0,linear)
+
+hidetextbox
+
+wait 4.0
+
+show "lephon/lephon_bg2.jpg" 0.5:0 0.5:0 1.6:1.6 fade(6,linear) normal
+move "lephon/lephon_bg2.jpg" 0:-1700 41 sineout
+
+play "ascension.ogg" 0 loop
+volume "ascension.ogg" 2.4 4.0
+
+say "凝視する、凝視する――%%彼%%{かみ}の脊柱を、%%彼%%{かみ}の心臓を、
+そしてその心奥にて――彼女は視た。すなわち、%%彼%%{かみ}の魂、その影を。
+……そして、彼女は命じたのだ。"
+
+say "――リフォンとは、
+多くの点で不可解な存在だ。
+何人の祈りをも聞かず、我が子らの言葉さえも聞かない――ただ、聞こえないからだ。"
+
+say "だが、それでも%%彼%%{かみ}に命じるのは――奇跡ではない。
+それは十万通りを超えきった果てにある一つの行き先であり、神聖なものだ。
+『運命』とそれを呼ぶのは、あまりに陳腐がすぎる。"
+
+hide "lephon/lephon_bg2.jpg" fade(1.5,linear)
+
+say "そしてラクリミラこそ、その一に相応しかった。それだけの話なのだ。"
+
+hidetextbox
+
+wait 2.5
+
+show "lephon/lephon_1.jpg" 0.5:0 0.5:0 1.5:1.5 fade(0.2,linear) normal
+show "lephon/2_lephon_1.jpg" 0.5:0 0.5:0 1.8:1.8 fade(6,linear) normal
+
+scale "lephon/lephon_1.jpg" 1.6:1.6 30 sineout
+scale "lephon/2_lephon_1.jpg" 1.5:1.5 4 sinein
+wait 0.5
+move "lephon/lephon_1.jpg" 0:-100 30 sineout
+move "lephon/2_lephon_1.jpg" 0:-100 30 sineout
+
+say ""
+
+hide "lephon/2_lephon_1.jpg" fade(3,linear)
+
+say "今、虚ろのままに渇き、沈黙していた神経がその存在を感知し息を吹き返す。
+石のようだった背中に蘇るかつての感触と、ようやく拍動する神の心臓。
+そして一瞬、『%%大気%%{エア}』さえも静止した。"
+
+say "こうして、『この現実』は変わった。全てが%%知った%%{・・・}。万物が本能的に彼女を認識した。
+リフォンを心奥から変え、彼女こそが『摂理』となったのだ。"
+
+say "少女は%%神%%{リフォン}に語りかけ、その声を届かせた。
+自身の声を己の眼でしか見えない心奥へと響かせたのだ。
+その眼も、手も指も、総て%%神%%{リフォン}が与え、授けたものだった。"
+
+say "少女は知らない言葉で、けれど感じるままに語りかけ――死した%%神%%{リフォン}に望みを告げた。
+即ち、号名を、連番を与え、その%%象徴%%{もじ}に無欠を宿し、
+そして、この聖なる者に全てを授けよ、と。"
+
+show "lephon/lephon_1_cut3.jpg" 1:0 1:0 0.8:0.8 fade(4.5,linear) normal
+move "lephon/lephon_1_cut3.jpg" 0:-150 35 sineout
+
+say "それも、ただの号名でも連番でもない――『彼女』、ネールのものをだ。
+彼女――ネールは唯一、%%恩寵%%{おんちょう}に値しない存在だった。リフォンは%%之%%{これ}に合意し、
+かくしてラクリミラこそがその遺産を継承することとなったのだ。"
+
+say "%%彼%%{かみ}の骨へと向け、%%彼女%%{かみ}はその腕を掲げた。
+そしてそこに、遺された神の意志を形作ったのだ。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+volume "ascension.ogg" 0.0 4.0
+hidetextbox
+
+wait 2.0
+hide "lephon/lephon_1.jpg" fade(0.3,linear)
+hide "lephon/lephon_1_cut3.jpg" fade(0.3,linear)
+show "lephon/designant_j.jpg" 1:0 1:0 1.8:1.8 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-210 16 sineout
+
+say "波打ちながら伸びる巨大な生地、黄金の森のなか――新たに生まれた極彩色。
+それこそは%%彼女%%{かみ}――ラクリミラ。
+冷たく耀くその威光は、%%彼%%{かみ}の肋骨と脊柱を通り、沃土と『%%大気%%{エア}』にまで及んだ。"
+
+hide "lephon/designant_j.jpg" fade(0.3,linear)
+hide "black.png" fade(0.3,linear)
+wait 1.0
+show "lephon/designant_j.jpg" 0:0.2 0:0.2 1.8:1.8 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-210 16 sineout
+
+say "その体に天剄が満ちる。自然と右腕は戻っていた。
+%%彼女%%{かみ}はその身に残りうる全ての傷を癒やすべく、自身を再形成し始める。"
+
+hide "lephon/designant_j.jpg" fade(0.3,linear)
+wait 1.0
+show "lephon/designant_j.jpg" 0.5:0.6 0.5:0.6 1.5:1.5 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-180 16 sineout
+
+say "%%神%%{リフォン}は%%彼女%%{ラクリミラ}を聞き届け――そして%%彼%%{かみ}は再び語りかけた。
+その者は%%彼%%{かみ}の後ろに、%%彼%%{かみ}の後に立ち上がるだろう。
+名をラクリミラ。あるいは――天賦第八究明者。"
+
+say "$e:『識眼』$"
+
+wait 2.0
+
+say "そして時が動き出し、%%彼女%%{かみ}は治癒された双眸で第二の到達者を見た。
+昇り詰め、嵩み続ける『識眼』を見て、『%%信興%%{しんこう}』は痛みとともに%%神%%{リフォン}の意志を識った。
+それでも、彼女は抗う――だが抗おうとも、そもそもが津波を相手にするようなものだ。"
+
+hide "lephon/designant_j.jpg" fade(1.5,linear)
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(0.3,linear)
+wait 0.2
+play "fracture5_epilogue.ogg" 3.0
+volume "lephon_title.ogg" 0.0 8.0
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "2white.png" fade(0.75,linear)
+
+say "ラクリミラはすでに圧倒していた――新たな%%土壌%%{あしば}を作り出し、獲物を釘付けにしている。
+そのままミニチュアの天体を『%%信興%%{しんこう}』の背中に生み出し、なんと破砕した――。
+身動きも取れずに数瞬で無へと引き裂かれ、究明者は消え去られる。"
+play "fracture4_epilogue.ogg" 3.0
+
+say "自らの手で破砕された星の残骸を消し去ると、残ったのは再びの静寂だった。"
+
+say "……あとは着実に、物語は結末へと流れていく。"
+
+play "sand_epilogue.ogg" 2.0
+
+say "ラクリミラは己の師を死なせはしない。己が作り出した土壌へと、
+その躯を寝かせると、そのまま若い女性の体を蘇らせる。
+具体的には魂を引き戻し、その肉体の傷を癒やした。"
+
+play "woosh.ogg" 1.0
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 8.0
+show "lephon/lephon_2_cut2.jpg" 0:1 0:1 1.1:1.1 fade(6,linear) normal
+move "lephon/lephon_2_cut2.jpg" -300:0 35 sineout
+
+say "リフォンを背にして、少女たちは二人きり……立ったままのラクリミラ、跪くネール。
+すぐに師は理解した。己の弟子が自身の不在時に何をなしたのか――そして未知の寒気を覚えた。
+つまり、ネールは己が子を救えなかったのだ。"
+
+show "lephon/lephon_2_cut3.jpg" 0:1 0:1 1.6:1.6 fade(3,linear) normal
+move "lephon/lephon_2_cut3.jpg" -150:0 17.5 sineout
+
+say "「……」
+ラクリミラは静かに、ただ己が師を見下していた――その奥深く、核に至るまでを凝視する。
+そうして、%%神%%{ラクリミラ}は尋ね給うた――「……ネール、なぜ私とともに来ない？」"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "言葉はない。ただ、彼女には見えたのだ――姉の心が奥底で、己の信条と一致しないことに。
+奥底に見えた師の願いは、家族を「行かないで」と引き止めること。
+だって確かに彼女は何度も口にしていたのだ、「神になった暁には、この世界を離れる」と。"
+
+hide "lephon/lephon_2_cut2.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut3.jpg" fade(0.3,linear)
+show "lephon/lephon_2_cut4.jpg" 1:1 1:1 1.25:1.25 fade(3,linear) normal
+move "lephon/lephon_2_cut4.jpg" 100:0 17.5 sineout
+
+say "神は言う――「ネール。……あなたはもう生き返った。生きているんだ――さあ、話して」
+ネールは%%神%%{かのじょ}を見上げ、答えた。「『なぜ私が行かないのか』？…君こそなぜ行くの？」"
+
+say "二人とも、%%神%%{かのじょ}の答えを知っていた。
+それでも、%%彼女%%{ラクリミラ}は答えた――「私以外のためには、生きられないからさ」"
+
+say "「君だってそうだ、ネール。そんな生き方をする必要はないんだ。
+感謝されることもない、称賛されることすらない。
+君はいつか御使いの手で殺され、誰一人として君を記憶しないだろう――私以外、誰も」"
+
+say "師の顔をして、彼女は答えた「でも、エル。死ぬとは限らないよ――ここに残って、一緒に…」"
+
+say "ゆっくりと、%%彼女%%{ラクリミラ}は首を左右に振った――「見えるんだ。……見えるんだよ」
+「最後まで、何の救いも私達にはないよ――創形師は全て、ひとり残らず死ぬ」"
+
+say "少しだけ項垂れて、ネールは小さく首を振る――「ダメだ……そんなの、私が―」"
+
+play "memoryShift.ogg" 1.0
+wait 0.5
+hide "black.png" fade(0.3,linear)
+hide "lephon/lephon_2_cut4.jpg" fade(0,linear)
+
+say "「もう黙れよッ！」"
+
+say "咆哮――辺り一面の全てを貫く、%%神%%{ラクリミラ}の声。一瞬だけ、ネールもまた静止した。
+ネールが顔を上げれば、そこには憤怒に震える眼でこちらを睨む%%神%%{ラクリミラ}がいた。"
+
+say "「君に嘘をついたよ、ネール」――震える声で、怒りに震えて。
+「君のためなら生きられる。……そう言えば充足かい？そう書き起せば十全かい？
+どう強調したら満足だい――こんなにも君を明らかに愛していると、どうすれば分かるッ？！」"
+
+show "lephon/lephon_2_cut5.jpg" 0.4:1 0.4:1 1.1:1.1 fade(4,linear) normal
+move "lephon/lephon_2_cut5.jpg" -300:0 35 sineout
+
+say "その声が鼓膜に届く頃には、%%師%%{せんせい}の顔は歪んでいて。
+眼は充血し、涙が溢れ、しゃくりあげて。
+とめどなく零れる涙――彼女はもう泣いていた。泣き続けていた。"
+
+say "そして泣きじゃくる%%師%%{せんせい}を前に、ラクリミラはなお叫ぶ。"
+
+say "「当然だよ、大好きなんだよ！君の為でもないのに私がこんな場所にまだいられると思うんだい？
+置いていかないさ――置いていけないんだよ！愛さずにいるには愛おしすぎる、大きすぎる！」"
+
+say "「あなたはこの%%人生%%{いのち}のほぼ全て、ワタシにとってのほぼ全てなんだ……。
+ネールに死んでほしくない。死んでほしいなんて思いすらしない！キミの死なんて、絶対に嫌だッ！」"
+
+say "「……ああ、もう最高だ。傑作だよ。そんな風に泣いて嘆いて――未だにワタシに応えようとしない！
+佗しいネール、いつも気遣って心配して……そこだけが嫌いだ。ずっとだ。そういうキミは嫌いだった。
+キミ以外の遥かに劣った人間ごときのために、あなたという全てを無駄にして！」"
+
+show "lephon/lephon_2_1.jpg" 0.5:0.6 0.5:0.6 1:1 fade(3,linear) normal
+
+say "糾弾は止んだ。その体は震えていた。冷徹な瞳が、眼の前で崩折れた少女に注がれている。
+ネールは首を振る――彼女は誰のことも見捨てない。
+誰一人――エルを除いて。"
+
+say "ラクリミラは告げる――「キミは佗しいね」――氷を差し込むような声で。"
+
+say "「そうさ、その通りさ」――神は繰り返す――「キミは『$e:佗棄（だき）$』されるに相応しい」"
+
+say "ネールは弟子を見た――「第八の座は不相応だ」――%%神%%{ラクリミラ}の目は、神の背から動かない。"
+
+say "%%ラクリミラ%%{神}は言う――「キミには滅びの烙印が相応しい」
+「そうだ、呪いを――忌むべき数字$e:6$を与えよう。その忌むべき烙印を永遠に、永久に背負うがいい」"
+
+play "epilogue_accept.ogg" 1.0
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "2white.png" fade(0.75,linear)
+
+say "リフォンの心奥――深くにある漆黒のキャンバスにて、
+いま刻まれる、新たなモノ。それこそは、新たなる真実。
+こうして、改変された『佗棄』が生徒へ遺せたのは「ごめんなさい…」という一言だけ。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+stop "wind.ogg" 5.0
+
+say "ラクリミラは応える――「そう、謝罪に値する存在だよ。
+けれど、ネール……そんなアナタも愛しているよ」"
+
+unload_textures
+hidetextbox
+
+wait 2.0
+play "swan_song_story.ogg" 1.0 loop
+stop "lephon_title.ogg" 3.0
+stop "ascension.ogg" 3.0
+wait 1.0
+hide "lephon/lephon_2_cut5.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_1.jpg" fade(0.3,linear)
+show "lephon/lephon_2_cut6.jpg" 1:1 1:1 1.5:1.5 fade(4,linear) normal
+wait 7
+
+say "そして、新たなる『神』の背後に現る空間の裂け目――どこぞへの『扉』だ。"
+
+hidetextbox
+wait 1.5
+show "lephon/lephon_2_cut7.jpg" 0:1 0:1 1.1:1.1 fade(4,linear) normal
+move "lephon/lephon_2_cut7.jpg" 0:300 20 sineout
+wait 5.0
+show "lephon/lephon_2_cut8.jpg" 0.5:0.35 0.5:0.35 1.2:1.2 fade(4,linear) normal
+move "lephon/lephon_2_cut8.jpg" 0:-300 20 sineout
+wait 5.0
+
+say "彼女は身を屈めると、ネールの顔を優しく片手で包み込んだ。
+%%神%%{かのじょ}は屈むと、姉の頬へと%%己%%{かみ}の唇を添えた。"
+
+wait 3.0
+show "lephon/lephon_2_2.jpg" 0.5:0.6 0.5:0.6 1:1 fade(3,linear) normal
+wait 3.0
+
+say "しばらくその場に留まりながら、
+彼女は少しだけ考えた――すなわち、この地への残留を。"
+
+hide "lephon/lephon_2_cut6.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut7.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut8.jpg" fade(0.3,linear)
+
+wait 0.7
+show "lephon/lephon_2_1.jpg" 0.5:0.6 0.5:0.6 1:1 fade(0.8,linear) normal
+wait 0.8
+hide "lephon/lephon_2_2.jpg" fade(0.3,linear)
+
+say "……だが、立った。そうして、振り返る。
+リフォンを背に、%%神%%{じぶん}の師匠へも背を向けて。
+けれど%%少女%%{かみ}の手は、永らく愛しい姉の頬に触れていた。"
+
+say "手を離したその顔は伺えない。
+門をくぐり抜ける姿だけが明らかで。"
+
+hide "black.png" fade(0.1,linear)
+hide "lephon/lephon_2_1.jpg" fade(0.1,linear)
+
+say "……閉じられたときには、%%神%%{かのじょ}はもういなかった。"
+
+hidetextbox
+
+wait 2.0
+show "../../cg/E-1_epilogue.jpg" 1:0 1:0 1.5:1.5 fade(0.5,linear) normal
+move "../../cg/E-1_epilogue.jpg" 300:0 0.5 sineout
+wait 0.5
+move "../../cg/E-1_epilogue.jpg" 50:0 20 sineout
+
+say "まだ、%%創形師%%{シェイパー}たちには物語がある。
+――だがそれは、すでに異なる場所、異なる者に語られた。"
+
+hide "../../cg/E-1_epilogue.jpg" fade(0.3,linear)
+wait 0.4
+show "../../cg/E-1_epilogue.jpg" 0.7:0.5 0.7:0.5 1.5:1.5 fade(0.5,linear) normal
+move "../../cg/E-1_epilogue.jpg" 300:0 10 sineout
+
+say "そうだ――それは汝らが『対立』と呼ぶ者の死の物語。ネールが先に無駄死にした後の話。
+なぜなら、『天剄』は『力』だからだ。ただの力は動かし、操ることだって出来る。
+だがそれでも、『天剄』は%%世界%%{リフォン}で物理的に存在しうる絶対の存在だ。"
+
+hide "../../cg/E-1_epilogue.jpg" fade(0.3,linear)
+wait 0.4
+show "../../cg/E-1_epilogue.jpg" 0.5:1 0.5:1 1.5:1.5 fade(3,linear) normal
+scale "../../cg/E-1_epilogue.jpg" 0.9:0.9 16 sinein
+
+say "そして、御使いが舞い降りた。
+二度目にして最後、創形師はようやく報いを受けたのだ。"
+
+say "しかし、永久の存在になった%%神%%{かのじょ}はいない。ずっと存在したまま、永らく在った。
+長い長い時間が過ぎた。百年か、それとも……
+だが、誤った順序を覚えているモノは、「これは、そう遠くない昔の話」とでもいうかも知れない。"
+
+hide "../../cg/E-1_epilogue.jpg" fade(0,linear)
+
+hidetextbox
+
+wait 4.0
+show "meeting/bg.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.3,linear) normal
+wait 0.38
+hide "meeting/bg.jpg" fade(0.3,linear)
+wait 0.38
+
+show "nihil/bg_cut3.jpg" 0.5:1 0.5:1 1.4:1.4 fade(0.3,linear) normal
+wait 0.38
+hide "nihil/bg_cut3.jpg" fade(0.3,linear)
+wait 0.38
+
+show "finale/bg3.jpg" 0.5:0.2 0.5:0.2 1.6:1.6 fade(0.3,linear) normal
+wait 0.38
+hide "finale/bg3.jpg" fade(0.3,linear)
+wait 0.38
+
+show "vs/bg.jpg" 0.5:0.3 0.5:0.3 1.6:1.6 fade(0.3,linear) normal
+move "vs/bg.jpg" 0:-850 8 sinein
+wait 7.0
+hide "vs/bg.jpg" fade(1,linear)
+wait 0.9
+
+show "epilogue/last1_epilogue.jpg" 0.5:0.4 0.5:0.4 1.2:1.2 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+scale "epilogue/last1_epilogue.jpg" 1:1 0.3 sineout
+move "epilogue/last1_epilogue.jpg" -30:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+wait 0.2
+hide "2white40.png" fade(3.5,sineout)
+wait 4.0
+
+show "finale/bg_distance.jpg" 0.4:0.4 0.4:0.4 1:1 fade(3,linear) normal
+move "finale/bg_distance.jpg" -30:-20 10 easeout
+wait 5
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+unload_textures
+wait 6
+show "../../cg/16-7-2.jpg" 0.5:0.4 0.5:0.4 1.5:1.5 fade(4,linear) normal
+move "../../cg/16-7-2.jpg" 0:-90 15 easeout
+wait 6
+hide "../../cg/16-7-2.jpg" fade(5,linear)
+wait 4
+
+show "../../cg/16-7-1.jpg" 0.5:0.5 0.5:0.5 1.2:1.2 fade(5,linear) normal
+scale "../../cg/16-7-1.jpg" 0.9:0.9 8 sineout
+
+say "その旅路で%%神%%{かのじょ}は、Arcaeaを見つけた。
+そしてネールの死によって、%%神%%{かのじょ}の恩師をArcaeaは見つけた。
+……ラクリミラは、それを知らない。"
+
+hidetextbox
+wait 2.0
+
+hide "../../cg/16-7-1.jpg" fade(2,linear)
+wait 4.0
+show "../../cg/F-5.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.75
+
+show "../../cg/4-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/F-5.jpg" fade(0,linear)
+
+show "../../cg/11-8-2.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/4-1.jpg" fade(0,linear)
+
+show "../../cg/5-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/11-8-2.jpg" fade(0,linear)
+
+show "../../cg/3-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/5-1.jpg" fade(0,linear)
+
+show "../../cg/10-5.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/3-1.jpg" fade(0,linear)
+
+show "../../cg/7-6.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/10-5.jpg" fade(0,linear)
+
+show "../../cg/9-5.jpg" 0.5:1 0.5:1 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/7-6.jpg" fade(0,linear)
+
+show "../../cg/17-6-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.75
+hide "../../cg/9-5.jpg" fade(0,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 4.5
+hide "black.png" fade(0,linear)
+
+show "../../cg/2-1.jpg" 0.5:0.4 0.5:0.4 0.9:0.9 fade(1.5,linear) normal
+wait 6.5
+hide "../../cg/17-6-1.jpg" fade(0,linear)
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 5
+hide "2black.png" fade(0,linear)
+hide "../../cg/2-1.jpg" fade(0,linear)
+
+show "lephon/arc6_bg2.jpg" 0:0.7 0:0.7 1.3:1.3 fade(5,linear) normal
+move "lephon/arc6_bg2.jpg" -580:-70 25 sineout
+
+say "だが、Arcaeaの物語はリフォンの物語ではない。その語り部はまた誰かが担うだろう。
+この歴史は伝えられた――あるいは、%%盗まれた%%{・・・・}のか。とにかく、記録は果たされたのだ。"
+
+say "さて……。
+新たな神は気まぐれで、%%神%%{かのじょ}は特に移り気だ。
+では、その目的とは――気になるかね？なら、忍耐を学ぶことだな。"
+
+say "ただ、一つだけ真実を伝えよう。
+彼女は神だが、%%神%%{かのじょ}を信じるな。
+信仰こそが『真実』を作り出すのだから。"
+
+say "なぜなら、あの地の創造主は力を失っているかもしれないし、
+Arcaeaはとっくに死んでいるのか、まだ死につつあるのか……
+要するところはこうだ。"
+
+say "――%%そこで%%{・・・}、%%神は死んでいない%%{・・・・・・・・}。"
+
+auto 1
+
+say ""
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+
+volume "swan_song_story.ogg" 0.0 12.0
+
+wait 12
+stop "swan_song_story.ogg" 1.0
+wait 1

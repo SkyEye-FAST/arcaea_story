@@ -1,0 +1,129 @@
+wait 1.0
+
+play "voice_epilogue.ogg" 1.0 loop
+
+wait 2.0
+
+say "$e:Listen:$"
+
+volume "voice_epilogue.ogg" 3.5 6
+
+wait 2.0
+say ""
+wait 1.0
+
+say "$e:There is no rule to divinity,$
+rule is set by the $e:divine.$"
+
+say "$e:Law$, and $e:order$, are established by the will of $e:gods$."
+
+wait 2.0
+
+play "tension.ogg" 1.0 loop
+
+say "$e:Why, there is a god called \"nature\", and there is a god of \"nothing\".$
+Brilliant gods with brilliant names, idiot gods and gods with names unspeakable.
+And, us human gods."
+
+wait 2.0
+stop "voice_epilogue.ogg" 0.3
+
+say "$e:I am 8. I am Insight.$
+But, little devil: my true name was not yours to know.
+You've been listening to some secret words, haven't you?"
+
+wait 2.0
+stop "tension.ogg" 4.0
+
+say "Shaper, Ascendant, Seeker; $e:I \"am\"$: perfection, infinite, all-seeing.
+What else? But $e:\"god\"$."
+
+hidetextbox
+
+wait 5.0
+play "lephon_story.ogg" 0 loop 72221:143331
+volume "lephon_story.ogg" 1.0 5.0
+wait 6.0
+show "lephon/arc6_bg3.jpg" 0.5:1 0.5:1 1:1 fade(8,linear) normal
+move "lephon/arc6_bg3.jpg" 0:800 30 sineout
+wait 14.0
+
+say "...But now, I, your magnanimous god...
+$e:I seek to stitch torn seams back together, and repair a graying veil.$
+Yet: $e:the world itself still always tumbles down into nothing.$"
+
+hidetextbox
+
+wait 4.0
+show "lephon/lephon_epilogue_cut1.jpg" 0:0 0:0 1.2:1.2 fade(3,linear) normal
+move "lephon/lephon_epilogue_cut1.jpg" -40:0 15 sineout
+wait 5.0
+hide "lephon/arc6_bg3.jpg" fade(0.3,linear)
+
+say "Ah, that so-called \"sister\" of mine, and her new friend...
+I can see the two of them through another eye.
+Stumbling through this world, walking $e:Arcaea$ in its dying."
+
+wait 2.0
+show "lephon/lephon_epilogue_cut2.jpg" 1:0.1 1:0.1 0.8:0.8 fade(1.5,linear) normal
+move "lephon/lephon_epilogue_cut2.jpg" 300:0 35 sineout
+
+wait 2.0
+hide "lephon/lephon_epilogue_cut1.jpg" fade(0.3,linear)
+
+say "They've become blind: rejected \"god\" to accept \"life\".
+And like Arcaea has, this means to have wholly accepted $e:\"death\"$.
+It's sad."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "$e:You know? You know:$ \"I\" remember:
+that old history that was brought up, and which you've bore witness to.
+But? That history? I don't like how it's said."
+
+hidetextbox
+wait 2.0
+
+hide "lephon/lephon_epilogue_cut2.jpg" fade(0.3,linear)
+show "lephon/lephon_epilogue.jpg" 0:0.6 0:0.6 0.9:0.9 fade(3,linear) normal
+move "lephon/lephon_epilogue.jpg" -50:0 20 sineout
+wait 6.0
+
+say "I've decided to tell the tale a different way.
+For if old rule is useless, the rule may freely be broken—
+$e:and new law made to spite it.$"
+
+wait 2.0
+show "lephon/lephon_epilogue_cut1.jpg" 0.2:0 0.2:0 1.3:1.3 fade(3,linear) normal
+scale "lephon/lephon_epilogue_cut1.jpg" 1.6:1.6 29 sineout
+
+say "Remnants of the self, darker parts of you that might recolor your soul;
+they are best off $e:forgotten.$"
+
+say "Though, while some history is worth forgetting...
+$e:...You would do well to remember your name.$"
+
+auto 1
+
+say ""
+
+wait 4
+
+volume "lephon_story.ogg" 0.3 5.0
+
+wait 5
+
+stop "lephon_story.ogg" 2.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 5.5
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2
+show "TBC2.png" 0.5:0.5 0.5:0.5 0.35:0.35 fade(2.5,linear) normal
+
+wait 7
+
+hide "TBC2.png" fade(5,linear)
+
+wait 5

@@ -3,150 +3,229 @@
 			"storyType": 0,
 			"characterIcon": 0,
 			"characterIconXOffset": -250,
-			"main": 1
+			"main": 1,
+			"act": 0,
+            "title": "Eternal Core",
+            "requiredPurchase": "core"
 		},
 		{
 			"storyType": 0,
 			"characterIcon": 1,
 			"characterIconXOffset": 250,
-			"main": 2
+			"main": 2,
+			"act": 0,
+            "title": "Luminous Sky",
+            "requiredPurchase": "rei"
 		},
 		{
 			"storyType": 0,
-			"main": 100
+			"main": 100,
+			"act": 0,
+            "title": "Adverse Prelude",
+            "requiredPurchase": "prelude"
 		},
 		{
 			"storyType": 2,
-			"main": 101
+			"main": 101,
+			"act": 1,
+            "title": "Black Fate",
+            "requiredPurchase": "vs"
 		},
         {
             "storyType": 1,
             "characterIcon": 4,
             "characterIconXOffset": -362,
-            "main": 5
+            "main": 5,
+			"act": 0,
+            "title": "Ambivalent Vision",
+            "requiredPurchase": "mirai"
         },
 		{
 			"storyType": 1,
 			"characterIcon": 23,
 			"characterIconXOffset": 0,
-			"main": 3
+			"main": 3,
+			"act": 0,
+            "title": "Absolute Reason",
+            "requiredPurchase": "zettai"
 		},
 		{
 			"storyType": 1,
 			"characterIcon": 2,
 			"characterIconXOffset": 362,
-			"main": 4
+			"main": 4,
+			"act": 0,
+            "title": "Crimson Solace",
+            "requiredPurchase": "shiawase"
 		},
 		{
 			"storyType": 1,
 			"characterIcon": 99,
 			"characterIconXOffset": 726,
-			"main": 99
+			"main": 99,
+			"act": 1,
+            "title": "Divided Heart",
+            "requiredPurchase": "dividedheart"
 		}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 39,
 			"characterIconXOffset": 1091,
-			"main": 7
+			"main": 7,
+			"act": 1,
+            "title": "Ephemeral Page",
+            "requiredPurchase": "alice"
     	}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 45,
 			"characterIconXOffset": 1456,
-			"main": 9
+			"main": 9,
+			"act": 1,
+            "title": "Esoteric Order",
+            "requiredPurchase": "observer"
 		}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 11,
 			"characterIconXOffset": 1818,
-			"main": 10
+			"main": 10,
+			"act": 1,
+            "title": "Binary Enfold",
+            "requiredPurchase": "nijuusei"
 		}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 71,
 			"characterIconXOffset": 2180,
-			"main": 15
+			"main": 15,
+			"act": 3,
+            "title": "Lasting Eden",
+            "requiredPurchase": "eden"
 		}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 72,
 			"characterIconXOffset": 2542,
-			"main": 16
+			"main": 16,
+			"act": 3,
+            "title": "Severed Eden",
+            "requiredPurchase": "eden_append_1"
 		}
 		,
 		{
 			"storyType": 1,
 			"characterIcon": 30,
 			"characterIconXOffset": 2904,
-			"main": 17
+			"main": 17,
+			"act": 3,
+            "title": "Sunset Radiance",
+            "requiredPurchase": "omatsuri"
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 13,
 			"characterIconXOffset": -362,
-			"main": 6
+			"main": 6,
+			"act": 1,
+            "title": "Scarlet Cage",
+            "requiredPurchase": "scarletcage"
     	}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 44,
 			"characterIconXOffset": 1,
-			"main": 8
+			"main": 8,
+			"act": 1,
+            "title": "Obsidian Blade",
+            "requiredPurchase": "gimmedablood"
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 19,
 			"characterIconXOffset": 364,
-			"main": 11
+			"main": 11,
+			"act": 1,
+            "title": "Colorful Dream",
+            "requiredPurchase": "init"
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 54,
 			"characterIconXOffset": 727,
-			"main": 12
+			"main": 12,
+			"act": 2,
+            "title": "Unseeing Eyes",
+            "requiredPurchase": "init"
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 10,
 			"characterIconXOffset": 1090,
-			"main": 13
+			"main": 13,
+			"act": 2,
+            "title": "Dark Ambition",
+            "requiredPurchase": "crimsonthrone"
 		}
 		,
 		{
 			"storyType": 3,
 			"characterIcon": 68,
 			"characterIconXOffset": 1453,
-			"main": 14
+			"main": 14,
+			"act": 2,
+            "title": "Astral Sea",
+            "requiredPurchase": "tothemilkyway"
 		}
         ,
         {
             "storyType": 3,
             "characterIcon": 76,
             "characterIconXOffset": 1816,
-            "main": 18
+            "main": 18,
+			"act": 3,
+            "title": "Rotaeno (TODO)",
+            "requiredPurchase": "rotaeno"
         }
         ,
 		{
 			"storyType": 4,
-			"main": 102
+			"main": 102,
+			"act": 1,
+            "title": "Final Verdict",
+            "requiredPurchase": "finale"
 		}
 		,
 		{
 			"storyType": 4,
-			"main": 103
+			"main": 103,
+			"act": 1,
+            "title": "Silent Answer",
+            "requiredPurchase": ""
 		},
         {
             "storyType": 0,
-            "main": 0
+            "main": 0,
+			"act": 0,
+            "title": "Arcaea",
+            "requiredPurchase": ""
+        },
+        {
+            "storyType": 0,
+            "main": 20,
+            "act": 4,
+            "title": "Lephon (TODO)",
+            "requiredPurchase": "lephon"
         }
 	]
 }

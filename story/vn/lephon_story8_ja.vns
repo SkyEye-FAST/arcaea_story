@@ -1,0 +1,134 @@
+wait 1.0
+
+play "voice_epilogue.ogg" 1.0 loop
+
+wait 2.0
+
+say "$e:聞き給え:$"
+
+volume "voice_epilogue.ogg" 3.5 6
+
+wait 2.0
+say ""
+wait 1.0
+
+say "$e:神に付ける頸木はない、$
+なぜなら頸木は $e:神$ によって付けられるからだ。"
+
+say "$e:理$ と $e:摂理$ もまた、 $e:神々$ の意思によってのみ確立される。"
+
+wait 2.0
+
+play "tension.ogg" 1.0 loop
+
+say "$e:なぜなら『自然』を冠する神もいれば、『絶無』を冠する神もいる。$
+優れた神々は巧妙なる名を冠し、愚かな神々は口にも出せぬ名を冠する。
+――では、%%現人神%%{ワタシたち} は。"
+
+wait 2.0
+stop "voice_epilogue.ogg" 0.3
+
+say "$e:ワタシは八番目。ワタシこそ『識眼』を冠するモノ。$
+……だけどね、小さな悪魔さん。キミが我が真名を知るには分不相応だ。
+キミはここまで、ワタシの内緒の詠唱をずっと聞いていた――そうだろう？"
+
+wait 2.0
+stop "tension.ogg" 4.0
+
+say "創形師、天賦、究明者; $e:“ワタシ”は$完璧で、無限で、全能なる存在。
+それは一体何だ？$e:そう、“神”だ。$"
+
+hidetextbox
+
+wait 5.0
+play "lephon_story.ogg" 0 loop 72221:143331
+volume "lephon_story.ogg" 1.0 5.0
+wait 6.0
+show "lephon/arc6_bg3.jpg" 0.5:1 0.5:1 1:1 fade(8,linear) normal
+move "lephon/arc6_bg3.jpg" 0:800 30 sineout
+wait 14.0
+
+say "……けれどね、ワタシは神なのさ。寛大で完全なキミたちの神さまなのサ。
+$e:崩れつつある現実（ヴェール）を縫い合わせ、裂け目を繕おうとはしているんだ。$
+だが $e:世界はいまだ崩れながら、無へと転がり堕ちつつある。$"
+
+hidetextbox
+
+wait 4.0
+show "lephon/lephon_epilogue_cut1.jpg" 0:0 0:0 1.2:1.2 fade(3,linear) normal
+move "lephon/lephon_epilogue_cut1.jpg" -40:0 15 sineout
+wait 5.0
+hide "lephon/arc6_bg3.jpg" fade(0.3,linear)
+
+say "嗚呼、我が妹とも言えるお嬢さん。……それとその、オトモダチ。
+我が『眼』を通してよく見える、キミたちが見えるよ。
+キミたち二人、死にかけの$e:Arcaea$を彷徨い歩いているんだねェ……？"
+
+wait 2.0
+show "lephon/lephon_epilogue_cut2.jpg" 1:0.1 1:0.1 0.8:0.8 fade(1.5,linear) normal
+move "lephon/lephon_epilogue_cut2.jpg" 300:0 35 sineout
+
+wait 2.0
+hide "lephon/lephon_epilogue_cut1.jpg" fade(0.3,linear)
+
+say "惜しいコトだ、残念なコトだ。彼らはもう盲目だ。『神性』を拒み、『人生』を受け入れた。
+そして生を受け入れたということは、%%正%%{ただ}しく%%正%%{まさ}しく$e:死$を受け入れたというコトでもある。"
+
+say "――そう、このArcaeaと同じように。"
+
+say "悲しい、悲しいね。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "$e:でもね、でもだよ？$ ワタシは覚えているのサ。
+かつての旧き歴史が持ち出され、他ならぬキミが生き証人となったことを。"
+
+say "でもね？「あの歴史」？……その言い方は、ちょっといただけない、頂けないねェ。
+だからね、決めたのサ――物語の伝え方を変えることにしたんだ。"
+
+hidetextbox
+wait 2.0
+
+hide "lephon/lephon_epilogue_cut2.jpg" fade(0.3,linear)
+show "lephon/lephon_epilogue.jpg" 0:0.6 0:0.6 0.9:0.9 fade(3,linear) normal
+move "lephon/lephon_epilogue.jpg" -50:0 20 sineout
+wait 6.0
+
+say "古い約定が役立たずなら、つまりはもう用済みだということだ。
+壊れているなら、壊してもいいということだ。
+つまりはつまり、$e:約定を上書きする約定を作ればいい。$"
+
+wait 2.0
+show "lephon/lephon_epilogue_cut1.jpg" 0.2:0 0.2:0 1.3:1.3 fade(3,linear) normal
+scale "lephon/lephon_epilogue_cut1.jpg" 1.6:1.6 29 sineout
+
+say "己の残り%%滓%%{かす}、搾り%%滓%%{かす}――ある魂を%%塗%%{ぬ}り%%替%%{か}え%%塗%%{ぬ}り%%潰%%{つぶ}し%%得%%{う}る%%冥%%{くら}い%%儚%%{くら}い部分。
+そうだね、それらは$e:忘れ去られ置くべきだ。$"
+
+say "そうさ、いくつかの歴史は忘却に値する。――だがなあ。
+$e:…おまえの名前くらいは、しっかり思い出さないとねェ？$"
+
+auto 1
+
+say ""
+
+wait 4
+
+volume "lephon_story.ogg" 0.3 5.0
+
+wait 5
+
+stop "lephon_story.ogg" 2.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 5.5
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+wait 2
+show "TBC2.png" 0.5:0.5 0.5:0.5 0.35:0.35 fade(2.5,linear) normal
+
+wait 7
+
+hide "TBC2.png" fade(5,linear)
+
+wait 5

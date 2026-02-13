@@ -1,62 +1,68 @@
 {
 	"entries": [{
 		"minor": 1,
-		"requiredPack": "nijuusei",
+		"requiredPurchase": "nijuusei",
 		"storyType": "nvl",
 		"clearSongId": "nexttoyou",
 		"clearCharaId": 11,
 		"charIcon1": 11,
-		"charIcon2": 12
+		"charIcon2": 12,
+        "icon": "cell_be"
 	},
 	{
 		"minor": 2,
-		"requiredPack": "nijuusei",
+		"requiredPurchase": "nijuusei",
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "silentrush",
 		"clearCharaId": 12,
 		"charIcon1": 11,
-		"charIcon2": 12
+		"charIcon2": 12,
+        "icon": "cell_be"
 	},
 	{
 		"minor": 3,
-		"requiredPack": "nijuusei",
+		"requiredPurchase": "nijuusei",
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "strongholds",
 		"clearCharaId": 11,
 		"charIcon1": 11,
-		"charIcon2": 12
+		"charIcon2": 12,
+        "icon": "cell_be"
 	},
 	{
 		"minor": 4,
-		"requiredPack": "nijuusei",
+		"requiredPurchase": "nijuusei",
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "nexttoyou",
 		"clearCharaId": 12,
 		"charIcon1": 11,
-		"charIcon2": 12
+		"charIcon2": 12,
+        "icon": "cell_be"
 	},
 	{
 		"minor": 5,
-		"requiredPack": "nijuusei",
+		"requiredPurchase": "nijuusei",
 		"requiredMinor": 4,
 		"storyType": "nvl",
 		"clearSongId": "memoryforest",
 		"clearCharaId": 12,
 		"charIcon1": 11,
 		"charIcon2": 12,
-		"storyCgPath": "app-data/story/cg/10-5.jpg"
+		"storyCgPath": "app-data/story/cg/10-5.jpg",
+        "icon": "cell_be"
 	},
 	{
 		"minor": 6,
-		"requiredPack": "nijuusei",
+		"requiredPurchase": "nijuusei",
 		"requiredMinor": 5,
 		"storyType": "nvl",
 		"clearSongId": "singularity",
 		"clearCharaId": 11,
 		"charIcon1": 11,
-		"charIcon2": 12
+		"charIcon2": 12,
+        "icon": "cell_livefastdieyoung"
 	}]
 }

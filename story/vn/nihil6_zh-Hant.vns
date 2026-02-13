@@ -236,26 +236,26 @@ move "nihil/nihil_2.jpg" -5:0 0.05 linear
 wait 0.05
 wait 1.23
 
-auto 2.2
+autoplay_legacy 2.2
 play "alter_ego_mini.ogg" 0.6
 volume "alter_ego_mini.ogg" 1.0 9
 move "nihil/nihil_2.jpg" 0:50 17 sineout
 scale "nihil/nihil_2.jpg" 0.48:0.48 14 sineout
 
-say "散發著凜冽寒光的刀刃與鋒利的碎片切面相撞，水花四濺，灑向正在纏鬥的雙方。"
+say_legacy "散發著凜冽寒光的刀刃與鋒利的碎片切面相撞，水花四濺，灑向正在纏鬥的雙方。"
 
 play "splash.ogg" 1.0
 
-say "這是一場血腥而又暴力的舞蹈，而我的舞伴跟我一樣惡毒。"
+say_legacy "這是一場血腥而又暴力的舞蹈，而我的舞伴跟我一樣惡毒。"
 
 play "clash.ogg" 1.0
 volume "thump.ogg" 0.5 0.4
 
-say "只見那位散髮出死亡氣息的搖擺舞者大踏步向前，而我以閃爍著的碎片為綢帶自上而下拂過她的面頰。"
+say_legacy "只見那位散髮出死亡氣息的搖擺舞者大踏步向前，而我以閃爍著的碎片為綢帶自上而下拂過她的面頰。"
 
 volume "thump.ogg" 0.8 4.0
 
-say "我的太陽穴劇烈地鼓動著。"
+say_legacy "我的太陽穴劇烈地鼓動著。"
 
 play "slice.ogg" 1.0
 play "shine.ogg" 0.5
@@ -277,11 +277,11 @@ scale "nihil/nihil_2.jpg" 0.41:0.41 3.7 sineout
 hide "nihil/nihil_2.jpg" fade(10,linear)
 wait 1.23
 
-say "胃裏好似有什麽東西在翻攪著。"
+say_legacy "胃裏好似有什麽東西在翻攪著。"
 
 show "black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0.1,linear) normal
 stop "wind.ogg" 0.3
 stop "rain.ogg" 0.3
 stop "thump.ogg" 0.3
 
-say "我失敗了，我所做的一切都毫無意義。"
+say_legacy "我失敗了，我所做的一切都毫無意義。"

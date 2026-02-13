@@ -144,13 +144,13 @@ stop "glassRain.ogg" 8.0
 hide "nihil/nihil_3_cut3.jpg" fade(3,linear)
 show "nihil/nihil_3.jpg" 0.5:0 0.5:0 0.6:0.6 fade(3,linear) normal
 move "nihil/nihil_3.jpg" 0:-200 23 sineout
-auto 5
+autoplay_legacy 5
 
-say "“자, 그럼... 안녕, 이 고집불통들아.” 여자가 말했어."
+say_legacy "“자, 그럼... 안녕, 이 고집불통들아.” 여자가 말했어."
 
-say "“만나서 안 반가워.”"
+say_legacy "“만나서 안 반가워.”"
 
-say ""
+say_legacy ""
 
 wait 2
 hide "nihil/nihil_3.jpg" fade(4,linear)

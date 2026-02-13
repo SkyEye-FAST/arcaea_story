@@ -1006,24 +1006,24 @@ play "lastVocal_A_epilogue.ogg" 1
 wait 0.1
 scale "epilogue/last2_epilogue.jpg" 0.72:0.72 33 sineout
 hide "2white.png" fade(12,sineout)
-auto 5.25
+autoplay_legacy 5.25
 
 
-say "히카리는 눈을 뜨고 숨을 들이쉬었다.
+say_legacy "히카리는 눈을 뜨고 숨을 들이쉬었다.
 아직 모르는 미래를 알리듯 불어오는 바람, 곁에 선 소녀,
 만나지 못한 사람들, 가보지 못한 장소..."
 
-say "그 모든 것을 소중히 간직할 것이다."
+say_legacy "그 모든 것을 소중히 간직할 것이다."
 
-auto 5.4
+autoplay_legacy 5.4
 
-say "히카리는 타이리츠의 손을 잡았다."
+say_legacy "히카리는 타이리츠의 손을 잡았다."
 
 show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.09,linear) normal
 
-auto 2
+autoplay_legacy 2
 
-say "여정이 그들을 기다리고 있기에."
+say_legacy "여정이 그들을 기다리고 있기에."
 
 wait 0 clear
 hide "black.png" fade(0,linear)

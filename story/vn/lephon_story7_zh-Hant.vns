@@ -1,0 +1,652 @@
+wait 1.5
+play "quake.ogg" 1.0
+play "fracture2_epilogue.ogg" 1.0
+wait 0.5
+play "burst.ogg" 1.0
+wait 0.6
+play "glassRain.ogg" 0.0 loop
+volume "glassRain.ogg" 4.0 4.0
+wait 2.0
+
+show "lephon/lephon_1_cut1.jpg" 1:1 1:1 1.0:1.0 fade(3,linear) normal
+move "lephon/lephon_1_cut1.jpg" 700:0 35 sineout
+
+wait 1.0
+
+play "lephon_menu.ogg" 1.0 loop 89537:178153
+
+say "兵刃相接，這是兩位探索者之間的死鬥。
+前所未有的光芒傾瀉至她們身旁，兩人迸發出來的力量都像颶風一般兇猛。"
+
+show "lephon/lephon_2_cut1.jpg" 1:1 1:1 1.0:1.0 fade(3,linear) normal
+move "lephon/lephon_2_cut1.jpg" 700:0 35 sineout
+
+say "雖然還很年輕，但「慈悲」想取虔性命的決意令人驚訝。
+虔將一切都看在眼裡，包括那想幫上自己老師的忙的L，於是她轉而向L伸出了魔爪。"
+
+play "ruffle.ogg" 2.0
+
+stop "glassRain.ogg" 6.0
+
+say "她短暫地抽離了戰場，直接來到了那個孩子麵前。
+她用長矛抓住了孩子的右手腕，向上一提——"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "stab.ogg" 4.0
+wait 0.1
+
+hide "red.png" fade(1.0,linear)
+wait 1.0
+hide "lephon/lephon_1_cut1.jpg" fade(0.1,linear)
+hide "lephon/lephon_2_cut1.jpg" fade(0.1,linear)
+
+say "她取走了L的右臂。"
+
+play "ring.ogg" 3.0
+
+say "L眼睜睜地看著自己被第二席奪走的右臂就這麼被她隨意地拋擲在空中；
+緊接著，她便感到自己的知覺正在快速消散。
+目睹了這一切的尼爾早已僵在了原地動彈不得，而她的對手並不會給她機會反應。"
+
+say "虔回到了尼爾身邊，取走了她的肩膀——
+隨後她又抽回了自己的矛——
+於是很快地——"
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+play "fracture1_epilogue.ogg" 3.0
+play "strike.ogg" 4.0
+wait 2.0
+hide "white.png" fade(3.0,linear)
+hide "black.png" fade(0.3,linear)
+
+say "她的矛便再度向前，穿過了對手的身體，
+接觸之間，現實的編織飛速解體，將尼爾的存在本身一步步瓦解。"
+
+say "於是，電光火石之間，尼爾便不復存在了。
+而她的學生，那位孩子……也逐漸變得僵硬、冰冷。"
+
+wait 0.25
+
+show "lephon/lephon_1_cut2.jpg" 1:0.5 1:0.5 1.0:1.0 fade(0,linear) normal
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 0.2
+
+show "black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+show "2black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+show "3black_fade.png" 0:0 0:0 1.0:1.0 fade(0,linear) normal
+
+move "black_fade.png" -1636:0 0 linear
+move "2black_fade.png" -1636:0 0 linear
+move "3black_fade.png" -1636:0 0 linear
+
+wait 0.05
+
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+show "bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+hide "5black.png" fade(3.0,linear)
+
+say "L……並沒有信仰。
+信仰的確可以驅使一切，但信仰並不穩定，極易改變。
+而知識、邏輯、既定的事實──這些都是這個女孩所相信的、能讓殸真正變好的東西。"
+
+move "black_fade.png" 3000:0 0.3 sinein
+play "thump.ogg" 3.0
+
+show "lephon/3lephon_1_cut2.jpg" 1.02:0.5 1.02:0.5 1.0:1.0 fade(17,linear) normal
+wait 0.01
+show "3black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+show "3bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "3bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+play "tunnel.ogg" 3.0
+
+say "而如今，尼爾死了。
+她看著第二席就那樣將老師的屍體隨手丟在一旁，感到憤怒又驚恐。"
+
+hide "black_fade.png" fade(0.3,linear)
+move "2black_fade.png" 3000:0 0.3 sinein
+move "3black_fade.png" 3000:0 0.75 sinein
+wait 0.5
+play "thump.ogg" 3.0
+wait 0.7
+play "thump.ogg" 3.0
+show "lephon/2lephon_1_cut2.jpg" 1:0.5 1:0.5 1.11:1.11 fade(6,linear) normal
+
+show "2black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+
+show "2bar_top.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+show "2bar_bottom.png" 0.5:0.5 0.5:0.5 1:1 fade(0,linear) normal
+
+scale "lephon/2lephon_1_cut2.jpg" 1.0:1.0 4 sinein
+wait 0.1
+volume "lephon_menu.ogg" 0.0 8.0
+hide "2black_fade.png" fade(0.3,linear)
+hide "3black_fade.png" fade(0.3,linear)
+
+say "她的呼吸變得越來越重——即使已經深受重傷，她的思緒卻愈發清晰起來。
+她回望向殸的背面，她的雙眼開始變乾——
+她開始流血，太陽穴嗡嗡地鼓動著。她就那樣停止了時間的流動。"
+
+hide "lephon/lephon_1_cut2.jpg" fade(0.2,linear)
+hide "lephon/3lephon_1_cut2.jpg" fade(0.2,linear)
+hide "lephon/2lephon_1_cut2.jpg" fade(0.3,linear)
+hide "black_left.png" fade(2.0,linear)
+hide "2black_left.png" fade(2.0,linear)
+hide "3black_left.png" fade(2.0,linear)
+
+hidetextbox
+wait 4.0
+
+hide "2bar_bottom.png" fade(0.3,linear)
+hide "2bar_top.png" fade(0.3,linear)
+hide "3bar_bottom.png" fade(0.3,linear)
+hide "3bar_top.png" fade(0.3,linear)
+hide "bar_top.png" fade(0.3,linear)
+hide "bar_bottom.png" fade(0.3,linear)
+
+show "lephon/arc6_bg1.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.2,linear) normal
+wait 0.3
+hide "lephon/arc6_bg1.jpg" fade(0.3,linear)
+wait 0.4
+show "lephon/lephon_bg1.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.2,linear) normal
+wait 0.3
+hide "lephon/lephon_bg1.jpg" fade(0.3,linear)
+wait 0.5
+wait 1.0
+play "lephon_title.ogg" 1.0 loop 93728:170530
+stop "lephon_menu.ogg" 4.0
+wait 4.0
+
+say "那是她第一次因為一個人而動心，而她給了她「L」這個名字，簡單而又直率，但不知從何開始新的感覺產生了。
+也算情有可原，畢竟L只是她名字的一部分，不是她的全名。"
+
+show "lephon/lephon_1_cut3.jpg" 0.2:0 0.2:0 0.7:0.7 fade(9,linear) normal
+move "lephon/lephon_1_cut3.jpg" -60:0 26 sineout
+
+say "她的名字是特殊的。除卻她自己加諸的意義外，這個名字本來毫無意義。
+但如今，在Arcaea的心臟之中，這個新的名字卻成為了神聖的、高於一切的存在。"
+
+say "的確：
+「殸」是神。"
+
+say "$e:「拉可彌拉」$也是。"
+
+wait 2.0
+
+hide "lephon/lephon_1_cut3.jpg" fade(0,linear)
+
+hidetextbox
+
+wait 4.0
+
+show "lephon/lephon_bg2.jpg" 0.5:0 0.5:0 1.6:1.6 fade(6,linear) normal
+move "lephon/lephon_bg2.jpg" 0:-1700 41 sineout
+
+play "ascension.ogg" 0 loop
+volume "ascension.ogg" 2.4 4.0
+
+say "她看向祂的脊骨，看向祂的心臟。
+她看到了祂靈魂的殘影。
+於是，她命令道…"
+
+say "殸……
+人們並不總是能明白神的旨意。
+祂無法回應祂聽不到的禱告，祂無法回應祂的兒女。"
+
+say "但，命令祂，這並非不可能。
+這是千千萬萬個「如果」後的「必然」，神聖、聖潔、不可玷污。
+而僅以「命運」相稱，也難免太簡單又俗氣。"
+
+hide "lephon/lephon_bg2.jpg" fade(1.5,linear)
+
+say "毫無懸念：這是拉可彌拉應得的。"
+
+hidetextbox
+
+wait 2.5
+
+show "lephon/lephon_1.jpg" 0.5:0 0.5:0 1.5:1.5 fade(0.2,linear) normal
+show "lephon/2_lephon_1.jpg" 0.5:0 0.5:0 1.8:1.8 fade(6,linear) normal
+
+scale "lephon/lephon_1.jpg" 1.6:1.6 30 sineout
+scale "lephon/2_lephon_1.jpg" 1.5:1.5 4 sinein
+wait 0.5
+move "lephon/lephon_1.jpg" 0:-100 30 sineout
+move "lephon/2_lephon_1.jpg" 0:-100 30 sineout
+
+say ""
+
+hide "lephon/2_lephon_1.jpg" fade(3,linear)
+
+say "因長期乾涸而早已沉寂的神經突觸突然搏動了一下，因重新被認可而再度變得溫暖。
+巨石般堅硬的背部湧動著昔日的情感。 神的心抖動了一下。
+就在那一瞬間，空也靜止了一瞬。"
+
+say "現實已被改變。一切都「知曉」了她，一切都認可了她。
+殸的核心已被重塑，如今她即是法則。"
+
+say "少女對神明說話，少女讓神明聆聽。她讓她的聲音傳到了千里之外、萬里之深，
+傳到了只有她的眼睛能看見的地方；
+殸曾賜福她這雙眼睛，贈予她雙手及十指。"
+
+say "她用她也感到陌生的口吻說話，告訴殸她的慾求。
+給予一個數，給予一個名——再給予它們完美；
+最後，給予這個神聖的生命一切。"
+
+show "lephon/lephon_1_cut3.jpg" 1:0 1:0 0.8:0.8 fade(4.5,linear) normal
+move "lephon/lephon_1_cut3.jpg" 0:-150 35 sineout
+
+say "不能夠隨意便賜予一個數和名，因為這是「她」的數和名，因為這是尼爾的數和名。
+因為此前尼爾並不值得擁有安息。
+而殸答應了，拉可彌拉便成為了祂的延續。"
+
+say "她朝祂的骸骨伸出手——
+重塑了神殘存的意志。"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+volume "ascension.ogg" 0.0 4.0
+hidetextbox
+
+wait 2.0
+hide "lephon/lephon_1.jpg" fade(0.3,linear)
+hide "lephon/lephon_1_cut3.jpg" fade(0.3,linear)
+show "lephon/designant_j.jpg" 1:0 1:0 1.8:1.8 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-210 16 sineout
+
+say "一抹全新的色彩自巨人身上無數的金線迸出。
+這便是她/祂——拉可彌拉的色彩，冰冷而璀璨奪目，點亮了整個宇宙。
+這抹色照進了他/祂的脊骨和肋骨，穿過了泰拉，越過了空。"
+
+hide "lephon/designant_j.jpg" fade(0.3,linear)
+hide "black.png" fade(0.3,linear)
+wait 1.0
+show "lephon/designant_j.jpg" 0:0.2 0:0.2 1.8:1.8 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-210 16 sineout
+
+say "大能充滿她/祂的身體。她/祂的右臂再度生長出來，
+而她/祂開始重塑自己，將所有傷痕治癒。"
+
+hide "lephon/designant_j.jpg" fade(0.3,linear)
+wait 1.0
+show "lephon/designant_j.jpg" 0.5:0.6 0.5:0.6 1.5:1.5 fade(6,linear) normal
+move "lephon/designant_j.jpg" 0:-180 16 sineout
+
+say "殸傾聽了「她」的聲音，而祂再度說：
+她/祂將於此處升起，於他/祂背面，步他/祂之後……
+拉可彌拉，至高者、第八探索者，也即——"
+
+say "$e:「洞燭」$。"
+
+wait 2.0
+
+say "靜止的時間再次流動後，她/祂將痊癒了的雙眼看向那第二席。
+而見證了這一切的虔則痛苦地意識到：殸的旨意此時已不可忤逆。
+她仍做出了自己的反抗，但不過是杯水車薪，畢竟巨浪的走向不會輕易改變。"
+
+hide "lephon/designant_j.jpg" fade(1.5,linear)
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(0.3,linear)
+wait 0.2
+play "fracture5_epilogue.ogg" 3.0
+volume "lephon_title.ogg" 0.0 8.0
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "2white.png" fade(0.75,linear)
+
+say "拉可彌拉輕鬆便將她震懾，無形的力量將其死死壓在神剛創造的空間裡。
+她/祂從虔的身後召喚出一顆小小的恆星，並令其坍塌。
+那位探索者公頃之間便被吞噬，徹底消失了。"
+
+play "fracture4_epilogue.ogg" 3.0
+
+say "她隨後將那顆恆星隨手一擲，結束了它短暫的一生——一切又回歸了沉寂。"
+
+say "故事逐漸迎來了尾聲。"
+
+play "sand_epilogue.ogg" 2.0
+
+say "拉可彌拉並沒有讓她/祂的老師就這樣死去。
+她/祂將她帶到了自己所創造的一個地方，將她重新喚醒。
+她/祂將她的靈召回，並令她的傷口痊癒。"
+
+play "woosh.ogg" 1.0
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 1.0 8.0
+show "lephon/lephon_2_cut2.jpg" 0:1 0:1 1.1:1.1 fade(6,linear) normal
+move "lephon/lephon_2_cut2.jpg" -300:0 35 sineout
+
+say "尼爾甦醒後，立刻便知道發生了什麼事：拉可彌拉做了什麼，而她又經歷了什麼——
+而她只感到更刺骨的惡寒。
+這意味著她失敗了，她辜負了她的學生。"
+
+show "lephon/lephon_2_cut3.jpg" 0:1 0:1 1.6:1.6 fade(3,linear) normal
+move "lephon/lephon_2_cut3.jpg" -150:0 17.5 sineout
+
+say "「……」
+拉可彌拉沉默地低著頭，看向自己的老師。她/祂深深地看向她，窺進她的深處。
+她/祂接著問道：「……尼爾，妳為什麼不隨我來？」"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+say "如今，拉可彌拉能夠看見同伴的心，她很清楚她們之間的分歧。
+她能看到自己的老師內心其實不想讓她離開，想「求她留下來」。
+即使她沒有這樣的能力她也明白，因為她先前已表達過無數遍她的願望：她想成為神，然後拋棄這個世界。"
+
+hide "lephon/lephon_2_cut2.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut3.jpg" fade(0.3,linear)
+show "lephon/lephon_2_cut4.jpg" 1:1 1:1 1.25:1.25 fade(3,linear) normal
+move "lephon/lephon_2_cut4.jpg" 100:0 17.5 sineout
+
+say "「……尼爾，妳已經沒事了，那便給我開口講話。」神說。
+尼爾終於抬起頭，看向她/祂，回答道：「『為什麼不隨妳來』……？可妳為什麼要走？」"
+
+say "但她早已知道這個問題的答案，不過拉可彌拉還是回答了她：「我只為自己而活，這是我活著的唯一動力。」"
+
+say "「妳不必這樣折磨自己，尼爾。這沒必要。
+人們不會感激妳，也不會對妳讚賞有加。
+最終妳只會孤獨地慘死在一個神使手中，而除了我沒有人會再記得妳。 」"
+
+say "「可我們不一定會死，L，」她的老師反駁道，「留下來吧，這樣我們就……」"
+
+say "拉可彌拉緩緩搖了搖頭。 「我能看見，」她/祂說。
+「那個結局早已註定，沒有任何轉機的可能。殸上的每一位塑形者都會死去。」"
+
+say "尼爾也同樣搖了搖頭：「可我不會允許那樣的事發生——」"
+
+play "memoryShift.ogg" 1.0
+wait 0.5
+hide "black.png" fade(0.3,linear)
+hide "lephon/lephon_2_cut4.jpg" fade(0,linear)
+
+say "「住！嘴！！」"
+
+say "拉可彌拉大吼道，祂的聲音震徹整片大地天空，尼爾愣住了一瞬。
+當尼爾回過神來望向祂時，祂的眼神充滿憤怒。"
+
+say "「我承認，我說謊了，尼爾。」她顫抖地說——因憤怒而顫抖，「我也為妳而活。」
+「怎麼，妳一定要聽我說出口嗎？一定要讓我一字一句清楚地講出來？還是一個字一個字寫下來給妳？
+「只有這樣，妳才能清楚地知道我其實多麼在乎妳、多麼愛妳嗎！？」"
+
+show "lephon/lephon_2_cut5.jpg" 0.4:1 0.4:1 1.1:1.1 fade(4,linear) normal
+move "lephon/lephon_2_cut5.jpg" -300:0 35 sineout
+
+say "她的老師僵住了，臉隨即抽動了一下，再也沒有忍住。
+年長些的塑形者眼眶霎時噙滿了淚水，抽噎之間還打了幾個嗝。
+眼淚就這樣滑落了下來，身為老師的她終究還是失言地哭了。"
+
+say "對此，拉可彌拉彷彿置若罔聞，她/祂繼續對著她那正失聲痛哭的老師尖吼道："
+
+say "「我當然愛妳！不然呢？那我現在還在這裡，不是為了妳，是為了什麼？
+「我才不會拋棄妳，我做不到。妳那麼好，我很難不喜歡妳。」"
+
+say "「妳幾乎是我的全部……
+「所以我不想妳死去！我討厭將妳和死亡聯想在一起，尼爾！」"
+
+say "「好好好，現在妳知道哭了。呵呵，哭，哭吧……但妳就是不會回答我！
+「悲哀又孤寂，永遠都在關心別人，永遠都在付出……
+「我恨這樣的妳！妳以為我是在說氣話嗎？」"
+
+say "「不，我真的很討厭妳這樣子。妳為他們付出了一切，然後呢？他們值得嗎？
+「辛辛勞勞為他們付出……可他們都是些什麼東西！而妳有多大的本事，妳難道還不清楚嗎？
+「可看看妳把它們都浪費在了什麼地方！」"
+
+show "lephon/lephon_2_1.jpg" 0.5:0.6 0.5:0.6 1:1 fade(3,linear) normal
+
+say "彷彿宣洩完了，她暫時安靜了下來，但仍在顫抖的身體說明了一切。她的眼神冷淡地看向自己身下的少女。
+尼爾搖了搖頭。她不會拋棄任何人。
+沒錯，任何人，唯獨不包括L。"
+
+say "拉可彌拉再度開口，她/祂的語氣冰冷得刺骨：「看看妳這副模樣，真是可悲。」"
+
+say "「沒錯，」神重複道，「妳便是『$e:哀寂$』，妳不配當第八席。」"
+
+say "尼爾呆滯地看向自己那正死死瞪著殸的背部的學生。"
+
+say "「毀滅的烙印，是妳應得的。」拉可彌拉說。
+「詛咒，也是妳應得的。從此以後，『$e:第六$』即是妳的席位。永遠背負著它、背負著詛咒吧。」"
+
+play "epilogue_accept.ogg" 1.0
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "2white.png" fade(0.75,linear)
+
+say "在殸之心的深處，新的什麼東西被刻到了黑色的畫布之上，成為了新的現實。
+轉化已經完成，而「哀寂」對自己的學生能給予的唯一回复，卻只有
+「我很抱歉……」"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+stop "wind.ogg" 5.0
+
+say "「妳是該感到抱歉。」拉可彌拉說。
+「但是，尼爾……這也是為什麼我會喜歡妳。」"
+
+unload_textures
+hidetextbox
+
+wait 2.0
+play "swan_song_story.ogg" 1.0 loop
+stop "lephon_title.ogg" 3.0
+stop "ascension.ogg" 3.0
+wait 1.0
+hide "lephon/lephon_2_cut5.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_1.jpg" fade(0.3,linear)
+show "lephon/lephon_2_cut6.jpg" 1:1 1:1 1.5:1.5 fade(4,linear) normal
+wait 7
+
+say "宇宙在神的背部降下一滴淚水：那是一扇通往別處的門。"
+
+hidetextbox
+wait 1.5
+show "lephon/lephon_2_cut7.jpg" 0:1 0:1 1.1:1.1 fade(4,linear) normal
+move "lephon/lephon_2_cut7.jpg" 0:300 20 sineout
+wait 5.0
+show "lephon/lephon_2_cut8.jpg" 0.5:0.35 0.5:0.35 1.2:1.2 fade(4,linear) normal
+move "lephon/lephon_2_cut8.jpg" 0:-300 20 sineout
+wait 5.0
+
+say "神俯下身來，用自己的雙手輕輕扶著尼爾的臉。
+祂用自己的唇輕啄了同伴的臉頰。"
+
+wait 3.0
+show "lephon/lephon_2_2.jpg" 0.5:0.6 0.5:0.6 1:1 fade(3,linear) normal
+wait 3.0
+
+say "祂在門前徘徊了一陣。
+祂遲疑了一會，思索要不要還是留在這裡。"
+
+hide "lephon/lephon_2_cut6.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut7.jpg" fade(0.3,linear)
+hide "lephon/lephon_2_cut8.jpg" fade(0.3,linear)
+
+wait 0.7
+show "lephon/lephon_2_1.jpg" 0.5:0.6 0.5:0.6 1:1 fade(0.8,linear) normal
+wait 0.8
+hide "lephon/lephon_2_2.jpg" fade(0.3,linear)
+
+say "……但祂最後還是站起身，轉身離開了
+祂的老師，離開了這名叫「殸」的世界。
+直到抽身離開前，祂的手仍輕觸著同伴的臉頰……"
+
+say "但祂最終還是將手抽離，將自己的表情埋藏在陰影之中。
+祂踏入了門的那一端。"
+
+hide "black.png" fade(0.1,linear)
+hide "lephon/lephon_2_1.jpg" fade(0.1,linear)
+
+say "……門合上了，自此再也不見神的蹤影。"
+
+hidetextbox
+
+wait 2.0
+show "../../cg/E-1_epilogue.jpg" 1:0 1:0 1.5:1.5 fade(0.5,linear) normal
+move "../../cg/E-1_epilogue.jpg" 300:0 0.5 sineout
+wait 0.5
+move "../../cg/E-1_epilogue.jpg" 50:0 20 sineout
+
+say "塑形者之間還有最後一篇故事，但它似乎已被講述過了——
+由另一位在另一處所講。"
+
+hide "../../cg/E-1_epilogue.jpg" fade(0.3,linear)
+wait 0.4
+show "../../cg/E-1_epilogue.jpg" 0.7:0.5 0.7:0.5 1.5:1.5 fade(0.5,linear) normal
+move "../../cg/E-1_epilogue.jpg" 300:0 10 sineout
+
+say "當你們稱之為「對立」的那位少女死去之時，當尼爾無力地在她面前死去之時。
+因為「大能」是一種「能」，有人能操縱它們，有人能挪動它們。
+但在殸這裡，它們永「存」。"
+
+hide "../../cg/E-1_epilogue.jpg" fade(0.3,linear)
+wait 0.4
+show "../../cg/E-1_epilogue.jpg" 0.5:1 0.5:1 1.5:1.5 fade(3,linear) normal
+scale "../../cg/E-1_epilogue.jpg" 0.9:0.9 16 sinein
+
+say "一位神使降臨了。
+再一次，也是最後一次，塑形者們遭受了惡報。"
+
+say "……但永恆的主不在那裡。她/祂仍然存在，她/祂已經存在了相當長一段時間。
+不知多少年過去，或許是上百年，或許是上千年，
+即使那另一位會將不同事件發生的時間記混，甚至告訴你那件事「才發生了沒多久」……"
+
+hide "../../cg/E-1_epilogue.jpg" fade(0,linear)
+
+hidetextbox
+
+wait 4.0
+show "meeting/bg.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.3,linear) normal
+wait 0.38
+hide "meeting/bg.jpg" fade(0.3,linear)
+wait 0.38
+
+show "nihil/bg_cut3.jpg" 0.5:1 0.5:1 1.4:1.4 fade(0.3,linear) normal
+wait 0.38
+hide "nihil/bg_cut3.jpg" fade(0.3,linear)
+wait 0.38
+
+show "finale/bg3.jpg" 0.5:0.2 0.5:0.2 1.6:1.6 fade(0.3,linear) normal
+wait 0.38
+hide "finale/bg3.jpg" fade(0.3,linear)
+wait 0.38
+
+show "vs/bg.jpg" 0.5:0.3 0.5:0.3 1.6:1.6 fade(0.3,linear) normal
+move "vs/bg.jpg" 0:-850 8 sinein
+wait 7.0
+hide "vs/bg.jpg" fade(1,linear)
+wait 0.9
+
+show "epilogue/last1_epilogue.jpg" 0.5:0.4 0.5:0.4 1.2:1.2 fade(0,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+scale "epilogue/last1_epilogue.jpg" 1:1 0.3 sineout
+move "epilogue/last1_epilogue.jpg" -30:-20 10 sineout
+hide "2white.png" fade(0.3,sineout)
+wait 0.2
+hide "2white40.png" fade(3.5,sineout)
+wait 4.0
+
+show "finale/bg_distance.jpg" 0.4:0.4 0.4:0.4 1:1 fade(3,linear) normal
+move "finale/bg_distance.jpg" -30:-20 10 easeout
+wait 5
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+unload_textures
+wait 6
+show "../../cg/16-7-2.jpg" 0.5:0.4 0.5:0.4 1.5:1.5 fade(4,linear) normal
+move "../../cg/16-7-2.jpg" 0:-90 15 easeout
+wait 6
+hide "../../cg/16-7-2.jpg" fade(5,linear)
+wait 4
+
+show "../../cg/16-7-1.jpg" 0.5:0.5 0.5:0.5 1.2:1.2 fade(5,linear) normal
+scale "../../cg/16-7-1.jpg" 0.9:0.9 8 sineout
+
+say "她/祂最終在旅途中找到了Arcaea。
+而尼爾死去後，Arcaea也迎來了她過去的老師。
+……不，這一點，她/祂並不知曉。"
+
+hidetextbox
+wait 2.0
+
+hide "../../cg/16-7-1.jpg" fade(2,linear)
+wait 4.0
+show "../../cg/F-5.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.75
+
+show "../../cg/4-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/F-5.jpg" fade(0,linear)
+
+show "../../cg/11-8-2.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/4-1.jpg" fade(0,linear)
+
+show "../../cg/5-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/11-8-2.jpg" fade(0,linear)
+
+show "../../cg/3-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/5-1.jpg" fade(0,linear)
+
+show "../../cg/10-5.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/3-1.jpg" fade(0,linear)
+
+show "../../cg/7-6.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/10-5.jpg" fade(0,linear)
+
+show "../../cg/9-5.jpg" 0.5:1 0.5:1 0.9:0.9 fade(0.3,linear) normal
+wait 0.38
+hide "../../cg/7-6.jpg" fade(0,linear)
+
+show "../../cg/17-6-1.jpg" 0.5:0.5 0.5:0.5 0.9:0.9 fade(0.3,linear) normal
+wait 0.75
+hide "../../cg/9-5.jpg" fade(0,linear)
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 4.5
+hide "black.png" fade(0,linear)
+
+show "../../cg/2-1.jpg" 0.5:0.4 0.5:0.4 0.9:0.9 fade(1.5,linear) normal
+wait 6.5
+hide "../../cg/17-6-1.jpg" fade(0,linear)
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 5
+hide "2black.png" fade(0,linear)
+hide "../../cg/2-1.jpg" fade(0,linear)
+
+show "lephon/arc6_bg2.jpg" 0:0.7 0:0.7 1.3:1.3 fade(5,linear) normal
+move "lephon/arc6_bg2.jpg" -580:-70 25 sineout
+
+say "不過——Arcaea的故事並不是殸的故事。那另一位也能夠講述它的故事。
+這段往事也傳達到了，或是說，「被偷走了」。不過不管怎樣，歷史都被記錄下來了。"
+
+say "現在……
+這位新的神明的意志，是隨心所欲的，正如祂變化莫測的本人。
+祂的目的？怎麼，你也好奇嗎？"
+
+say "好的，那就再給你最後一條情報吧：
+不要信奉她/祂。
+畢竟，信仰可以決定「現實」。"
+
+say "而如今，那個世界的造物主已經喪失了自己的權能；
+Arcaea也正在死去，甚至，已經死去……
+但……"
+
+say "在那裡，神仍然存在。"
+
+auto 1
+
+say ""
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+
+volume "swan_song_story.ogg" 0.0 12.0
+
+wait 12
+stop "swan_song_story.ogg" 1.0
+wait 1

@@ -1,18 +1,19 @@
 {
 	"entries": [{
 		"minor": 1,
-		"requiredPack": "rotaeno",
+		"requiredPurchase": "rotaeno",
 		"storyType": "nvl",
 		"clearSongId": "_readPreviousEntry",
 		"clearCharaId": -1,
 		"charIcon1": 76,
 		"charIcon2": -1,
         "alternatePrefix": "19",
-		"storyCgPath": "app-data/story/cg/18-1.jpg"
+		"storyCgPath": "app-data/story/cg/18-1.jpg",
+        "icon": "entry_rotaeno"
 	},
 	{
 		"minor": 2,
-		"requiredPack": "rotaeno",
+		"requiredPurchase": "rotaeno",
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "_readPreviousEntry",
@@ -20,44 +21,48 @@
 		"charIcon1": 76,
 		"charIcon2": -1,
         "alternatePrefix": "19",
-		"storyCgPath": "app-data/story/cg/18-2.jpg"
+		"storyCgPath": "app-data/story/cg/18-2.jpg",
+        "icon": "entry_rotaeno"
 	},
 	{
 		"minor": 3,
-		"requiredPack": "rotaeno",
+		"requiredPurchase": "rotaeno",
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "mvurbd",
 		"clearCharaId": -1,
 		"charIcon1": 76,
 		"charIcon2": -1,
-        "alternatePrefix": "19"
+        "alternatePrefix": "19",
+        "icon": "entry_rotaeno"
 	},
 	{
 		"minor": 4,
-		"requiredPack": "rotaeno",
+		"requiredPurchase": "rotaeno",
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "waltzforlorelei",
 		"clearCharaId": 76,
 		"charIcon1": 76,
 		"charIcon2": -1,
-        "alternatePrefix": "19"
+        "alternatePrefix": "19",
+        "icon": "entry_rotaeno"
 	},
 	{
 		"minor": 5,
-		"requiredPack": "rotaeno",
+		"requiredPurchase": "rotaeno",
 		"requiredMinor": 4,
 		"storyType": "nvl",
 		"clearSongId": "dualdoom",
 		"clearCharaId": 76,
 		"charIcon1": 76,
 		"charIcon2": -1,
-        "alternatePrefix": "19"
+        "alternatePrefix": "19",
+        "icon": "entry_rotaeno"
 	},
 	{
 		"minor": 6,
-		"requiredPack": "rotaeno",
+		"requiredPurchase": "rotaeno",
 		"requiredMinor": 5,
 		"storyType": "nvl",
 		"clearSongId": "mvurbd",
@@ -65,11 +70,12 @@
 		"charIcon1": 76,
 		"charIcon2": -1,
 		"storyCgPath": "app-data/story/cg/18-6.jpg",
-        "alternatePrefix": "19"
+        "alternatePrefix": "19",
+        "icon": "entry_rotaeno"
 	},
     {
         "minor": 7,
-        "requiredPack": "rotaeno",
+        "requiredPurchase": "rotaeno",
         "requiredMinor": 6,
         "storyType": "nvl",
         "clearSongId": "invertedworld",
@@ -77,11 +83,12 @@
         "charIcon1": 76,
         "charIcon2": -1,
 		"storyCgPath": "app-data/story/cg/18-7.jpg",
-        "alternatePrefix": "19"
+        "alternatePrefix": "19",
+        "icon": "entry_rotaeno"
     },
     {
         "minor": 8,
-        "requiredPack": "rotaeno",
+        "requiredPurchase": "rotaeno",
         "requiredMinor": 7,
         "storyType": "nvl",
         "clearSongId": "vulcanus",
@@ -89,6 +96,7 @@
         "charIcon1": 76,
         "charIcon2": -1,
 		"storyCgPath": "app-data/story/cg/18-8.jpg",
-        "alternatePrefix": "19"
+        "alternatePrefix": "19",
+        "icon": "entry_rotaeno_boss"
     }]
 }

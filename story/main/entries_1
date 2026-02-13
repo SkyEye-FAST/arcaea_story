@@ -1,56 +1,61 @@
 {
 	"entries": [{
 			"minor": 1,
-			"requiredPack": "core",
+			"requiredPurchase": "core",
 			"storyType": "nvl",
 			"clearSongId": "lumia",
 			"clearCharaId": 0,
 			"charIcon1": 0,
 			"charIcon2": -1,
-			"storyCgPath": "app-data/story/cg/1-1.jpg"
+			"storyCgPath": "app-data/story/cg/1-1.jpg",
+            "icon": "entry_ec"
 		},
 		{
 			"minor": 2,
-			"requiredPack": "core",
+			"requiredPurchase": "core",
 			"requiredMinor": 1,
 			"storyType": "nvl",
 			"clearSongId": "memoryfactory",
 			"clearCharaId": 0,
 			"charIcon1": 0,
-			"charIcon2": -1
+			"charIcon2": -1,
+            "icon": "entry_ec"
 		},
 		{
 			"minor": 3,
-			"requiredPack": "core",
+			"requiredPurchase": "core",
 			"requiredMinor": 2,
 			"storyType": "nvl",
 			"clearSongId": "pragmatism",
 			"clearCharaId": 0,
 			"charIcon1": 0,
-			"charIcon2": -1
+			"charIcon2": -1,
+            "icon": "entry_ec"
 		},
 		{
 			"minor": 4,
-			"requiredPack": "rei",
+			"requiredPurchase": "rei",
 			"storyType": "nvl",
 			"clearSongId": "mazenine",
 			"clearCharaId": 0,
 			"charIcon1": 0,
-			"charIcon2": -1
+			"charIcon2": -1,
+            "icon": "entry_ls"
 		},
 		{
 			"minor": 5,
-			"requiredPack": "rei",
+			"requiredPurchase": "rei",
 			"requiredMinor": 4,
 			"storyType": "nvl",
 			"clearSongId": "halcyon",
 			"clearCharaId": 0,
 			"charIcon1": 0,
-			"charIcon2": -1
+			"charIcon2": -1,
+            "icon": "entry_ls"
 		},
 		{
 			"minor": 6,
-			"requiredPack": "rei",
+			"requiredPurchase": "rei",
 			"requiredMinor": 5,
 			"storyType": "nvl",
 			"clearSongId": "etherstrike",
@@ -58,37 +63,41 @@
 			"clearCharaId": 14,
 			"charIcon1": 0,
 			"charIcon2": -1,
-			"storyCgPath": "app-data/story/cg/1-ZR.jpg"
+			"storyCgPath": "app-data/story/cg/1-ZR.jpg",
+            "icon": "entry_ls"
 		},
 		{
 			"minor": 7,
-			"requiredPack": "rei",
+			"requiredPurchase": "rei",
 			"requiredMinor": 5,
 			"storyType": "nvl",
 			"requirementAnomalyId": "fractureray",
 			"charIcon1": 0,
-			"charIcon2": -1
+			"charIcon2": -1,
+            "icon": "entry_ls"
 		},
 		{
 			"minor": 8,
-			"requiredPack": "rei",
+			"requiredPurchase": "rei",
 			"requiredMinor": 7,
 			"storyType": "nvl",
 			"clearSongId": "fractureray",
 			"clearCharaId": 0,
 			"charIcon1": 0,
 			"charIcon2": -1,
-			"storyCgPath": "app-data/story/cg/1-8.jpg"
+			"storyCgPath": "app-data/story/cg/1-8.jpg",
+            "icon": "entry_ls"
 		},
 		{
 			"minor": 9,
-			"requiredPack": "rei",
+			"requiredPurchase": "rei",
 			"requiredMinor": 8,
 			"storyType": "nvl",
 			"clearSongId": "fractureray",
 			"clearCharaId": 15,
 			"charIcon1": 0,
-			"charIcon2": -1
+			"charIcon2": -1,
+            "icon": "entry_ls"
 		}
 	]
 }

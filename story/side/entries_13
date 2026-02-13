@@ -1,41 +1,45 @@
 {
 	"entries": [{
 		"minor": 1,
-		"requiredPack": "crimsonthrone",
+		"requiredPurchase": "crimsonthrone",
 		"storyType": "nvl",
 		"clearSongId": "crimsonthrone",
 		"clearCharaId": -1,
 		"charIcon1": 10,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "cell_crimsonthrone"
 	},
 	{
 		"minor": 2,
-		"requiredPack": "crimsonthrone",
+		"requiredPurchase": "crimsonthrone",
 		"requiredMinor": 1,
 		"storyType": "nvl",
 		"clearSongId": "lucifer",
 		"clearCharaId": -1,
 		"charIcon1": 10,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "cell_crimsonthrone"
 	},
 	{
 		"minor": 3,
-		"requiredPack": "crimsonthrone",
+		"requiredPurchase": "crimsonthrone",
 		"requiredMinor": 2,
 		"storyType": "nvl",
 		"clearSongId": "anokumene",
 		"clearCharaId": -1,
 		"charIcon1": 10,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "cell_crimsonthrone"
 	},
 	{
 		"minor": 4,
-		"requiredPack": "crimsonthrone",
+		"requiredPurchase": "crimsonthrone",
 		"requiredMinor": 3,
 		"storyType": "nvl",
 		"clearSongId": "crimsonthrone",
 		"clearCharaId": -1,
 		"charIcon1": 10,
-		"charIcon2": -1
+		"charIcon2": -1,
+        "icon": "cell_crimsonthrone"
 	}]
 }

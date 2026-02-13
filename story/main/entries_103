@@ -3,16 +3,20 @@
 		"minor": 1,
 		"storyType": "vn",
 		"storyData": "epilogue_last",
-		"requiredPack": "finale",
-		"alternatePrefix": "E"
+		"requiredPurchase": "finale",
+		"alternatePrefix": "E",
+        "icon": "entry_finale",
+        "hiddenFromCount": true
 		},
 	{
 		"minor": 2,
 		"storyType": "nvl",
-		"requiredPack": "finale",
+		"requiredPurchase": "finale",
 		"alternatePrefix": "E",
 		"requiredMinor": 1,
 		"charIcon1": 55,
-		"bgmOverride":"history_epilogue.ogg"
+		"bgmOverride":"history_epilogue.ogg",
+        "icon": "entry_finale",
+        "hiddenFromCount": true
 	}]
 }

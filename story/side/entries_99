@@ -1,70 +1,75 @@
 {
-	"entries": [{
-			"minor": 1,
-			"requiredPack": "dividedheart",
-			"storyType": "nvl",
-			"clearSongId": "bluerose",
-			"clearCharaId": -1,
+    "entries": [{
+            "minor": 1,
+            "requiredPurchase": "dividedheart",
+            "storyType": "nvl",
+            "clearSongId": "bluerose",
+            "clearCharaId": -1,
             "alternatePrefix": "S",
-			"charIcon1": 99,
-			"charIcon2": -1
-		},
-		{
-			"minor": 2,
-			"requiredPack": "dividedheart",
-			"requiredMinor": 1,
-			"storyType": "nvl",
-			"clearSongId": "firstsnow",
-			"clearCharaId": 99,
+            "charIcon1": 99,
+            "charIcon2": -1,
+            "icon": "entry_switch"
+        },
+        {
+            "minor": 2,
+            "requiredPurchase": "dividedheart",
+            "requiredMinor": 1,
+            "storyType": "nvl",
+            "clearSongId": "firstsnow",
+            "clearCharaId": 99,
             "alternatePrefix": "S",
-			"charIcon1": 99,
-			"charIcon2": -1
-		},
-		{
-			"minor": 3,
-			"requiredPack": "dividedheart",
-			"requiredMinor": 2,
-			"storyType": "nvl",
-			"clearSongId": "bluerose",
-			"clearCharaId": 99,
+            "charIcon1": 99,
+            "charIcon2": -1,
+            "icon": "entry_switch"
+        },
+        {
+            "minor": 3,
+            "requiredPurchase": "dividedheart",
+            "requiredMinor": 2,
+            "storyType": "nvl",
+            "clearSongId": "bluerose",
+            "clearCharaId": 99,
             "alternatePrefix": "S",
-			"charIcon1": 99,
-			"charIcon2": -1
-		},
-		{
-			"minor": 4,
-			"requiredPack": "dividedheart",
-			"requiredMinor": 3,
-			"storyType": "nvl",
-			"clearSongId": "blockedlibrary",
-			"clearCharaId": 99,
+            "charIcon1": 99,
+            "charIcon2": -1,
+            "icon": "entry_switch"
+        },
+        {
+            "minor": 4,
+            "requiredPurchase": "dividedheart",
+            "requiredMinor": 3,
+            "storyType": "nvl",
+            "clearSongId": "blockedlibrary",
+            "clearCharaId": 99,
             "alternatePrefix": "S",
-			"charIcon1": 99,
-			"charIcon2": -1
-		},
-		{
-			"minor": 5,
-			"requiredPack": "dividedheart",
-			"requiredMinor": 4,
-			"storyType": "nvl",
-			"clearSongId": "neokosmo",
-			"clearCharaId": 99,
-			"additionalRequires": ["4-8"],
+            "charIcon1": 99,
+            "charIcon2": -1,
+            "icon": "entry_lightningscrew"
+        },
+        {
+            "minor": 5,
+            "requiredPurchase": "dividedheart",
+            "requiredMinor": 4,
+            "storyType": "nvl",
+            "clearSongId": "neokosmo",
+            "clearCharaId": 99,
             "alternatePrefix": "S",
-			"charIcon1": 99,
-			"charIcon2": 2
-		},
-		{
-			"minor": 6,
-			"requiredPack": "dividedheart",
-			"requiredMinor": 5,
-			"storyType": "nvl",
-			"clearSongId": "lightningscrew",
-			"clearCharaId": 99,
+            "charIcon1": 99,
+            "charIcon2": 2,
+            "icon": "entry_switch"
+        },
+        {
+            "minor": 6,
+            "requiredPurchase": "dividedheart",
+            "requiredMinor": 5,
+            "storyType": "nvl",
+            "clearSongId": "lightningscrew",
+            "clearCharaId": 99,
             "alternatePrefix": "S",
-			"charIcon1": 99,
-			"charIcon2": 2,
-			"storyCgPath": "app-data/story/cg/99-6.jpg"
-		}
-	]
+            "charIcon1": 99,
+            "charIcon2": 2,
+            "storyCgPath": "app-data/story/cg/99-6.jpg",
+            "icon": "entry_switch"
+        }
+    ]
 }

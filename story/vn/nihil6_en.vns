@@ -238,26 +238,26 @@ move "nihil/nihil_2.jpg" -5:0 0.05 linear
 wait 0.05
 wait 1.23
 
-auto 2.2
+autoplay_legacy 2.2
 play "alter_ego_mini.ogg" 0.6
 volume "alter_ego_mini.ogg" 1.0 9
 move "nihil/nihil_2.jpg" 0:50 17 sineout
 scale "nihil/nihil_2.jpg" 0.48:0.48 14 sineout
 
-say "Blade clashes against glass. Water sprays between us."
+say_legacy "Blade clashes against glass. Water sprays between us."
 
 play "splash.ogg" 1.0
 
-say "I dance a violent dance alongside hers, vicious."
+say_legacy "I dance a violent dance alongside hers, vicious."
 
 play "clash.ogg" 1.0
 volume "thump.ogg" 0.5 0.4
 
-say "She swings, aiming to kill me. I cut across her face with glowing glass."
+say_legacy "She swings, aiming to kill me. I cut across her face with glowing glass."
 
 volume "thump.ogg" 0.8 4.0
 
-say "My head is pounding."
+say_legacy "My head is pounding."
 
 play "slice.ogg" 1.0
 play "shine.ogg" 0.5
@@ -279,11 +279,11 @@ scale "nihil/nihil_2.jpg" 0.41:0.41 3.7 sineout
 hide "nihil/nihil_2.jpg" fade(10,linear)
 wait 1.23
 
-say "Sickness twists inside my stomach."
+say_legacy "Sickness twists inside my stomach."
 
 show "black.png" 0.3:0.3 0.3:0.3 2000:960 fade(0.1,linear) normal
 stop "wind.ogg" 0.3
 stop "rain.ogg" 0.3
 stop "thump.ogg" 0.3
 
-say "I have failed, and nothing I am doing here matters at all."
+say_legacy "I have failed, and nothing I am doing here matters at all."
