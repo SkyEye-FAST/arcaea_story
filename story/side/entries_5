@@ -59,5 +59,38 @@
 		"charIcon1": 4,
 		"charIcon2": -1,
 		"storyCgPath": "app-data/story/cg/5-6.jpg"
+	},
+	{
+		"minor": 7,
+		"requiredPack": "mirai",
+		"requiredMinor": 6,
+		"storyType": "nvl",
+		"clearSongId": "nullapophenia",
+		"clearCharaId": 4,
+		"alternateSuffix": "?",
+		"charIcon1": 61,
+		"charIcon2": -1
+	},
+	{
+		"minor": 8,
+		"requiredPack": "mirai",
+		"requiredMinor": 7,
+		"storyType": "nvl",
+		"clearSongId": "genesis",
+		"clearCharaId": 61,
+		"alternateSuffix": "?",
+		"charIcon1": 61,
+		"charIcon2": 23
+	},
+	{
+		"minor": 9,
+		"requiredPack": "mirai",
+		"requiredMinor": 8,
+		"storyType": "nvl",
+		"clearSongId": "nullapophenia",
+		"clearCharaId": 61,
+		"alternateSuffix": "?",
+		"charIcon1": 61,
+		"charIcon2": 23
 	}]
 }
