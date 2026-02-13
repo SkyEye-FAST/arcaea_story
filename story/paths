@@ -136,6 +136,10 @@
 		{
 			"storyType": 4,
 			"main": 103
-		}
+		},
+        {
+            "storyType": 0,
+            "main": 0
+        }
 	]
 }
