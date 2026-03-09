@@ -83,7 +83,8 @@
 		"clearCharaId": -1,
 		"charIcon1": -1,
 		"charIcon2": -1,
-        "icon": "cell-lephon-2"
+        "icon": "cell-lephon-2",
+        "playableSongBgmId": "swansong"
 	},
 	{
 		"minor": 8,

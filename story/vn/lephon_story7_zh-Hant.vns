@@ -430,7 +430,7 @@ unload_textures
 hidetextbox
 
 wait 2.0
-play "swan_song_story.ogg" 1.0 loop
+play_game "swansong" 1.0 loop
 stop "lephon_title.ogg" 3.0
 stop "ascension.ogg" 3.0
 wait 1.0
@@ -645,8 +645,8 @@ say ""
 
 show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
 
-volume "swan_song_story.ogg" 0.0 12.0
+volume_game "swansong" 0.0 12.0
 
 wait 12
-stop "swan_song_story.ogg" 1.0
+stop_game "swansong" 1.0
 wait 1

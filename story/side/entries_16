@@ -73,11 +73,11 @@
 		"clearCharaId": 71,
 		"charIcon1": 71,
 		"charIcon2": -1,
-		"bgmOverride":"arghena_story.ogg",
         "storyCgPath": "app-data/story/cg/16-7-1.jpg",
     "additionalRequires": ["15-6"],
         "icon": "entry_arghena",
-        "hiddenFromCount": true
+        "hiddenFromCount": true,
+        "playableSongBgmId": "arghena"
 	},
 	{
 		"minor": 8,
