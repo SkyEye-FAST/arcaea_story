@@ -54,7 +54,7 @@
 		"charIcon1": 89,
 		"charIcon2": -1,
 		"storyCgPath": "app-data/story/cg/21-5-1.jpg",
-        "playableSongBgmId": "extradimensional",
+        "bgmOverride":"blue.ogg",
         "icon": "entry_anima_boss"
 	}]
 }
