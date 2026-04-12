@@ -4,16 +4,22 @@ set -e
 API_URL="https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
 
 echo "Fetching APK metadata from API..."
-RESPONSE=$(curl -s "$API_URL")
+RESPONSE=$(curl -fsSL "$API_URL") || {
+    echo "Failed to fetch API response from $API_URL"
+    exit 1
+}
 
-SUCCESS=$(echo "$RESPONSE" | jq -r '.success')
+SUCCESS=$(jq -er '.success' <<< "$RESPONSE") || {
+    echo "Invalid JSON response: $RESPONSE"
+    exit 1
+}
 if [ "$SUCCESS" != "true" ]; then
     echo "API request failed: $RESPONSE"
     exit 1
 fi
 
-APK_URL=$(echo "$RESPONSE" | jq -r '.value.url')
-VERSION=$(echo "$RESPONSE" | jq -r '.value.version')
+APK_URL=$(jq -er '.value.url' <<< "$RESPONSE")
+VERSION=$(jq -er '.value.version' <<< "$RESPONSE")
 VERSION_NAME="${VERSION%c}"
 
 if [ -n "$GITHUB_ENV" ]; then
