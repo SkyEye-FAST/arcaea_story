@@ -1,0 +1,36 @@
+name: Update Story Data
+
+on:
+    schedule:
+        - cron: "30 0 * * *"
+    workflow_dispatch:
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Install dependencies
+              run: sudo apt-get update && sudo apt-get install -y jq curl unzip
+
+            - name: Get Version Name
+              id: version
+              run: |
+                  API_URL="https://webapi.lowiro.com/webapi/serve/static/bin/arcaea/apk/"
+                  RESPONSE=$(curl -s "$API_URL")
+                  VERSION=$(echo "$RESPONSE" | jq -r '.value.version')
+                  echo "name=${VERSION%c}" >> "$GITHUB_OUTPUT"
+
+            - name: Run Update Script
+              run: bash update.sh
+
+            - name: Commit
+              uses: EndBug/add-and-commit@v10
+              with:
+                  default_author: github_actions
+                  message: "${{ steps.version.outputs.name }}"
