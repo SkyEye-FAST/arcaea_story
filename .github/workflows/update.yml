@@ -1,9 +1,6 @@
 name: Update Story Data
 
 on:
-  schedule:
-    - cron: "0,10 0 * * *"
-    - cron: "50 23 * * *"
   workflow_dispatch:
 
 jobs:
