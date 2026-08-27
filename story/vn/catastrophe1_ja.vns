@@ -1,0 +1,172 @@
+show "catastrophe/card_A.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(0.1,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_4.jpg" 0.5:0.5 0.5:0.5 0.83:0.83 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_3.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_2.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_1.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_1_b.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+move "catastrophe/cat_1_4.jpg" -19:0 0 linear
+move "catastrophe/card_A.png" 0:45 0 linear
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 1
+
+play "ember_wind.ogg" 0 loop
+volume "ember_wind.ogg" 0.5 3.0
+
+say "「ヴィータ」"
+
+move "catastrophe/cat_1_1.jpg" 0:-175 20 sineout
+move "catastrophe/cat_1_1_b.jpg" 0:-175 20 sineout
+
+play "breath.ogg" 3
+hide "3black.png" fade(2,linear)
+wait 2 clear
+hide "catastrophe/cat_1_1_b.jpg" fade(6,linear)
+
+
+say "「^^莫迦^^{ばか}みたいよ、あなた。今の顔」"
+
+say "口を開いたのは、黙らせるためだったと思う。
+『バカだけがバカをバカと言うんです』とか、そんなことを。"
+
+say "「大した格言もどきね。正しくないことに目を%%瞑%%{つむ}れば、だけど。
+知的で……ちょっとだけ性根が捻くれた私のような人間は、ちゃんとバカをバカと呼ぶもの」"
+
+say "そんな口ぶりに、私は笑う。笑わされてしまった。"
+
+hide "catastrophe/cat_1_1.jpg" fade(0.2,linear)
+
+say "「ヴィータ──手を挙げて、そのまま指を広げてくれるかしら」"
+
+hide "4black.png" fade(0.4,linear)
+
+say "言われるがままに、広げて……"
+
+move "catastrophe/cat_1_2.jpg" 0:175 20 sineout
+move "catastrophe/cat_1_3.jpg" 0:175 20 sineout
+
+say "「そう、それで手を、私の手に合わせて」"
+
+play "clothingRustleE.ogg" 0.1
+
+say "また、合わせた。"
+
+play "thump.ogg" 3
+hide "catastrophe/cat_1_2.jpg" fade(0.4,linear)
+
+say "「きっと、あなたの言っていたことは本当で、
+かつてあった繋がりは、もう失われてしまったのでしょう」"
+
+say "「でも、これだって繋がりよ……ヴィータ。これが、人間なの」"
+
+say "その言葉にまた、笑顔になる。"
+
+say "「ヴィータ、あなたが手を伸ばすなら───」"
+
+play "loss_epilogue.ogg" 0.4
+play "fading.ogg" 2
+hide "catastrophe/cat_1_3.jpg" fade(0.05,linear)
+hidetextbox
+wait 6.0
+hide "2black.png" fade(3.0,linear)
+wait 4
+wait 3 clear
+
+say "……『いつだってその手を取って、私が支えるから』。"
+
+wait 1.0
+hidetextbox
+wait 1.0
+hide "catastrophe/cat_1_4.jpg" fade(6.0,linear)
+wait 4.0
+hide "black.png" fade(1.0,linear)
+wait 3.0
+show "catastrophe/card_B.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(4.0,linear) normal
+wait 0
+move "catastrophe/card_B.png" 0:45 0 linear
+wait 5.0
+show "catastrophe/card_C.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(1.0,linear) normal
+wait 0
+move "catastrophe/card_C.png" 0:45 0 linear
+wait 0.6
+
+play "bell1.ogg" 0.5
+play "bell2.ogg" 0.5
+
+wait 7.4
+hide "catastrophe/card_A.png" fade(5.0,linear)
+hide "catastrophe/card_B.png" fade(5.0,linear)
+hide "catastrophe/card_C.png" fade(5.0,linear)
+stop "ember_wind.ogg" 20.0
+wait 6.0
+play "rain.ogg" 0 loop
+volume "rain.ogg" 0.4 3.0
+wait 2
+wait 2 clear
+
+say "ヴィータ……、
+ヴィータは、まだ隠れて……？よかった……。"
+
+
+play "footstep_crunchy_loop.ogg" 0 loop
+volume "footstep_crunchy_loop.ogg" 0.5 20.0
+play "collapse.ogg" 1.0
+
+say "せめて、%%跪%%{ひざま}づくくらいでいたかったけれど。
+……ただ弱々しく私は、また地面に崩れた。"
+
+show "nihil/nihil_3_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(2.0,linear) normal
+
+say "ここから、どうするべき……？
+どんな動き方なら……どんな成果なら期待できる……？"
+
+
+say "……フフ、なぜかしらね。さっき受けた重傷……。どこかで、きっと願っていたのね。
+出血なんて……この体はしないんじゃないか、ってことを。"
+
+say "きっとこの目───この花のせいね。
+どこかで自分が、常人以上の何かなんじゃないかって気がしていたんだ。
+けれど……あのレーテーでさえ血を流すのだものね……"
+
+hide "nihil/nihil_3_cut2.jpg" fade(0.2,linear)
+
+stop "footstep_crunchy_loop.ogg" 0.1
+
+say "───そして、その女は、私の前に立つ。
+見下ろすように、立つことすら出来ない、私の前に……"
+
+say "女が再び喋り始めたのは、その時だった。
+「───、隠れているのかな、彼女は」"
+
+say "───、……『彼女』？……彼女って……、
+狙いは、まさか……？そんなこと……"
+
+say "「どうにも妙だ……はっきり、見えない……？
+君の仕業かな、これは？」"
+
+say "女は体を折り畳むように前傾して、こちらに顔を近づけると、
+その手をぽん、と私の頭にのせた……その^^双眸^^{そうぼう}を、私は片目で凝視する。"
+
+stop "rain.ogg" 5.0
+
+say "「まさか理解が追いつかない？重ねて言わないとダメなのかい？」"
+
+play "clothingRustleA.ogg" 0.4
+
+say "……言うなり女は、私の髪を^^漉^^{す}くようにしてから^^むんず^^{●●●}と掴んだ。
+怯む私をそのままに、女は続ける……こちらにより、身を乗り出すような姿勢と、冷たい声で。"
+
+play "woosh.ogg" 1.0
+show "nihil/nihil_3_cut3.jpg" 0.5:0.5 0.5:0.38 0.83:0.83 fade(1,linear) normal
+wait 3.0 clear
+
+say "「^^定命^^{ていめい}なるサヤ───あの^^少女^^{●●}だ。
+ワタシはね───探り出すと言ってるんだよ、彼女をね」"
+
+play "impactDeepTonal.ogg" 0.9
+hide "nihil/nihil_3_cut3.jpg" fade(0.1,linear)
+
+wait 5.0

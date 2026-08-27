@@ -1,0 +1,324 @@
+
+wait 1
+
+play "cat_cry_mini_part1.ogg" 0.35 loop
+
+show "catastrophe/cat_6_0.jpg" 0:1 0:1 0.7:0.7 fade(0.5,linear) normal
+move "catastrophe/cat_6_0.jpg" 0:150 0 sineout
+
+wait 0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 1
+move "catastrophe/cat_6_0.jpg" 0:-150 7 sineout
+
+hide "white.png" fade(4,linear)
+
+wait 0.5
+
+play "shimmer_loop.ogg" 0.0 loop
+volume "shimmer_loop.ogg" 1 3.0
+
+say "사야의 검날 끝에서 세계 그 자체가 일렁이고 있어.
+나에겐 보여. 여러 겹의 현실 그 자체가 베여나가는 모습이.
+저 불경한 칼날이 무슨 짓을 하고 있는 건지. 전부 보여."
+
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(19,linear) normal
+
+say "신념에게도 저것과 비슷한 능력을 지닌 창이 있었지.
+히카리에게도 비슷한 검이 있었고. 아예 같은 물건일지도 모르겠네.
+절대로 티 내지는 않을 거지만, 솔직히 무서운걸."
+
+hide "catastrophe/cat_6_0.jpg" fade(4,linear)
+wait 1 clear
+
+play "sword_big_a.ogg" 1
+
+show "catastrophe/cat_6_1.jpg" 0.5:0.5 0.5:0.5 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+wait 0.6
+hide "2white.png" fade(5,linear)
+
+say "사야가 싸우는 이유는, 처음엔 고결했지만, 이제는 아니야.
+몇 번 \"영웅\"들을 쓰려뜨려본 적이 있어서 알아.
+이 여자는, 이제 그저 폭력에 취한 살인마일 뿐이야."
+
+play "jump_collapse.ogg" 1
+
+show "catastrophe/cat_6_1_1.jpg" 0:1 0:1 0.86:0.86 fade(1.5,linear) normal
+move "catastrophe/cat_6_1_1.jpg" 0:150 0 sineout
+wait 0
+move "catastrophe/cat_6_1_1.jpg" 0:-100 1.1 sineout
+wait 1.1
+move "catastrophe/cat_6_1_1.jpg" 0:-50 5 outquad
+wait 1.1
+
+stop "shimmer_loop.ogg" 3.0
+
+say "으, 정말 싫지만, 이제는 여유로운 척을 그만둬야 할 것 같아.
+나는 하늘로 날아올라 거리를 벌렸어.
+그리고 진공 공간을 만든 뒤, 초신성과 블랙홀을 소환해 사야를 견제했어."
+
+play "heartbeatA.ogg" 1
+
+say "심장이 쿵쾅거려, 미소조차 부드러움을 잃고 딱딱하게 굳어버렸어.
+뭔가... 알아차릴 것 같은 기분이야."
+
+play "sword_big_c.ogg" 1
+
+say "사야가 손을 젖히자 내가 만들어낸 진공이 찢어졌어.
+그 공간으로 검을 찔러넣자 무너져가는 별들의 힘이 칼날을 감쌌어.
+어머, 놀라워라. 어이가 없어서 웃음이 나오는 걸."
+
+play "sword_big_b.ogg" 1
+play "battle_chaos_loop.ogg" 0.0 loop
+volume "battle_chaos_loop.ogg" 0.6 2.0
+
+show "catastrophe/cat_6_1_2.jpg" 1:1 1:1 0.7:0.7 fade(0.1,linear) normal
+move "catastrophe/cat_6_1_2.jpg" 150:0 0 sineout
+wait 0 clear
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+move "catastrophe/cat_6_1_2.jpg" -100:50 1.1 sineout
+wait 0.05
+
+hide "white50.png" fade(1,linear)
+
+wait 0.15
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+hide "white70.png" fade(4,linear)
+
+wait 0.85
+
+move "catastrophe/cat_6_1_2.jpg" -50:25 5 outquad
+
+wait 0.6
+
+play "catastrophe_impact_a.ogg" 1
+
+wait 1
+
+say "내 옆에서 유리가 반짝여. 곧 사야가 저기로 순간 이동하겠지.
+아니, 이미 왔네. 사야가 내 머리를 붙잡았어. 분노로 이글거리는 눈.
+그리고 내 이마를 밀어내더니 검을 들어올렸어."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+show "catastrophe/cat_6_5.jpg" 0.5:1 0.5:1 1:1 fade(4,linear) normal
+wait 0.1 clear
+move "catastrophe/cat_6_5.jpg" 0:80 0.4 sineout
+
+wait 0.2
+
+play "sword_stab_fire.ogg" 1
+
+wait 0.2
+
+move "catastrophe/cat_6_5.jpg" 10:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -20:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 15:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -5:0 0.05 linear
+
+wait 1
+
+move "catastrophe/cat_6_5.jpg" 0:60 6 sineout
+
+say "팔을 들어 막아보려 하자 유리 조각이 날아와 팔을 뚫었어.
+그리고, 사야는 검을 내 배로 찔러넣었어.
+그 칼날이 머금었던 별들의 힘이 나의 온 몸을 유린해."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(12,linear) normal
+
+say "으윽. 아아악! 이거... 이거... 온 몸이 찢어지는 것 같아...!
+내가... 신이 아니었으면...
+...?! 아니...? 뭐...?!"
+
+move "catastrophe/cat_6_5.jpg" -10:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 20:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -15:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 5:0 0.05 linear
+
+say "사야가 내 몸에서 검을 뽑아내고 내 머리를 더 꽉 쥐었어.
+저 뒤틀린 칼날로 내 목을 취할 생각이야.
+하지만... 내겐 보여. 이제 알았어."
+
+hide "white40.png" fade(0.2,linear)
+hide "catastrophe/cat_6_5.jpg" fade(0.2,linear)
+
+unload_textures
+wait 0
+
+show "catastrophe/cat_6_2.jpg" 1:0 1:0 0.7:0.7 fade(8,linear) normal
+wait 2 clear
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+
+say "보여. 느껴져. 내 영역에서 나의 가장 소중한 보물이 사라지고 있어.
+너무나 갑작스러워... 하지만 이건 절대 우연이 아니야."
+
+play "catastrophe_teleport_b.ogg" 1
+
+say "나는 사야의 손목을 꽉 붙잡았어. 사야는 얼굴을 찡그리곤 팔을 홱 쳐내,
+검과 내 머리에서 손을 놓고 어디론가 사라졌어."
+
+say "나는 여전히 내 몸을 갈갈이 찢어놓으려 하는 그 격렬한 의지에 저항했어.
+집중하자...
+집중해... 이 싸움 따위보다 훨씬 중요한 걸 보아버렸으니까."
+
+show "catastrophe/cat_6_4_1c.jpg" 1:0.5 1:0.5 1.1:1.1 fade(8,linear) normal
+
+play "drop_to_earth.ogg" 1
+
+say "땅으로 착지하자 먼지 바람이 일어났어. 배에 박힌 검을 꽉 쥐었어.
+현실 그 자체가 찢겨나가며 빛이 사라지고 있어.
+숨을 내쉬자, 아주 약간, 어떤 신의 숨결이 느껴졌어."
+
+hide "catastrophe/cat_6_4_1c.jpg" fade(4,linear)
+
+play "sword_draw_echo.ogg" 1
+stop "cat_cry_mini_part1.ogg" 0.1
+stop "battle_chaos_loop.ogg" 0.1
+
+hidetextbox
+wait 4
+
+wait 2
+
+show "catastrophe/cat_6_3.jpg" 1:0.5 1:0.5 0.8:0.8 fade(6,linear) normal
+move "catastrophe/cat_6_3.jpg" 25:0 0 sineout
+wait 0
+
+move "catastrophe/cat_6_3.jpg" -25:0 6 sineout
+
+wait 2
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 5
+
+
+play "heartbeat_loop.ogg" 0.6 loop
+
+wait 1
+
+wait 4 clear
+
+say "고요하게...
+차갑게...
+...마야가 사라졌어."
+
+hide "catastrophe/cat_6_3.jpg" fade(0,linear)
+wait 0
+hide "3black.png" fade(0,linear)
+wait 0
+unload_textures
+
+say "마야의 존재가 어디에도 보이지 않아.
+비타와 함께 있나? 아니야... 아직... 아직은...?
+하지만 곧... 곧 함께하게 될 거라고? 그게 무슨..."
+
+say "어떻게?
+왜?
+왜??"
+
+say "...아르케아, 네가 한 짓이냐?
+나를 장기말처럼... 갖고 놀았단 말이야?
+아니야. 아니야..."
+
+stop "heartbeat_loop.ogg" 1
+
+wait 2 clear
+
+play "cat_cry_part2_intro.ogg" 0.35
+wait 1.5
+play "cat_cry_mini_part2.ogg" 0.35 loop
+
+wait 3
+
+
+show "catastrophe/cat_6_4_2.jpg" 0:0 0:0 1.2:1.2 fade(10,linear) normal
+move "catastrophe/cat_6_4_2.jpg" 0:-625 40 sineout
+
+say "아니... 이딴 판 따위 엎어주겠어.
+아까 전에 비타 뒤에 서있던 너의 숨결을 봤거든.
+내 세계의 신이 내쉬는 숨결 또한 느껴져."
+
+show "catastrophe/cat_6_4_1.jpg" 1:0 1:0 1.2:1.2 fade(10,linear) normal
+move "catastrophe/cat_6_4_1.jpg" 0:-625 40 sineout
+
+say "그걸 내가 삼켜주겠어. 그 기공을 삼킬 거야.
+동지들을 죽여버린 그 권능을 내 것으로 만들어주겠어.
+진정한 신의 손인 나를 뼛속까지 그 권능으로 채워주겠어."
+
+hidetextbox
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+wait 6
+show "catastrophe/cat_6_4_3.jpg" 0.5:1 0.5:1 1.2:1.2 fade(2,linear) normal
+move "catastrophe/cat_6_4_3.jpg" 0:200 30 sineout
+wait 3
+
+say "운명을 포기했구나? 그렇지?
+거짓말쟁이! 거짓말쟁이! 거짓말쟁이! 거짓말쟁이! 거짓말쟁이!
+비겁하고 나약하고 쓸모없는 쓰레기! 마야는 내 거라고!"
+
+show "catastrophe/cat_6_4.jpg" 0.5:1 0.5:1 0.7:0.7 fade(3,linear) normal
+move "catastrophe/cat_6_4.jpg" 0:100 0 sineout
+wait 0
+move "catastrophe/cat_6_4.jpg" 0:-100 15 sineout
+
+say "...난 이 세계를 사랑했어. 아꼈어.
+이 세계를 치유하고... 구원하려고 했다고! 그런데 왜?
+왜 이런 짓을 한 거야?! 이 비열한...!"
+
+say "은혜도 모르는 쓰레기가...
+너는 끝없이 비극만을 갈구하지? 그래, 알고 있어. 알고 있다고...
+그렇게 고통과 슬픔을 원하고 원하고 또 원한다면, 원하는 만큼 줄게..."
+
+hide "catastrophe/cat_6_4_3.jpg" fade(0.2,linear)
+hide "catastrophe/cat_6_4.jpg" fade(2,linear)
+wait 3
+
+show "catastrophe/cat_6_4_B.jpg" 0.5:0.2 0.5:0.2 1:1 fade(0.1,linear) normal
+show "catastrophe/cat_6_4_A.jpg" 0.5:0.2 0.5:0.2 1:1 fade(0.1,linear) normal
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 0
+wait 1
+hidetextbox
+wait 3
+stop "cat_cry_mini_part2.ogg" 10.0
+wait 1
+play "ominous_swell_catastrophe.ogg" 0.8
+
+move "catastrophe/cat_6_4_B.jpg" 0:-200 20 sineout
+move "catastrophe/cat_6_4_A.jpg" 0:-200 20 sineout
+hide "5black.png" fade(6,linear)
+wait 4
+
+
+wait 5
+play "heartbeat_loop.ogg" 0.6 loop
+wait 2 clear
+hide "catastrophe/cat_6_4_A.jpg" fade(5,sineout)
+
+say "아르케아...
+내가 너에게 재앙이 뭔지 알려주겠어."
+
+stop "heartbeat_loop.ogg" 5.0
+
+wait 2

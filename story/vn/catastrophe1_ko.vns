@@ -1,0 +1,171 @@
+show "catastrophe/card_A.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(0.1,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_4.jpg" 0.5:0.5 0.5:0.5 0.83:0.83 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_3.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_2.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_1.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_1_b.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+move "catastrophe/cat_1_4.jpg" -19:0 0 linear
+move "catastrophe/card_A.png" 0:45 0 linear
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 1
+
+play "ember_wind.ogg" 0 loop
+volume "ember_wind.ogg" 0.5 3.0
+
+say "\"비타.\""
+
+move "catastrophe/cat_1_1.jpg" 0:-175 20 sineout
+move "catastrophe/cat_1_1_b.jpg" 0:-175 20 sineout
+
+play "breath.ogg" 3
+hide "3black.png" fade(2,linear)
+wait 2 clear
+hide "catastrophe/cat_1_1_b.jpg" fade(6,linear)
+
+
+say "\"바보같은 얼굴로 뭐 해?\""
+
+say "그렇게 말하는 언니에게 입 다물라는 투로 말했어요.
+대충, \"바보라고 말하는 사람이 바보에요.\" 라고 했던 것 같아요."
+
+say "\"반박도 제대로 못 하는군. 미안하지만 그 관용구는 사실이 아니야.
+나처럼 똑똑하고 귀찮은 인간이 바보라고 부르는 사람은 진짜 바보거든.\""
+
+say "살짝 웃음이 나왔어요."
+
+hide "catastrophe/cat_1_1.jpg" fade(0.2,linear)
+
+say "\"비타. 손을 펼쳐서 들어봐.\""
+
+hide "4black.png" fade(0.4,linear)
+
+say "시킨대로 했어요."
+
+move "catastrophe/cat_1_2.jpg" 0:175 20 sineout
+move "catastrophe/cat_1_3.jpg" 0:175 20 sineout
+
+say "\"내 손에 겹쳐봐.\""
+
+play "clothingRustleE.ogg" 0.1
+
+say "또 시킨대로 했어요."
+
+play "thump.ogg" 3
+hide "catastrophe/cat_1_2.jpg" fade(0.4,linear)
+
+say "\"네가 저번에 말했지. 무언가와 연결된 감각을 잃어버린 것 같다고. 
+그래, 정말 그럴지도 몰라.\""
+
+say "\"하지만 이것 또한 '연결'이야. 인간다운, 사람다운...\""
+
+say "또 입가에 미소가 번져요."
+
+say "\"네가 손을 뻗어주기만 한다면...\""
+
+play "loss_epilogue.ogg" 0.4
+play "fading.ogg" 2
+hide "catastrophe/cat_1_3.jpg" fade(0.05,linear)
+hidetextbox
+wait 6.0
+hide "2black.png" fade(3.0,linear)
+wait 4
+wait 3 clear
+
+say "...다시 일어서도록 도와줄게."
+
+wait 1.0
+hidetextbox
+wait 1.0
+hide "catastrophe/cat_1_4.jpg" fade(6.0,linear)
+wait 4.0
+hide "black.png" fade(1.0,linear)
+wait 3.0
+show "catastrophe/card_B.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(4.0,linear) normal
+wait 0
+move "catastrophe/card_B.png" 0:45 0 linear
+wait 5.0
+show "catastrophe/card_C.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(1.0,linear) normal
+wait 0
+move "catastrophe/card_C.png" 0:45 0 linear
+wait 0.6
+
+play "bell1.ogg" 0.5
+play "bell2.ogg" 0.5
+
+wait 7.4
+hide "catastrophe/card_A.png" fade(5.0,linear)
+hide "catastrophe/card_B.png" fade(5.0,linear)
+hide "catastrophe/card_C.png" fade(5.0,linear)
+stop "ember_wind.ogg" 20.0
+wait 6.0
+play "rain.ogg" 0 loop
+volume "rain.ogg" 0.4 3.0
+wait 2
+wait 2 clear
+
+say "비타... 비타는...
+아직 잘 숨어있나? 좋아..."
+
+
+play "footstep_crunchy_loop.ogg" 0 loop
+volume "footstep_crunchy_loop.ogg" 0.5 20.0
+play "collapse.ogg" 1.0
+
+say "무릎 꿇은 자세라도 유지하려 했지만
+힘이 빠져 뒤로 고꾸라지고 말았어."
+
+show "nihil/nihil_3_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(2.0,linear) normal
+
+say "어떻게 해야하지...?
+어떤 행동을 취해야 하지...? 예상할 수 있는 결말은...?"
+
+
+say "몸의 손상 정도는...
+하하... 바보같이 나는 베여도 피가 나지 않을 거라고 생각했어."
+
+say "눈에 꽃이 피어있으니, 우리의 몸은 인간의 것이 아닐 거라고 생각했지.
+레테도 피를 흘리는 걸 보니, 그 가설은 틀렸던 모양이야."
+
+hide "nihil/nihil_3_cut2.jpg" fade(0.2,linear)
+
+stop "footstep_crunchy_loop.ogg" 0.1
+
+say "그 여자가 내 앞에 걸어와 멈췄어.
+도저히 일어설 수가 없어."
+
+say "여자가 말했어.
+\"그 아이는 어디 숨어있는 거니?\""
+
+say "\"아이...?\" 아이라니... 설마...
+아니... 그럴 수는..."
+
+say "\"이상하네. 어디에도 안 보이는걸.
+네가 숨겼니?\""
+
+say "여자가 몸을 숙이더니 내 머리에 손을 얹었어.
+나는 그 시선을 피하지 않고 똑바로 바라보았어."
+
+stop "rain.ogg" 5.0
+
+say "\"굳이 말 안해도 이미 스스로도 알고 있잖니.\""
+
+play "clothingRustleA.ogg" 0.4
+
+say "여자가 손에 힘을 줘 내 머리카락을 움켜잡았어. 고통에 미간이 일그러져.
+몸을 더욱 낮춰 나에게 가까이 다가왔어. 그리고 차가운 목소리로 말했지."
+
+play "woosh.ogg" 1.0
+show "nihil/nihil_3_cut3.jpg" 0.5:0.5 0.5:0.38 0.83:0.83 fade(1,linear) normal
+wait 3.0 clear
+
+say "\"미천한 필멸자... 사야야.
+결국 찾아낼 거란다.\""
+
+play "impactDeepTonal.ogg" 0.9
+hide "nihil/nihil_3_cut3.jpg" fade(0.1,linear)
+
+wait 5.0

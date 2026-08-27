@@ -1,0 +1,326 @@
+
+wait 1
+
+play "cat_cry_mini_part1.ogg" 0.35 loop
+
+show "catastrophe/cat_6_0.jpg" 0:1 0:1 0.7:0.7 fade(0.5,linear) normal
+move "catastrophe/cat_6_0.jpg" 0:150 0 sineout
+
+wait 0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 1
+move "catastrophe/cat_6_0.jpg" 0:-150 7 sineout
+
+hide "white.png" fade(4,linear)
+
+wait 0.5
+
+play "shimmer_loop.ogg" 0.0 loop
+volume "shimmer_loop.ogg" 1 3.0
+
+say "At the edge of Saya's blade, \"the world\" itself shimmers
+and I can see it: how each layer of \"here\" is being cut—
+wounded—by that blaspheming edge."
+
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(19,linear) normal
+
+say "Faith held a spear very much like this,
+and Hikari did too, aye: a sword. Perhaps even the same as this.
+And though it is only to myself: I can admit it's a fearsome thing."
+
+hide "catastrophe/cat_6_0.jpg" fade(4,linear)
+wait 1 clear
+
+play "sword_big_a.ogg" 1
+
+show "catastrophe/cat_6_1.jpg" 0.5:0.5 0.5:0.5 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+wait 0.6
+hide "2white.png" fade(5,linear)
+
+say "Saya was brought up by passions, but that is not what keeps her here
+in battle with me. I've brought down a number of \"heroes\"...
+This woman, instead, is a truthsome killer."
+
+play "jump_collapse.ogg" 1
+
+show "catastrophe/cat_6_1_1.jpg" 0:1 0:1 0.86:0.86 fade(1.5,linear) normal
+move "catastrophe/cat_6_1_1.jpg" 0:150 0 sineout
+wait 0
+move "catastrophe/cat_6_1_1.jpg" 0:-100 1.1 sineout
+wait 1.1
+move "catastrophe/cat_6_1_1.jpg" 0:-50 5 outquad
+wait 1.1
+
+stop "shimmer_loop.ogg" 3.0
+
+say "I drop the play unfavorably fast—fly up to the sky
+and make a gap between her and I.
+I fill it with a vacuum and collapsing stars to dissuade her."
+
+play "heartbeatA.ogg" 1
+
+say "My heart is beating, and my smile is rather stiff.
+I... am coming to realize something."
+
+play "sword_big_c.ogg" 1
+
+say "Saya tears her other hand backward, and that rends my space asunder.
+She thrusts her sword forward, and the violent forces of that collapse
+wrap all around it. I laugh, awe-struck."
+
+play "sword_big_b.ogg" 1
+play "battle_chaos_loop.ogg" 0.0 loop
+volume "battle_chaos_loop.ogg" 0.6 2.0
+
+show "catastrophe/cat_6_1_2.jpg" 1:1 1:1 0.7:0.7 fade(0.1,linear) normal
+move "catastrophe/cat_6_1_2.jpg" 150:0 0 sineout
+wait 0 clear
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+move "catastrophe/cat_6_1_2.jpg" -100:50 1.1 sineout
+wait 0.05
+
+hide "white50.png" fade(1,linear)
+
+wait 0.15
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+hide "white70.png" fade(4,linear)
+
+wait 0.85
+
+move "catastrophe/cat_6_1_2.jpg" -50:25 5 outquad
+
+wait 0.6
+
+play "catastrophe_impact_a.ogg" 1
+
+wait 1
+
+say "A shard of glass flickers beside my face. I can see that Saya will be there—
+too late. She is already before me and has grasped my skull, glaring enraged.
+She pushes my forehead back and raises her blade."
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+show "catastrophe/cat_6_5.jpg" 0.5:1 0.5:1 1:1 fade(4,linear) normal
+wait 0.1 clear
+move "catastrophe/cat_6_5.jpg" 0:80 0.4 sineout
+
+wait 0.2
+
+play "sword_stab_fire.ogg" 1
+
+wait 0.2
+
+move "catastrophe/cat_6_5.jpg" 10:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -20:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 15:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -5:0 0.05 linear
+
+wait 1
+
+move "catastrophe/cat_6_5.jpg" 0:60 6 sineout
+
+say "I lift both my hands, and both are pierced swiftly by glass.
+She thrusts her sword through my gut, and the tornado of energies
+that it has swallowed run rampant throughout me."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(12,linear) normal
+
+say "I groan. This... This... horrid SPLITTING...
+Were I... Were I not... a god, I might—
+...!? What—!?"
+
+move "catastrophe/cat_6_5.jpg" -10:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 20:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -15:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 5:0 0.05 linear
+
+say "Saya makes to withdraw her blade. She grips my skull more fiercely.
+She plainly intends to have my head by that blade's warped edge.
+But I can see; I can see."
+
+hide "white40.png" fade(0.2,linear)
+hide "catastrophe/cat_6_5.jpg" fade(0.2,linear)
+
+unload_textures
+wait 0
+
+show "catastrophe/cat_6_2.jpg" 1:0 1:0 0.7:0.7 fade(8,linear) normal
+wait 2 clear
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+
+say "I can see, and feel, that in the hallowed halls of my domain
+the most precious thing is fading.
+Suddenly... but not by \"chance\"."
+
+play "catastrophe_teleport_b.ogg" 1
+
+say "I hold Saya's wrist firm. She winces and wrenches her arm from my grasp,
+letting her sword and my skull go before quickly vanishing."
+
+say "I begin to quell the rampant will trying to rip my body apart.
+Focused...
+For something—something... more important than this fight has come to my eyes."
+
+show "catastrophe/cat_6_4_1c.jpg" 1:0.5 1:0.5 1.1:1.1 fade(8,linear) normal
+
+play "drop_to_earth.ogg" 1
+
+say "I drop to the earth, dust erupting all around me. I hold the sword firm in my stomach.
+I see a tear in the fabric of everything, as more light vanishes.
+I breathe out, and subtly I can feel the flow of God here."
+
+hide "catastrophe/cat_6_4_1c.jpg" fade(4,linear)
+
+play "sword_draw_echo.ogg" 1
+stop "cat_cry_mini_part1.ogg" 0.1
+stop "battle_chaos_loop.ogg" 0.1
+
+hidetextbox
+wait 4
+
+wait 2
+
+show "catastrophe/cat_6_3.jpg" 1:0.5 1:0.5 0.8:0.8 fade(6,linear) normal
+move "catastrophe/cat_6_3.jpg" 25:0 0 sineout
+wait 0
+
+move "catastrophe/cat_6_3.jpg" -25:0 6 sineout
+
+wait 2
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 5
+
+
+play "heartbeat_loop.ogg" 0.6 loop
+
+wait 1
+
+wait 4 clear
+
+say "I'm still.
+I'm cold...
+...Maya is gone."
+
+hide "catastrophe/cat_6_3.jpg" fade(0,linear)
+wait 0
+hide "3black.png" fade(0,linear)
+wait 0
+unload_textures
+
+say "Her presence has utterly vanished.
+With Vita—? No... she is not with Vita... yet?
+In time... In time, she will? But—"
+
+say "How—?
+Why?
+Why??"
+
+say "...Because this is your intention? Arcaea.
+Like a piece on a board, you are PLAYING me?
+No. No..."
+
+stop "heartbeat_loop.ogg" 1
+
+wait 2 clear
+
+play "cat_cry_part2_intro.ogg" 0.35
+wait 1.5
+play "cat_cry_mini_part2.ogg" 0.35 loop
+
+wait 3
+
+
+show "catastrophe/cat_6_4_2.jpg" 0:0 0:0 1.2:1.2 fade(10,linear) normal
+move "catastrophe/cat_6_4_2.jpg" 0:-625 40 sineout
+
+say "...No. I will push the board over.
+After all, I've found your breath here on our battlefield
+and the Breath of my God has come in too."
+
+show "catastrophe/cat_6_4_1.jpg" 1:0 1:0 1.2:1.2 fade(10,linear) normal
+move "catastrophe/cat_6_4_1.jpg" 0:-625 40 sineout
+
+say "I am going to swallow it: that Air—
+consume it. Consume that same kind of Power that slew my kind.
+And let it fill the bones of this, me, the true hand of God."
+
+hidetextbox
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+wait 6
+show "catastrophe/cat_6_4_3.jpg" 0.5:1 0.5:1 1.2:1.2 fade(2,linear) normal
+move "catastrophe/cat_6_4_3.jpg" 0:200 30 sineout
+wait 3
+
+say "You had forsaken fate, hadn't you?
+Liar. Liar, liar liar liar liar liar.
+Craven, weak, horrible THING. Maya was MINE, you realize?"
+
+show "catastrophe/cat_6_4.jpg" 0.5:1 0.5:1 0.7:0.7 fade(3,linear) normal
+move "catastrophe/cat_6_4.jpg" 0:100 0 sineout
+wait 0
+move "catastrophe/cat_6_4.jpg" 0:-100 15 sineout
+
+say "...I had loved it: this world; cherished it.
+Sought to HEAL it... SAVE it! So why?
+Why did you do it? WRETCH..."
+
+say "Ingracious, DAMNED thing...
+And your insatiable hunger for tragedies. Oh aye. Yes, yes...
+You want and want and want sorrow? Then: I will fill you up..."
+
+hide "catastrophe/cat_6_4_3.jpg" fade(0.2,linear)
+hide "catastrophe/cat_6_4.jpg" fade(2,linear)
+wait 3
+
+show "catastrophe/cat_6_4_B.jpg" 0.5:0.2 0.5:0.2 1:1 fade(0.1,linear) normal
+show "catastrophe/cat_6_4_A.jpg" 0.5:0.2 0.5:0.2 1:1 fade(0.1,linear) normal
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 0
+wait 1
+hidetextbox
+wait 3
+stop "cat_cry_mini_part2.ogg" 10.0
+wait 1
+play "ominous_swell_catastrophe.ogg" 0.8
+
+move "catastrophe/cat_6_4_B.jpg" 0:-200 20 sineout
+move "catastrophe/cat_6_4_A.jpg" 0:-200 20 sineout
+hide "5black.png" fade(6,linear)
+wait 4
+
+
+
+wait 5
+play "heartbeat_loop.ogg" 0.6 loop
+wait 2 clear
+hide "catastrophe/cat_6_4_A.jpg" fade(5,sineout)
+
+say "Arcaea...
+I will bring a catastrophe to you."
+
+stop "heartbeat_loop.ogg" 5.0
+
+wait 2

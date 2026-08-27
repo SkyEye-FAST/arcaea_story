@@ -1,0 +1,381 @@
+wait 1
+
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 2 1.0
+
+show "nihil/nihil_3.jpg" 0.5:0 0.5:0 0.6:0.6 fade(2,linear) normal
+wait 0
+move "nihil/nihil_3.jpg" 0:-200 0 sineout
+
+say "膚色蒼白的女人仍在喋喋不休…"
+
+say "「妳還要繼續裝傻嗎？這不是妳一手幹出的好事？
+咲彌，妳這個…！哈哈，Arcaea已經死了！它沒法在庇佑妳們了！
+妳臉上那朵奇怪的花到底還有多少花招？都拿出來給我看看！ 」"
+
+say "孩子…「孩子」麼…
+她真是為了維塔而來的…？
+…"
+
+say "她手中的力道絲毫不減，我覺得自己的喉嚨越來越緊…
+我不再摀住自己的傷口，而是將手舉起…"
+
+say "使出最大的力氣，我告訴她："
+
+say "「如果…妳真是衝她而來的…
+我絕對不會再讓妳再吸一口這裡的空氣…！ 」"
+
+play "collapse.ogg" 1.0
+play "clothingRustleC.ogg" 1.0
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "我衝著她的脖頸猛地一推。
+她鬆開了我，而我應聲倒地。
+就在我試著起身的時候，我聽見她在我上方低聲嘶道。"
+
+say "「別用那骯髒的血碰我。哼，我已經墮落到這種地步了嗎，真是夠了。」"
+
+say "我抬起頭，看見她正環顧四周。"
+
+say "然後…
+她的雙眼瞪大，眉眼逐漸展開成一個弧度…
+她的笑容也是。"
+
+play "heartbeatB.ogg" 1.0
+stop "wind.ogg" 8
+
+say "我的心跳彷彿靜止了。循著她的注意力，我看向遠處…
+維塔正朝我們奔來。"
+
+play "ring.ogg" 1.0
+
+show "catastrophe/cat_3_1.jpg" 0:0 0:0 1.5:1.5 fade(1,linear) normal
+show "black_fade_corner.png" 0.5:0 0.5:0 1.5:1.5 fade(0,linear) normal
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0
+move "black_fade_corner.png" -400:0 0 linear
+hide "red.png" fade(0,linear)
+wait 1
+play "ruffle.ogg" 2.0
+play "splash.ogg" 0.7
+hide "red.png" fade(1.0,linear)
+move "black_fade_corner.png" 600:0 7 sineout
+
+say "我站起身，卻隨後馬上倒下。
+全身像是被烈火灼燒一般，我的指甲深深嵌​​進泥土中…"
+
+play "heartbeatA.ogg" 1.0
+
+say "我再度撐起身。
+我嗆出了一聲咳嗽，頓時感覺五臟六腑都在顫抖。
+我感覺到她的視線再次落到我身上了。接著，她開口了："
+
+show "catastrophe/cat_3_2.jpg" 1:1 1:1 1.4:1.4 fade(0.5,linear) normal
+
+say "「…
+沒眼界的傢伙。 」"
+
+say "她將手舉起。
+我也虛弱地抬起自己的手。"
+
+play "slice.ogg" 1.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+play "slip.ogg" 1.0
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "…！"
+
+play "cut.ogg" 1.0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.05,linear) normal
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+wait 0
+move "black_left.png" -600:0 0 sineout
+
+say "一道惡魔般的人影忽地亙在我和她中間，她頭頂上的雙角閃爍著。
+…一柄鋒利耀眼的鐮刀隨著人影的手握著向上，嘶吼著劃出一道弧度——
+穿過蒼白的女子，奪走了她的手臂。"
+
+hide "nihil/nihil_3.jpg" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "catastrophe/cat_3_1.jpg" fade(0,linear)
+hide "black_fade_corner.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2black.png" fade(0,linear)
+hide "catastrophe/cat_3_2.jpg" fade(0,linear)
+wait 0
+hide "nihil/nihil_2_cut3.jpg" fade(0.1,linear)
+hide "black_left.png" fade(0.1,linear)
+
+play "run_water1.ogg" 2
+
+say "忘卻看向我。
+不需要她開口，我也知道現在該做什麼。
+儘管渾身上下都在撕裂般疼痛著，我邁開了步伐。"
+
+play "heavy_slap.ogg" 0.2
+
+wait 0.6
+
+play "catastrophe_impact_c.ogg" 0.2
+
+say "必須帶維塔逃離這個地方…
+不需要離很近，應該也能做到的…
+我只需要用鎖鏈隔著玻璃和她對調位置…直到她安全為止。"
+
+unload_textures
+
+play "run_water2.ogg" 2
+play "heartbeatA.ogg" 1
+
+play "fracture2_epilogue.ogg" 0.04
+
+say "我知道她不會待得住的…該死，我如此篤定地早就確信了這一點。
+但我確實也無法讓她就那樣待在那裡，她的心太過熾烈。
+我並不會責罵她，我現在只需要，只要─"
+
+play "run_water3.ogg" 2
+play "humanSnapFinger_echo.ogg" 0.6
+
+play "refusal_epilogue.ogg" 0.5
+
+say "我的視線與維塔相遇，這感覺就像是─不…
+時間，真的慢了下來。
+而那位從天而降的女子站在了我們之間，面向著維塔，背對著我。"
+
+play "steps.ogg" 1.0
+
+show "catastrophe/cat_3_3.jpg" 1:0.5 1:0.5 0.42:0.42 fade(3,linear) normal
+show "2black_left.png" 0:0.5 0.05:0.5 1.0:1.0 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(4,linear)
+
+play "heartbeatB.ogg" 1
+
+say "失去了一隻手臂的她抬起仍然完好的另一隻手。
+她的殘臂開始長出絲弦，一條新的肢體很快便顯現出來。
+我奮力在放緩的時間前行，但…"
+
+play "heartbeatA.ogg" 1
+
+say "但她並沒有搭理我——
+我知道我束手無策，我現在什麼都做不了了，救不了維塔了。
+我怒火中燒。"
+
+play "heartbeatCEcho.ogg" 1
+
+say "憤怒像癌細胞般在我體內瘋狂增生、吞噬。
+我伸手夠向那女人的後背，但她仍未轉身。"
+
+stop "refusal_epilogue.ogg" 4
+stop "steps.ogg" 4
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+hidetextbox
+wait 8
+
+unload_textures
+
+play "flash_build.ogg" 1
+
+wait 3.5
+
+show "catastrophe/flash_light.png" 0.5:0.5 0.5:0.5 0.6:0.6 fade(0.05,linear) normal
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.1
+
+hide "white50.png" fade(0.75,linear)
+hide "catastrophe/flash_light.png" fade(1.2,linear)
+
+play "flash_hit.ogg" 1
+
+wait 4
+
+show "catastrophe/cat_3_4.jpg" 0.5:0.6 0.5:0.6 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_5.jpg" 1:0.2 1:0.2 1:1 fade(0.1,linear) normal
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_4.jpg" 1:1 1:1 1:1 fade(0.1,linear) normal
+show "4white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_3.jpg" 0.5:0 0.5:0 1:1 fade(0.1,linear) normal
+show "5white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_2.jpg" 1:0.5 1:0.5 1:1 fade(0.1,linear) normal
+show "6white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_1.jpg" 1:0 1:0 1:1 fade(0.1,linear) normal
+show "7white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+
+move "catastrophe/cat_3_4_1.jpg" 100:0 0 sineout
+move "catastrophe/cat_3_4_2.jpg" 0:150 0 sineout
+move "catastrophe/cat_3_4_3.jpg" 100:0 0 sineout
+move "catastrophe/cat_3_4_5.jpg" 150:0 0 sineout
+
+
+
+
+
+
+
+
+
+
+show "catastrophe/cat_3_5_1.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,sinout) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_5_1f.png" 0.5:0 0.5:0 0.7:0.7 fade(0.1,sinout) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+move "catastrophe/cat_3_5_1.jpg" 0:-100 0 sineout
+move "catastrophe/cat_3_5_1f.png" 0:-100 0 sineout
+wait 0
+
+wait 1
+
+
+
+
+
+hide "4black.png" fade(8,linear)
+move "catastrophe/cat_3_5_1.jpg" 0:100 30 sineout
+move "catastrophe/cat_3_5_1f.png" 0:100 30 sineout
+
+
+
+
+wait 2
+
+play "riven_pilgrimage_mini.ogg" 0.5 loop
+wait 5.5
+
+show "catastrophe/cat_3_5_1L1.png" 0.5:1 0.5:1 0.7:0.7 fade(4,sinout) normal
+
+move "catastrophe/cat_3_5_1L1.png" 0:100 0 sineout
+wait 0
+move "catastrophe/cat_3_5_1L1.png" 0:-100 30 sineout
+
+wait 2
+
+hide "3black.png" fade(8,linear)
+
+wait 4
+
+show "catastrophe/cat_3_5_1L3.png" 0.5:0 0.5:0 0.7:0.7 fade(4,sinout) normal
+
+wait 5
+
+show "catastrophe/cat_3_5_2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(3,sinout) normal
+show "catastrophe/cat_3_5_2L1.png" 0.5:0.5 0.5:0.5 1:1 fade(7,sinout) normal
+
+wait 6.7
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white70.png" fade(4,linear)
+
+show "catastrophe/cat_3_5_2L3.png" 0.5:0.5 0.5:0.5 1:1 fade(3,sinout) normal
+
+wait 0.95
+
+show "catastrophe/cat_3_5_2L2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(6,sinout) normal
+
+say "不…妳必須轉身。
+就在此處，就是現在。我會「讓」妳面對我，我發誓。"
+
+
+hide "catastrophe/cat_3_5_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_3_5_1f.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_1L3.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_1L1.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2L1.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2L2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2L3.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_1.jpg" -100:0 5 sineout
+
+wait 0.1 clear
+hide "7white.png" fade(0.5,linear)
+
+play "catastrophe_impact_a.ogg" 1
+play "catastrophe_unlocking_loop.ogg" 0 loop
+volume "catastrophe_unlocking_loop.ogg" 0.4 1.0
+
+wait 1.5
+
+say "我的意志跨越了無數時空。
+對我而言，對「我」而言，「妳」又算什麼？ ！
+妳，妳—！絕不可能在當著我的面奪走另一條性命。"
+
+hide "catastrophe/cat_3_4_1.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_2.jpg" 0:-150 7 sineout
+
+wait 0.1 clear
+
+play "catastrophe_impact_b.ogg" 1
+
+hide "6white.png" fade(2,linear)
+wait 3.5
+
+say "地獄，天堂，都無所謂；神明也好，惡鬼也罷…
+一介凡人，女子之軀，鬼魂與碎片構築的造物…
+在自己粉碎之前，我定要將妳親手撕碎！"
+
+hide "catastrophe/cat_3_4_2.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_3.jpg" -100:0 5 sineout
+
+wait 0.1 clear
+
+play "catastrophe_impact_c.ogg" 1
+
+hide "5white.png" fade(2,linear)
+wait 3.5
+
+say "熟悉的光芒……
+闪耀着的、古老的光芒，开始环绕着我并流淌进我的身体。
+这个名叫Arcaea世界……"
+
+say "它逐渐黯淡的光芒点缀着我……直至我的伤口合拢，身体充满了力量。"
+
+hide "catastrophe/cat_3_4_3.jpg" fade(0.1,linear)
+wait 0.1 clear
+hide "4white.png" fade(2,linear)
+wait 1.5
+
+say "我合拢手掌。
+掌心传来了一股别样的触感——仿佛能将命运一分为二，锋利的刃口剥脱着周遭的空气，将我抛回了现实——
+一把利刃就此为我所用了。"
+
+hide "catastrophe/cat_3_4_4.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_5.jpg" -150:0 2.2 sineout
+
+hidetextbox
+wait 0.1
+hide "3white.png" fade(2,linear)
+
+wait 2.0
+
+hide "catastrophe/cat_3_4_5.jpg" fade(0.1,linear)
+wait 0.1
+
+wait 1.0
+hide "2white.png" fade(3,linear)
+stop "riven_pilgrimage_mini.ogg" 6.5
+
+wait 7.0
+
+stop "catastrophe_unlocking_loop.ogg" 3
+
+wait 2

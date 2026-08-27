@@ -130,3 +130,11 @@ https://freesound.org/people/FreqMan/sounds/25819/
 cape-swoosh
 creator: CosmicEmbers
 https://freesound.org/people/CosmicEmbers/sounds/161415/
+
+250704_160707_EXP14_Synthetic_bell_texture
+creator: kevp888
+https://freesound.org/people/kevp888/sounds/848359/
+
+250704_160707_EXP22_Synthetic_bell_texture
+creator: kevp888
+https://freesound.org/people/kevp888/sounds/850063/

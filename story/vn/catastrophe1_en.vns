@@ -1,0 +1,169 @@
+show "catastrophe/card_A.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(0.1,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_4.jpg" 0.5:0.5 0.5:0.5 0.83:0.83 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_3.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_2.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_1.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_1_b.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+move "catastrophe/cat_1_4.jpg" -19:0 0 linear
+move "catastrophe/card_A.png" 0:45 0 linear
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 1
+
+play "ember_wind.ogg" 0 loop
+volume "ember_wind.ogg" 0.5 3.0
+
+say "\"Vita.\""
+
+move "catastrophe/cat_1_1.jpg" 0:-175 20 sineout
+move "catastrophe/cat_1_1_b.jpg" 0:-175 20 sineout
+
+play "breath.ogg" 3
+hide "3black.png" fade(2,linear)
+wait 2 clear
+hide "catastrophe/cat_1_1_b.jpg" fade(6,linear)
+
+
+say "\"You look like an idiot.\""
+
+say "I told her to shut up.
+I said something like, \"only idiots call other people idiots.\""
+
+say "\"An attempted aphorism. Sorry to say: it isn't true.
+Bothersome, intelligent folk like myself: we call fools for fools.\""
+
+say "It made me crack a smile."
+
+hide "catastrophe/cat_1_1.jpg" fade(0.2,linear)
+
+say "\"Vita, spread your fingers and lift your hand.\""
+
+hide "4black.png" fade(0.4,linear)
+
+say "I did that."
+
+move "catastrophe/cat_1_2.jpg" 0:175 20 sineout
+move "catastrophe/cat_1_3.jpg" 0:175 20 sineout
+
+say "\"Now, press your hand to mine.\""
+
+play "clothingRustleE.ogg" 0.1
+
+say "I did that, too."
+
+play "thump.ogg" 3
+hide "catastrophe/cat_1_2.jpg" fade(0.4,linear)
+
+say "\"Perhaps you are right. Perhaps a connection you once had has been lost.\""
+
+say "\"But this, Vita, is connection too. This is human.\""
+
+say "That made me smile again."
+
+say "\"When you reach out—\""
+
+play "loss_epilogue.ogg" 0.4
+play "fading.ogg" 2
+hide "catastrophe/cat_1_3.jpg" fade(0.05,linear)
+hidetextbox
+wait 6.0
+hide "2black.png" fade(3.0,linear)
+wait 4
+wait 3 clear
+
+say "...I will be there to help you stand again."
+
+wait 1.0
+hidetextbox
+wait 1.0
+hide "catastrophe/cat_1_4.jpg" fade(6.0,linear)
+wait 4
+hide "black.png" fade(1.0,linear)
+wait 3.0
+show "catastrophe/card_B.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(4.0,linear) normal
+wait 0
+move "catastrophe/card_B.png" 0:45 0 linear
+wait 5.0
+show "catastrophe/card_C.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(1.0,linear) normal
+wait 0
+move "catastrophe/card_C.png" 0:45 0 linear
+wait 0.6
+
+play "bell1.ogg" 0.5
+play "bell2.ogg" 0.5
+wait 7.4
+hide "catastrophe/card_A.png" fade(5.0,linear)
+hide "catastrophe/card_B.png" fade(5.0,linear)
+hide "catastrophe/card_C.png" fade(5.0,linear)
+stop "ember_wind.ogg" 20.0
+wait 6.0
+play "rain.ogg" 0 loop
+volume "rain.ogg" 0.4 3.0
+wait 2
+wait 2 clear
+
+say "Vita... Vita is...
+Still hiding...? Good..."
+
+
+play "footstep_crunchy_loop.ogg" 0 loop
+volume "footstep_crunchy_loop.ogg" 0.5 20.0
+play "collapse.ogg" 1.0
+
+say "I hoped to at least stay knelt...
+But, weak, I collapse back to the ground."
+
+show "nihil/nihil_3_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(2.0,linear) normal
+
+say "What am I to do here...?
+What course of action... What result can I expect?"
+
+
+say "The damage that I took...
+Hah... I don't know why, but I was hoping that I wouldn't bleed when cut."
+
+say "That perhaps the flower in my eye told: I'm a little more than human.
+Though, I suppose even Lethe bleeds..."
+
+hide "nihil/nihil_3_cut2.jpg" fade(0.2,linear)
+
+stop "footstep_crunchy_loop.ogg" 0.1
+
+say "The woman stands before and above me.
+I can't stand at all..."
+
+say "She begins to speak again:
+\"Is she hiding?\""
+
+say "\"She\"...? She... no...
+Do you... You couldn't mean...?"
+
+say "\"It's odd. I can't quite see her...
+Is this your doing?\""
+
+say "She bends down and lays her hand down on my head.
+I lock my eye with both of hers."
+
+stop "rain.ogg" 5.0
+
+say "\"You don't need me to spell it out, do you?\" ...she says."
+
+play "clothingRustleA.ogg" 0.4
+
+say "Her fingers clench, taking much of my hair—and I squint.
+She leans down more toward me—her voice cold."
+
+play "woosh.ogg" 1.0
+show "nihil/nihil_3_cut3.jpg" 0.5:0.5 0.5:0.38 0.83:0.83 fade(1,linear) normal
+wait 3.0 clear
+
+say "\"Mortal, Saya.
+I mean to find that child.\""
+
+play "impactDeepTonal.ogg" 0.9
+hide "nihil/nihil_3_cut3.jpg" fade(0.1,linear)
+
+wait 5.0

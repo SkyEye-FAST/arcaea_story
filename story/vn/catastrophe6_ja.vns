@@ -1,0 +1,324 @@
+
+wait 1
+
+play "cat_cry_mini_part1.ogg" 0.35 loop
+
+show "catastrophe/cat_6_0.jpg" 0:1 0:1 0.7:0.7 fade(0.5,linear) normal
+move "catastrophe/cat_6_0.jpg" 0:150 0 sineout
+
+wait 0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 1
+move "catastrophe/cat_6_0.jpg" 0:-150 7 sineout
+
+hide "white.png" fade(4,linear)
+
+wait 0.5
+
+play "shimmer_loop.ogg" 0.0 loop
+volume "shimmer_loop.ogg" 1 3.0
+
+say "『視』えるぞ───サヤが持つ剣……その切っ先で、『世界』そのものが揺らめいている。
+『ここ』を成す幾重もの層、その一枚一枚がどのように切り裂かれ、傷つけられていく様子が。
+あの冒涜的な剣……その刃によって。"
+
+show "2white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(19,linear) normal
+
+say "……そうだ、『%%信興%%{しんこう}』もよく似た槍を持っていたな。光が持っていた、あの剣もそうだ。
+この剣はあるいは、あの光の剣と全く同じモノなのかもしれないな……。
+……全く、怖気がするシロモノだよ。胸の内でしか言わないが、このワタシにとってもね。"
+
+hide "catastrophe/cat_6_0.jpg" fade(4,linear)
+wait 1 clear
+
+play "sword_big_a.ogg" 1
+
+show "catastrophe/cat_6_1.jpg" 0.5:0.5 0.5:0.5 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+wait 0.6
+hide "2white.png" fade(5,linear)
+
+say "サヤをここまで駆り立てたのは激情だ。だが、ここまでワタシとやりあう理由は違う。
+そうだ、『この女』は違う。これまで何人もの『英雄』を手にかけたから言える。
+コイツは───生粋の処刑人だと。"
+
+play "jump_collapse.ogg" 1
+
+show "catastrophe/cat_6_1_1.jpg" 0:1 0:1 0.86:0.86 fade(1.5,linear) normal
+move "catastrophe/cat_6_1_1.jpg" 0:150 0 sineout
+wait 0
+move "catastrophe/cat_6_1_1.jpg" 0:-100 1.1 sineout
+wait 1.1
+move "catastrophe/cat_6_1_1.jpg" 0:-50 5 outquad
+wait 1.1
+
+stop "shimmer_loop.ogg" 3.0
+
+say "気は進まないが、もうお遊びは打ち切るとしよう。
+中空へと飛び上がり、彼女とワタシの距離を離す。^^真空^^{●●}をそこに広げて、
+周囲一体を崩壊する星々で埋め尽くすのも忘れない───追う気が失せるよう、丁寧に。"
+
+play "heartbeatA.ogg" 1
+
+say "……妙に心臓が脈打っているな。笑みまでやや固い気がする。
+そう、今ワタシは、すぐにでも気づけそうなんだ、何かに……"
+
+play "sword_big_c.ogg" 1
+
+say "後方へ、空いた手を裂くようにサヤは振るう───それだけでワタシの空間はもうズタズタだ。
+次にサヤが剣を突き出せば、崩壊する星々の有り余る暴力が、その刃へと絡め取られていた。
+……もはやお笑いだ、壮観だね。"
+
+play "sword_big_b.ogg" 1
+play "battle_chaos_loop.ogg" 0.0 loop
+volume "battle_chaos_loop.ogg" 0.6 2.0
+
+show "catastrophe/cat_6_1_2.jpg" 1:1 1:1 0.7:0.7 fade(0.1,linear) normal
+move "catastrophe/cat_6_1_2.jpg" 150:0 0 sineout
+wait 0 clear
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+move "catastrophe/cat_6_1_2.jpg" -100:50 1.1 sineout
+wait 0.05
+
+hide "white50.png" fade(1,linear)
+
+wait 0.15
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+hide "white70.png" fade(4,linear)
+
+wait 0.85
+
+move "catastrophe/cat_6_1_2.jpg" -50:25 5 outquad
+
+wait 0.6
+
+play "catastrophe_impact_a.ogg" 1
+
+wait 1
+
+say "その時、頬の横にひとつ、硝片が現れた……サヤが来───遅いか。もう眼前だ。
+鷲掴みにされるワタシの頭蓋が。ギラギラと怒のままにワタシを睥睨するその隻眼。
+そうして、ワタシの頭を突き放すなり、彼女は即座に得物を振り上げた───"
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+show "catastrophe/cat_6_5.jpg" 0.5:1 0.5:1 1:1 fade(4,linear) normal
+wait 0.1 clear
+move "catastrophe/cat_6_5.jpg" 0:80 0.4 sineout
+
+wait 0.2
+
+play "sword_stab_fire.ogg" 1
+
+wait 0.2
+
+move "catastrophe/cat_6_5.jpg" 10:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -20:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 15:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -5:0 0.05 linear
+
+wait 1
+
+move "catastrophe/cat_6_5.jpg" 0:60 6 sineout
+
+say "両手を持ち上げて───だが、どちらも硝片に貫かれた。
+すぐにワタシの土手っ腹を貫く、彼女の剣。
+ただ貫かれただけじゃない、その刃が呑んだ星渦───その全てが暴れ狂って───"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(12,linear) normal
+
+say "知らずと唸る。コレは、まずい……この『^^轢断力^^{ちから}』はおぞましい……！！
+引き裂かれるようだ……、ワタシ……ワタシが……神でなければ、耐え───、
+……！？　何だ───！？"
+
+move "catastrophe/cat_6_5.jpg" -10:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -30:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 20:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" -15:0 0.05 linear
+wait 0.05
+move "catastrophe/cat_6_5.jpg" 5:0 0.05 linear
+
+say "頭蓋にかかるサヤの指がさらに力む。ワタシから刃を引き抜こうとしている。
+次の狙いは明らかだ……この首を刎ねようというんだろう、あの歪んだ刃で。
+だが『視』える───ワタシには『視』えている。"
+
+hide "white40.png" fade(0.2,linear)
+hide "catastrophe/cat_6_5.jpg" fade(0.2,linear)
+
+unload_textures
+wait 0
+
+show "catastrophe/cat_6_2.jpg" 1:0 1:0 0.7:0.7 fade(8,linear) normal
+wait 2 clear
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+
+say "嗚呼、『視』えている、感じられる……我が領域、その聖なる回廊が。
+わかるんだ、消えつつある───そう、何よりも大切な、ワタシの『^^所有物^^{モノ}』が。
+突然ではある───だが、『偶然』などでは有り得ない。"
+
+play "catastrophe_teleport_b.ogg" 1
+
+say "サヤの手首をぎりりと握る。サヤは顔を歪めて、力任せにワタシを振りほどく。
+そして、瞬く間に姿が掻き消えた───剣も、ワタシの頭をも手放して。"
+
+say "次。未だ内側から、私の四肢を千切り取らんと暴れる、込められた害意を抑え込む。
+集中だ、意識を従わせろ───『何か』のために。
+そうだ。こんな戯れよりも遥かに尊いモノだ、この『眼』に写った『何か』のためにだ。"
+
+show "catastrophe/cat_6_4_1c.jpg" 1:0.5 1:0.5 1.1:1.1 fade(8,linear) normal
+
+play "drop_to_earth.ogg" 1
+
+say "地面へと降り立ち、余波で舞う土煙を尻目に、お腹を貫く剣を固く握る。
+『視』えるぞ───織り成された万物の裂け目……そこから光が消えて行くのが。
+息を吐く……息を吐く。そのとき不意に、微かに感じた───流れる^^彼^^{かみ}の気配を。"
+
+hide "catastrophe/cat_6_4_1c.jpg" fade(4,linear)
+
+play "sword_draw_echo.ogg" 1
+stop "cat_cry_mini_part1.ogg" 0.1
+stop "battle_chaos_loop.ogg" 0.1
+
+hidetextbox
+wait 4
+
+wait 2
+
+show "catastrophe/cat_6_3.jpg" 1:0.5 1:0.5 0.8:0.8 fade(6,linear) normal
+move "catastrophe/cat_6_3.jpg" 25:0 0 sineout
+wait 0
+
+move "catastrophe/cat_6_3.jpg" -25:0 6 sineout
+
+wait 2
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 5
+
+
+play "heartbeat_loop.ogg" 0.6 loop
+
+wait 1
+
+wait 4 clear
+
+say "ワタシは動かない。動けない。
+感じるのは、冷たさだけ。
+……マヤが、消えた。"
+
+hide "catastrophe/cat_6_3.jpg" fade(0,linear)
+wait 0
+hide "3black.png" fade(0,linear)
+wait 0
+unload_textures
+
+say "気配が消えた。完全に消えた。
+ヴィータか───？否、ヴィータと一緒ではなかった……？
+まだ……？これから時間が経てば……？いや、しかし───、"
+
+say "どうやって、───？
+そもそも何故……？何が！？"
+
+say "……これが、お前の狙いか？Arcaea。
+───弄んでいるつもりか、盤上の駒のように？このワタシを……？
+否……否だ。"
+
+stop "heartbeat_loop.ogg" 1
+
+wait 2 clear
+
+play "cat_cry_part2_intro.ogg" 0.35
+wait 1.5
+play "cat_cry_mini_part2.ogg" 0.35 loop
+
+wait 3
+
+
+show "catastrophe/cat_6_4_2.jpg" 0:0 0:0 1.2:1.2 fade(10,linear) normal
+move "catastrophe/cat_6_4_2.jpg" 0:-625 40 sineout
+
+say "……ああ、否だ否だとも。そんな盤面はお断りだ。
+結局のところ、もうワタシはお前の息吹───あの残響をここで『視』た。
+それだけじゃない、ここには流れ込んでいるんだ───我が神の^^大気^^{いぶき}もね。"
+
+show "catastrophe/cat_6_4_1.jpg" 1:0 1:0 1.2:1.2 fade(10,linear) normal
+move "catastrophe/cat_6_4_1.jpg" 0:-625 40 sineout
+
+say "ならワタシは呑もうじゃないか、喰らおうじゃないか───かの^^大気^^{いぶき}を。
+吸収してやるさ、一厘も残さず……かつて我が同胞を屠りし力───^^天剄^^{てんけい}と同じソレを。
+真なる^^彼^^{かみ}の御手たるこの身この骨々の端まで───ワタシを、^^大気^^{いぶき}で満たそう。"
+
+hidetextbox
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+wait 6
+show "catastrophe/cat_6_4_3.jpg" 0.5:1 0.5:1 1.2:1.2 fade(2,linear) normal
+move "catastrophe/cat_6_4_3.jpg" 0:200 30 sineout
+wait 3
+
+say "お前は捨てたんだ。捨てたんだよ、運命を───……そうだったろうが。アア、嘘吐き、嘘吐き。
+嘘吐き嘘吐き嘘吐き嘘吐き嘘吐き嘘吐き嘘吐き。脆弱で怯懦で悍ましき^^モノ^^{しにぞこない}が。
+ワタシだ、ワタシだワタシのだ……ワタシのものなんだよマヤは。分かっていないのか？"
+
+show "catastrophe/cat_6_4.jpg" 0.5:1 0.5:1 0.7:0.7 fade(3,linear) normal
+move "catastrophe/cat_6_4.jpg" 0:100 0 sineout
+wait 0
+move "catastrophe/cat_6_4.jpg" 0:-100 15 sineout
+
+say "……愛した、愛していた、愛していたんだ。この世界を、その全てを。ワタシは寵愛したんだ。
+癒しながら治し得る術を探り続けていたんだぞ……、このワタシが！この世界を救うために！
+なぜだ、なのになぜ？ここまで下衆な、ヒドいことがどうして出来る……。"
+
+say "堕落した欠陥品、恩知らずの分際で……。だというのに、未だお前は悲劇と嘆きに飢えている。
+アア───そうか、そうだなそうだというんだな……未だお前は嘆きを欲し嘆きを願う。
+艱難辛苦に飢えるならば、いいさ───ワタシが施し、くれてやろうとも。"
+
+hide "catastrophe/cat_6_4_3.jpg" fade(0.2,linear)
+hide "catastrophe/cat_6_4.jpg" fade(2,linear)
+wait 3
+
+show "catastrophe/cat_6_4_B.jpg" 0.5:0.2 0.5:0.2 1:1 fade(0.1,linear) normal
+show "catastrophe/cat_6_4_A.jpg" 0.5:0.2 0.5:0.2 1:1 fade(0.1,linear) normal
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 0
+wait 1
+hidetextbox
+wait 3
+stop "cat_cry_mini_part2.ogg" 10.0
+wait 1
+play "ominous_swell_catastrophe.ogg" 0.8
+
+move "catastrophe/cat_6_4_B.jpg" 0:-200 20 sineout
+move "catastrophe/cat_6_4_A.jpg" 0:-200 20 sineout
+hide "5black.png" fade(6,linear)
+wait 4
+
+
+wait 5
+play "heartbeat_loop.ogg" 0.6 loop
+wait 2 clear
+hide "catastrophe/cat_6_4_A.jpg" fade(5,sineout)
+
+say "……アア、Arcaea……Arcaeaよ。
+ならば贈ろうじゃないか───このワタシからお前に、^^『破滅』^^{Catastrophe}を。"
+
+stop "heartbeat_loop.ogg" 5.0
+
+wait 2

@@ -1,0 +1,116 @@
+{
+    "entries": [{
+        "minor": 1,
+        "requiredPurchase": "konzetsu",
+        "storyType": "vn",
+        "storyData": "catastrophe1",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 90,
+        "charIcon2": 23,
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_1"
+    },
+    {
+        "minor": 2,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 1,
+        "storyType": "nvl",
+        "clearSongId": "_readPreviousEntry",
+        "clearCharaId": -1,
+        "charIcon1": 90,
+		"storyCgPath":"app-data/story/cg/C-2-1.jpg",
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_2"
+    },
+    {
+        "minor": 3,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 2,
+        "storyType": "vn",
+        "storyData": "catastrophe3",
+        "clearSongId": "dreadarea",
+        "clearCharaId": -1,
+        "charIcon1": 23,
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_3"
+    },
+    {
+        "minor": 4,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 3,
+        "storyType": "vn",
+        "storyData": "catastrophe4",
+        "clearSongId": "un",
+        "clearCharaId": -1,
+        "charIcon1": 72,
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_4"
+    },
+    {
+        "minor": 5,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 4,
+        "storyType": "nvl",
+        "clearSongId": "rivenpilgrim",
+        "clearCharaId": -1,
+        "charIcon1": 97,
+		"storyCgPath":"app-data/story/cg/C-5.jpg",
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_5"
+    },
+    {
+        "minor": 6,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 5,
+        "storyType": "vn",
+        "storyData": "catastrophe6",
+        "clearSongId": "cataclysmcry",
+        "clearCharaId": -1,
+        "charIcon1": 72,
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_6"
+    },
+    {
+        "minor": 7,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 6,
+        "storyType": "nvl",
+        "clearSongId": "deinosphainein",
+        "clearCharaId": -1,
+        "charIcon1": 97,
+		"bgmOverride":"ember_wind.ogg",
+		"storyCgPath":"app-data/story/cg/C-7-1.jpg",
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_7"
+    },
+    {
+        "minor": 8,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 7,
+        "storyType": "vn",
+        "storyData": "catastrophe8",
+        "clearSongId": "deinosphainein",
+        "clearCharaId": -1,
+        "charIcon1": 97,
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_8",
+        "hiddenFromCount": true
+    },
+    {
+        "minor": 9,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 8,
+        "storyType": "nvl",
+        "clearSongId": "_hiddenUntilRead",
+        "clearCharaId": -1,
+		"bgmOverride":"wind_bells.ogg",
+		"storyCgPath":"app-data/story/cg/C-9-1.jpg",
+        "charIcon1": 72,
+		"alternatePrefix": "C",
+	"icon": "entry_konzetsu_9",
+        "hiddenFromCount": true
+    }
+    ]
+}
+

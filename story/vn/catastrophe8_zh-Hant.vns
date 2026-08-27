@@ -1,0 +1,486 @@
+wait 1
+
+play "chaos_loop.ogg" 0.0 loop
+volume "chaos_loop.ogg" 0.4 27.0
+
+play "exploding_b.ogg" 0.8
+
+wait 5.5
+
+play "NoComingBack.ogg" 0.5 loop
+
+wait 7
+
+say "三人腳下的大地徹底垮塌。狂風將少女一把捲走。
+巨石之後，神手中的劍從中滑落…
+守護者顫抖著，她的目光和大地一併朝虛空墜去。"
+
+play "exploding_a.ogg" 0.7
+wait 1.6 clear
+play "sword_call.ogg" 0.8
+
+say "震耳欲聾的噪音淹沒了她們。
+咲彌用自己的軀體呼喚著自己的劍，劍終於聽從了她的呼喚。
+她虛弱得差點倒下。她將劍深深刺入地面，以此穩住自己。"
+
+stop "chaos_loop.ogg" 3
+
+play "chaos_loop_muffled.ogg" 0 loop
+volume "chaos_loop_muffled.ogg" 0.5 4.0
+
+say "她四周的聲音逐漸減弱，她以為自己大限將至。
+光芒和陰影在坍塌的混亂中胡亂投射著。"
+
+say "但她逐漸意識到，自己的意識依舊清晰。
+…因此，聲音減弱只能另有原因。
+洞燭站在離她不遠的地方，居高臨下地俯視著她。"
+
+play "collapse.ogg" 1
+play "sword_draw_delayed.ogg" 0.7
+
+hidetextbox
+
+wait 5
+
+show "catastrophe/cat_8_1_1.jpg" 1:1 1:1 0.7:0.7 fade(9,linear) normal
+move "catastrophe/cat_8_1_1.jpg" 300:0 50 sineout
+
+wait 3
+wait 2 clear
+
+say "…咲彌強迫自己起身，再次拔出劍。
+而洞燭只是平淡地說：
+「妳沒多少時間了。」"
+
+say "「足夠了，」咲彌說道，「她會平安無事的。」"
+
+say "「妳…」洞燭喃喃道，「妳蒙受自己神明的恩惠。
+自從妳醒來的那一瞬間起，就沒有一瞬間渴望過力量嗎？ 」"
+
+show "catastrophe/cat_8_1.jpg" 0.5:0.4 0.5:0.4 0.71:0.71 fade(1.5,linear) normal
+move "catastrophe/cat_8_1.jpg" -50:0 0 sineout
+wait 0
+move "catastrophe/cat_8_1.jpg" 50:0 12 sineout
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white50.png" fade(1,linear)
+
+wait 0.15
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+hide "white70.png" fade(5,linear)
+
+play "sword_drop.ogg" 1
+
+say "咲彌沒有立即回答…
+她跌跪在地，劍深深插入地面，成為她唯一的支點。
+嘶啞，微弱，她回答："
+
+say "「沒錯，我是個愚蠢的人。
+和任何一個愛過別人的人沒什麼兩樣。
+我已經相當長一段時間沒有相信…會有一個更好的結局了。 」"
+
+say "「但…還是告訴我妳的名字吧。」咲彌懇求道。
+「最後的遺言起碼能對一個自己『認識』的人說…我起碼並沒有尊嚴盡失。」"
+
+say "「…我叫拉可彌拉。」"
+
+play "earthquake_tremor.ogg" 0.7
+
+say "「『拉可彌拉』…」咲彌重複道。
+大地震顫起來。
+她的氣息枯槁起來。"
+
+say "咲彌訴說著自己的心願…
+而兩位神明默默聆聽。"
+
+show "catastrophe/cat_8_1_2.jpg" 0.5:0.65 0.5:0.65 1:1 fade(3,linear) normal
+move "catastrophe/cat_8_1_2.jpg" -300:0 50 sineout
+
+say "「我們周圍的廢墟，是逃離的訊號。
+而那些縈繞不去的回憶，是需要堅守的瞬間。 」"
+
+say "一個深沈的聲音浮現，逐漸清晰可聞，
+它猛然在附近轉向…
+…落在顫抖的維塔上方。"
+
+say "「我不會放棄這個地方，也不會放棄任何人，更不會放棄她。
+即使所有的燈都已熄滅，我也不會。
+我會在牽起黑暗中的一雙雙手，帶領她們到新的大地。 」"
+
+show "catastrophe/cat_8_2_1.jpg" 1:1 1:1 0.7:0.7 fade(3,linear) normal
+
+say "「妳可以記住我的話，也可以忘記它們……但無論付出怎樣的代價，無論承受怎樣的悲痛，
+我都希望她們都能有一個更好的生活。 」"
+
+show "catastrophe/cat_8_2_2.png" 0:0.5 0:0.5 0.7:0.7 fade(0.1,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white.png" fade(1,linear)
+
+play "ring.ogg" 0.9
+play "shimmer_loop.ogg" 0.0 loop
+volume "chaos_loop_muffled.ogg" 0.2 3.0
+volume "shimmer_loop.ogg" 0.8 5.0
+
+say "咲彌說完，一股強大的力量瞬時傾瀉而下，籠罩了維塔，令她感到一絲溫暖和短暫的慰藉。
+狂風驟起，刺眼的光芒讓她無法直視，耳邊傳來一陣尖銳的鈴聲—
+維塔撐起身子。"
+
+hide "catastrophe/cat_8_1.jpg" fade(0,linear)
+
+show "catastrophe/cat_8_2_3.png" 0:0.5 0:0.5 0.7:0.7 fade(2,linear) normal
+show "2white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(10,linear) normal
+
+say "在世界劇烈的震顫和搖晃中，維塔默默流著淚…
+在她上方，碎片與風開始融合，光芒緩緩地從漩渦之中瀉出。"
+
+show "catastrophe/cat_8_3_1.jpg" 1:0 1:0 0.62:0.62 fade(3,linear) normal
+move "catastrophe/cat_8_3_1.jpg" 150:0 25 sineout
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "2white.png" fade(4,linear)
+
+play "heartbeatB.ogg" 1.0
+
+say "而孩童仍只是靜靜地看著…
+她的髮絲在臉龐周圍飄蕩，她目睹某種東西逐漸成形。
+她的心臟在胸腔內劇烈地跳動著。"
+
+show "catastrophe/cat_8_3_2.jpg" 1:1 1:1 0.71:0.71 fade(0.1,linear) normal
+move "catastrophe/cat_8_3_2.jpg" 75:0 13 sineout
+
+
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05 clear
+
+hide "3white.png" fade(4,linear)
+
+wait 3.95
+
+stop "shimmer_loop.ogg" 1
+play "folding_in.ogg" 0.6
+
+say "光芒與現實的織錦在她頭頂向內折疊。她又聽見了那個聲音—
+她鼓起勇氣，遵從它的指示，
+伸出雙手舉過頭頂，抓住了那個東西。"
+
+hidetextbox
+wait 2
+show "2white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 2
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 6
+unload_textures
+wait 0
+show "catastrophe/cat_8_1.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(9,linear) normal
+wait 2
+
+say "她神情嚴肅，手指合攏，握住了那個東西—
+指尖傳來圓潤形狀的觸感，
+咲彌的聲音隨即在不遠處傳來，透過周圍的一切傳導至她的耳中。"
+
+say "「或許這很自私…
+但至少，我希望她能找到比這裡更好的地方。 」"
+
+hide "catastrophe/cat_8_1.jpg" fade(0.2,linear)
+
+play "step_jump.ogg" 0.6
+
+wait 1 clear
+play "exploding_b.ogg" 0.6
+
+stop "chaos_loop_muffled.ogg" 2.0
+play "chaos_loop.ogg" 0.0 loop
+volume "chaos_loop.ogg" 0.4 1.0
+
+say "洞燭站在咲彌面前，想張口說些什麼。然而，神被從天而降的一個小女孩打斷了節奏。
+她的掌控暫時失效，聲音再次充滿周遭的一切。"
+
+say "回憶頃刻間充斥了她的視野。
+洞燭一動也不動，心跳聲鼓動著她的耳膜。她逐漸回想起來。"
+
+play "footstepsCFast.ogg" 1.0
+wait 1 clear
+play "clothingRustleC.ogg" 0.75
+
+show "catastrophe/cat_8_4_1.jpg" 0:0.7 0:0.7 0.83:0.83 fade(1,linear) normal
+move "catastrophe/cat_8_4_1.jpg" -500:0 0.7 sineout
+
+wait 0.7 clear
+move "catastrophe/cat_8_4_1.jpg" -50:0 5 outquad
+wait 2.4
+
+say "維塔奔向咲彌，一把跪倒在她身旁。
+她一手死死攥著咲彌的衣角，
+另一隻手散發著燦爛的光芒。"
+
+say "「咲彌姊姊！」維塔驚聲喊道，「妳剛才都做了什麼！？為什麼妳—」"
+
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+say "「噓，乖，」咲彌細聲安慰道，伸出一隻手來捧住孩童滿是淚痕的臉頰。
+她輕輕地將其托起，嘴角撐起一個上揚的弧度：「妳看起來真傻。」
+—突然間，大地再度崩裂開來，疾風從中湧出。"
+
+play "exploding_a.ogg" 0.7
+
+wait 4 clear
+
+show "catastrophe/cat_8_4_2.jpg" 1:1 1:1 1:1 fade(2.5,linear) normal
+
+wait 5
+
+say "而現在，知道自己即將死去，
+知道自己再也無法看見這張臉，
+咲彌的笑容消失了。"
+
+play "ominous_swell.ogg" 1
+show "catastrophe/cat_8_4.jpg" 0.5:0 0.5:0 0.7:0.7 fade(2.5,linear) normal
+move "catastrophe/cat_8_4.jpg" 0:-100 20 sineout
+
+say "守護者終於露出了痛苦的神情，淚水奪眶而出。"
+
+say "「求求妳…別這樣…！」維塔哀求。
+「千萬不要啊…」
+迅速地，咲彌用自己虛弱的雙臂緊緊環抱住維塔，盡可能延長這一刻。"
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+
+say "咲彌的聲音顫抖著，她告訴小女孩：
+「不要向任何人暴露妳的弱點，但也不要害怕任何東西。」"
+
+say "「不要！！」
+維塔失聲尖叫道，雙臂摟得更緊了。"
+
+say "「別忘記了，妳可是很厲害的。
+如果迷路了的話，就抬頭看看天空，浩瀚無垠的星辰裡永遠有妳的一席之地。 」"
+
+say "「咲彌姊姊…！」"
+
+show "catastrophe/cat_8_5_0.jpg" 0.6:1 0.6:1 0.7:0.7 fade(1,linear) normal
+wait 1 clear
+
+hide "catastrophe/cat_8_1_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_1_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_2_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_2_2.png" fade(0.1,linear)
+hide "catastrophe/cat_8_2_3.png" fade(0.1,linear)
+hide "catastrophe/cat_8_3_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_3_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_4_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_4_2.jpg" fade(0.1,linear)
+hide "black.png" fade(0.1,linear)
+hide "2white70.png" fade(0.1,linear)
+hide "2white50.png" fade(0.1,linear)
+hide "5black.png" fade(0.1,linear)
+hide "4black.png" fade(0.1,linear)
+
+wait 1
+
+say "「別忘記我對妳的愛。」說完，咲彌輕輕地將維塔推開。
+笑容再度回到她臉上，咲彌再度捧起孩童的臉。
+「我永遠相信妳。」"
+
+hide "catastrophe/cat_8_4.jpg" fade(0,linear)
+wait 0.05
+hide "catastrophe/cat_8_5_0.jpg" fade(0.2,linear)
+
+play "chaos_loop_muffled.ogg" 0 loop
+volume "chaos_loop_muffled.ogg" 0.5 4.0
+play "earthquake_tremor.ogg" 1
+
+say "維塔臉色蒼白。一陣震顫襲來，二人搖晃起來；
+維塔向後倒去，咲彌則跌倒在地。
+上方，玻璃碎片如暴風雨般傾瀉而下。"
+
+unload_textures
+wait 0 clear
+
+show "catastrophe/cat_8_5_10.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_8_5_8d.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_9.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_8.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_7.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_5.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_4.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_8_5_3.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_1.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+
+move "catastrophe/cat_8_5_3.jpg" -100:0 0 sineout
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+
+play "glass_torrent.ogg" 0.7
+
+say "光芒與碎片如洪流般自Arcaea傾瀉而下。
+它旋轉、旋轉，而後突然轉向，將拉可彌拉捲入其中。
+她被推開，遠離了兩人。而她沈默不語，任由這一切發生。"
+
+hide "black.png" fade(1,linear)
+
+show "catastrophe/cat_8_5_2h.png" 0.5:0 0.5:0 0.7:0.7 fade(2,linear) normal
+show "catastrophe/cat_8_5_2b.png" 0.5:0 0.5:0 0.7:0.7 fade(2,linear) normal
+move "catastrophe/cat_8_5_2b.png" 0:-300 0 sineout
+move "catastrophe/cat_8_5_2h.png" 0:-300 0 sineout
+wait 0 clear
+move "catastrophe/cat_8_5_2b.png" 0:250 0.6 sineout
+move "catastrophe/cat_8_5_2h.png" 0:250 0.6 sineout
+wait 0.6
+move "catastrophe/cat_8_5_2b.png" 0:50 5 outquad
+move "catastrophe/cat_8_5_2h.png" 0:50 5 outquad
+
+hide "catastrophe/cat_8_5_2b.png" fade(2,linear)
+
+say "維塔掙扎著，
+鼓起勇氣衝上前去，握住咲彌的手。"
+
+play "grasp_echo.ogg" 0.6
+
+hide "catastrophe/cat_8_5_2h.png" fade(0.6,linear)
+hide "catastrophe/cat_8_5_1.jpg" fade(0.6,linear)
+move "catastrophe/cat_8_5_3.jpg" 75:0 0.6 sineout
+wait 0.6 clear
+move "catastrophe/cat_8_5_3.jpg" 25:0 6 outquad
+wait 1.1
+
+say "咲彌伸出手臂─任由孩童牽著她。
+她握住女孩的手，臉上依然帶著微笑，而大地卻越陷越深。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(9,linear) normal
+
+say "二人之間的光芒將她們緊密相連，將世界維繫在一起。
+她們都在祈求這一刻永不消逝。
+…但Arcaea的光芒正在消逝。"
+
+stop "chaos_loop_muffled.ogg" 10
+
+hide "catastrophe/cat_8_5_3.jpg" fade(2,linear)
+hide "white40.png" fade(5,linear)
+
+wait 7 clear
+
+hide "2black.png" fade(1,linear)
+
+move "catastrophe/cat_8_5_4.jpg" 0:-200 30 sineout
+
+wait 1
+hidetextbox
+wait 5
+
+hide "catastrophe/cat_8_5_4.jpg" fade(1,linear)
+move "catastrophe/cat_8_5_5.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_7.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_8.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_8d.jpg" 0:-200 30 sineout
+
+wait 3
+hide "catastrophe/cat_8_5_5.jpg" fade(0.4,linear)
+
+wait 5
+hide "catastrophe/cat_8_5_7.jpg" fade(0.4,linear)
+
+wait 2
+hide "catastrophe/cat_8_5_8.jpg" fade(1,linear)
+
+wait 5
+hide "catastrophe/cat_8_5_9.jpg" fade(0.4,linear)
+
+wait 0.2
+stop "NoComingBack.ogg" 0.2
+play "echo_cut.ogg" 1
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 1
+
+hide "catastrophe/cat_8_5_8d.jpg" fade(0,linear)
+
+wait 3
+
+hide "4black.png" fade(0,linear)
+hide "3black.png" fade(5,linear)
+wait 2
+stop "chaos_loop.ogg" 3.0
+wait 5
+
+hide "catastrophe/cat_8_5_10.jpg" fade(0.05,linear)
+
+wait 1.0
+
+play "deep_quake.ogg" 0.7
+unload_textures
+
+wait 2
+
+play "ember_arrange.ogg" 1
+
+wait 2
+
+show "catastrophe/cat_8_6_1.jpg" 1:1 1:1 0.7:0.7 fade(2,linear) normal
+
+wait 4
+
+show "catastrophe/cat_8_6_2.jpg" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+show "catastrophe/cat_8_6_2a.png" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+show "catastrophe/cat_8_6_2a2.png" 0:0 0:0 0.8:0.8 fade(9,linear) normal
+show "catastrophe/cat_8_6_2b.png" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+
+move "catastrophe/cat_8_6_2.jpg" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2a.png" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2a2.png" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2b.png" -430:-250 0 sineout
+wait 0
+
+move "catastrophe/cat_8_6_2.jpg" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2a.png" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2a2.png" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2b.png" -41:-41 2.2 sineout
+
+wait 2.2
+
+
+hide "catastrophe/cat_8_6_2a.png" fade(6,linear)
+
+move "catastrophe/cat_8_6_2.jpg" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2a.png" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2a2.png" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2b.png" -40:-40 12 outquad
+
+wait 3.8
+hide "catastrophe/cat_8_6_1.jpg" fade(0,linear)
+wait 0
+
+hide "catastrophe/cat_8_6_2.jpg" fade(4,linear)
+hide "catastrophe/cat_8_6_2b.png" fade(4,linear)
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6.2,linear) normal
+wait 8
+
+show "catastrophe/cat_8_6.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(2,linear) normal
+show "catastrophe/cat_8_6b.png" 0.5:0.4 0.5:0.4 0.7:0.7 fade(2,linear) normal
+
+wait 3.74
+
+hide "catastrophe/cat_8_6_2a2.png" fade(0,linear)
+
+wait 1
+
+hide "catastrophe/cat_8_6.jpg" fade(3,linear)
+hide "catastrophe/cat_8_6b.png" fade(4.5,linear)
+
+wait 6.5

@@ -1,0 +1,492 @@
+wait 1
+
+play "chaos_loop.ogg" 0.0 loop
+volume "chaos_loop.ogg" 0.4 27.0
+
+play "exploding_b.ogg" 0.8
+
+wait 5.5
+
+play "NoComingBack.ogg" 0.5 loop
+
+wait 7
+
+say "The floor between all three breaks utterly. A gust sweeps the young girl away;
+behind great stones. The blade hilt drops from the hand of a god...
+And the guardian shudders as her gaze, and the earth, begin to fall toward the Void."
+
+play "exploding_a.ogg" 0.7
+wait 1.6 clear
+play "sword_call.ogg" 0.8
+
+say "Utter cacophony bombards them.
+Saya calls her blade from her body, and it now listens.
+Weak, she nearly falls. She thrusts the sword down to the earth to stay."
+
+stop "chaos_loop.ogg" 3
+
+play "chaos_loop_muffled.ogg" 0 loop
+volume "chaos_loop_muffled.ogg" 0.5 4.0
+
+say "The sound begins to dull around her. She assumes this to be death.
+Light and shadow are being cast everywhere
+in the tumult of the collapsing place."
+
+say "But she realizes: she has kept her cognizance.
+The sound has dulled for another reason...
+Insight stands a ways from her, gazing down on the guardian."
+
+play "collapse.ogg" 1
+play "sword_draw_delayed.ogg" 0.7
+
+hidetextbox
+
+wait 5
+
+show "catastrophe/cat_8_1_1.jpg" 1:1 1:1 0.7:0.7 fade(9,linear) normal
+move "catastrophe/cat_8_1_1.jpg" 300:0 50 sineout
+
+wait 3
+wait 2 clear
+
+say "...Saya forces herself to stand, drawing the sword up again.
+Insight merely tells her,
+\"There's little time left for you.\""
+
+say "\"Enough, surely,\" Saya replies, \"to keep that child safe, then.\""
+
+say "\"You...\" Insight mutters. \"You had your god's favor.
+Have you not wished for power since you first woke up?\""
+
+show "catastrophe/cat_8_1.jpg" 0.5:0.4 0.5:0.4 0.71:0.71 fade(1.5,linear) normal
+move "catastrophe/cat_8_1.jpg" -50:0 0 sineout
+wait 0
+move "catastrophe/cat_8_1.jpg" 50:0 12 sineout
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white50.png" fade(1,linear)
+
+wait 0.15
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+hide "white70.png" fade(5,linear)
+
+play "sword_drop.ogg" 1
+
+say "Saya doesn't promptly answer...
+She falls, dropping to the sword, and is kept half-standing by its guard.
+There, voice hoarse, she replies."
+
+say "\"True, I am the fool.
+No different from any person who's loved another.
+And I haven't believed in a better ending...for quite some time.\""
+
+say "\"But...give me your name,\" Saya bids.
+\"Last words to someone that I 'know'; at least dignify me that.\""
+
+say "\"...I am Lacrymira.\""
+
+play "earthquake_tremor.ogg" 0.7
+
+say "\"Lacrymira...\" Saya repeats. The earth quakes.
+Her breath haggard, she tells the god: \"I have only ever had one wish.
+I wished for a new land.\""
+
+say "And as Saya speaks...
+two gods listen."
+
+show "catastrophe/cat_8_1_2.jpg" 0.5:0.65 0.5:0.65 1:1 fade(3,linear) normal
+move "catastrophe/cat_8_1_2.jpg" -300:0 50 sineout
+
+say "\"That what ruins surrounded us all,
+were signs of what to run from. And those memories surrounding:
+examples to uphold.\""
+
+say "A deep thing comes up to better hear,
+and it comes to turn strongly nearby...
+...above a shaken Vita."
+
+say "\"I will not give up on here, or anyone, and never her.
+Not even with all lights dead.
+I would take hands in the dark, and help them to a new land.\""
+
+show "catastrophe/cat_8_2_1.jpg" 1:1 1:1 0.7:0.7 fade(3,linear) normal
+
+say "\"You may take my words, may forget them perhaps...
+But no matter the cost. No matter the grief.
+I want something better for all of them.\""
+
+show "catastrophe/cat_8_2_2.png" 0:0.5 0:0.5 0.7:0.7 fade(0.1,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white.png" fade(1,linear)
+
+play "ring.ogg" 0.9
+play "shimmer_loop.ogg" 0.0 loop
+volume "chaos_loop_muffled.ogg" 0.2 3.0
+volume "shimmer_loop.ogg" 0.8 5.0
+
+say "At these words, power suddenly bursts down over Vita. She feels a warmth and brief comfort.
+With the winds growing too bright to watch, and a ringing sound piercing her ears—
+Vita lifts her body up."
+
+hide "catastrophe/cat_8_1.jpg" fade(0,linear)
+
+show "catastrophe/cat_8_2_3.png" 0:0.5 0:0.5 0.7:0.7 fade(2,linear) normal
+show "2white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(10,linear) normal
+
+say "Through the shaking and jolting of the world, Vita begins to cry...
+Above her, glass and wind begin to coalesce, and light flows slowly out the spiral."
+
+show "catastrophe/cat_8_3_1.jpg" 1:0 1:0 0.62:0.62 fade(3,linear) normal
+move "catastrophe/cat_8_3_1.jpg" 150:0 25 sineout
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "2white.png" fade(4,linear)
+
+play "heartbeatB.ogg" 1.0
+
+say "The child watches, still...
+as her hair dashes around her face. She watches something take form,
+and her heart pounds fiercely through her chest."
+
+show "catastrophe/cat_8_3_2.jpg" 1:1 1:1 0.71:0.71 fade(0.1,linear) normal
+move "catastrophe/cat_8_3_2.jpg" 75:0 13 sineout
+
+
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05 clear
+
+hide "3white.png" fade(4,linear)
+
+wait 3.95
+
+stop "shimmer_loop.ogg" 1
+play "folding_in.ogg" 0.6
+
+say "Light and reality's fabric both fold inward above her. She hears a voice again—
+and with strength, she stands at its bidding
+reaching up over her hand, and taking hold of what is there."
+
+hidetextbox
+wait 2
+show "2white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 2
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 6
+unload_textures
+wait 0
+show "catastrophe/cat_8_1.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(9,linear) normal
+wait 2
+
+say "She makes her face firm
+as her fingers clasp around it: a round kind of shape and then—
+Saya's words nearby begin to reach her ears through everything."
+
+say "\"And it may be selfish...
+But, at least, I want her to find a better place than this.\""
+
+hide "catastrophe/cat_8_1.jpg" fade(0.2,linear)
+
+play "step_jump.ogg" 0.6
+
+wait 1 clear
+play "exploding_b.ogg" 0.6
+
+stop "chaos_loop_muffled.ogg" 2.0
+play "chaos_loop.ogg" 0.0 loop
+volume "chaos_loop.ogg" 0.4 1.0
+
+say "Before Saya, Insight makes to answer, but she falters at the sight of a child
+leaping down to the earth before her. Her control escapes
+and sound rushes back in."
+
+say "Memory fills her sight for an instant.
+Remembering, Insight remains still; heart beating."
+
+play "footstepsCFast.ogg" 1.0
+wait 1 clear
+play "clothingRustleC.ogg" 0.75
+
+show "catastrophe/cat_8_4_1.jpg" 0:0.7 0:0.7 0.83:0.83 fade(1,linear) normal
+move "catastrophe/cat_8_4_1.jpg" -500:0 0.7 sineout
+
+wait 0.7 clear
+move "catastrophe/cat_8_4_1.jpg" -50:0 5 outquad
+wait 2.4
+
+say "Vita runs to Saya, falls to her.
+She grips at the woman's clothes with one hand
+as a light shines vibrantly in her other."
+
+say "\"Saya!\" Vita screams. \"What were you doing!? Why did you—!?\""
+
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+say "\"Wait,\" Saya bids, and she lifts a hand to Vita's crying face.
+She holds it steady, and with a smile she tells her: \"You look like an idiot.\"
+—Suddenly, the earth breaks again, and winds rush out."
+
+play "exploding_a.ogg" 0.7
+
+wait 4 clear
+
+show "catastrophe/cat_8_4_2.jpg" 1:1 1:1 1:1 fade(2.5,linear) normal
+
+wait 5
+
+say "And now, knowing she will die,
+knowing that she will not see this face again,
+Saya's smile falls away."
+
+play "ominous_swell.ogg" 1
+show "catastrophe/cat_8_4.jpg" 0.5:0 0.5:0 0.7:0.7 fade(2.5,linear) normal
+move "catastrophe/cat_8_4.jpg" 0:-100 20 sineout
+
+say "A grimace meets the grown woman's face,
+and tears fast begin to fall."
+
+say "\"Please don't...!\" Vita pleads with her.
+\"You absolutely can't...!\"
+Swiftly, Saya brings her arms tight—as tight as she is able around Vita."
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+
+say "As her voice shakes, Saya tells her charge:
+\"Don't show your back to anything.
+Don't fear anything.\""
+
+say "\"No!\"
+Shouting, Vita holds her much more tightly."
+
+say "\"Don't forget that you're capable.
+If you're ever lost, look to the sky and find yourself again.\""
+
+say "\"Saya...!\""
+
+show "catastrophe/cat_8_5_0.jpg" 0.6:1 0.6:1 0.7:0.7 fade(1,linear) normal
+wait 1 clear
+
+hide "catastrophe/cat_8_1_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_1_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_2_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_2_2.png" fade(0.1,linear)
+hide "catastrophe/cat_8_2_3.png" fade(0.1,linear)
+hide "catastrophe/cat_8_3_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_3_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_4_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_4_2.jpg" fade(0.1,linear)
+hide "black.png" fade(0.1,linear)
+hide "2white70.png" fade(0.1,linear)
+hide "2white50.png" fade(0.1,linear)
+hide "5black.png" fade(0.1,linear)
+hide "4black.png" fade(0.1,linear)
+
+wait 1
+
+say "\"Don't forget that I loved you.\" Saying this, Saya gently moves Vita back,
+making herself smile, and holding the child's face again.
+\"You are what I believe in.\""
+
+hide "catastrophe/cat_8_4.jpg" fade(0,linear)
+wait 0.05
+hide "catastrophe/cat_8_5_0.jpg" fade(0.2,linear)
+
+play "chaos_loop_muffled.ogg" 0 loop
+volume "chaos_loop_muffled.ogg" 0.5 4.0
+play "earthquake_tremor.ogg" 1
+
+say "Vita's face goes pale. A tremor shakes the two and Vita tumbles back.
+Saya drops to the ground.
+Above, glass hurries downward as a storm."
+
+unload_textures
+wait 0 clear
+
+show "catastrophe/cat_8_5_10.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_8_5_8d.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_9.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_8.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_7.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_5.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_4.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_8_5_3.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_1.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+
+move "catastrophe/cat_8_5_3.jpg" -100:0 0 sineout
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+
+play "glass_torrent.ogg" 0.7
+
+say "The torrent of light and shards falls from Arcaea.
+Turns, turns, and catches Lacrymira in a sudden bend.
+Pushed, she is dashed away from the two. Silent, she allows it."
+
+hide "black.png" fade(1,linear)
+
+show "catastrophe/cat_8_5_2h.png" 0.5:0 0.5:0 0.7:0.7 fade(2,linear) normal
+show "catastrophe/cat_8_5_2b.png" 0.5:0 0.5:0 0.7:0.7 fade(2,linear) normal
+move "catastrophe/cat_8_5_2b.png" 0:-300 0 sineout
+move "catastrophe/cat_8_5_2h.png" 0:-300 0 sineout
+wait 0 clear
+move "catastrophe/cat_8_5_2b.png" 0:250 0.6 sineout
+move "catastrophe/cat_8_5_2h.png" 0:250 0.6 sineout
+wait 0.6
+move "catastrophe/cat_8_5_2b.png" 0:50 5 outquad
+move "catastrophe/cat_8_5_2h.png" 0:50 5 outquad
+
+hide "catastrophe/cat_8_5_2b.png" fade(2,linear)
+
+say "And Vita struggles.
+She finds the strength to rush forth and reach for Saya's hand."
+
+play "grasp_echo.ogg" 0.6
+
+hide "catastrophe/cat_8_5_2h.png" fade(0.6,linear)
+hide "catastrophe/cat_8_5_1.jpg" fade(0.6,linear)
+move "catastrophe/cat_8_5_3.jpg" 75:0 0.6 sineout
+wait 0.6 clear
+move "catastrophe/cat_8_5_3.jpg" 25:0 6 outquad
+wait 1.1
+
+say "Saya holds her arm out—allowing it. She grasps the child's hand
+and continues to smile as the earth falls more and more."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(9,linear) normal
+
+say "The light between them holds them together, holds the world together
+and begs for the moment to be unending.
+...But, Arcaea's light wanes."
+
+stop "chaos_loop_muffled.ogg" 10
+
+hide "catastrophe/cat_8_5_3.jpg" fade(2,linear)
+hide "white40.png" fade(5,linear)
+
+wait 7 clear
+
+hide "2black.png" fade(1,linear)
+
+move "catastrophe/cat_8_5_4.jpg" 0:-200 30 sineout
+
+wait 1
+hidetextbox
+wait 5
+
+hide "catastrophe/cat_8_5_4.jpg" fade(1,linear)
+move "catastrophe/cat_8_5_5.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_7.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_8.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_8d.jpg" 0:-200 30 sineout
+
+wait 3
+hide "catastrophe/cat_8_5_5.jpg" fade(0.4,linear)
+
+wait 5
+hide "catastrophe/cat_8_5_7.jpg" fade(0.4,linear)
+
+wait 2
+hide "catastrophe/cat_8_5_8.jpg" fade(1,linear)
+
+wait 5
+hide "catastrophe/cat_8_5_9.jpg" fade(0.4,linear)
+
+wait 0.2
+stop "NoComingBack.ogg" 0.2
+play "echo_cut.ogg" 1
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 1
+
+hide "catastrophe/cat_8_5_8d.jpg" fade(0,linear)
+
+wait 3
+
+hide "4black.png" fade(0,linear)
+hide "3black.png" fade(5,linear)
+wait 2
+stop "chaos_loop.ogg" 3.0
+wait 5
+
+hide "catastrophe/cat_8_5_10.jpg" fade(0.05,linear)
+
+wait 1.0
+
+play "deep_quake.ogg" 0.7
+unload_textures
+
+wait 2
+
+play "ember_arrange.ogg" 1
+
+wait 2
+
+show "catastrophe/cat_8_6_1.jpg" 1:1 1:1 0.7:0.7 fade(2,linear) normal
+
+wait 4
+
+show "catastrophe/cat_8_6_2.jpg" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+show "catastrophe/cat_8_6_2a.png" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+show "catastrophe/cat_8_6_2a2.png" 0:0 0:0 0.8:0.8 fade(9,linear) normal
+show "catastrophe/cat_8_6_2b.png" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+
+move "catastrophe/cat_8_6_2.jpg" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2a.png" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2a2.png" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2b.png" -430:-250 0 sineout
+wait 0
+
+move "catastrophe/cat_8_6_2.jpg" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2a.png" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2a2.png" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2b.png" -41:-41 2.2 sineout
+
+wait 2.2
+
+
+hide "catastrophe/cat_8_6_2a.png" fade(6,linear)
+
+move "catastrophe/cat_8_6_2.jpg" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2a.png" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2a2.png" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2b.png" -40:-40 12 outquad
+
+wait 3.8
+hide "catastrophe/cat_8_6_1.jpg" fade(0,linear)
+wait 0
+
+hide "catastrophe/cat_8_6_2.jpg" fade(4,linear)
+hide "catastrophe/cat_8_6_2b.png" fade(4,linear)
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6.2,linear) normal
+wait 8
+
+show "catastrophe/cat_8_6.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(2,linear) normal
+show "catastrophe/cat_8_6b.png" 0.5:0.4 0.5:0.4 0.7:0.7 fade(2,linear) normal
+
+wait 3.74
+
+hide "catastrophe/cat_8_6_2a2.png" fade(0,linear)
+
+wait 1
+
+hide "catastrophe/cat_8_6.jpg" fade(3,linear)
+hide "catastrophe/cat_8_6b.png" fade(4.5,linear)
+
+wait 6.5

@@ -1,0 +1,484 @@
+wait 1
+
+play "chaos_loop.ogg" 0.0 loop
+volume "chaos_loop.ogg" 0.4 27.0
+
+play "exploding_b.ogg" 0.8
+
+wait 5.5
+
+play "NoComingBack.ogg" 0.5 loop
+
+wait 7
+
+say "突如、三人の間の地面が崩落したのはその時だった。吹き荒れる風に攫われて───
+巨大な岩陰へと吹き飛ばされる少女。神の手から剣は落ち、守護者はただ悪寒に震えていた。
+今、女は落下し始めていた───そう、『虚無領域』へと、その視線の先も、視界に映る大地も共に。"
+
+play "exploding_a.ogg" 0.7
+wait 1.6 clear
+play "sword_call.ogg" 0.8
+
+say "辺り一面を呑みこむ、もはや体さえ劈くような轟音。
+今なお自身を貫く剣に呼びかけると、ようやくサヤに剣は応えた。
+力なく倒れ込みそうになりつつもかろうじて、サヤは大地に剣を突き立て、その身を支えた。"
+
+stop "chaos_loop.ogg" 3
+
+play "chaos_loop_muffled.ogg" 0 loop
+volume "chaos_loop_muffled.ogg" 0.5 4.0
+
+say "周囲の音がサヤから遠のいていく───サヤは思った。これが死なのだと。
+そこかしこで光と影が、目まぐるしく混じり合っていく。世界が崩壊していく。"
+
+say "けれど……サヤは気づいた。いまだに彼女の意識が、一向に遠のく気配がないことを。
+音が遠のいた理由は、彼女ではなく……少し離れた位置にいた者───、
+───立ったまま、守護者を見下ろす、『識眼』だった。"
+
+play "collapse.ogg" 1
+play "sword_draw_delayed.ogg" 0.7
+
+hidetextbox
+
+wait 5
+
+show "catastrophe/cat_8_1_1.jpg" 1:1 1:1 0.7:0.7 fade(9,linear) normal
+move "catastrophe/cat_8_1_1.jpg" 300:0 50 sineout
+
+wait 3
+wait 2 clear
+
+say "……無理やりその身を起こし、剣をまた、サヤは構えようとした。
+対する『識眼』は、ただ一言───「もう残された時間も少ないだろう」とだけ言った。"
+
+say "それに───「あの子のために時間を稼ぐなら、それだけで十分よ」とだけ、サヤは応じた。"
+
+say "「……せっかくその身に、神からの祝福を宿したというのに。
+それに目覚めてからずっと、 キミは力を求めていたんじゃなかったのかい？」"
+
+show "catastrophe/cat_8_1.jpg" 0.5:0.4 0.5:0.4 0.71:0.71 fade(1.5,linear) normal
+move "catastrophe/cat_8_1.jpg" -50:0 0 sineout
+wait 0
+move "catastrophe/cat_8_1.jpg" 50:0 12 sineout
+
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white50.png" fade(1,linear)
+
+wait 0.15
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+hide "white70.png" fade(5,linear)
+
+play "sword_drop.ogg" 1
+
+say "返事は、すぐにはなかった。
+突き立てた剣に沿うようにずり落ち、やがて両手で鍔に縋るような姿勢で落ち着いた。
+サヤが掠れた声を絞り出したのは、それからだった。"
+
+say "「そうね。私は愚か……バカなのよ。
+誰かを愛してしまった、凡百の^^凡愚^^{バカ}といっしょ。何一つだって違わない……。
+マシな終わり方がある事自体、信じなくなって永いのよ……」"
+
+say "続けて、サヤは言った───「けれど……今はあなたの名前を教えて。
+最期だもの、せめて言葉を交わすなら名前を知る人がいいわ……
+それくらいの尊厳は、くれてもいいでしょ」"
+
+say "「……ワタシは、ラクリミラだ」"
+
+play "earthquake_tremor.ogg" 0.7
+
+say "「ラクリミラ……ね」───繰り返すサヤ。
+震える大地のなかで、女は息切れしながら……それでもかの神に告げた。
+「私ね、たった一つだけ願い事があったの───あたらしい、大地を願っていた」"
+
+say "なおも言葉を紡ぐサヤに……耳を傾ける神が二柱。"
+
+show "catastrophe/cat_8_1_2.jpg" 0.5:0.65 0.5:0.65 1:1 fade(3,linear) normal
+move "catastrophe/cat_8_1_2.jpg" -300:0 50 sineout
+
+say "「願っていたの。私たちを囲んだ瓦礫を、離れるべき過去の墓標にできるような行き先を。
+探していたのよ。あふれるあの記憶たちが、次に築く未来の手本にできるような行き先を」"
+
+say "その声をよく聞こうと浮き上がってきたのは……とある深部にいた『何か』だった。
+やがて近くで、力強く回り始める……震えるヴィータの、その頭上で。"
+
+say "「私はここを諦めないわ。たとえ、全ての光が消え失せたって……。
+誰のことも、諦めるつもりはない───他でもない、あの子だけは絶対に。
+暗闇の中でだって構わない。みんなを連れ出すのよ、手を繋いで───新しい、大地へと」"
+
+show "catastrophe/cat_8_2_1.jpg" 1:1 1:1 0.7:0.7 fade(3,linear) normal
+
+say "「私の言葉を受け取ろうと、忘れようと構わない……どちらでもいいわ。
+───それでもね、私は遺したいの。皆に、より良いものを遺したいのよ。
+そのためなら、構わないわ……どんな代償を払っても、どれだけ悲しむことになってもね」"
+
+show "catastrophe/cat_8_2_2.png" 0:0.5 0:0.5 0.7:0.7 fade(0.1,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white.png" fade(1,linear)
+
+play "ring.ogg" 0.9
+play "shimmer_loop.ogg" 0.0 loop
+volume "chaos_loop_muffled.ogg" 0.2 3.0
+volume "shimmer_loop.ogg" 0.8 5.0
+
+say "その時、突如としてヴィータへと降り注く『力』……温もりと安らぎが一瞬、彼女を包みこんだ。
+目を開けられないほど眩く輝く風と、耳を刺す高音が響く中で───ヴィータは、ようやくその身を起こした。"
+
+hide "catastrophe/cat_8_1.jpg" fade(0,linear)
+
+show "catastrophe/cat_8_2_3.png" 0:0.5 0:0.5 0.7:0.7 fade(2,linear) normal
+show "2white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(10,linear) normal
+
+say "揺れては跳ねて、崩れ行く世界の中、けれどヴィータはただ泣き始めた……。
+その頭上では、硝片と風が渦巻き始め、ただゆっくりと螺旋から光が流れ出している。"
+
+show "catastrophe/cat_8_3_1.jpg" 1:0 1:0 0.62:0.62 fade(3,linear) normal
+move "catastrophe/cat_8_3_1.jpg" 150:0 25 sineout
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "2white.png" fade(4,linear)
+
+play "heartbeatB.ogg" 1.0
+
+say "少女は、静かに見つめていた……。
+激しい風のなか、髪もまた激しく顔に当たるなか───形を成しつつある何かを。
+その胸中では、心臓が激しく脈打っていた。"
+
+show "catastrophe/cat_8_3_2.jpg" 1:1 1:1 0.71:0.71 fade(0.1,linear) normal
+move "catastrophe/cat_8_3_2.jpg" 75:0 13 sineout
+
+
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05 clear
+
+hide "3white.png" fade(4,linear)
+
+wait 3.95
+
+stop "shimmer_loop.ogg" 1
+play "folding_in.ogg" 0.6
+
+say "少女の頭上にて、内側へと折りたたまれていく───眩い光と、現実の織り目。
+するとまた、『あの声』が聞こえて───促されるまま、ヴィータは力強く立ち上がった。
+高く高く、手を伸ばせば……そこにある『何か』に手がかかった。"
+
+hidetextbox
+wait 2
+show "2white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(3,linear) normal
+wait 2
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(4,linear) normal
+wait 6
+unload_textures
+wait 0
+show "catastrophe/cat_8_1.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(9,linear) normal
+wait 2
+
+say "少女は表情を引き締めて───指で『何か』を包むようにした。それは丸みを帯びていて……
+───瞬間、サヤの言葉があらゆる轟音を貫いて、まるで近くに居るように聞こえ始めたのだ。"
+
+say "「これは、私の身勝手に過ぎないのかもしれない……。
+けれど───あの子に私は……より良い場所を見つけてほしいの」"
+
+hide "catastrophe/cat_8_1.jpg" fade(0.2,linear)
+
+play "step_jump.ogg" 0.6
+
+wait 1 clear
+play "exploding_b.ogg" 0.6
+
+stop "chaos_loop_muffled.ogg" 2.0
+play "chaos_loop.ogg" 0.0 loop
+volume "chaos_loop.ogg" 0.4 1.0
+
+say "そんなサヤを前に、『識眼』は言葉を紡ごうとして……口ごもった。
+少女が一人、目の前の大地に飛び降りてきたのだ。
+神の制御が綻びて、再び世界へと轟音が雪崩込んできた。"
+
+say "刹那───『識眼』の視界を埋め尽くす記憶。
+想い出に絡め取られたまま……『識眼』の、その心臓だけが脈打っていた。"
+
+play "footstepsCFast.ogg" 1.0
+wait 1 clear
+play "clothingRustleC.ogg" 0.75
+
+show "catastrophe/cat_8_4_1.jpg" 0:0.7 0:0.7 0.83:0.83 fade(1,linear) normal
+move "catastrophe/cat_8_4_1.jpg" -500:0 0.7 sineout
+
+wait 0.7 clear
+move "catastrophe/cat_8_4_1.jpg" -50:0 5 outquad
+wait 2.4
+
+say "サヤの元へ駆け寄って、傍らへとヴィータは倒れ込む。
+片手で女の服を強く掴みながら、もう片方の手には瞬く、鮮やかな光があった。"
+
+say "「サヤ！！───なんてことを、なんであなたは───！？」"
+
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+say "「待って」───サヤはそう言うと、泣き濡れたヴィータの頬へと手を伸ばす。
+その顔を優しく支えて、微笑むと───告げた。
+「バカみたいよ、あなた……今の顔」───瞬間、再び大地は砕け、暴風が吹き出した。"
+
+play "exploding_a.ogg" 0.7
+
+wait 4 clear
+
+show "catastrophe/cat_8_4_2.jpg" 1:1 1:1 1:1 fade(2.5,linear) normal
+
+wait 5
+
+say "……もう、分かっていた───自分が死ぬことは。
+分かっていたのだ───この顔がもう、二度と見られないことだって。
+けれど、実感が追いついたのは今で───。……そうして、サヤから柔らかな微笑が崩れた。"
+
+play "ominous_swell.ogg" 1
+show "catastrophe/cat_8_4.jpg" 0.5:0 0.5:0 0.7:0.7 fade(2.5,linear) normal
+move "catastrophe/cat_8_4.jpg" 0:-100 20 sineout
+
+say "一度崩れたものは戻らない。女の顔もまた、もう悲痛に歪んでいた。
+堰を切ったように、零れ始めた涙が止まらない。"
+
+say "「ねえやめてください、やめてよ……！絶対、絶対ダメですから……！」
+縋るヴィータに……すぐに両腕を回して、サヤが抱き寄せる。
+自分に残された力のままに強く、出来る限り強く抱きしめて───。"
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(1,linear) normal
+
+say "震える声で紡ぐ言葉は、ずっと守り続けたかった少女へ。
+「逃げないでね、何があっても───何も、怖がることはないから」"
+
+say "「いやです！」
+叫びながら、ヴィータは強く、さらに強くサヤに抱きついた。"
+
+say "「忘れないでね。あなたなら出来るってこと。
+悩んだり迷ったら、空を見て───あなたらしさを想い出すの」"
+
+say "「サヤぁ……！」"
+
+show "catastrophe/cat_8_5_0.jpg" 0.6:1 0.6:1 0.7:0.7 fade(1,linear) normal
+wait 1 clear
+
+hide "catastrophe/cat_8_1_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_1_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_2_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_2_2.png" fade(0.1,linear)
+hide "catastrophe/cat_8_2_3.png" fade(0.1,linear)
+hide "catastrophe/cat_8_3_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_3_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_4_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_8_4_2.jpg" fade(0.1,linear)
+hide "black.png" fade(0.1,linear)
+hide "2white70.png" fade(0.1,linear)
+hide "2white50.png" fade(0.1,linear)
+hide "5black.png" fade(0.1,linear)
+hide "4black.png" fade(0.1,linear)
+
+wait 1
+
+say "「忘れないでね、私が───あなたを愛していたことを」……そうしてサヤは、そっとヴィータを離す。
+もう一度、その幼い顔を両手でやわらかに包んで、強張った微笑みで、告げた。
+「あなたが、私の信じる全てよ」"
+
+hide "catastrophe/cat_8_4.jpg" fade(0,linear)
+wait 0.05
+hide "catastrophe/cat_8_5_0.jpg" fade(0.2,linear)
+
+play "chaos_loop_muffled.ogg" 0 loop
+volume "chaos_loop_muffled.ogg" 0.5 4.0
+play "earthquake_tremor.ogg" 1
+
+say "ヴィータから血の気が引いた───その時、二人を激震が襲う。
+後ろへと転がり落ちるヴィータと、その場に崩れ落ちるサヤ。
+硝子の雨が、嵐のように頭上から降り注ぐ……。"
+
+unload_textures
+wait 0 clear
+
+show "catastrophe/cat_8_5_10.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_8_5_8d.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_9.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_8.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_7.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_5.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_4.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_8_5_3.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_8_5_1.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(0.1,linear) normal
+
+move "catastrophe/cat_8_5_3.jpg" -100:0 0 sineout
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+wait 2
+
+play "glass_torrent.ogg" 0.7
+
+say "Arcaeaから降り注ぐ、光と硝片の奔流。それは渦巻きのように回っては巡る。
+───そして不意に捻じ曲がると、ラクリミラを捉えた。硝子に押し流されるようにして、
+さらに二人から遠くへと弾き飛ばされた彼女は、静かに……ただそれを受け入れた。"
+
+hide "black.png" fade(1,linear)
+
+show "catastrophe/cat_8_5_2h.png" 0.5:0 0.5:0 0.7:0.7 fade(2,linear) normal
+show "catastrophe/cat_8_5_2b.png" 0.5:0 0.5:0 0.7:0.7 fade(2,linear) normal
+move "catastrophe/cat_8_5_2b.png" 0:-300 0 sineout
+move "catastrophe/cat_8_5_2h.png" 0:-300 0 sineout
+wait 0 clear
+move "catastrophe/cat_8_5_2b.png" 0:250 0.6 sineout
+move "catastrophe/cat_8_5_2h.png" 0:250 0.6 sineout
+wait 0.6
+move "catastrophe/cat_8_5_2b.png" 0:50 5 outquad
+move "catastrophe/cat_8_5_2h.png" 0:50 5 outquad
+
+hide "catastrophe/cat_8_5_2b.png" fade(2,linear)
+
+say "それでもまだ、ヴィータは抗った。
+自分に残る力の限りに駆け出して、サヤへと精一杯手を伸ばしていく。"
+
+play "grasp_echo.ogg" 0.6
+
+hide "catastrophe/cat_8_5_2h.png" fade(0.6,linear)
+hide "catastrophe/cat_8_5_1.jpg" fade(0.6,linear)
+move "catastrophe/cat_8_5_3.jpg" 75:0 0.6 sineout
+wait 0.6 clear
+move "catastrophe/cat_8_5_3.jpg" 25:0 6 outquad
+wait 1.1
+
+say "サヤもまた腕を伸ばして───受け止めるように少女の手を強く握った。
+崩落がさらに加速する大地の上、女はそれでも気丈に微笑み続けていた。"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(9,linear) normal
+
+say "ただ、願っていた───二人の間にある光がこのまま、
+二人も世界をも繋ぎ止めて───この瞬間が永遠に続いてくれたらと。
+……だが、衰える。Arcaeaの光は今も、衰えていく。"
+
+stop "chaos_loop_muffled.ogg" 10
+
+hide "catastrophe/cat_8_5_3.jpg" fade(2,linear)
+hide "white40.png" fade(5,linear)
+
+wait 7 clear
+
+hide "2black.png" fade(1,linear)
+
+move "catastrophe/cat_8_5_4.jpg" 0:-200 30 sineout
+
+wait 1
+hidetextbox
+wait 5
+
+hide "catastrophe/cat_8_5_4.jpg" fade(1,linear)
+move "catastrophe/cat_8_5_5.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_7.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_8.jpg" 0:-200 30 sineout
+move "catastrophe/cat_8_5_8d.jpg" 0:-200 30 sineout
+
+wait 3
+hide "catastrophe/cat_8_5_5.jpg" fade(0.4,linear)
+
+wait 5
+hide "catastrophe/cat_8_5_7.jpg" fade(0.4,linear)
+
+wait 2
+hide "catastrophe/cat_8_5_8.jpg" fade(1,linear)
+
+wait 5
+hide "catastrophe/cat_8_5_9.jpg" fade(0.4,linear)
+
+wait 0.2
+stop "NoComingBack.ogg" 0.2
+play "echo_cut.ogg" 1
+
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 1
+
+hide "catastrophe/cat_8_5_8d.jpg" fade(0,linear)
+
+wait 3
+
+hide "4black.png" fade(0,linear)
+hide "3black.png" fade(5,linear)
+wait 2
+stop "chaos_loop.ogg" 3.0
+wait 5
+
+hide "catastrophe/cat_8_5_10.jpg" fade(0.05,linear)
+
+wait 1.0
+
+play "deep_quake.ogg" 0.7
+unload_textures
+
+wait 2
+
+play "ember_arrange.ogg" 1
+
+wait 2
+
+show "catastrophe/cat_8_6_1.jpg" 1:1 1:1 0.7:0.7 fade(2,linear) normal
+
+wait 4
+
+show "catastrophe/cat_8_6_2.jpg" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+show "catastrophe/cat_8_6_2a.png" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+show "catastrophe/cat_8_6_2a2.png" 0:0 0:0 0.8:0.8 fade(9,linear) normal
+show "catastrophe/cat_8_6_2b.png" 0:0 0:0 0.8:0.8 fade(1,linear) normal
+
+move "catastrophe/cat_8_6_2.jpg" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2a.png" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2a2.png" -430:-250 0 sineout
+move "catastrophe/cat_8_6_2b.png" -430:-250 0 sineout
+wait 0
+
+move "catastrophe/cat_8_6_2.jpg" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2a.png" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2a2.png" -41:-41 2.2 sineout
+move "catastrophe/cat_8_6_2b.png" -41:-41 2.2 sineout
+
+wait 2.2
+
+
+hide "catastrophe/cat_8_6_2a.png" fade(6,linear)
+
+move "catastrophe/cat_8_6_2.jpg" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2a.png" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2a2.png" -40:-40 12 outquad
+move "catastrophe/cat_8_6_2b.png" -40:-40 12 outquad
+
+wait 3.8
+hide "catastrophe/cat_8_6_1.jpg" fade(0,linear)
+wait 0
+
+hide "catastrophe/cat_8_6_2.jpg" fade(4,linear)
+hide "catastrophe/cat_8_6_2b.png" fade(4,linear)
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(6.2,linear) normal
+wait 8
+
+show "catastrophe/cat_8_6.jpg" 0.5:0.4 0.5:0.4 0.7:0.7 fade(2,linear) normal
+show "catastrophe/cat_8_6b.png" 0.5:0.4 0.5:0.4 0.7:0.7 fade(2,linear) normal
+
+wait 3.74
+
+hide "catastrophe/cat_8_6_2a2.png" fade(0,linear)
+
+wait 1
+
+hide "catastrophe/cat_8_6.jpg" fade(3,linear)
+hide "catastrophe/cat_8_6b.png" fade(4.5,linear)
+
+wait 6.5

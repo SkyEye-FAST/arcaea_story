@@ -1,0 +1,304 @@
+wait 1
+
+play "slice.ogg" 1.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+
+play "slip.ogg" 1.0
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+wait 2.0
+
+play "cut.ogg" 1.0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.05,linear) normal
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+wait 0
+move "black_left.png" -600:0 0 sineout
+wait 0.4
+
+say "我的手臂……又一次不属于我自己了。
+我低头，看向对我做了这种事的那恶魔般的身影。
+她却没有看我，而是沉默地看向那个人——「咲弥」。"
+
+hide "nihil/nihil_2_cut3.jpg" fade(0.1,linear)
+hide "black_left.png" fade(0.1,linear)
+
+play "heavy_slap.ogg" 1
+
+wait 0.6 clear
+
+play "catastrophe_impact_c.ogg" 1
+
+say "真是无礼。
+她转过身来看我时，我用完好的那只手的手背狠狠地扇了她一巴掌。"
+
+
+
+hide "white.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+show "catastrophe/cat_3_2.jpg" 1:1 1:1 1.4:1.4 fade(0.5,linear) normal
+
+play "echo_cut.ogg" 0.4
+
+wait 2.4 clear
+play "fracture2_epilogue.ogg" 0.2
+wait 1.4
+
+say "她猛地向后躲闪。我也略向后，躲避她的镰刀。
+她试图用刀刃勾住世界的边缘，但失败了。
+她没能停下来，坠入了我们脚下的黑暗之中。"
+
+hide "catastrophe/cat_3_2.jpg" fade(0.1,linear)
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+play "humanSnapFinger_echo.ogg" 1
+
+say "我活动了一下自己的手指，然后打了个响指，让时间再次慢下来。
+我一边向前走，一边看向这个世界。"
+
+show "catastrophe/cat_3_3.jpg" 1:0.5 1:0.5 0.42:0.42 fade(3,linear) normal
+show "2black_left.png" 0:0.5 0.05:0.5 1.0:1.0 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0
+move "3black.png"  -1000:0 0 sineout
+
+wait 0.1
+hide "white50.png" fade(4,linear)
+hide "2white.png" fade(4,linear)
+
+play "shimmer_loop.ogg" 0.0 loop
+volume "shimmer_loop.ogg" 0.5 4.0
+
+say "Arcaea……我记得我宣告了你的死亡。
+你还在漂泊吗？像这里的少女们般。
+像是鬼魂一般的存在——这倒是解答了不少我一直以来的疑问。"
+
+say "但你应该安息才对。
+你已经存在太久、漂泊太久了。
+你不是已经许下承诺要安息吗，可你却还是无处不在……"
+
+say "像一个没有尊严、无法信守承诺的神一般。
+真是可耻。"
+
+say "我落在咲弥河维塔之间，寻回了自己失去的手臂。
+维塔，维塔……这屈辱之地配不上你这样珍贵的存在。
+还有，你怎么跑就出来了呢——？"
+
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+
+say "我再次瞪大了双眼。
+她的身后站着一个奇异的鬼影。
+……我感到自己汗毛直竖。"
+
+hide "catastrophe/cat_3_3.jpg" fade(0,linear)
+hide "2black_left.png" fade(0,linear)
+hide "3black.png" fade(0,linear)
+wait 0
+hide "5black.png" fade(0.1,linear)
+wait 0
+
+stop "shimmer_loop.ogg" 8.0
+
+unload_textures
+
+show "catastrophe/cat_3_4_2.jpg" 1:0.5 1:0.5 1:1 fade(0.1,linear) normal
+show "6white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4.jpg" 0.5:0.5 0.5:0.6 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_5.jpg" 1:0.2 1:0.2 1:1 fade(0.1,linear) normal
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+move "catastrophe/cat_3_4_5.jpg" 150:0 0 sineout
+
+show "catastrophe/old_light.png" 0.5:0.5 0.5:0.5 0.77:0.77 fade(5,sinout) normal
+
+play "flash_build.ogg" 1
+
+say "啊，现在又是……怎么一回事——？"
+
+play "flash_hit.ogg" 1
+
+hide "4black.png" fade(0.1,linear)
+hide "catastrophe/old_light.png" fade(0.1,linear)
+hidetextbox
+wait 0.5
+
+play "un_mini.ogg" 0.4 loop
+
+wait 0.5
+
+move "catastrophe/cat_3_4_5.jpg" -100:0 1.2 sineout
+
+wait 0.1
+hide "3white.png" fade(1,linear)
+
+wait 1.1
+move "catastrophe/cat_3_4_5.jpg" -50:0 5 outquad
+wait 4.8
+
+hide "catastrophe/cat_3_4_5.jpg" fade(0.1,linear)
+wait 0.1
+
+wait 1.0
+hide "2white.png" fade(3,linear)
+
+wait 2.0
+
+say "……！"
+
+say "……这……难道是……"
+
+say "……在讥笑我吗？"
+
+say "“哈……啊哈哈哈哈！！”"
+
+say "掩盖着逝去的灵魂们的共同回响……
+Arcaea的丝线，现身了。"
+
+hide "catastrophe/cat_3_4.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_2.jpg" 0:-150 7 sineout
+
+wait 0.1
+
+hide "6white.png" fade(2,linear)
+
+say "我看向她——咲弥——冷静地，像看待事实那般用稀松平常的方式看着她。
+……然后我不禁笑了起来。想想，又一次被惊喜到了……！"
+
+play "sword_draw_delayed.ogg" 1
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "优雅地，冷静地，咲弥发起了攻击。
+这么久以来，这可是头一次——
+呵……我当然要还手！头一次，在这个名叫“Arcaea”的世界——我将用「Arcaea」的方式与你战斗。"
+
+hidetextbox
+hide "white.png" fade(0,linear)
+hide "catastrophe/cat_3_4_2.jpg" fade(0,linear)
+wait 0
+hide "2black.png" fade(0.1,linear)
+wait 0
+
+unload_textures
+
+wait 1.5
+
+show "catastrophe/cat_4_1_2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.1,linear) normal
+show "4white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+
+show "catastrophe/cat_4_1_1.jpg" 1:1 1:1 1:1 fade(0.2,linear) normal
+move "catastrophe/cat_4_1_1.jpg" 150:0 0 sineout
+
+wait 0
+move "catastrophe/cat_4_1_1.jpg" -100:0 2 sineout
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(2,linear)
+
+play "sword_big_a.ogg" 1
+
+wait 0.4
+wait 1.5
+move "catastrophe/cat_4_1_1.jpg" -50:0 5 outquad
+
+play "teleport_out.ogg" 1
+
+say "我在她和自己之间划出一道碎片组成的弧度，她以刃相迎——
+突然间，她消失了，但我还能看到她……
+她忽地闪到我的身侧，我的头顶，准备再次攻击——"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white40.png" fade(0.5,linear)
+
+play "sword_big_c.ogg" 1
+
+say "喝……！
+我抬起手，试图阻止她。
+她劈了下来，刀刃划破空气，我向后退去，在转身的那一瞬间——"
+
+hide "catastrophe/cat_4_1_1.jpg" fade(0.1,linear)
+wait 0.1 clear
+hide "4white.png" fade(2,linear)
+
+play "sword_fire_a.ogg" 1
+
+say "她俯冲下来，转过身——
+一瞬间，我的腿感觉像是被闪电击中的大树般，
+接着又像是被一把火点燃了般，这是……？"
+
+say "我低头望去。
+那把疯狂的武器刺穿了我的双脚，将我钉入地面。
+咲弥随即松开了它，随之……白色的火焰开始向上蔓延！呵……"
+
+say "这……
+这可不太妙……！"
+
+hide "catastrophe/cat_4_1_2.jpg" fade(2,linear)
+
+say "我低吼一声，抵抗着剑锋对我的损伤。
+我不再冷静……我伸手去抓它，它却带着火焰反弹回来。
+我四处寻找攻击的源头，却发现咲弥已经消失了。取而代之的是维塔。"
+
+play "catastrophe_teleport_a.ogg" 1
+
+say "还没等我开口，维塔也消失了。我终于明白了咲弥在做什么——
+她透过碎片一会儿出现在这里，一会儿出现在那里，然后又出现在另一个地方……
+她带着维塔去了一个她自认为是“安全”的位置……"
+
+play "sword_pull_reject.ogg" 1
+
+say "我集中精神，将剑从体内拔出，剑柄却仍然抗拒着我。
+这仿佛就像探索者的力量……我脚上的伤也没有立刻痊愈……
+这究竟是什么把戏……？垂死挣扎的弱小神明，你究竟在盘算些什么？"
+
+play "sword_call.ogg" 1
+
+say "我看不见维塔了……然后，我手中的剑也消失了……是回到了咲弥手里吗？
+果真……再次看见它时，她又出现在咲弥手中，而她闪身到了我背后。
+哈……如果这把剑砍到我的脖子或头的话……"
+
+unload_textures
+
+
+play "catastrophe_teleport_b.ogg" 1
+
+show "catastrophe/cat_4_1_3c.jpg" 0.5:0.5 0.5:0.5 1.5:1.5 fade(1,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05 clear
+hide "white.png" fade(6,linear)
+wait 2
+play "catastrophe_impact_c.ogg" 0.4
+
+say "一道光掠过我的肩头——它撕裂了静止的时间。
+我赶忙操控大气，它才迅速停止下来。
+一阵涟漪击打向大地。我长呼出一口气。"
+
+say "……这么着急就想杀掉我吗？
+我们才刚见面不久呢。"
+
+show "catastrophe/cat_4_1_3.jpg" 0.5:0.5 0.5:0.5 0.7:0.7 fade(2.4,linear) normal
+
+play "ominous_swell.ogg" 1
+
+say "呵，那便如此吧。让死亡的舞步再度交织。
+你的视线落在我身上，而我直视着你。
+你和我，咲弥，在Arcaea这荒芜的尘土之间。"
+
+hidetextbox
+wait 2
+
+stop "un_mini.ogg" 2
+
+wait 2

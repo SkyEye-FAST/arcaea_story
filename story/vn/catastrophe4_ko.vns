@@ -1,0 +1,306 @@
+wait 1
+
+play "slice.ogg" 1.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+
+play "slip.ogg" 1.0
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+wait 2.0
+
+play "cut.ogg" 1.0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.05,linear) normal
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+wait 0
+move "black_left.png" -600:0 0 sineout
+wait 0.4
+
+say "팔이... 또 떨어져나갔네.
+내 팔을 베어낸 쬐끄만 악마를 바라봤어.
+그 시선은 나 대신, \"사야\"를 향하고 있었지."
+
+hide "nihil/nihil_2_cut3.jpg" fade(0.1,linear)
+hide "black_left.png" fade(0.1,linear)
+
+play "heavy_slap.ogg" 1
+
+wait 0.6 clear
+
+play "catastrophe_impact_c.ogg" 1
+
+say "무엄하기는.
+그녀가 다시 고개를 돌려 나를 바라보기 전에, 
+남은 팔을 휘둘러서 손등으로 그 뺨을 갈겨줬어."
+
+
+
+hide "white.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+show "catastrophe/cat_3_2.jpg" 1:1 1:1 1.4:1.4 fade(0.5,linear) normal
+
+play "echo_cut.ogg" 0.4
+
+wait 2.4 clear
+play "fracture2_epilogue.ogg" 0.2
+wait 1.4
+
+say "레테가 날아가. 살짝 몸을 기울여 그녀가 휘두르는 낫을 피했어.
+낫을 바닥에 박아 멈추려고 해보지만 부질 없는 짓이지. 
+결국 레테는 절벽 밑 끝없는 저 어둠으로 떨어졌어."
+
+hide "catastrophe/cat_3_2.jpg" fade(0.1,linear)
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+play "humanSnapFinger_echo.ogg" 1
+
+say "나는 손을 한 번 풀어주고는, 손가락을 튕겨 시간을 멈췄어.
+그리고 걸어가며 이 세계를 들여다보았지."
+
+show "catastrophe/cat_3_3.jpg" 1:0.5 1:0.5 0.42:0.42 fade(3,linear) normal
+show "2black_left.png" 0:0.5 0.05:0.5 1.0:1.0 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0
+move "3black.png"  -1000:0 0 sineout
+
+wait 0.1
+hide "white50.png" fade(4,linear)
+hide "2white.png" fade(4,linear)
+
+play "shimmer_loop.ogg" 0.0 loop
+volume "shimmer_loop.ogg" 0.5 4.0
+
+say "아르케아야... 계속 널 죽었다고 표현하긴 했지만, 궁금해.
+너도 이 여자애들처럼 별 수 없이 이 지천을 멤도는 유령이니?
+그럼 참 많은 게 설명될 것 같은데 말이지."
+
+say "이제 좀 쉬렴.
+충분히 했잖니?
+평생 쉬겠다고 맹세까지 해놓고서, 아직 이러고 있다니."
+
+say "넌 맹세조차 지키지 못하는 볼품 없는 신이구나.
+참 안타깝기도 하지."
+
+say "...나는 사야와 비타 사이에 서서. 잘려나간 팔을 복구했어.
+비타야. 너처럼 소중한 아이에게 이런 누추한 곳은 어울리지 않는단다.
+그런데, 왜 지금까지 숨어있다가 갑자기 나온..."
+
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+
+say "오... 이건 놀라운걸.
+비타의 뒤에 서있는 것은, 아주아주 특별한 유령.
+...온 몸의 털이 곤두서는 게 느껴져."
+
+hide "catastrophe/cat_3_3.jpg" fade(0,linear)
+hide "2black_left.png" fade(0,linear)
+hide "3black.png" fade(0,linear)
+wait 0
+hide "5black.png" fade(0.1,linear)
+wait 0
+
+stop "shimmer_loop.ogg" 8.0
+
+unload_textures
+
+show "catastrophe/cat_3_4_2.jpg" 1:0.5 1:0.5 1:1 fade(0.1,linear) normal
+show "6white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4.jpg" 0.5:0.5 0.5:0.6 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_5.jpg" 1:0.2 1:0.2 1:1 fade(0.1,linear) normal
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+move "catastrophe/cat_3_4_5.jpg" 150:0 0 sineout
+
+show "catastrophe/old_light.png" 0.5:0.5 0.5:0.5 0.77:0.77 fade(5,sinout) normal
+
+play "flash_build.ogg" 1
+
+say "...대체 뭘 꾸미고 있는 거니?"
+
+play "flash_hit.ogg" 1
+
+hide "4black.png" fade(0.1,linear)
+hide "catastrophe/old_light.png" fade(0.1,linear)
+hidetextbox
+wait 0.5
+
+play "un_mini.ogg" 0.4 loop
+
+wait 0.5
+
+move "catastrophe/cat_3_4_5.jpg" -100:0 1.2 sineout
+
+wait 0.1
+hide "3white.png" fade(1,linear)
+
+wait 1.1
+move "catastrophe/cat_3_4_5.jpg" -50:0 5 outquad
+wait 4.8
+
+hide "catastrophe/cat_3_4_5.jpg" fade(0.1,linear)
+wait 0.1
+
+wait 1.0
+hide "2white.png" fade(3,linear)
+
+wait 2.0
+
+say "...! ..."
+
+say "...설마... 이건..."
+
+say "나를 향한... 조롱...?"
+
+say "\"하... 하하하하!\""
+
+say "특출날 것 없는 죽은 자의 메아리를...
+...아르케아의 실타래가 감싸."
+
+hide "catastrophe/cat_3_4.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_2.jpg" 0:-150 7 sineout
+
+wait 0.1
+
+hide "6white.png" fade(2,linear)
+
+say "보통 사람이 세상을 보는 눈으로, 나는 사야를 바라보았어.
+도저히 웃음을 참을 수가 없어!
+나를 놀라게 만드는 것이 아직 남아 있었다니...!"
+
+play "sword_draw_delayed.ogg" 1
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "아주 침착해보이는 얼굴로,
+사야는 나를 공격하려고 했어. 이런거 정말 오랜만이야.
+그래, 놀아보자. 이 세계의 법도대로 \"아르케아\"를 써서 상대해주겠어."
+
+hidetextbox
+hide "white.png" fade(0,linear)
+hide "catastrophe/cat_3_4_2.jpg" fade(0,linear)
+wait 0
+hide "2black.png" fade(0.1,linear)
+wait 0
+
+unload_textures
+
+wait 1.5
+
+show "catastrophe/cat_4_1_2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.1,linear) normal
+show "4white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+
+show "catastrophe/cat_4_1_1.jpg" 1:1 1:1 1:1 fade(0.2,linear) normal
+move "catastrophe/cat_4_1_1.jpg" 150:0 0 sineout
+
+wait 0
+move "catastrophe/cat_4_1_1.jpg" -100:0 2 sineout
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(2,linear)
+
+play "sword_big_a.ogg" 1
+
+wait 0.4
+wait 1.5
+move "catastrophe/cat_4_1_1.jpg" -50:0 5 outquad
+
+play "teleport_out.ogg" 1
+
+say "나와 사야 사이에 유리 조각을 늘어놓았어. 사야의 검이 유리와 부딪혀.
+다음 순간, 사야의 모습이 사라졌어. 하지만 나에겐 전부 보이고 있지.
+...내 위에서 옆구리로 섬광이 궤적을 그리며 떨어져..."
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white40.png" fade(0.5,linear)
+
+play "sword_big_c.ogg" 1
+
+say "어머...!
+막으려고 했던 그 검이 내 손을 그대로 베어내며 바람을 일으켰어.
+손이... 베였어...! 나는 그대로 뒷걸음질쳤어...!"
+
+hide "catastrophe/cat_4_1_1.jpg" fade(0.1,linear)
+wait 0.1 clear
+hide "4white.png" fade(2,linear)
+
+play "sword_fire_a.ogg" 1
+
+say "사야는 착지해서, 몸을 돌리더니, 한 순간—
+갑자기 다리가 번개에 맞은 듯이 찌릿해.
+그리고 뜨거워. 뭐지?"
+
+say "아래를 내려봤어.
+그 정신 나간 검이 내 발에 꽂혀있었어.
+사야가 검에서 손을 놓자 새하얀 화염이 솟아올라! 세상에..."
+
+say "이거...
+좋지 않은... 상황인걸! 응!"
+
+hide "catastrophe/cat_4_1_2.jpg" fade(2,linear)
+
+say "나는 으르렁대며 저 검이 낸 상처에 저항했어. 내 안의 실타래가 풀리는 게 느껴져.
+검에 손을 대려하자 그게 또 화염을 뿜어냈어.
+고개를 들자 사야는 없었어. 대신 비타가 내 앞에 있었지."
+
+play "catastrophe_teleport_a.ogg" 1
+
+say "비타에게 말을 걸려고 하자 또 사라졌어. 알았다. 사야의 능력이 뭔지.
+이렇게 이렇게, 저렇게 저렇게 해서 유리 조각을 통해 위치를 이동하는 거구나.
+그 능력으로 자기가 안전하다고 믿는 장소에 비타를 데려다 놓았겠지."
+
+play "sword_pull_reject.ogg" 1
+
+say "정신을 집중하고 검을 발에서 뽑아냈어. 그 검은 계속해 나를 거부했어.
+마치 추적자의 힘 같아... 발에 난 상처가 바로 아물지 않아.
+대체 무슨 생각인 거야? 다 죽어가는 미천한 신 따위가."
+
+play "sword_call.ogg" 1
+
+say "비타가 시야에서 사라지자 검도 사라졌어. 사야에게 돌아갔나?
+오, 역시. 다시 나타난 사야는 검을 들고 있었어. 내 등 뒤에서...
+하... 하하... 만약 저게 내 목이나 머리를 친다면..."
+
+unload_textures
+
+
+play "catastrophe_teleport_b.ogg" 1
+
+show "catastrophe/cat_4_1_3c.jpg" 0.5:0.5 0.5:0.5 1.5:1.5 fade(1,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05 clear
+hide "white.png" fade(6,linear)
+wait 2
+play "catastrophe_impact_c.ogg" 0.4
+
+say "순식간에, 사야가 검을 내 어깨 위로 들어올렸어.
+검이 멈춘 시간조차 가르며 내게 다가왔어. 나는 공기를 움직여 겨우 막아냈어.
+파문으로 대지가 일렁였어. 나는 숨을 한 번 내쉬었지."
+
+say "...왜 그렇게 나를 죽이고 싶어하니?
+우리 오늘 초면인데."
+
+show "catastrophe/cat_4_1_3.jpg" 0.5:0.5 0.5:0.5 0.7:0.7 fade(2.4,linear) normal
+
+play "ominous_swell.ogg" 1
+
+say "그래. 좋아. 한 번 죽을 때까지 춤춰보자.
+나와 너의, 너와 나의 눈이 마주쳤어.
+이 저주받은 아르케아의 대지에서, 사야와 나, 두 사람의 눈이."
+
+hidetextbox
+wait 2
+
+stop "un_mini.ogg" 2
+
+wait 2

@@ -1,0 +1,304 @@
+wait 1
+
+play "slice.ogg" 1.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+
+play "slip.ogg" 1.0
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+wait 2.0
+
+play "cut.ogg" 1.0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.05,linear) normal
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+wait 0
+move "black_left.png" -600:0 0 sineout
+wait 0.4
+
+say "まただ……ワタシの腕がまた飛ばされた。
+小癪にも切り飛ばし仰せた悪鬼を見れば、ワタシを見てすらいなかった。
+小憎たらしいその視線の先を追えば───そこには、サヤがいた。"
+
+hide "nihil/nihil_2_cut3.jpg" fade(0.1,linear)
+hide "black_left.png" fade(0.1,linear)
+
+play "heavy_slap.ogg" 1
+
+wait 0.6 clear
+
+play "catastrophe_impact_c.ogg" 1
+
+say "───痴れ者が。
+視線がこちらに戻った瞬間に、%%打擲%%{ちょうちゃく}をくれてやったよ───残った腕での裏拳を、顔面にね。"
+
+
+
+hide "white.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+show "catastrophe/cat_3_2.jpg" 1:1 1:1 1.4:1.4 fade(0.5,linear) normal
+
+play "echo_cut.ogg" 0.4
+
+wait 2.4 clear
+play "fracture2_epilogue.ogg" 0.2
+wait 1.4
+
+say "悪鬼は吹き飛んだ。引き換えに振られた大鎌の刃は、仰け反って避けておく。
+鬼は世界の端───崖際で刃を突き立てて止まろうとしたようだが……哀しいね。
+敢え無く虚しく落ちていったよ、ワタシたちの足元……暗い世界の底へとね。"
+
+hide "catastrophe/cat_3_2.jpg" fade(0.1,linear)
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+play "humanSnapFinger_echo.ogg" 1
+
+say "指を曲げ伸ばし、さて───指を鳴らす。時を奪う。
+そしてワタシは前へと歩みを進めつつ、この世界をじっと『視』つめていた。"
+
+show "catastrophe/cat_3_3.jpg" 1:0.5 1:0.5 0.42:0.42 fade(3,linear) normal
+show "2black_left.png" 0:0.5 0.05:0.5 1.0:1.0 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0
+move "3black.png"  -1000:0 0 sineout
+
+wait 0.1
+hide "white50.png" fade(4,linear)
+hide "2white.png" fade(4,linear)
+
+play "shimmer_loop.ogg" 0.0 loop
+volume "shimmer_loop.ogg" 0.5 4.0
+
+say "ワタシは言ったね、キミが死んだと───ねえ、Arcaea。
+キミはいみじく無様に生に執着している。亡霊なのかな……ここの少女たちと同じような。
+もしもそうだと言うのなら、これまでにワタシが抱いた多くの疑問も解消されるのだけれど？"
+
+say "だが……いい加減こうもワタシは思うのさ───もうキミは、眠るべきだと。
+キミが留まってもう、長すぎるほどの時間が経った。居座るというにも余りある。
+なにより、誓ったんじゃないのかい。休むと。にも関わらずキミは、まだここに居座り%%果%%{おお}せて……。"
+
+say "誓約を守れぬ神など不届きだ。恥晒しだ。面汚しだ。
+そんなことが、あり得ていいハズがない。"
+
+say "……そしてワタシは、サヤとヴィータの間に降り立った。失った腕も戻しておこうか。
+ヴィータ……ああ、ヴィータ……こんな見窄らしい場所、キミほど尊いモノには似合わないよ。
+なのになぜ、出てきてしまったの───？"
+
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+
+say "その時、ワタシはまた目を見開いた。
+尊き彼女の背後───そこに、ひどく特異な亡霊を見たからだ。
+……総毛立ったさ、思わずね。"
+
+hide "catastrophe/cat_3_3.jpg" fade(0,linear)
+hide "2black_left.png" fade(0,linear)
+hide "3black.png" fade(0,linear)
+wait 0
+hide "5black.png" fade(0.1,linear)
+wait 0
+
+stop "shimmer_loop.ogg" 8.0
+
+unload_textures
+
+show "catastrophe/cat_3_4_2.jpg" 1:0.5 1:0.5 1:1 fade(0.1,linear) normal
+show "6white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4.jpg" 0.5:0.5 0.5:0.6 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_5.jpg" 1:0.2 1:0.2 1:1 fade(0.1,linear) normal
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+move "catastrophe/cat_3_4_5.jpg" 150:0 0 sineout
+
+show "catastrophe/old_light.png" 0.5:0.5 0.5:0.5 0.77:0.77 fade(5,sinout) normal
+
+play "flash_build.ogg" 1
+
+say "さてはて何を……キミは一体全体企んでいるのやら───？"
+
+play "flash_hit.ogg" 1
+
+hide "4black.png" fade(0.1,linear)
+hide "catastrophe/old_light.png" fade(0.1,linear)
+hidetextbox
+wait 0.5
+
+play "un_mini.ogg" 0.4 loop
+
+wait 0.5
+
+move "catastrophe/cat_3_4_5.jpg" -100:0 1.2 sineout
+
+wait 0.1
+hide "3white.png" fade(1,linear)
+
+wait 1.1
+move "catastrophe/cat_3_4_5.jpg" -50:0 5 outquad
+wait 4.8
+
+hide "catastrophe/cat_3_4_5.jpg" fade(0.1,linear)
+wait 0.1
+
+wait 1.0
+hide "2white.png" fade(3,linear)
+
+wait 2.0
+
+say "……ッ！……。"
+
+say "……これは……。"
+
+say "……当て擦りのつもりか？このワタシに？"
+
+say "「くく……アハッハッハッハ！！」"
+
+say "『視』えるんだ……何かがあの、些末な硝子の死者の搾りカスを包みつつあるのが。
+……^^世界^^{Arcaea}の操り糸かな、あれは。"
+
+hide "catastrophe/cat_3_4.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_2.jpg" 0:-150 7 sineout
+
+wait 0.1
+
+hide "6white.png" fade(2,linear)
+
+say "再び彼女───サヤを、いつもの視界で眺めてみる。
+……笑わずにはいられない！驚かせてくれるじゃないか、またしても。"
+
+play "sword_draw_delayed.ogg" 1
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "嗚呼、もはや完璧な仕立てだ───そんなサヤが、ワタシを討とうと動き始める。
+おやおや……これは。久々に私も、相応な迎え方をしなければならないかな？
+ではワタシも───手始めにArcaeaをもってキミを迎えよう。ここはArcaeaなのだからねェ。"
+
+hidetextbox
+hide "white.png" fade(0,linear)
+hide "catastrophe/cat_3_4_2.jpg" fade(0,linear)
+wait 0
+hide "2black.png" fade(0.1,linear)
+wait 0
+
+unload_textures
+
+wait 1.5
+
+show "catastrophe/cat_4_1_2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.1,linear) normal
+show "4white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+
+show "catastrophe/cat_4_1_1.jpg" 1:1 1:1 1:1 fade(0.2,linear) normal
+move "catastrophe/cat_4_1_1.jpg" 150:0 0 sineout
+
+wait 0
+move "catastrophe/cat_4_1_1.jpg" -100:0 2 sineout
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(2,linear)
+
+play "sword_big_a.ogg" 1
+
+wait 0.4
+wait 1.5
+move "catastrophe/cat_4_1_1.jpg" -50:0 5 outquad
+
+play "teleport_out.ogg" 1
+
+say "手始めに一筋、硝子製の線を引く───彼女と、ワタシの間にね。
+その^^刃^^{やいば}が触れるや否や、彼女の姿が掻き消えて……だが、ワタシには見えていた。
+……頭上だ、そして真横。閃き続ける瞬間移動───来るッ、再びの斬撃が……！！"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white40.png" fade(0.5,linear)
+
+play "sword_big_c.ogg" 1
+
+say "おっと……！
+手を上げ、波立たせた空気で受けようとするワタシに、サヤは上からの斬り下ろし。
+大気ごと切り捨てて迫る刃は───だが受けない。身を捻りながら退いて%%躱%%{かわ}す───！"
+
+hide "catastrophe/cat_4_1_1.jpg" fade(0.1,linear)
+wait 0.1 clear
+hide "4white.png" fade(2,linear)
+
+play "sword_fire_a.ogg" 1
+
+say "一撃を外したサヤが───落下しながら身を翻す。
+瞬間───突如、私を打つ雷のような衝撃
+ワタシの足が燃えていると錯覚するような激痛───、コレは、なんだ？"
+
+say "見れば、あのイカれた得物はとっくにサヤの手を離れていた。
+ワタシの足を地べたに縫い止めていた。そして……白い焔がワタシを這い上がる！全く……、"
+
+say "コレは……、
+よくないな。よろしくないッ……！"
+
+hide "catastrophe/cat_4_1_2.jpg" fade(2,linear)
+
+say "唸りながら体を継ぎ止める。……この剣、ワタシが^^分解^^{●●}しにかかっている。
+……内側から、何かが^^解^^{ほど}かれている。剣に手を伸ばせば、白焔が吹き上がってワタシを拒んだ。
+見回せばもうサヤは消えていた、代わりにそこにヴィータがいた。"
+
+play "catastrophe_teleport_a.ogg" 1
+
+say "彼女に声をかける前に、その姿が消えた───分かってきたぞ、^^サヤ^^{キミ}の狙いが。
+空間を入れ替え続けているんだな、硝子を介して。……%%彼方%%{かなた}を%%此方%%{こなた}に、%%此方%%{こなた}を%%彼方%%{かなた}という具合に。
+サヤ自ら───ヴィータを『安全』だと思う場所まで移すために、ね。"
+
+play "sword_pull_reject.ogg" 1
+
+say "意識を集中させ、あのイカれた剣を抜く。……相変わらずワタシを柄が拒み続けている。
+まるでこれは、^^究明者^^{シーカー}の力のようだ……抜き仰せたというのに、足だって未だ回復しない。
+ホント、何が狙いで、何を考えているのやら……？矮小にして死に損ないの神よ。"
+
+play "sword_call.ogg" 1
+
+say "ヴィータはもう見失った……、ついでに、抜いて持ったままだったはずの剣も消えた。
+戻ったのか、サヤのもとに……？……嗚呼、今見えた。ワタシの背後を取ったサヤの手中か。
+ハァ……まったく……その軌道、ワタシの首か頭にでも入ったら^^一大事^^{コト}だよ……？"
+
+
+unload_textures
+
+
+play "catastrophe_teleport_b.ogg" 1
+
+show "catastrophe/cat_4_1_3c.jpg" 0.5:0.5 0.5:0.5 1.5:1.5 fade(1,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05 clear
+hide "white.png" fade(6,linear)
+wait 2
+play "catastrophe_impact_c.ogg" 0.4
+
+say "一閃。横薙ぎがワタシの肩を越え───止めたはずの時間ごと切り裂き迫ってくる。
+すんでのところで従えた空気で受け止めれば……その余波が衝撃となって地べたを叩いた。
+フゥ、文字通り……間一髪で済んだようだね。"
+
+say "……どうしてそんなに殺したいかな、ワタシを。
+ワタシたち、まだ会ったばかりなんだよ。"
+
+show "catastrophe/cat_4_1_3.jpg" 0.5:0.5 0.5:0.5 0.7:0.7 fade(2.4,linear) normal
+
+play "ominous_swell.ogg" 1
+
+say "……ならいいさ、構わない───始めようじゃないか、死の舞踏を。
+その隻眼がワタシを射抜き、その翡翠色を覗くのはワタシのお目々。
+二人っきりだよ、サヤ……キミとワタシ───この枯れ果てたArcaeaの大地でだ。"
+
+hidetextbox
+wait 2
+
+stop "un_mini.ogg" 2
+
+wait 2

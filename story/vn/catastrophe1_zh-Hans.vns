@@ -1,0 +1,170 @@
+show "catastrophe/card_A.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(0.1,linear) normal
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_4.jpg" 0.5:0.5 0.5:0.5 0.83:0.83 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_3.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_2.jpg" 0.5:1 0.5:1 0.7:0.7 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+show "catastrophe/cat_1_1.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+show "catastrophe/cat_1_1_b.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,linear) normal
+move "catastrophe/cat_1_4.jpg" -19:0 0 linear
+move "catastrophe/card_A.png" 0:45 0 linear
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+wait 1
+
+play "ember_wind.ogg" 0 loop
+volume "ember_wind.ogg" 0.5 3.0
+
+say "“维塔。”"
+
+move "catastrophe/cat_1_1.jpg" 0:-175 20 sineout
+move "catastrophe/cat_1_1_b.jpg" 0:-175 20 sineout
+
+play "breath.ogg" 3
+hide "3black.png" fade(2,linear)
+wait 2 clear
+hide "catastrophe/cat_1_1_b.jpg" fade(6,linear)
+
+
+say "“你看起来真傻。”"
+
+say "我让她别继续下去了。
+“只有傻子才会骂别人傻。”我记得我是这么说的。"
+
+say "“你在引用什么名言警句么？恕我直言，我不赞成。像我这种聪明但不招人喜欢的人也有自己最爱的格言：
+如果自己做了蠢事，就不能怪别人说你蠢了。”"
+
+say "我不禁笑了。"
+
+hide "catastrophe/cat_1_1.jpg" fade(0.2,linear)
+
+say "“维塔，把你的五指张开，把手举起来。”"
+
+hide "4black.png" fade(0.4,linear)
+
+say "我照做了。"
+
+move "catastrophe/cat_1_2.jpg" 0:175 20 sineout
+move "catastrophe/cat_1_3.jpg" 0:175 20 sineout
+
+say "“现在，跟我掌心对掌心。”"
+
+play "clothingRustleE.ogg" 0.1
+
+say "我也照做了。"
+
+play "thump.ogg" 3
+hide "catastrophe/cat_1_2.jpg" fade(0.4,linear)
+
+say "“或许你是对的。或许你曾有过的链接真的一去不复返了。”"
+
+say "“但这也是一种联系，维塔。这也是人类会做的事。”"
+
+say "我又不禁笑了。"
+
+say "“当你伸出手时——”"
+
+play "loss_epilogue.ogg" 0.4
+play "fading.ogg" 2
+hide "catastrophe/cat_1_3.jpg" fade(0.05,linear)
+hidetextbox
+wait 6.0
+hide "2black.png" fade(3.0,linear)
+wait 4
+wait 3 clear
+
+say "……我会陪在你身边，帮你再次站起来的。"
+
+wait 1.0
+hidetextbox
+wait 1.0
+hide "catastrophe/cat_1_4.jpg" fade(6.0,linear)
+wait 4.0
+hide "black.png" fade(1.0,linear)
+wait 3.0
+show "catastrophe/card_B.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(4.0,linear) normal
+wait 0
+move "catastrophe/card_B.png" 0:45 0 linear
+wait 5.0
+show "catastrophe/card_C.png" 0.5:0.5 0.5:0.5 0.46:0.46 fade(1.0,linear) normal
+wait 0
+move "catastrophe/card_C.png" 0:45 0 linear
+wait 0.6
+
+play "bell1.ogg" 0.5
+play "bell2.ogg" 0.5
+
+wait 7.4
+hide "catastrophe/card_A.png" fade(5.0,linear)
+hide "catastrophe/card_B.png" fade(5.0,linear)
+hide "catastrophe/card_C.png" fade(5.0,linear)
+stop "ember_wind.ogg" 20.0
+wait 6.0
+play "rain.ogg" 0 loop
+volume "rain.ogg" 0.4 3.0
+wait 2
+wait 2 clear
+
+say "维塔……她应该……
+还藏着呢吧……？那就好……"
+
+
+play "footstep_crunchy_loop.ogg" 0 loop
+volume "footstep_crunchy_loop.ogg" 0.5 20.0
+play "collapse.ogg" 1.0
+
+say "我还想着自己至少能够半跪着……
+但力竭的我还是倒下了。"
+
+show "nihil/nihil_3_cut2.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(2.0,linear) normal
+
+say "我应该做什么才好……？
+采取什么样的行动……我心里期望的结果又是什么？"
+
+
+say "我所造成的损伤……
+哈……不知道为何，我希望我受伤的时候不会流血。"
+
+say "或许我右眼上生长的这朵花给了我一种我不仅仅是普通人的错觉吗。
+呵……谁知道呢，说不定忘却那种人也会流血。"
+
+hide "nihil/nihil_3_cut2.jpg" fade(0.2,linear)
+
+stop "footstep_crunchy_loop.ogg" 0.1
+
+say "她站在我面前，居高临下地看着我。
+……而我却完全无法起身。"
+
+say "她再度开口：
+“她是藏起来了吗？”"
+
+say "“她”……？她……不……
+不会的……不可能说的是……？"
+
+say "“真奇怪呐，我竟看不太清她在哪里……
+是你动了什么手脚吗？”"
+
+say "她俯下身来，一把按住我的头颅，向上一提。
+我的左眼与她的双目对视上。"
+
+stop "rain.ogg" 5.0
+
+say "“我已经够直白了吧？”她说道。"
+
+play "clothingRustleA.ogg" 0.4
+
+say "她的手指收紧，攥住了我一大把头发——我吃痛地眯起眼睛。
+她俯身贴近我，声线冰冷。"
+
+play "woosh.ogg" 1.0
+show "nihil/nihil_3_cut3.jpg" 0.5:0.5 0.5:0.38 0.83:0.83 fade(1,linear) normal
+wait 3.0 clear
+
+say "“凡人——咲弥。
+告诉我那孩子的位置。”"
+
+play "impactDeepTonal.ogg" 0.9
+hide "nihil/nihil_3_cut3.jpg" fade(0.1,linear)
+
+wait 5.0

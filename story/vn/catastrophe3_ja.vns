@@ -1,0 +1,379 @@
+wait 1
+
+play "wind.ogg" 0.0 loop
+volume "wind.ogg" 2 1.0
+
+show "nihil/nihil_3.jpg" 0.5:0 0.5:0 0.6:0.6 fade(2,linear) normal
+wait 0
+move "nihil/nihil_3.jpg" 0:-200 0 sineout
+
+say "血の気のない肌をしたその女は、ベラベラとさらに%%宣%%{のたま}う……"
+
+say "「……まさかシラをこのまま切り続けるつもりかな、無関係だとでも？
+嗚呼、まったくサヤ……！Arcaeaは死んだ、死んだんだよ！もう何の守護者にも成り得ない！
+さあ言うんだ、サヤ。その節穴に生えた花で……君はいったい何を仕出かした……？」"
+
+say "『少女』……『あの少女』と、そう言ったわね……
+この女、本当にヴィータを狙って……？
+……"
+
+say "不遜な女に首をがっちりと掴まれ、
+締め上げられ続けながら、脇腹の傷から手を外して、私は……"
+
+say "……腕を持ち上げ、言ってやったのだ、出しうる限りの声を絞り出して。"
+
+say "「……お前の狙いが、その少女だと言うなら……、
+ここで私は、お前を……その息の根を止めてやる……！！」"
+
+play "collapse.ogg" 1.0
+play "clothingRustleC.ogg" 1.0
+
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "なんとか持ち上げた手を、女の首に押し付けようとした。
+だが───私は地面に崩折れた。女が首から手を離したのだ。
+もう一度立ち上がろうとする私の頭上から、また声がした。"
+
+say "「その薄汚い^^血^^{●}でワタシを汚すな
+ただでさえワタシはここに来るまで貶められ続けて来た、これ以上穢されてたまるものか」"
+
+say "顔を持ち上げると、辺りを見回すあの女が見えた。"
+
+say "そして……見たのだ。
+女の目が見開かれ、口角がギッと釣り上がるのが。"
+
+play "heartbeatB.ogg" 1.0
+stop "wind.ogg" 8
+
+say "息が止まった、心臓が止まった。
+見ればその視線の先には　こちらに駆ける　ヴィータ　が"
+
+play "ring.ogg" 1.0
+
+show "catastrophe/cat_3_1.jpg" 0:0 0:0 1.5:1.5 fade(1,linear) normal
+show "black_fade_corner.png" 0.5:0 0.5:0 1.5:1.5 fade(0,linear) normal
+show "red.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0
+move "black_fade_corner.png" -400:0 0 linear
+hide "red.png" fade(0,linear)
+wait 1
+play "ruffle.ogg" 2.0
+play "splash.ogg" 0.7
+hide "red.png" fade(1.0,linear)
+move "black_fade_corner.png" 600:0 7 sineout
+
+say "立ち上がる……少なくとも立ち上がろうとしたのだ。……だが、倒れた。
+痛みだ、痛みで全身が燃えている───透明な業火の中で私は、爪で地面を%%抉%%{えぐ}っていた。"
+
+play "heartbeatA.ogg" 1.0
+
+say "倒れた体を、地面を押し返す───
+喉奥から咳がこみ上げて、全身がわなないても、私丸ごとを再び持ち上げるように。
+こちらに向けられた冷たい視線───あの女の^^睥睨^^{へいげい}がわかる。その時……"
+
+show "catastrophe/cat_3_2.jpg" 1:1 1:1 1.4:1.4 fade(0.5,linear) normal
+
+say "「……その醜態は、目に余る」"
+
+say "上げられた腕が、見えた。
+咄嗟に持ち上げた私の手は───けれど弱々しかった。"
+
+play "slice.ogg" 1.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+play "slip.ogg" 1.0
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "……！"
+
+play "cut.ogg" 1.0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.05,linear) normal
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+wait 0
+move "black_left.png" -600:0 0 sineout
+
+say "瞬間、女と私の間に割り込んだのは───角を光らせた悪魔。
+吠えるような風の音……そして見えたのは、その悪魔が振り抜いた大鎌だった。
+風の音は、血の気のない女を通り抜け、その片腕を食いちぎった大鎌の音だったのだ。"
+
+hide "nihil/nihil_3.jpg" fade(0,linear)
+hide "black.png" fade(0,linear)
+hide "catastrophe/cat_3_1.jpg" fade(0,linear)
+hide "black_fade_corner.png" fade(0,linear)
+hide "white.png" fade(0,linear)
+hide "2black.png" fade(0,linear)
+hide "catastrophe/cat_3_2.jpg" fade(0,linear)
+wait 0
+hide "nihil/nihil_2_cut3.jpg" fade(0.1,linear)
+hide "black_left.png" fade(0.1,linear)
+
+play "run_water1.ogg" 2
+
+say "^^その悪魔^^{レーテー}が私を見る……言われるまでもない。
+燃え上がる痛みのまま、けれどこの足はもう駆けていた。"
+
+play "heavy_slap.ogg" 0.2
+
+wait 0.6
+
+play "catastrophe_impact_c.ogg" 0.2
+
+say "───ここから、ヴィータを逃がさなくては。
+手段ならある……至近距離まで近づく必要はない。
+安全な場所まで、彼女との場所を^^硝片^^{しょうへん}を通じて入れ替え続ければいいのだ。"
+
+unload_textures
+
+play "run_water2.ogg" 2
+play "heartbeatA.ogg" 1
+
+play "fracture2_epilogue.ogg" 0.04
+
+say "分かっていたのだ、あの子なら現れると。……分かっていたの。
+でも、隠れさせ続けるなんて無理だった……あの子は、気高すぎるから。
+叱りはしない───それでも今は、あの子を……これを成し遂げないと。"
+
+play "run_water3.ogg" 2
+play "humanSnapFinger_echo.ogg" 0.6
+
+play "refusal_epilogue.ogg" 0.5
+
+say "ヴィータと目が合う……まるで、時間が遅くなって───違う、実際に減速している。
+……直後、上空からすぐに割り込んだあの女の瞳には───もうヴィータしか映っていなかった。"
+
+play "steps.ogg" 1.0
+
+show "catastrophe/cat_3_3.jpg" 1:0.5 1:0.5 0.42:0.42 fade(3,linear) normal
+show "2black_left.png" 0:0.5 0.05:0.5 1.0:1.0 fade(0,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(4,linear)
+
+play "heartbeatB.ogg" 1
+
+say "片腕を失ったはずの女が、ゆっくり、もう一方の腕を持ち上げた。
+直後、断たれた方の腕から糸が伸びると───そこにはもう、新たな腕が形成されていた。
+それでも、私は止まらない───減速したままの時の中を強引に押しのけ、走って───、"
+
+play "heartbeatA.ogg" 1
+
+say "───だがこちらを、女は見向きもしない。……そうして、悟る。
+もう私には伸ばせる手が───あの子を救う手がないのだと。
+……そして、憤怒だけがあった。"
+
+play "heartbeatCEcho.ogg" 1
+
+say "そう、憤怒だ……私そのものを塗り潰していくほどの憤怒……。
+そしてその背へと激情のままに手を伸ばし───、けれど女はまだ、振り向きさえしない。"
+
+stop "refusal_epilogue.ogg" 4
+stop "steps.ogg" 4
+
+show "black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+hidetextbox
+wait 8
+
+unload_textures
+
+play "flash_build.ogg" 1
+
+wait 3.5
+
+show "catastrophe/flash_light.png" 0.5:0.5 0.5:0.5 0.6:0.6 fade(0.05,linear) normal
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.1
+
+hide "white50.png" fade(0.75,linear)
+hide "catastrophe/flash_light.png" fade(1.2,linear)
+
+play "flash_hit.ogg" 1
+
+wait 4
+
+show "catastrophe/cat_3_4.jpg" 0.5:0.6 0.5:0.6 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_5.jpg" 1:0.2 1:0.2 1:1 fade(0.1,linear) normal
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_4.jpg" 1:1 1:1 1:1 fade(0.1,linear) normal
+show "4white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_3.jpg" 0.5:0 0.5:0 1:1 fade(0.1,linear) normal
+show "5white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_2.jpg" 1:0.5 1:0.5 1:1 fade(0.1,linear) normal
+show "6white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_1.jpg" 1:0 1:0 1:1 fade(0.1,linear) normal
+show "7white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+
+move "catastrophe/cat_3_4_1.jpg" 100:0 0 sineout
+move "catastrophe/cat_3_4_2.jpg" 0:150 0 sineout
+move "catastrophe/cat_3_4_3.jpg" 100:0 0 sineout
+move "catastrophe/cat_3_4_5.jpg" 150:0 0 sineout
+
+
+
+
+
+
+
+
+
+
+show "catastrophe/cat_3_5_1.jpg" 0.5:0 0.5:0 0.7:0.7 fade(0.1,sinout) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_5_1f.png" 0.5:0 0.5:0 0.7:0.7 fade(0.1,sinout) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+move "catastrophe/cat_3_5_1.jpg" 0:-100 0 sineout
+move "catastrophe/cat_3_5_1f.png" 0:-100 0 sineout
+wait 0
+
+wait 1
+
+
+
+
+
+hide "4black.png" fade(8,linear)
+move "catastrophe/cat_3_5_1.jpg" 0:100 30 sineout
+move "catastrophe/cat_3_5_1f.png" 0:100 30 sineout
+
+
+
+
+wait 2
+
+play "riven_pilgrimage_mini.ogg" 0.5 loop
+wait 5.5
+
+show "catastrophe/cat_3_5_1L1.png" 0.5:1 0.5:1 0.7:0.7 fade(4,sinout) normal
+
+move "catastrophe/cat_3_5_1L1.png" 0:100 0 sineout
+wait 0
+move "catastrophe/cat_3_5_1L1.png" 0:-100 30 sineout
+
+wait 2
+
+hide "3black.png" fade(8,linear)
+
+wait 4
+
+show "catastrophe/cat_3_5_1L3.png" 0.5:0 0.5:0 0.7:0.7 fade(4,sinout) normal
+
+wait 5
+
+show "catastrophe/cat_3_5_2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(3,sinout) normal
+show "catastrophe/cat_3_5_2L1.png" 0.5:0.5 0.5:0.5 1:1 fade(7,sinout) normal
+
+wait 6.7
+
+show "white70.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.05,linear) normal
+
+wait 0.05
+
+hide "white70.png" fade(4,linear)
+
+show "catastrophe/cat_3_5_2L3.png" 0.5:0.5 0.5:0.5 1:1 fade(3,sinout) normal
+
+wait 0.95
+
+show "catastrophe/cat_3_5_2L2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(6,sinout) normal
+
+say "───いいえ、向かせる。向かせてやる。
+お前はこれから直視する。思い知る。"
+
+
+hide "catastrophe/cat_3_5_1.jpg" fade(0.1,linear)
+hide "catastrophe/cat_3_5_1f.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_1L3.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_1L1.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2L1.png" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2L2.jpg" fade(0.1,linear)
+hide "catastrophe/cat_3_5_2L3.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_1.jpg" -100:0 5 sineout
+
+wait 0.1 clear
+hide "7white.png" fade(0.5,linear)
+
+play "catastrophe_impact_a.ogg" 1
+play "catastrophe_unlocking_loop.ogg" 0 loop
+volume "catastrophe_unlocking_loop.ogg" 0.4 1.0
+
+wait 1.5
+
+say "千年だろうと貫き、なお折れ得ぬこの魂───それこそが私だと。
+他でもないこの私にとって、お前は何者でもないと。
+そして絶対にもう───命など、この私の前で奪わせないと。"
+
+hide "catastrophe/cat_3_4_1.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_2.jpg" 0:-150 7 sineout
+
+wait 0.1 clear
+
+play "catastrophe_impact_b.ogg" 1
+
+hide "6white.png" fade(2,linear)
+wait 3.5
+
+say "私は知らない───お前が天国地獄の何者でも、神でも悪魔でも知りはしない。
+私は女……硝子と亡霊に産み落とされた、ただの女。
+それでもこの身が砕ける前に───必ずお前は刈り殺すッ！"
+
+hide "catastrophe/cat_3_4_2.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_3.jpg" -100:0 5 sineout
+
+wait 0.1 clear
+
+play "catastrophe_impact_c.ogg" 1
+
+hide "5white.png" fade(2,linear)
+wait 3.5
+
+say "───刹那、なつかしい光に満ちる。
+この体を包み込み、そして奥底まで染み込んでいく───%%旧%%{ふる}く、%%眩%%{まばゆ}い光。
+まるでこれは、^^この世界^^{Arcaea}が……。"
+
+say "そして私を飾る光───……それはこの消え往く^^世界^^{Arcaea}に残る、わずかな光。
+あんなにも深かった傷はもう癒えて、今は力さえ%%漲%%{みなぎ}っていた。。"
+
+hide "catastrophe/cat_3_4_3.jpg" fade(0.1,linear)
+wait 0.1 clear
+hide "4white.png" fade(2,linear)
+wait 1.5
+
+say "やがて、握り込んだ拳の中には……、
+一振りの剣───まるで運命さえも断つような、その剣があった。
+その切っ先は空間を裂き───現実にさえ食い込んでいた。"
+
+hide "catastrophe/cat_3_4_4.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_5.jpg" -150:0 2.2 sineout
+
+hidetextbox
+wait 0.1
+hide "3white.png" fade(2,linear)
+
+wait 2.0
+
+hide "catastrophe/cat_3_4_5.jpg" fade(0.1,linear)
+wait 0.1
+
+wait 1.0
+hide "2white.png" fade(3,linear)
+stop "riven_pilgrimage_mini.ogg" 6.5
+
+wait 7.0
+
+stop "catastrophe_unlocking_loop.ogg" 3
+
+wait 2

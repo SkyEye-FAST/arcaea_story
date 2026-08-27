@@ -1,0 +1,305 @@
+wait 1
+
+play "slice.ogg" 1.0
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+
+play "slip.ogg" 1.0
+
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+wait 2.0
+
+play "cut.ogg" 1.0
+
+show "nihil/nihil_2_cut3.jpg" 0.5:0.5 0.5:0.5 1.4:1.4 fade(0.05,linear) normal
+show "black_left.png" 0:0.5 0:0.5 1.0:1.0 fade(0,linear) normal
+wait 0
+move "black_left.png" -600:0 0 sineout
+wait 0.4
+
+say "My arm... leaves my body once again.
+I look down at the little fiend that took it.
+She looks not at me, but at the other: \"Saya\"."
+
+hide "nihil/nihil_2_cut3.jpg" fade(0.1,linear)
+hide "black_left.png" fade(0.1,linear)
+
+play "heavy_slap.ogg" 1
+
+wait 0.6 clear
+
+play "catastrophe_impact_c.ogg" 1
+
+say "Insolent.
+As she turns back to look in my direction, I take my remaining hand
+and strike the back of it across her face."
+
+
+
+hide "white.png" fade(0.1,linear)
+hide "2black.png" fade(0.1,linear)
+
+show "catastrophe/cat_3_2.jpg" 1:1 1:1 1.4:1.4 fade(0.5,linear) normal
+
+play "echo_cut.ogg" 0.4
+
+wait 2.4 clear
+play "fracture2_epilogue.ogg" 0.2
+wait 1.4
+
+say "She hurtles away. I lean backward to avoid the blade of her scythe.
+She attempts to stop herself with that blade at the world's edge
+and fails, tumbling into the dark beneath us."
+
+hide "catastrophe/cat_3_2.jpg" fade(0.1,linear)
+show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
+
+play "humanSnapFinger_echo.ogg" 1
+
+say "I flex my fingers, and after—I snap them to take time away.
+I look into the world as I move forth."
+
+show "catastrophe/cat_3_3.jpg" 1:0.5 1:0.5 0.42:0.42 fade(3,linear) normal
+show "2black_left.png" 0:0.5 0.05:0.5 1.0:1.0 fade(0,linear) normal
+show "3black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0
+move "3black.png"  -1000:0 0 sineout
+
+wait 0.1
+hide "white50.png" fade(4,linear)
+hide "2white.png" fade(4,linear)
+
+play "shimmer_loop.ogg" 0.0 loop
+volume "shimmer_loop.ogg" 0.5 4.0
+
+say "Arcaea... I said that you were dead.
+Are you another ghost like the girls here, lingering on?
+That: it would answer many questions I have had."
+
+say "But you should simply rest.
+You've lingered long enough.
+And you vowed to do so: to rest, and yet it seems still here you are..."
+
+say "An undignified god that cannot keep a promise.
+It is a shameful thing."
+
+say "...I land between Saya and Vita. I bring my missing limb back.
+Vita, Vita... this shameful place ill suits one as precious as you.
+And, why have you come out—?"
+
+show "5black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.2,linear) normal
+
+say "My eyes widen once again.
+At—the sight of a very special ghost behind her.
+...The hairs along my body stand on end."
+
+hide "catastrophe/cat_3_3.jpg" fade(0,linear)
+hide "2black_left.png" fade(0,linear)
+hide "3black.png" fade(0,linear)
+wait 0
+hide "5black.png" fade(0.1,linear)
+wait 0
+
+stop "shimmer_loop.ogg" 8.0
+
+unload_textures
+
+show "catastrophe/cat_3_4_2.jpg" 1:0.5 1:0.5 1:1 fade(0.1,linear) normal
+show "6white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4.jpg" 0.5:0.5 0.5:0.6 0.7:0.7 fade(0.1,linear) normal
+show "2white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "catastrophe/cat_3_4_5.jpg" 1:0.2 1:0.2 1:1 fade(0.1,linear) normal
+show "3white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+show "4black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0,linear) normal
+
+move "catastrophe/cat_3_4_5.jpg" 150:0 0 sineout
+
+show "catastrophe/old_light.png" 0.5:0.5 0.5:0.5 0.77:0.77 fade(5,sinout) normal
+
+play "flash_build.ogg" 1
+
+say "Now, now... what plan is this—?"
+
+play "flash_hit.ogg" 1
+
+hide "4black.png" fade(0.1,linear)
+hide "catastrophe/old_light.png" fade(0.1,linear)
+hidetextbox
+wait 0.5
+
+play "un_mini.ogg" 0.4 loop
+
+wait 0.5
+
+move "catastrophe/cat_3_4_5.jpg" -100:0 1.2 sineout
+
+wait 0.1
+hide "3white.png" fade(1,linear)
+
+wait 1.1
+move "catastrophe/cat_3_4_5.jpg" -50:0 5 outquad
+wait 4.8
+
+hide "catastrophe/cat_3_4_5.jpg" fade(0.1,linear)
+wait 0.1
+
+wait 1.0
+hide "2white.png" fade(3,linear)
+
+wait 2.0
+
+say "...! ..."
+
+say "...This... is..."
+
+say "...mockery?"
+
+say "\"Ha... Ahahaha!!\""
+
+say "Cloaking this common echo of the dead and gone...
+...are those: Arcaea's strings."
+
+hide "catastrophe/cat_3_4.jpg" fade(0.1,linear)
+
+move "catastrophe/cat_3_4_2.jpg" 0:-150 7 sineout
+
+wait 0.1
+
+hide "6white.png" fade(2,linear)
+
+say "I look at her: at Saya in the standard way to view reality...
+...and I can't help but laugh, to be surprised again...!"
+
+play "sword_draw_delayed.ogg" 1
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05
+show "2black.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.3,linear) normal
+
+say "Perfectly composed—
+Saya moves to strike me, and for the first time in an age—
+why, I must show up...! And first, as in Arcaea—I will use \"Arcaea\" to fight you."
+
+hidetextbox
+hide "white.png" fade(0,linear)
+hide "catastrophe/cat_3_4_2.jpg" fade(0,linear)
+wait 0
+hide "2black.png" fade(0.1,linear)
+wait 0
+
+unload_textures
+
+wait 1.5
+
+show "catastrophe/cat_4_1_2.jpg" 0.5:0.5 0.5:0.5 1:1 fade(0.1,linear) normal
+show "4white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+
+show "catastrophe/cat_4_1_1.jpg" 1:1 1:1 1:1 fade(0.2,linear) normal
+move "catastrophe/cat_4_1_1.jpg" 150:0 0 sineout
+
+wait 0
+move "catastrophe/cat_4_1_1.jpg" -100:0 2 sineout
+
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white.png" fade(2,linear)
+
+play "sword_big_a.ogg" 1
+
+wait 0.4
+wait 1.5
+move "catastrophe/cat_4_1_1.jpg" -50:0 5 outquad
+
+play "teleport_out.ogg" 1
+
+say "I draw up a line of glass between myself and her. Her blade meets it—
+and suddenly, she vanishes, but I am able to see her...
+...flash to the air above me and my side, moving to strike again...!"
+
+show "white40.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.1
+hide "white40.png" fade(0.5,linear)
+
+play "sword_big_c.ogg" 1
+
+say "My...!
+She cuts down as I lift a hand, and ripple the air to try and stop her.
+Her blade cuts through—I step back and in a spiral—!"
+
+hide "catastrophe/cat_4_1_1.jpg" fade(0.1,linear)
+wait 0.1 clear
+hide "4white.png" fade(2,linear)
+
+play "sword_fire_a.ogg" 1
+
+say "—She falls, turns, and suddenly—
+my leg feels like a tree stricken by lightning
+and set afire. What's that?"
+
+say "I glance down.
+That mad weapon is now piercing my foot to the earth
+and Saya has let it go. And... white flames crawl upward! My..."
+
+say "This...
+is no good, is it...!"
+
+hide "catastrophe/cat_4_1_2.jpg" fade(2,linear)
+
+say "I growl and resist my own undoing by the sword. There's unraveling in me...
+I reach for it, and it lashes back at me with fire.
+Saya has vanished already as I look to find her. Vita is here instead."
+
+play "catastrophe_teleport_a.ogg" 1
+
+say "She disappears before I can speak and finally I see what it is that Saya is doing—
+Changing space here and here, and there and there through glass...
+taking Vita somewhere that she must imagine is \"safe\"..."
+
+play "sword_pull_reject.ogg" 1
+
+say "I focus. I pull the sword from my body. Its grip continues to reject me.
+It's like a Seeker's power... and my foot is not immediately healing...
+Just what is this scheme...? What are you thinking, little and dying god?"
+
+play "sword_call.ogg" 1
+
+say "I lose sight of Vita... Then, the sword in my hand is lost; returned to Saya?
+Yes... When next I see it, it is in Saya's hands again, and she is at my back...
+Ha... Oh... if that strikes my neck or head..."
+
+unload_textures
+
+
+play "catastrophe_teleport_b.ogg" 1
+
+show "catastrophe/cat_4_1_3c.jpg" 0.5:0.5 0.5:0.5 1.5:1.5 fade(1,linear) normal
+show "white.png" 0.5:0.5 0.5:0.5 2000:960 fade(0.1,linear) normal
+wait 0.05 clear
+hide "white.png" fade(6,linear)
+wait 2
+play "catastrophe_impact_c.ogg" 0.4
+
+say "In a flash, it goes above my shoulders—
+It cuts through stopping time—it's stopped only quickly by my commanding the air.
+A ripple pounds the earth. I breathe out."
+
+say "...You want to kill me so badly?
+We've only just met."
+
+show "catastrophe/cat_4_1_3.jpg" 0.5:0.5 0.5:0.5 0.7:0.7 fade(2.4,linear) normal
+
+play "ominous_swell.ogg" 1
+
+say "Fine. Let death and dance intertwine then.
+Your eye meets mine, and mine yours.
+You and I, Saya, in the blighted lands of Arcaea."
+
+hidetextbox
+wait 2
+
+stop "un_mini.ogg" 2
+
+wait 2
