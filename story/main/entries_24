@@ -110,6 +110,20 @@
 		"alternatePrefix": "C",
 	"icon": "entry_konzetsu_9",
         "hiddenFromCount": true
+    },
+    {
+        "minor": 10,
+        "requiredPurchase": "konzetsu",
+        "requiredMinor": 9,
+        "storyType": "nvl",
+        "clearSongId": "_hiddenUntilRead",
+        "clearCharaId": -1,
+        "charIcon1": 98,
+		"bgmOverride":"sigil.ogg",
+		"storyCgPath":"app-data/story/cg/C-10-1.jpg",
+		"alternatePrefix": "C",
+        "icon": "entry_konzetsu_10",
+        "hiddenFromCount": true
     }
     ]
 }

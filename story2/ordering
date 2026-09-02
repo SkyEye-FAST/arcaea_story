@@ -325,7 +325,7 @@
                     "title": "Divine Oblivion",
                     "type": "main",
                     "characters": [23, 72],
-                    "nodes": ["C-1", "C-2", "C-3", "C-4", "C-5", "C-6", "C-7", "C-8", "C-9"],
+                    "nodes": ["C-1", "C-2", "C-3", "C-4", "C-5", "C-6", "C-7", "C-8", "C-9", "C-10"],
                     "purchases": ["konzetsu"],
                     "spoilers": []
                 }
