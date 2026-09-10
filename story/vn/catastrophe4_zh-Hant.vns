@@ -57,7 +57,7 @@ show "white50.png" 0.5:0.5 0.5:0.5 2000:960 fade(2,linear) normal
 
 play "humanSnapFinger_echo.ogg" 1
 
-say "我活動了一下自己的手指，然後打了個響指，讓時間再次變慢。
+say "我活動了一下自己的手指，然後打了個響指，奪走了時間。
 我一邊向前走，一邊看向這個世界。"
 
 show "catastrophe/cat_3_3.jpg" 1:0.5 1:0.5 0.42:0.42 fade(3,linear) normal
